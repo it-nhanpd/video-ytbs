@@ -1,0 +1,20 @@
+{
+  "assets": [
+    {
+      "assetId": "huey_side",
+      "inbox": "huey_side",
+      "target": "projects/2026-test-huey/assets/huey_side.png",
+      "scene": "s001",
+      "layer": "huey",
+      "process": {
+        "crop": {"left": 100, "top": 130, "width": 1276, "height": 500},
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {"width": 2000, "height": 800},
+        "anchors": {"mainHub": [556, 190], "tailHub": [1289, 262]},
+        "rotorRadius": {"main": 0.55, "tail": 0.085}
+      }
+    }
+  ]
+}

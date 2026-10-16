@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+  <!-- PLACEHOLDER UH-1D Huey nhìn ngang, đầu hướng TRÁI. Không có cánh quạt: engine vẽ bằng code. -->
+  <g stroke="#1a1a14" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- đuôi + vây đuôi -->
+    <path d="M 610 168 L 930 142 L 930 172 L 640 218 Z" fill="#555a3b"/>
+    <path d="M 905 146 L 962 66 L 988 70 L 955 164 Z" fill="#555a3b"/>
+    <!-- thân -->
+    <path d="M 118 252 C 98 222 108 172 160 152 L 330 142 L 560 136 L 646 164 L 646 262 C 646 282 624 292 602 292 L 200 292 C 150 292 130 276 118 252 Z" fill="#5d6240"/>
+    <!-- bướu động cơ -->
+    <path d="M 330 142 Q 400 100 560 106 L 604 136 Z" fill="#4c5134"/>
+    <!-- mũi tối -->
+    <path d="M 118 252 C 98 222 108 190 140 180 L 150 260 C 135 275 125 265 118 252 Z" fill="#23241a"/>
+    <!-- kính chắn gió -->
+    <path d="M 152 162 L 252 150 L 252 238 L 132 238 Z" fill="#a9bdb8"/>
+    <!-- cửa mở -->
+    <rect x="272" y="164" width="200" height="112" fill="#1d1d15"/>
+    <!-- cửa sổ sau -->
+    <rect x="492" y="170" width="116" height="62" fill="#a9bdb8"/>
+    <!-- giá đỡ + skid -->
+    <line x1="260" y1="292" x2="240" y2="326" fill="none"/>
+    <line x1="520" y1="292" x2="540" y2="326" fill="none"/>
+    <path d="M 170 330 L 600 330" fill="none" stroke-width="7"/>
+    <path d="M 170 330 Q 150 330 146 314" fill="none" stroke-width="7"/>
+    <!-- cột rotor -->
+    <rect x="436" y="64" width="28" height="46" fill="#2b2b22"/>
+  </g>
+  <!-- lính trong cửa mở -->
+  <g stroke="#1a1a14" stroke-width="3">
+    <g transform="translate(305 205)"><rect x="-13" y="14" width="26" height="62" fill="#4a5232"/><circle cx="0" cy="2" r="15" fill="#d9a37a"/><path d="M -18 0 Q 0 -24 18 0 Z" fill="#6a7340"/></g>
+    <g transform="translate(375 205)"><rect x="-13" y="14" width="26" height="62" fill="#4a5232"/><circle cx="0" cy="2" r="15" fill="#d9a37a"/><path d="M -18 0 Q 0 -24 18 0 Z" fill="#6a7340"/></g>
+    <g transform="translate(440 205)"><rect x="-13" y="14" width="26" height="62" fill="#4a5232"/><circle cx="0" cy="2" r="15" fill="#d9a37a"/><path d="M -18 0 Q 0 -24 18 0 Z" fill="#6a7340"/></g>
+  </g>
+  <!-- phi công trong buồng lái -->
+  <g stroke="#1a1a14" stroke-width="3"><circle cx="200" cy="205" r="16" fill="#d9a37a"/><path d="M 182 202 Q 200 176 218 202 Z" fill="#6a7340"/></g>
+  <text x="700" y="198" font-family="Arial, sans-serif" font-size="22" fill="#d8d2b0" transform="rotate(-4 700 198)" letter-spacing="2">UNITED STATES ARMY</text>
+  <!-- đèn nhấp nháy đuôi -->
+  <circle cx="958" cy="96" r="6" fill="#c0352f"/>
+</svg>

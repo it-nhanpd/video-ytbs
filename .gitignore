@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Output render (video, ảnh still)
+content/projects/*/renders/
+out/
+build/
+
+# Ảnh thô từ Nano Banana (giữ lại .gitkeep)
+content/projects/*/inbox/*
+!content/projects/*/inbox/.gitkeep
+
+# Cache Remotion / TypeScript
+.remotion/
+*.tsbuildinfo
+
+# Chỉ mục CodeGraph (sinh tự động)
+.codegraph/
+
+# Cấu hình Claude cục bộ
+.claude/settings.local.json
+
+# Log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Biến môi trường
+.env
+.env.*
+!.env.example
+
+# Hệ điều hành / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,145 @@
+{
+  "project": "test-huey",
+  "locale": "vi",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "s001",
+      "durationSec": 8,
+      "template": "MultiplaneScene",
+      "grade": "ochre_dusk",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -80
+        ],
+        "zoom": [
+          1,
+          1.03
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "ochre_dusk",
+          "sun": {
+            "x": 0.3,
+            "y": 0.62,
+            "radius": 0.55
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 11,
+          "baseY": 0.78,
+          "amp": 0.1,
+          "color": "#7a5a3a",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.78,
+          "height": 0.28,
+          "color": "rgba(226,190,130,0.55)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 27,
+          "baseY": 0.9,
+          "amp": 0.14,
+          "color": "#3d2c1e",
+          "palms": 3,
+          "palmScale": 1.4,
+          "blur": 2
+        },
+        {
+          "id": "huey",
+          "assetId": "huey_side",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-test-huey/assets/huey_side.png",
+          "status": "final",
+          "width": 0.46,
+          "x": [
+            1.1,
+            0.45
+          ],
+          "y": [
+            0.36,
+            0.38
+          ],
+          "ease": "outCubic",
+          "rotateDeg": -3,
+          "bobPx": 6,
+          "rotors": {
+            "main": {
+              "x": 0.338,
+              "y": 0.0769,
+              "radius": 0.55
+            },
+            "tail": {
+              "x": 0.9799,
+              "y": 0.2345,
+              "radius": 0.085
+            },
+            "rps": 5.5
+          }
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 70,
+          "color": "#ffe3a8",
+          "seed": 5,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 3,
+          "baseY": 0.99,
+          "amp": 0.2,
+          "color": "#1c140d",
+          "palms": 2,
+          "palmScale": 3.2,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s001.title",
+          "subKey": "s001.sub",
+          "from": 2.5,
+          "to": 7.2
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "huey_rotor_loop",
+          "insects_tropical_amb"
+        ],
+        "note": "Chưa dựng âm thanh trong bài test này"
+      }
+    }
+  ]
+}

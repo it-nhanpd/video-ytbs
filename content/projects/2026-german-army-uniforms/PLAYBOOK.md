@@ -1,0 +1,224 @@
+# Playbook: bắt đầu một video mới
+
+Cách dùng: copy file này vào `content/projects/<yyyy-slug>/PLAYBOOK.md`, điền khối **THÔNG SỐ**, rồi đưa agent từng bước một.
+Mỗi bước có: **Đầu vào → Việc agent làm → Đầu ra (file) → Cổng duyệt** (bạn duyệt xong mới sang bước kế).
+Câu lệnh đưa agent nằm trong khối `PROMPT`. Chỉ cần thay `{{...}}`.
+
+Hệ thống không tự tạo ảnh/video AI. Mọi ảnh do bạn tạo bằng Nano Banana rồi thả vào `inbox/`.
+
+---
+
+## THÔNG SỐ (điền trước)
+
+```
+slug:            2026-german-army-uniforms
+topic:           Sự tiến hóa quân phục lục quân Đức (mốc thời gian cụ thể chốt ở bước 1)
+niche:           lịch sử quân sự (quân phục/trang bị), dạng hoạt hình
+locale:          vi            (thêm locale khác = thêm locales/<xx>.json, không sửa scenes.json)
+thời lượng:      8–12 phút
+khán giả:        người xem VN thích lịch sử quân sự/đồ họa, biết sơ về Đức, chưa rành chi tiết quân phục từng thời kỳ
+giọng điệu:      trung lập giáo dục
+video tham chiếu:https://www.youtube.com/watch?v=5nX9uVBi95s
+nguồn ưu tiên:   ảnh/tư liệu bảo tàng quân sự (vd. Bundeswehr Military History Museum), sách chuyên khảo quân phục (Osprey...), bài báo học thuật
+```
+
+---
+
+## Một video YouTube cần những gì (checklist tổng)
+
+| Nhóm | Sản phẩm | Làm ở bước |
+|---|---|---|
+| Chiến lược | Phân tích tham chiếu, góc nhìn khác biệt, hook | 1 |
+| Nội dung | Kịch bản đã kiểm chứng + bảng nguồn, ghi chú điểm gây tranh cãi | 2 |
+| Hình | Danh sách cảnh, asset (library/mới), prompt pack, ảnh đã ingest | 3–4 |
+| Dựng | `scenes.json` + `locales/<locale>.json`, bản đồ nếu có | 5 |
+| Âm | Voice, nhạc, SFX, mức loudness | 6 |
+| Xuất | Render, QA từng cảnh, bản hoàn chỉnh | 7 |
+| Đóng gói | Tiêu đề, thumbnail, mô tả, chương, tag, ghim bình luận | 8 |
+| Hậu kỳ | Promote asset vào library, ghi chú bài học | 9 |
+
+---
+
+## Bước 0 — Khởi tạo dự án
+
+- **Đầu vào:** khối THÔNG SỐ.
+- **Việc agent làm:** tạo `content/projects/<slug>/{project.md, scenes.json (rỗng), locales/<locale>.json, inbox/, assets/, prompts/, renders/, script/, research/}`. Ghi THÔNG SỐ vào `project.md`.
+- **Đầu ra:** cây thư mục + `project.md`.
+- **Cổng duyệt:** bạn xác nhận thông số.
+
+```
+PROMPT 0
+Tạo dự án mới theo content/projects/2026-test-huey làm mẫu. Thông số: <dán khối THÔNG SỐ>.
+Chỉ tạo khung, chưa viết nội dung. Chạy npm run validate để kiểm tra.
+```
+
+## Bước 1 — Phân tích video tham chiếu
+
+- **Đầu vào:** URL tham chiếu (nên có transcript hoặc bạn dán bảng frame).
+- **Việc agent làm:** phân tích **cấu trúc**, không sao chép: hook 30 giây đầu, nhịp (số cảnh/phút, độ dài cảnh trung bình), tỉ lệ loại cảnh (nhân vật, bản đồ, tư liệu, text), kiểu chuyển động camera, phong cách đồ họa/bản đồ/chữ, âm thanh, điểm giữ chân (câu hỏi mở, đảo chiều, mốc thời gian). Rồi đề xuất **3 điểm khác biệt** để video mình không giống bản gốc.
+- **Đầu ra:** `research/01-reference-analysis.md` gồm: tóm tắt, bảng nhịp, bảng cảnh mẫu, "điều nên học / điều không được copy", 3 điểm khác biệt, rủi ro (nhạy cảm, bản quyền).
+- **Cổng duyệt:** bạn chọn hướng khác biệt.
+
+```
+PROMPT 1
+Phân tích video {{URL}} để dùng làm tham chiếu CẤU TRÚC cho dự án {{slug}}.
+Xuất research/01-reference-analysis.md theo các mục: hook, nhịp, loại cảnh, camera, đồ họa, âm thanh,
+điểm giữ chân, điều nên học, điều KHÔNG được copy (nhận diện kênh, câu chữ, hình ảnh), 3 điểm khác biệt đề xuất.
+Không viết kịch bản ở bước này.
+```
+
+## Bước 2 — Nghiên cứu và viết kịch bản bám nguồn kiểm chứng
+
+- **Đầu vào:** bước 1 đã duyệt, topic, nguồn ưu tiên.
+- **Việc agent làm:**
+  1. Lập **bảng nguồn** (`research/02-sources.md`): mỗi nguồn gồm loại (sơ cấp/thứ cấp), tác giả, năm, link, độ tin cậy. Ưu tiên tài liệu sơ cấp và học thuật; nguồn yếu chỉ để tham khảo.
+  2. Lập **bảng sự kiện** (`research/03-facts.md`): mỗi dòng = một khẳng định + ngày/địa điểm/số liệu + ≥2 nguồn độc lập + trạng thái (đã kiểm chứng / tranh cãi / chưa rõ). Số liệu tranh cãi phải ghi khoảng giá trị và ai nói gì.
+  3. Viết kịch bản `script/<locale>.md` chỉ dùng các dòng "đã kiểm chứng". Phần tranh cãi nêu rõ là tranh cãi.
+  4. Mỗi đoạn kịch bản gắn mã sự kiện (`[F12]`) để truy ngược nguồn.
+- **Cấu trúc kịch bản gợi ý:** hook (câu hỏi/khoảnh khắc) → bối cảnh → diễn biến theo mốc thời gian → điểm ngoặt → hệ quả → bài học/câu hỏi để lại. Mỗi 60–90 giây có một "nhịp mới" (thông tin bất ngờ, địa điểm mới, đảo chiều).
+- **Quy tắc viết:** câu ngắn, đọc lên tự nhiên, ~140–160 từ/phút tiếng Việt, tên riêng viết đúng dấu, không bịa chi tiết cảm xúc/lời thoại không có nguồn, không phán xét thay người xem.
+- **Đầu ra:** `research/02-sources.md`, `research/03-facts.md`, `script/<locale>.md`, `research/04-open-questions.md` (điểm chưa chắc).
+- **Cổng duyệt:** bạn đọc bảng sự kiện và kịch bản; sửa/duyệt. Không sang bước 3 khi còn dòng "chưa rõ" được dùng trong kịch bản.
+
+```
+PROMPT 2
+Dựa trên research/01-reference-analysis.md (hướng khác biệt đã chọn: {{...}}), nghiên cứu topic "{{topic}}".
+Làm lần lượt: (a) research/02-sources.md, (b) research/03-facts.md với ≥2 nguồn độc lập cho mỗi dòng,
+(c) script/{{locale}}.md dài khoảng {{N}} từ, mỗi đoạn gắn mã [Fxx].
+Chỉ dùng dữ kiện đã kiểm chứng; chỗ tranh cãi phải nói rõ. Ghi mọi điểm chưa chắc vào research/04-open-questions.md.
+Không dán nguyên văn câu chữ từ nguồn hay từ video tham chiếu.
+```
+
+## Bước 3 — Chia cảnh và prompt pack tạo ảnh
+
+- **Đầu vào:** kịch bản đã duyệt.
+- **Việc agent làm:**
+  1. Chia kịch bản thành **bảng cảnh** `script/shotlist.md`: mã cảnh, đoạn lời, thời lượng, loại (multiplane / bản đồ / tư liệu / text), mô tả hình, camera, grade, tiền cảnh/hậu cảnh, âm thanh gợi ý.
+  2. **Tra `content/library/INDEX.md` trước.** Asset đã có thì dùng lại; chỉ tạo mới phần thiếu.
+  3. Với asset thiếu: dùng skill `prompt-pack` để ghi `prompts/<scene>.md` + `prompts/manifest.json`. Prompt **phải** có khối ràng buộc kỹ thuật (nền xám #808080 phẳng, lề ≥12%, góc dưới phải trống, không bóng, một chủ thể, không phần nào xám trùng nền, không vẽ phần chuyển động bằng code, nhìn ngang đầu hướng trái).
+  4. Vũ khí/phương tiện/quân phục phải đúng thời kỳ: ghi rõ ảnh tham chiếu thật cần đính kèm.
+  5. Cảnh cần chuyển động nhân vật: prompt pose gốc + prompt image-to-video riêng (2–4 giây).
+- **Đầu ra:** `script/shotlist.md`, `prompts/*.md`, `prompts/manifest.json`, danh sách "asset dùng lại / asset cần tạo".
+- **Cổng duyệt:** bạn xem shotlist và prompt; chỉnh trước khi đi tạo ảnh.
+
+```
+PROMPT 3
+Từ script/{{locale}}.md hãy lập script/shotlist.md (mã cảnh, lời, thời lượng, loại cảnh, mô tả hình, camera, grade, lớp z).
+Tra content/library/INDEX.md để đánh dấu asset dùng lại. Với asset còn thiếu, dùng skill prompt-pack sinh prompts/<scene>.md
+và manifest.json (có khối ràng buộc kỹ thuật). Mỗi prompt kèm ảnh tham chiếu cần đính kèm và checklist QA.
+Kết thúc bằng bảng: asset | dùng lại hay tạo mới | file prompt.
+```
+
+## Bước 4 — Bạn tạo ảnh, agent ingest
+
+- **Bạn làm:** tạo ảnh bằng Nano Banana theo prompt pack, QA bằng checklist, thả vào `inbox/` (tên file = `<assetId>`, đuôi jpg/png/webp đều được).
+- **Agent làm:** xem ảnh thật, **đo lại `crop` và `anchors`** trong manifest (mỗi ảnh một khác), chạy `npm run ingest -- <project>`, `npm run validate`, render một still và kiểm tra: viền bẩn, lỗ xám, cánh quạt lệch trục. Sai thì chỉnh manifest, ingest lại.
+- **Đầu ra:** `assets/*.png`, `scenes.json` cập nhật `src/status`.
+- **Cổng duyệt:** bạn xem still từng asset.
+
+```
+PROMPT 4
+Tôi đã thả ảnh vào inbox/: {{danh sách}}. Dùng skill prompt-pack, phần "Hiệu chỉnh manifest":
+xem từng ảnh, điền process trong manifest.json, chạy ingest + validate, render still cho mỗi cảnh liên quan
+và báo lỗi nhìn thấy (viền, lỗ, lệch). Chưa render video đầy đủ.
+```
+
+## Bước 5 — Dựng `scenes.json` và text i18n
+
+- **Đầu vào:** shotlist + asset đã ingest.
+- **Việc agent làm:** viết `scenes.json` (mỗi cảnh: layers, z, camera, grade, focusZ, text). **Không để chữ cứng**, chỉ key; chữ nằm ở `locales/<locale>.json` (có dấu tiếng Việt, font có subset vietnamese). Cảnh nào chưa có ảnh final thì dùng placeholder và đánh dấu.
+- **Đầu ra:** `scenes.json`, `locales/<locale>.json`, `npm run validate` pass.
+- **Cổng duyệt:** bạn xem still đại diện của từng loại cảnh.
+
+> Hiện engine có template `MultiplaneScene`. Bản đồ (Atlas 1960s), cảnh tư liệu, bảng chữ lớn **chưa build**: nếu shotlist có loại này, yêu cầu agent đề xuất template mới trước khi dựng.
+
+```
+PROMPT 5
+Dựng scenes.json cho {{danh sách cảnh}} theo shotlist. Dùng template MultiplaneScene, grade {{ochre_dusk|misty_green|...}}.
+Mọi chữ trên màn hình dùng key i18n, thêm vào locales/{{locale}}.json. Chạy npm run typecheck && npm run validate,
+rồi render still frame đầu/giữa/cuối của mỗi cảnh vào renders/ để tôi xem.
+```
+
+## Bước 6 — Âm thanh
+
+- **Việc làm:** voice (thu hoặc TTS), nhạc nền (kiểm tra bản quyền/giấy phép), SFX theo cảnh, trộn. Mức loudness mục tiêu khoảng -14 LUFS.
+- **Đầu ra:** `audio/<locale>/voice.*`, `audio/music.*`, ghi giấy phép vào `project.md`.
+- **Lưu ý:** timing cảnh phải khớp voice. Có file voice rồi thì nhờ agent chỉnh `durationSec` từng cảnh theo thời lượng lời.
+
+> Skill/tool cho voice và timestamp (WhisperX) **chưa build**.
+
+```
+PROMPT 6
+Voice đã có ở audio/{{locale}}/voice.wav. Đo thời lượng theo từng đoạn của kịch bản, đề xuất durationSec cho mỗi cảnh,
+cập nhật scenes.json sau khi tôi đồng ý. Liệt kê nhạc/SFX cần có và điều kiện giấy phép.
+```
+
+## Bước 7 — Render và QA
+
+- **Việc agent làm:** render từng cảnh, trích frame, soi: chữ có đúng dấu, text không tràn, độ nét/mờ theo lớp, viền asset, flicker, đúng thời kỳ vũ khí/quân phục, không có chi tiết hình ảnh gây phản cảm không cần thiết với chủ đề nhạy cảm. Ghép cảnh + audio ra bản hoàn chỉnh.
+- **Đầu ra:** `renders/<scene>.mp4`, `renders/full.mp4`, `research/05-qa-report.md`.
+- **Cổng duyệt:** bạn xem toàn bộ video.
+
+```
+PROMPT 7
+Render tất cả cảnh (npm run render, concurrency 2), trích 3 frame mỗi cảnh, viết research/05-qa-report.md:
+lỗi theo mức nặng/nhẹ, cảnh nào cần tạo lại ảnh, cảnh nào chỉ cần chỉnh scenes.json. Chưa sửa gì khi chưa hỏi tôi.
+```
+
+## Bước 8 — Tiêu đề, thumbnail, mô tả (theo ngách)
+
+- **Việc agent làm:**
+  1. **Tiêu đề:** đưa 10 phương án chia theo mẫu (câu hỏi, con số/mốc thời gian, nghịch lý, "điều bị bỏ quên"). Mỗi phương án ≤ 60 ký tự, không gây hiểu sai (không clickbait nói sai nội dung). Gợi ý chọn 3 phương án để A/B.
+  2. **Thumbnail:** 3 ý tưởng, mỗi ý: một điểm nhìn duy nhất, tối đa 3–4 từ chữ, tương phản mạnh, đọc được ở kích thước nhỏ. Có prompt Nano Banana (nền/nhân vật theo style dự án) + bố cục chữ. Với chủ đề nhạy cảm: tiết chế, không dùng hình bạo lực trực diện.
+  3. **Mô tả:** 2 dòng đầu chứa từ khóa và lời hứa của video; chương có mốc thời gian (lấy từ shotlist); nguồn tham khảo (lấy từ `02-sources.md`); ghi nhãn nội dung giáo dục nếu cần.
+  4. **Tag/hashtag, bình luận ghim** (câu hỏi gợi tranh luận văn minh), danh sách video gợi ý kế tiếp.
+- **Đầu ra:** `publish/titles.md`, `publish/thumbnail-prompts.md`, `publish/description.md`.
+- **Cổng duyệt:** bạn chọn tiêu đề + thumbnail.
+
+> Chưa có skill riêng cho bước này; agent làm trực tiếp theo PROMPT 8.
+
+```
+PROMPT 8
+Ngách: {{niche}}. Khán giả: {{...}}. Dựa trên kịch bản và research/01-reference-analysis.md, tạo:
+publish/titles.md (10 tiêu đề ≤60 ký tự, phân nhóm mẫu, đánh dấu 3 cái nên A/B và lý do),
+publish/thumbnail-prompts.md (3 ý tưởng + prompt Nano Banana + bố cục chữ ≤4 từ),
+publish/description.md (2 dòng đầu, chương có mốc thời gian, nguồn). Không hứa điều video không có.
+```
+
+## Bước 9 — Hậu kỳ: tái sử dụng
+
+- **Việc agent làm:** với asset đã duyệt, copy vào `content/library/...`, cập nhật `meta.json` (`approved`, `usedIn`, `rotors`...), `INDEX.md`, và thẻ `.md` (prompt cuối cùng đã dùng, lỗi AI gặp, giá trị crop/anchors đã dùng). Ghi bài học vào cuối `project.md`.
+
+```
+PROMPT 9
+Dự án {{slug}} đã xong. Promote các asset đã duyệt vào content/library (cập nhật meta.json, thẻ .md, INDEX.md).
+Ghi bài học (điều gì lỗi, prompt nào hiệu quả, thời gian mỗi bước) vào cuối project.md.
+```
+
+---
+
+## Quy tắc xuyên suốt cho agent (dán đầu phiên làm việc)
+
+```
+- Làm đúng một bước mỗi lần, dừng ở "Cổng duyệt" và chờ tôi.
+- Mọi dữ kiện lịch sử phải truy được về nguồn; không chắc thì ghi "chưa rõ", đừng đoán.
+- Không sao chép câu chữ/hình ảnh/nhận diện của video tham chiếu hay nguồn.
+- Tra content/library/INDEX.md trước khi đề xuất asset mới.
+- scenes.json không chứa chữ hiển thị, chỉ key i18n.
+- Hệ thống không gọi AI tạo ảnh/video; chỉ viết prompt để tôi tự tạo.
+- Chạy npm run typecheck && npm run validate trước khi báo xong bước dựng.
+- Chủ đề nhạy cảm (chiến tranh, thảm sát): góc nhìn giáo dục, tiết chế hình ảnh, nêu rõ phần tranh cãi.
+```
+
+## Hiện trạng công cụ (để biết bước nào còn thủ công)
+
+| Bước | Có sẵn | Còn thiếu |
+|---|---|---|
+| 0 | dự án mẫu `2026-test-huey` | skill `video-brief` |
+| 1–2 | không cần code | skill `script-writer`, `fact-checker` |
+| 3 | skill `prompt-pack`, library, `INDEX.md` | skill `shot-planner` |
+| 4 | `ingest`, `validate` | tự động đo crop/anchors |
+| 5 | engine multiplane, i18n | template bản đồ, tư liệu, text lớn |
+| 6 | — | voice, timing, mix |
+| 7 | `render`, `still` | skill `render-qa`, ghép nhiều cảnh |
+| 8 | — | skill thumbnail/title |

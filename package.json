@@ -1,0 +1,29 @@
+{
+  "name": "videos-system",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio engine/src/index.ts",
+    "render": "remotion render engine/src/index.ts --concurrency=2",
+    "still": "remotion still engine/src/index.ts",
+    "validate": "tsx tools/validate.ts",
+    "ingest": "tsx tools/ingest.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.535",
+    "@remotion/google-fonts": "^4.0.535",
+    "@remotion/noise": "^4.0.535",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.535",
+    "sharp": "^0.35.5",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^18.3.31",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

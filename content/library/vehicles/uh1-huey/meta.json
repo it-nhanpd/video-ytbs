@@ -1,0 +1,18 @@
+{
+  "id": "uh1-huey",
+  "type": "vehicle",
+  "faction": "us",
+  "era": "1960s",
+  "role": "transport-helicopter",
+  "tags": ["helicopter", "huey", "vietnam", "us-army", "side-view"],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "rotors": {
+    "main": {"x": 0.338, "y": 0.0769, "radius": 0.55},
+    "tail": {"x": 0.9799, "y": 0.2345, "radius": 0.085}
+  },
+  "usedIn": ["test-huey/s001"],
+  "status": "draft"
+}
