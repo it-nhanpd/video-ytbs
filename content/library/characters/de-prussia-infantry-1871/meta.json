@@ -1,0 +1,24 @@
+{
+  "id": "de-prussia-infantry-1871",
+  "type": "character",
+  "faction": "de",
+  "era": "1871",
+  "role": "infantry-soldier",
+  "tags": [
+    "prussia",
+    "1871",
+    "pickelhaube",
+    "imperial-germany",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s001",
+    "german-army-uniforms/s002",
+    "german-army-uniforms/s003"
+  ],
+  "status": "draft"
+}

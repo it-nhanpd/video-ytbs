@@ -1,1 +1,274 @@
-{"assets": []}
+{
+  "assets": [
+    {
+      "assetId": "de_prussia_infantry_1871",
+      "inbox": "de_prussia_infantry_1871",
+      "target": "projects/2026-german-army-uniforms/assets/de_prussia_infantry_1871.png",
+      "scene": "s001",
+      "layer": "soldier_1871",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_heer_infantry_1916",
+      "inbox": "de_heer_infantry_1916",
+      "target": "projects/2026-german-army-uniforms/assets/de_heer_infantry_1916.png",
+      "scene": "s001",
+      "layer": "soldier_1916",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_prussia_infantry_1871",
+      "inbox": "de_prussia_infantry_1871",
+      "target": "projects/2026-german-army-uniforms/assets/de_prussia_infantry_1871.png",
+      "scene": "s002",
+      "layer": "soldier_1871",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_prussia_infantry_1871",
+      "inbox": "de_prussia_infantry_1871",
+      "target": "projects/2026-german-army-uniforms/assets/de_prussia_infantry_1871.png",
+      "scene": "s003",
+      "layer": "soldier_1871",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_schutztruppe_soldier_1896",
+      "inbox": "de_schutztruppe_soldier_1896",
+      "target": "projects/2026-german-army-uniforms/assets/de_schutztruppe_soldier_1896.png",
+      "scene": "s004",
+      "layer": "schutztruppe_1896",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_askari_infantry_1914",
+      "inbox": "de_askari_infantry_1914",
+      "target": "projects/2026-german-army-uniforms/assets/de_askari_infantry_1914.png",
+      "scene": "s005",
+      "layer": "askari_1914",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_heer_ersatz_1915",
+      "inbox": "de_heer_ersatz_1915",
+      "target": "projects/2026-german-army-uniforms/assets/de_heer_ersatz_1915.png",
+      "scene": "s006",
+      "layer": "soldier_1915",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_heer_infantry_1916",
+      "inbox": "de_heer_infantry_1916",
+      "target": "projects/2026-german-army-uniforms/assets/de_heer_infantry_1916.png",
+      "scene": "s007",
+      "layer": "soldier_1916",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_reichswehr_infantry_1921",
+      "inbox": "de_reichswehr_infantry_1921",
+      "target": "projects/2026-german-army-uniforms/assets/de_reichswehr_infantry_1921.png",
+      "scene": "s008",
+      "layer": "soldier_1921",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_reichswehr_transition_1934",
+      "inbox": "de_reichswehr_transition_1934",
+      "target": "projects/2026-german-army-uniforms/assets/de_reichswehr_transition_1934.png",
+      "scene": "s009",
+      "layer": "soldier_1934",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_wehrmacht_infantry_1936",
+      "inbox": "de_wehrmacht_infantry_1936",
+      "target": "projects/2026-german-army-uniforms/assets/de_wehrmacht_infantry_1936.png",
+      "scene": "s010",
+      "layer": "soldier_1936",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_wehrmacht_infantry_1944",
+      "inbox": "de_wehrmacht_infantry_1944",
+      "target": "projects/2026-german-army-uniforms/assets/de_wehrmacht_infantry_1944.png",
+      "scene": "s010",
+      "layer": "soldier_1944",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_wehrmacht_infantry_1944",
+      "inbox": "de_wehrmacht_infantry_1944",
+      "target": "projects/2026-german-army-uniforms/assets/de_wehrmacht_infantry_1944.png",
+      "scene": "s011",
+      "layer": "soldier_1944",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_bundeswehr_soldier_1956",
+      "inbox": "de_bundeswehr_soldier_1956",
+      "target": "projects/2026-german-army-uniforms/assets/de_bundeswehr_soldier_1956.png",
+      "scene": "s012",
+      "layer": "bw_1956",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_nva_soldier_1956",
+      "inbox": "de_nva_soldier_1956",
+      "target": "projects/2026-german-army-uniforms/assets/de_nva_soldier_1956.png",
+      "scene": "s012",
+      "layer": "nva_1956",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_bundeswehr_flecktarn_1991",
+      "inbox": "de_bundeswehr_flecktarn_1991",
+      "target": "projects/2026-german-army-uniforms/assets/de_bundeswehr_flecktarn_1991.png",
+      "scene": "s013",
+      "layer": "bw_flecktarn_1991",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_bundeswehr_tropentarn_2002",
+      "inbox": "de_bundeswehr_tropentarn_2002",
+      "target": "projects/2026-german-army-uniforms/assets/de_bundeswehr_tropentarn_2002.png",
+      "scene": "s013",
+      "layer": "bw_tropentarn_2002",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    },
+    {
+      "assetId": "de_bundeswehr_kbssk_2026",
+      "inbox": "de_bundeswehr_kbssk_2026",
+      "target": "projects/2026-german-army-uniforms/assets/de_bundeswehr_kbssk_2026.png",
+      "scene": "s014",
+      "layer": "bw_kbssk_2026",
+      "process": {
+        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "keyOut": true,
+        "keyTolerance": 35,
+        "minHolePx": 800,
+        "trim": true,
+        "fit": { "width": 2000, "height": 800 }
+      }
+    }
+  ]
+}

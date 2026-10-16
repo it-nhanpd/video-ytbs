@@ -1,0 +1,22 @@
+{
+  "id": "de-bundeswehr-tropentarn-2002",
+  "type": "character",
+  "faction": "de",
+  "era": "1993-2014",
+  "role": "infantry-soldier",
+  "tags": [
+    "bundeswehr",
+    "tropentarn",
+    "wuestentarn",
+    "isaf",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s013"
+  ],
+  "status": "draft"
+}

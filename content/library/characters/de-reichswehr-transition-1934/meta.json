@@ -1,0 +1,23 @@
+{
+  "id": "de-reichswehr-transition-1934",
+  "type": "character",
+  "faction": "de",
+  "era": "1934-1935",
+  "role": "infantry-soldier",
+  "tags": [
+    "reichswehr",
+    "wehrmacht",
+    "1934",
+    "1935",
+    "stahlhelm-m35",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s009"
+  ],
+  "status": "draft"
+}

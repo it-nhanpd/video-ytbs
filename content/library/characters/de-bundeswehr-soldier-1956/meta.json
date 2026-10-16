@@ -1,0 +1,23 @@
+{
+  "id": "de-bundeswehr-soldier-1956",
+  "type": "character",
+  "faction": "de-west",
+  "era": "1955-1956",
+  "role": "infantry-soldier",
+  "tags": [
+    "bundeswehr",
+    "1956",
+    "m1-helmet",
+    "splittertarn",
+    "cold-war",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s012"
+  ],
+  "status": "draft"
+}

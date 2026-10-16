@@ -1,0 +1,22 @@
+{
+  "id": "de-bundeswehr-flecktarn-1991",
+  "type": "character",
+  "faction": "de",
+  "era": "1991-2000s",
+  "role": "infantry-soldier",
+  "tags": [
+    "bundeswehr",
+    "1991",
+    "flecktarn",
+    "gefechtshelm-m92",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s013"
+  ],
+  "status": "draft"
+}

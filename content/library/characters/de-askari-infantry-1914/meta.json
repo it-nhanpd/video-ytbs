@@ -1,0 +1,22 @@
+{
+  "id": "de-askari-infantry-1914",
+  "type": "character",
+  "faction": "de",
+  "era": "1891-1918",
+  "role": "askari-infantry",
+  "tags": [
+    "askari",
+    "ostafrika",
+    "tarbusch",
+    "khaki",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s005"
+  ],
+  "status": "draft"
+}

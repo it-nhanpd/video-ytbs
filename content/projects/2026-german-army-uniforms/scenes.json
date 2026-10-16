@@ -4,5 +4,1827 @@
   "fps": 24,
   "width": 1920,
   "height": 1080,
-  "scenes": []
+  "scenes": [
+    {
+      "id": "s001",
+      "durationSec": 75,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -40
+        ],
+        "zoom": [
+          1,
+          1.04
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "misty_green",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 10,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#556152",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(185,195,175,0.48)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 30,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#2e382b",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "soldier_1871",
+          "assetId": "de_prussia_infantry_1871",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_prussia_infantry_1871.png",
+          "status": "final",
+          "width": 0.78,
+          "x": [
+            0.5,
+            0.52
+          ],
+          "y": [
+            0.59,
+            0.59
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "soldier_1916",
+          "assetId": "de_heer_infantry_1916",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_heer_infantry_1916.png",
+          "status": "final",
+          "width": 0.78,
+          "x": [
+            0.76,
+            0.74
+          ],
+          "y": [
+            0.59,
+            0.59
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": false,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#dce3d5",
+          "seed": 50,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 70,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#141a13",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s001.title",
+          "subKey": "s001.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "wind_cold_low",
+          "cloth_rustle_march",
+          "ticking_clock_subtle"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s002",
+      "durationSec": 70,
+      "template": "MultiplaneScene",
+      "grade": "ochre_dusk",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -60
+        ],
+        "zoom": [
+          1,
+          1.03
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "ochre_dusk",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 11,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#7a5a3a",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(226,190,130,0.5)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 31,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#3d2c1e",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "soldier_1871",
+          "assetId": "de_prussia_infantry_1871",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_prussia_infantry_1871.png",
+          "status": "final",
+          "width": 0.82,
+          "x": [
+            0.62,
+            0.58
+          ],
+          "y": [
+            0.58,
+            0.58
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#ffe3a8",
+          "seed": 51,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 71,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#1c140d",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s002.title",
+          "subKey": "s002.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "distant_bugle_echo",
+          "boots_gravel_slow"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s003",
+      "durationSec": 65,
+      "template": "MultiplaneScene",
+      "grade": "ochre_dusk",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          -20,
+          20
+        ],
+        "zoom": [
+          1.05,
+          1.12
+        ],
+        "ease": "inOutCubic"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "ochre_dusk",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 12,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#7a5a3a",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(226,190,130,0.5)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 32,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#3d2c1e",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "soldier_1871",
+          "assetId": "de_prussia_infantry_1871",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_prussia_infantry_1871.png",
+          "status": "final",
+          "width": 0.82,
+          "x": [
+            0.62,
+            0.58
+          ],
+          "y": [
+            0.58,
+            0.58
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#ffe3a8",
+          "seed": 52,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 72,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#1c140d",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s003.title",
+          "subKey": "s003.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "leather_creak_subtle",
+          "wind_meadow"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s004",
+      "durationSec": 75,
+      "template": "MultiplaneScene",
+      "grade": "ochre_dusk",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -70
+        ],
+        "zoom": [
+          1,
+          1.03
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "ochre_dusk",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 13,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#7a5a3a",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(226,190,130,0.5)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 33,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#3d2c1e",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "schutztruppe_1896",
+          "assetId": "de_schutztruppe_soldier_1896",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_schutztruppe_soldier_1896.png",
+          "status": "final",
+          "width": 0.82,
+          "x": [
+            0.62,
+            0.58
+          ],
+          "y": [
+            0.58,
+            0.58
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#ffe3a8",
+          "seed": 53,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 73,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#1c140d",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s004.title",
+          "subKey": "s004.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "desert_wind_dry",
+          "sand_footsteps"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s005",
+      "durationSec": 75,
+      "template": "MultiplaneScene",
+      "grade": "ochre_dusk",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -50
+        ],
+        "zoom": [
+          1,
+          1.04
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "ochre_dusk",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 14,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#7a5a3a",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(226,190,130,0.5)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 34,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#3d2c1e",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "askari_1914",
+          "assetId": "de_askari_infantry_1914",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_askari_infantry_1914.png",
+          "status": "final",
+          "width": 0.82,
+          "x": [
+            0.62,
+            0.58
+          ],
+          "y": [
+            0.58,
+            0.58
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#ffe3a8",
+          "seed": 54,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 74,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#1c140d",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s005.title",
+          "subKey": "s005.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "wind_savanna_low",
+          "somber_drone_low"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s006",
+      "durationSec": 90,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -60
+        ],
+        "zoom": [
+          1,
+          1.03
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "misty_green",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 15,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#556152",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(185,195,175,0.48)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 35,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#2e382b",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "soldier_1915",
+          "assetId": "de_heer_ersatz_1915",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_heer_ersatz_1915.png",
+          "status": "final",
+          "width": 0.82,
+          "x": [
+            0.62,
+            0.58
+          ],
+          "y": [
+            0.58,
+            0.58
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#dce3d5",
+          "seed": 55,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 75,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#141a13",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s006.title",
+          "subKey": "s006.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "rain_light_loop",
+          "distant_artillery_rumble"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s007",
+      "durationSec": 90,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -70
+        ],
+        "zoom": [
+          1,
+          1.04
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "misty_green",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 16,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#556152",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(185,195,175,0.48)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 36,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#2e382b",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "soldier_1916",
+          "assetId": "de_heer_infantry_1916",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_heer_infantry_1916.png",
+          "status": "final",
+          "width": 0.82,
+          "x": [
+            0.62,
+            0.58
+          ],
+          "y": [
+            0.58,
+            0.58
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#dce3d5",
+          "seed": 56,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 76,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#141a13",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s007.title",
+          "subKey": "s007.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "trench_wind_mud",
+          "metal_gear_clink"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s008",
+      "durationSec": 75,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -50
+        ],
+        "zoom": [
+          1,
+          1.03
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "misty_green",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 17,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#556152",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(185,195,175,0.48)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 37,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#2e382b",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "soldier_1921",
+          "assetId": "de_reichswehr_infantry_1921",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_reichswehr_infantry_1921.png",
+          "status": "final",
+          "width": 0.82,
+          "x": [
+            0.62,
+            0.58
+          ],
+          "y": [
+            0.58,
+            0.58
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#dce3d5",
+          "seed": 57,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 77,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#141a13",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s008.title",
+          "subKey": "s008.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "boots_pavement_echo",
+          "wind_autumn"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s009",
+      "durationSec": 75,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -60
+        ],
+        "zoom": [
+          1,
+          1.04
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "misty_green",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 18,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#556152",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(185,195,175,0.48)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 38,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#2e382b",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "soldier_1934",
+          "assetId": "de_reichswehr_transition_1934",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_reichswehr_transition_1934.png",
+          "status": "final",
+          "width": 0.82,
+          "x": [
+            0.62,
+            0.58
+          ],
+          "y": [
+            0.58,
+            0.58
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#dce3d5",
+          "seed": 58,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 78,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#141a13",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s009.title",
+          "subKey": "s009.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "low_brass_tension",
+          "march_cadence_distant"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s010",
+      "durationSec": 110,
+      "template": "MultiplaneScene",
+      "grade": "ochre_dusk",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -45
+        ],
+        "zoom": [
+          1,
+          1.04
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "ochre_dusk",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 19,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#7a5a3a",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(226,190,130,0.5)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 39,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#3d2c1e",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "soldier_1936",
+          "assetId": "de_wehrmacht_infantry_1936",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_wehrmacht_infantry_1936.png",
+          "status": "final",
+          "width": 0.78,
+          "x": [
+            0.5,
+            0.52
+          ],
+          "y": [
+            0.59,
+            0.59
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "soldier_1944",
+          "assetId": "de_wehrmacht_infantry_1944",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_wehrmacht_infantry_1944.png",
+          "status": "final",
+          "width": 0.78,
+          "x": [
+            0.76,
+            0.74
+          ],
+          "y": [
+            0.59,
+            0.59
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": false,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#ffe3a8",
+          "seed": 59,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 79,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#1c140d",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s010.title",
+          "subKey": "s010.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "factory_loom_fade",
+          "wind_winter_howl"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s011",
+      "durationSec": 100,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -60
+        ],
+        "zoom": [
+          1.02,
+          1.08
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "misty_green",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 20,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#556152",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(185,195,175,0.48)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 40,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#2e382b",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "soldier_1944",
+          "assetId": "de_wehrmacht_infantry_1944",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_wehrmacht_infantry_1944.png",
+          "status": "final",
+          "width": 0.82,
+          "x": [
+            0.62,
+            0.58
+          ],
+          "y": [
+            0.58,
+            0.58
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#dce3d5",
+          "seed": 60,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 80,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#141a13",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s011.title",
+          "subKey": "s011.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "blizzard_wind_soft",
+          "footsteps_snow_crunch"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s012",
+      "durationSec": 150,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -30
+        ],
+        "zoom": [
+          1,
+          1.03
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "misty_green",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 21,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#556152",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(185,195,175,0.48)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 41,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#2e382b",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "bw_1956",
+          "assetId": "de_bundeswehr_soldier_1956",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_bundeswehr_soldier_1956.png",
+          "status": "final",
+          "width": 0.78,
+          "x": [
+            0.5,
+            0.52
+          ],
+          "y": [
+            0.59,
+            0.59
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "nva_1956",
+          "assetId": "de_nva_soldier_1956",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_nva_soldier_1956.png",
+          "status": "final",
+          "width": 0.78,
+          "x": [
+            0.76,
+            0.74
+          ],
+          "y": [
+            0.59,
+            0.59
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": false,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#dce3d5",
+          "seed": 61,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 81,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#141a13",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s012.title",
+          "subKey": "s012.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "cold_war_radio_static",
+          "boots_march_dual"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s013",
+      "durationSec": 90,
+      "template": "MultiplaneScene",
+      "grade": "ochre_dusk",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -50
+        ],
+        "zoom": [
+          1,
+          1.04
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "ochre_dusk",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 22,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#7a5a3a",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(226,190,130,0.5)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 42,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#3d2c1e",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "bw_flecktarn_1991",
+          "assetId": "de_bundeswehr_flecktarn_1991",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_bundeswehr_flecktarn_1991.png",
+          "status": "final",
+          "width": 0.78,
+          "x": [
+            0.52,
+            0.5
+          ],
+          "y": [
+            0.59,
+            0.59
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": false,
+          "bobPx": 3
+        },
+        {
+          "id": "bw_tropentarn_2002",
+          "assetId": "de_bundeswehr_tropentarn_2002",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_bundeswehr_tropentarn_2002.png",
+          "status": "final",
+          "width": 0.78,
+          "x": [
+            0.76,
+            0.74
+          ],
+          "y": [
+            0.59,
+            0.59
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": false,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#ffe3a8",
+          "seed": 62,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 82,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#1c140d",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s013.title",
+          "subKey": "s013.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "helicopter_distant_low",
+          "desert_breeze"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    },
+    {
+      "id": "s014",
+      "durationSec": 60,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -40
+        ],
+        "zoom": [
+          1,
+          1.05
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "misty_green",
+          "sun": {
+            "x": 0.32,
+            "y": 0.58,
+            "radius": 0.52
+          }
+        },
+        {
+          "id": "treeline_far",
+          "type": "silhouette",
+          "z": 1,
+          "seed": 23,
+          "baseY": 0.76,
+          "amp": 0.09,
+          "color": "#556152",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 6
+        },
+        {
+          "id": "fog",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.76,
+          "height": 0.26,
+          "color": "rgba(185,195,175,0.48)",
+          "blur": 0
+        },
+        {
+          "id": "treeline_near",
+          "type": "silhouette",
+          "z": 2,
+          "seed": 43,
+          "baseY": 0.88,
+          "amp": 0.12,
+          "color": "#2e382b",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 2
+        },
+        {
+          "id": "bw_kbssk_2026",
+          "assetId": "de_bundeswehr_kbssk_2026",
+          "type": "image",
+          "z": 3,
+          "src": "projects/2026-german-army-uniforms/assets/de_bundeswehr_kbssk_2026.png",
+          "status": "final",
+          "width": 0.82,
+          "x": [
+            0.62,
+            0.58
+          ],
+          "y": [
+            0.58,
+            0.58
+          ],
+          "ease": "inOutSine",
+          "rotateDeg": 0,
+          "flipX": true,
+          "bobPx": 3
+        },
+        {
+          "id": "haze",
+          "type": "haze",
+          "z": 3.5,
+          "count": 55,
+          "color": "#dce3d5",
+          "seed": 63,
+          "blur": 0
+        },
+        {
+          "id": "foreground",
+          "type": "silhouette",
+          "z": 4,
+          "seed": 83,
+          "baseY": 0.99,
+          "amp": 0.18,
+          "color": "#141a13",
+          "palms": 0,
+          "palmScale": 1,
+          "blur": 9,
+          "darken": 0.35
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s014.title",
+          "subKey": "s014.sub",
+          "from": 0.8,
+          "to": 14
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "modern_comms_beep_subtle",
+          "outro_theme_resolve"
+        ],
+        "note": "Âm thanh chi tiết ghép ở Bước 6 theo thời lượng voice"
+      }
+    }
+  ]
 }

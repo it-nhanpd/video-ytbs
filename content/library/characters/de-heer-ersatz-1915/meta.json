@@ -1,0 +1,23 @@
+{
+  "id": "de-heer-ersatz-1915",
+  "type": "character",
+  "faction": "de",
+  "era": "1915",
+  "role": "infantry-soldier",
+  "tags": [
+    "ww1",
+    "1915",
+    "pickelhaube-m1915",
+    "bluse",
+    "feldgrau",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s006"
+  ],
+  "status": "draft"
+}

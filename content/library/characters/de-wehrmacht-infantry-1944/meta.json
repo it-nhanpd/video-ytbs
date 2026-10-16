@@ -1,0 +1,25 @@
+{
+  "id": "de-wehrmacht-infantry-1944",
+  "type": "character",
+  "faction": "de",
+  "era": "1943-1945",
+  "role": "infantry-soldier",
+  "tags": [
+    "wehrmacht",
+    "heer",
+    "1944",
+    "m44",
+    "stahlhelm-m42",
+    "ersatz",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s010",
+    "german-army-uniforms/s011"
+  ],
+  "status": "draft"
+}

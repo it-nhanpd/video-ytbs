@@ -1,0 +1,24 @@
+{
+  "id": "de-nva-soldier-1956",
+  "type": "character",
+  "faction": "de-east",
+  "era": "1956-1989",
+  "role": "infantry-soldier",
+  "tags": [
+    "nva",
+    "ddr",
+    "1956",
+    "m56-helmet",
+    "steingrau",
+    "cold-war",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s012"
+  ],
+  "status": "draft"
+}

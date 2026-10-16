@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+  <!-- PLACEHOLDER de-prussia-infantry-1871 (Bộ binh Phổ 1871 (Pickelhaube M1871)), nhìn ngang 90 độ, đầu hướng TRÁI -->
+  <g stroke="#1a1a14" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- ba lô / trang bị lưng -->
+    <rect x="505" y="135" width="42" height="78" rx="6" fill="#c89d3c"/>
+    <!-- thân áo & chân (cùng base body chuẩn) -->
+    <path d="M 465 235 L 455 335 L 482 335 L 495 235 Z" fill="#1d2d44"/>
+    <path d="M 495 235 L 505 335 L 532 335 L 520 235 Z" fill="#1d2d44"/>
+    <!-- giày / ủng -->
+    <path d="M 435 335 L 484 335 L 484 360 L 430 360 Z" fill="#1f1d1a"/>
+    <path d="M 488 335 L 534 335 L 534 360 L 484 360 Z" fill="#1f1d1a"/>
+    <!-- thân áo trên -->
+    <rect x="462" y="122" width="60" height="118" rx="8" fill="#1d2d44"/>
+    <!-- thắt lưng -->
+    <rect x="460" y="202" width="64" height="12" fill="#231f1c"/>
+    <!-- tay -->
+    <rect x="476" y="132" width="24" height="86" rx="6" fill="#1d2d44"/>
+    <!-- đầu nhìn ngang hướng trái -->
+    <circle cx="488" cy="92" r="24" fill="#d9a37a"/>
+    <path d="M 462 92 L 454 98 L 464 102" fill="#d9a37a"/>
+    <!-- mũ đặc trưng thời kỳ -->
+    <path d="M 454 84 Q 488 46 524 88 L 530 96 L 450 92 Z" fill="#1a1a1a"/>
+    <rect x="484" y="42" width="8" height="18" fill="#c89d3c"/>
+  </g>
+  <text x="500" y="388" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2b261f">de-prussia-infantry-1871</text>
+</svg>

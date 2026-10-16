@@ -1,0 +1,22 @@
+{
+  "id": "de-schutztruppe-soldier-1896",
+  "type": "character",
+  "faction": "de",
+  "era": "1896-1907",
+  "role": "colonial-trooper",
+  "tags": [
+    "schutztruppe",
+    "suedwester",
+    "colonial",
+    "1896",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s004"
+  ],
+  "status": "draft"
+}

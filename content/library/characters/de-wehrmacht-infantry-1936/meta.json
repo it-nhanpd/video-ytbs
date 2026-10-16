@@ -1,0 +1,23 @@
+{
+  "id": "de-wehrmacht-infantry-1936",
+  "type": "character",
+  "faction": "de",
+  "era": "1936-1940",
+  "role": "infantry-soldier",
+  "tags": [
+    "wehrmacht",
+    "heer",
+    "1936",
+    "m36",
+    "stahlhelm-m35",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s010"
+  ],
+  "status": "draft"
+}

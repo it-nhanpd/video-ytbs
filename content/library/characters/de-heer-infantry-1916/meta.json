@@ -1,0 +1,24 @@
+{
+  "id": "de-heer-infantry-1916",
+  "type": "character",
+  "faction": "de",
+  "era": "1916-1918",
+  "role": "infantry-soldier",
+  "tags": [
+    "ww1",
+    "1916",
+    "stahlhelm-m1916",
+    "feldgrau",
+    "gasmaske",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s001",
+    "german-army-uniforms/s007"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "de-reichswehr-infantry-1921",
+  "type": "character",
+  "faction": "de",
+  "era": "1921-1932",
+  "role": "infantry-soldier",
+  "tags": [
+    "reichswehr",
+    "weimar",
+    "1921",
+    "stahlhelm-m18",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s008"
+  ],
+  "status": "draft"
+}

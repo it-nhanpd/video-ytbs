@@ -1,0 +1,24 @@
+{
+  "id": "de-bundeswehr-kbssk-2026",
+  "type": "character",
+  "faction": "de",
+  "era": "2022-2026",
+  "role": "modern-infantry",
+  "tags": [
+    "bundeswehr",
+    "2026",
+    "kbssk",
+    "multitarn",
+    "mobast",
+    "idz",
+    "side-view"
+  ],
+  "files": {
+    "placeholder": "placeholder.svg",
+    "approved": []
+  },
+  "usedIn": [
+    "german-army-uniforms/s014"
+  ],
+  "status": "draft"
+}
