@@ -1,0 +1,13 @@
+[
+ {"id":"ca","lon":-119.5,"lat":37.0},
+ {"id":"sf","lon":-122.42,"lat":37.77},
+ {"id":"la","lon":-118.24,"lat":34.05},
+ {"id":"leimert","lon":-118.33,"lat":34.01},
+ {"id":"hollywood","lon":-118.33,"lat":34.10},
+ {"id":"compton","lon":-118.22,"lat":33.90},
+ {"id":"vallejo","lon":-122.26,"lat":38.10},
+ {"id":"berryessa","lon":-122.10,"lat":38.60},
+ {"id":"santaclara","lon":-121.96,"lat":37.35},
+ {"id":"oceanside","lon":-117.38,"lat":33.20},
+ {"id":"atascadero","lon":-120.67,"lat":35.49}
+]

@@ -1,0 +1,3187 @@
+{
+  "project": "2026-truecrime-my-lai",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "+22%",
+  "music": "assets/audio/music.mp3",
+  "tts": {
+    "Task Force Barker": "Tát Pho Ba-cơ",
+    "William Peers": "Uy-li-am Pia-xơ",
+    "Peers": "Pia-xơ",
+    "Ernest Medina": "Ơ-nít Mê-đi-na",
+    "Medina": "Mê-đi-na",
+    "William Calley": "Uy-li-am Ca-li",
+    "Calley": "Ca-li",
+    "Hugh Thompson": "Hiu Tôm-xơn",
+    "Thompson": "Tôm-xơn",
+    "Glenn Andreotta": "Glen An-đờ-rê-ốt-ta",
+    "Lawrence Colburn": "Lo-rần Côn-bơn",
+    "Henderson": "Hen-đơ-xơn",
+    "Ronald Haeberle": "Rô-nần Hây-bơ-li",
+    "Haeberle": "Hây-bơ-li",
+    "Ronald Ridenhour": "Rô-nần Rai-đần-hao-ơ",
+    "Ridenhour": "Rai-đần-hao-ơ",
+    "Seymour Hersh": "Xi-mo Hơsh",
+    "Fort Benning": "Pho Ben-ninh",
+    "Georgia": "Gioóc-gia",
+    "tạp chí Life": "tạp chí Lai-phơ",
+    "OH-23": "Ô Ét 23"
+  },
+  "shots": [
+    {
+      "id": "s001a",
+      "say": "n.s001a",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_tent_night.jpg",
+        "zoom": [
+          1,
+          1.12
+        ],
+        "pan": [
+          0,
+          -40
+        ],
+        "glow": {
+          "x": 0.71,
+          "y": 0.6,
+          "r": 0.3
+        },
+        "dust": true,
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "layers": [
+          {
+            "img": "chars/officer_typing.png",
+            "x": 0.745,
+            "y": 0.97,
+            "h": 0.62,
+            "depth": 0.5
+          }
+        ],
+        "stamp": {
+          "text": "t.battle",
+          "sub": "t.battleSub",
+          "at": 0.12,
+          "x": 0.36
+        },
+        "label": "t.illus"
+      }
+    },
+    {
+      "id": "s001b",
+      "say": "n.s001b",
+      "v": {
+        "kind": "geomap",
+        "fill": {
+          "VNM": "landFocus"
+        },
+        "split17": true,
+        "dmz": true,
+        "provinces": true,
+        "focusProvince": "Quảng Ngãi",
+        "provinceAt": 0.55,
+        "title": "t.date",
+        "cam": [
+          {
+            "at": 0,
+            "lon": 106.3,
+            "lat": 15.9,
+            "zoom": 1.05
+          },
+          {
+            "at": 0.1,
+            "lon": 106.3,
+            "lat": 15.9,
+            "zoom": 1.12
+          },
+          {
+            "at": 0.5,
+            "pt": "quangngai",
+            "zoom": 5.6
+          },
+          {
+            "at": 0.88,
+            "pt": "sonmy",
+            "zoom": 15.8
+          }
+        ],
+        "labels": [
+          {
+            "text": "map.bac",
+            "lon": 104.6,
+            "lat": 20.9,
+            "at": 0.03,
+            "style": "country",
+            "size": 34
+          },
+          {
+            "text": "map.nam",
+            "lon": 106.6,
+            "lat": 12.6,
+            "at": 0.06,
+            "style": "country",
+            "size": 34
+          },
+          {
+            "text": "map.v17",
+            "pt": "dmz-e",
+            "at": 0.1,
+            "style": "place",
+            "dx": 150,
+            "dy": -4,
+            "size": 24
+          },
+          {
+            "text": "map.qn",
+            "pt": "quangngai",
+            "at": 0.5,
+            "style": "box",
+            "dx": -170,
+            "dy": 40
+          },
+          {
+            "text": "map.sonmy",
+            "pt": "sonmy",
+            "at": 0.78,
+            "style": "box",
+            "dx": 0,
+            "dy": -90
+          }
+        ]
+      }
+    },
+    {
+      "id": "s001c",
+      "say": "n.s001c",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_dawn.jpg",
+        "zoom": [
+          1,
+          1.06
+        ],
+        "pan": [
+          40,
+          -60
+        ],
+        "shake": 2,
+        "wash": {
+          "x": 0.3,
+          "y": 0.6
+        },
+        "layers": [
+          {
+            "img": "chars/huey_landing.png",
+            "x": 0.3,
+            "y": 0.55,
+            "h": 0.38,
+            "depth": 0.6,
+            "bob": 6,
+            "move": [
+              40,
+              30
+            ]
+          },
+          {
+            "img": "chars/gi_run_paddy.png",
+            "x": 0.66,
+            "y": 1,
+            "h": 0.42,
+            "depth": 0.9,
+            "move": [
+              -160,
+              0
+            ],
+            "at": 0.12
+          }
+        ],
+        "tags": [
+          {
+            "text": "t.date",
+            "x": 0.05,
+            "y": 0.62,
+            "at": 0.05
+          }
+        ],
+        "label": "t.illus"
+      }
+    },
+    {
+      "id": "s001d",
+      "say": "n.s001d",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_burning.jpg",
+        "zoom": [
+          1.14,
+          1
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "smoke": true,
+        "embers": true,
+        "glow": {
+          "x": 0.24,
+          "y": 0.5,
+          "r": 0.3,
+          "color": "rgba(255,120,40,0.5)"
+        },
+        "grade": "brightness(0.7) saturate(0.75) sepia(0.2)",
+        "layers": [
+          {
+            "img": "chars/gi_walk_smoke.png",
+            "x": 0.52,
+            "y": 1.02,
+            "h": 0.55,
+            "depth": 0.9,
+            "move": [
+              0,
+              -25
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "text": "t.n175big",
+            "sub": "t.n175bigSub",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.3
+          }
+        ],
+        "label": "t.illus"
+      }
+    },
+    {
+      "id": "s001e",
+      "say": "n.s001e",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_burning.jpg",
+        "zoom": [
+          1.15,
+          1.24
+        ],
+        "pan": [
+          -60,
+          -20
+        ],
+        "smoke": true,
+        "embers": true,
+        "grade": "brightness(0.85) saturate(0.85) sepia(0.1)",
+        "tint": "rgba(60,50,45,0.35)",
+        "layers": [
+          {
+            "img": "chars/villagers_group.png",
+            "x": 0.6,
+            "y": 1.02,
+            "h": 0.7,
+            "depth": 0.3
+          }
+        ],
+        "tags": [
+          {
+            "text": "t.old",
+            "x": 0.05,
+            "y": 0.28,
+            "at": 0.08
+          },
+          {
+            "text": "t.women",
+            "x": 0.05,
+            "y": 0.41,
+            "at": 0.35
+          },
+          {
+            "text": "t.children",
+            "x": 0.05,
+            "y": 0.54,
+            "at": 0.62
+          }
+        ],
+        "label": "t.illus"
+      }
+    },
+    {
+      "id": "s001f",
+      "say": "n.s001f",
+      "v": {
+        "kind": "docscan",
+        "src": "pd/peers_v1_cover.png",
+        "source": "c.peers",
+        "stamp": "t.battle",
+        "strikeAt": 0.55,
+        "verdict": "t.false",
+        "quote": "q.falsely",
+        "quoteVi": "q.falselyVi",
+        "cite": "c.peersCh2"
+      }
+    },
+    {
+      "id": "s001g",
+      "say": "n.s001g",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_livingroom_1969.jpg",
+        "zoom": [
+          1.04,
+          1.12
+        ],
+        "pan": [
+          30,
+          -30
+        ],
+        "glow": {
+          "x": 0.28,
+          "y": 0.55,
+          "r": 0.3,
+          "color": "rgba(140,180,255,0.4)"
+        },
+        "grade": "brightness(0.82) saturate(0.9)",
+        "layers": [
+          {
+            "img": "chars/reader_1969.png",
+            "x": 0.69,
+            "y": 0.85,
+            "h": 0.64,
+            "depth": 0.5
+          }
+        ],
+        "tags": [
+          {
+            "text": "t.span",
+            "sub": "t.spanSub",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.2
+          }
+        ],
+        "label": "t.illus"
+      }
+    },
+    {
+      "id": "s001h",
+      "say": "n.s001h",
+      "v": {
+        "kind": "cutouts",
+        "items": [
+          {
+            "src": "pd/ridenhour_letter_head.png",
+            "x": 0.22,
+            "y": 0.42,
+            "w": 0.3,
+            "rot": -3,
+            "caption": "t.letter",
+            "delay": 0.2
+          },
+          {
+            "src": "ai/ml_helicopter_side.png",
+            "x": 0.52,
+            "y": 0.6,
+            "w": 0.3,
+            "rot": 2,
+            "caption": "t.pilot",
+            "delay": 1.3
+          },
+          {
+            "src": "chars/photographer_ref.png",
+            "x": 0.8,
+            "y": 0.42,
+            "w": 0.12,
+            "rot": 3,
+            "caption": "t.photos",
+            "delay": 2.4
+          }
+        ],
+        "headline": "t.clues"
+      }
+    },
+    {
+      "id": "s001i",
+      "say": "n.s001i",
+      "pad": 1.2,
+      "v": {
+        "kind": "title",
+        "text": "t.title",
+        "sub": "t.titleSub",
+        "bg": "ai/ml_hamlet_burning.jpg"
+      }
+    },
+    {
+      "id": "s002a",
+      "say": "n.s002a",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_tet_night.jpg",
+        "layers": [
+          {
+            "img": "chars/guerrilla_squad.png",
+            "x": 0.42,
+            "y": 1,
+            "h": 0.5,
+            "depth": 0.9,
+            "move": [
+              160,
+              0
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -30
+        ],
+        "smoke": true,
+        "embers": true,
+        "glow": {
+          "x": 0.5,
+          "y": 0.15,
+          "r": 0.35,
+          "color": "rgba(230,240,255,0.45)"
+        },
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "stamp": {
+          "text": "x.tet",
+          "sub": "x.tetS",
+          "at": 0.15,
+          "x": 0.5,
+          "size": 130
+        }
+      }
+    },
+    {
+      "id": "s002b",
+      "say": "n.s002b",
+      "v": {
+        "kind": "geomap",
+        "fill": {
+          "VNM": "landFocus"
+        },
+        "split17": true,
+        "dmz": true,
+        "provinces": true,
+        "title": "t.tetTitle",
+        "source": "c.frus",
+        "cam": [
+          {
+            "at": 0,
+            "lon": 106.6,
+            "lat": 13,
+            "zoom": 1.7
+          },
+          {
+            "at": 1,
+            "lon": 106.6,
+            "lat": 13,
+            "zoom": 1.9
+          }
+        ],
+        "bursts": [
+          {
+            "pt": "saigon",
+            "at": 0.12
+          },
+          {
+            "pt": "quangngai",
+            "at": 0.3
+          }
+        ],
+        "labels": [
+          {
+            "text": "map.saigon",
+            "pt": "saigon",
+            "at": 0.14,
+            "style": "box",
+            "dx": -150,
+            "dy": 30
+          },
+          {
+            "text": "map.qn",
+            "pt": "quangngai",
+            "at": 0.32,
+            "style": "box",
+            "dx": -170,
+            "dy": 40
+          }
+        ],
+        "panel": [
+          {
+            "text": "p.capital",
+            "at": 0.2
+          },
+          {
+            "text": "p.cities",
+            "at": 0.35
+          },
+          {
+            "text": "p.prov",
+            "at": 0.5,
+            "big": true,
+            "color": "red"
+          },
+          {
+            "text": "p.dist",
+            "at": 0.65
+          }
+        ]
+      }
+    },
+    {
+      "id": "s002c",
+      "say": "n.s002c",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_tet_night.jpg",
+        "layers": [
+          {
+            "img": "chars/guerrilla_squad.png",
+            "x": 0.6,
+            "y": 1.02,
+            "h": 0.42,
+            "depth": 0.9,
+            "move": [
+              120,
+              0
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.15,
+          1.05
+        ],
+        "pan": [
+          -60,
+          40
+        ],
+        "smoke": true,
+        "embers": true,
+        "shake": 2,
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "tags": [
+          {
+            "text": "x.qn3000",
+            "sub": "x.qn3000S",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s002d",
+      "say": "n.s002d",
+      "v": {
+        "kind": "geomap",
+        "fill": {
+          "VNM": "landFocus"
+        },
+        "split17": true,
+        "dmz": true,
+        "provinces": true,
+        "source": "c.peers3",
+        "cam": [
+          {
+            "at": 0,
+            "pt": "quangngai",
+            "zoom": 5.6
+          },
+          {
+            "at": 0.75,
+            "pt": "sonmy",
+            "zoom": 15.8
+          }
+        ],
+        "labels": [
+          {
+            "text": "map.sontinh",
+            "pt": "sonmy",
+            "at": 0.25,
+            "style": "country",
+            "dx": -330,
+            "dy": -180,
+            "size": 30
+          },
+          {
+            "text": "map.sonmy",
+            "pt": "sonmy",
+            "at": 0.6,
+            "style": "box",
+            "dx": 0,
+            "dy": -90
+          }
+        ]
+      }
+    },
+    {
+      "id": "s002e",
+      "say": "n.s002e",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_road_dawn.jpg",
+        "layers": [
+          {
+            "img": "chars/guerrilla_squad.png",
+            "x": 0.5,
+            "y": 0.98,
+            "h": 0.45,
+            "depth": 0.8,
+            "move": [
+              140,
+              0
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.06
+        ],
+        "pan": [
+          30,
+          -30
+        ],
+        "grade": "brightness(0.6) saturate(0.8) sepia(0.2)",
+        "tint": "rgba(40,50,80,0.35)",
+        "tags": [
+          {
+            "text": "x.b48",
+            "sub": "x.b48S",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "s002f",
+      "say": "n.s002f",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_paddy_villagers.jpg",
+        "layers": [
+          {
+            "img": "chars/villagers_group.png",
+            "x": 0.6,
+            "y": 1.02,
+            "h": 0.66,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.05,
+          1.12
+        ],
+        "pan": [
+          -30,
+          20
+        ],
+        "grade": "brightness(0.92) saturate(0.9)"
+      }
+    },
+    {
+      "id": "s002g",
+      "say": "n.s002g",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_airfield_1967.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_duffel.png",
+            "x": 0.4,
+            "y": 0.98,
+            "h": 0.5,
+            "depth": 0.8,
+            "move": [
+              220,
+              0
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.05
+        ],
+        "pan": [
+          0,
+          -40
+        ],
+        "dust": true,
+        "grade": "brightness(0.92) saturate(0.9)",
+        "tags": [
+          {
+            "text": "x.b11",
+            "sub": "x.b11S",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "s002h",
+      "say": "n.s002h",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_tent_night.jpg",
+        "layers": [
+          {
+            "img": "chars/officers_map.png",
+            "x": 0.6,
+            "y": 0.98,
+            "h": 0.62,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.1
+        ],
+        "pan": [
+          0,
+          -30
+        ],
+        "glow": {
+          "x": 0.71,
+          "y": 0.6,
+          "r": 0.3
+        },
+        "dust": true,
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "tags": [
+          {
+            "text": "x.tfb",
+            "sub": "x.tfbS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s002i",
+      "say": "n.s002i",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_dawn.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_stretcher.png",
+            "x": 0.62,
+            "y": 0.98,
+            "h": 0.45,
+            "depth": 0.8,
+            "move": [
+              -260,
+              0
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.08,
+          1
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "smoke": true,
+        "shake": 3,
+        "grade": "brightness(0.72) saturate(0.75) sepia(0.2)",
+        "tags": [
+          {
+            "text": "x.cas100",
+            "sub": "x.cas100S",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "s002j",
+      "say": "n.s002j",
+      "pad": 0.8,
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_night_camp.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_group_seated.png",
+            "x": 0.4,
+            "y": 1.06,
+            "h": 0.5,
+            "depth": 0.9
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.1
+        ],
+        "pan": [
+          30,
+          -20
+        ],
+        "glow": {
+          "x": 0.55,
+          "y": 0.55,
+          "r": 0.3
+        },
+        "dust": true,
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "tags": [
+          {
+            "text": "x.d1503",
+            "x": 0.05,
+            "y": 0.12,
+            "at": 0.05
+          }
+        ]
+      }
+    },
+    {
+      "id": "s003a",
+      "say": "n.s003a",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_memorial_lz.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_walk_smoke.png",
+            "x": 0.5,
+            "y": 1.08,
+            "h": 0.5,
+            "depth": 0.9
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "dust": true,
+        "glow": {
+          "x": 0.5,
+          "y": 0.35,
+          "r": 0.4,
+          "color": "rgba(255,200,120,0.35)"
+        },
+        "grade": "brightness(0.78) saturate(0.85) sepia(0.15)"
+      }
+    },
+    {
+      "id": "s003b",
+      "say": "n.s003b",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_lz_dusk.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_group_seated.png",
+            "x": 0.5,
+            "y": 1.05,
+            "h": 0.5,
+            "depth": 0.9
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.1,
+          1
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "dust": true,
+        "grade": "brightness(0.78) saturate(0.8) sepia(0.18) contrast(1.05)",
+        "tags": [
+          {
+            "text": "x.u1",
+            "x": 0.05,
+            "y": 0.12,
+            "at": 0.05
+          },
+          {
+            "text": "x.u2",
+            "x": 0.1,
+            "y": 0.22,
+            "at": 0.3
+          },
+          {
+            "text": "x.u3",
+            "x": 0.15,
+            "y": 0.32,
+            "at": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "id": "s003c",
+      "say": "n.s003c",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_lz_dusk.jpg",
+        "zoom": [
+          1,
+          1.1
+        ],
+        "pan": [
+          0,
+          -30
+        ],
+        "dust": true,
+        "glow": {
+          "x": 0.6,
+          "y": 0.5,
+          "r": 0.35
+        },
+        "layers": [
+          {
+            "img": "chars/medina_ref.png",
+            "x": 0.68,
+            "y": 0.86,
+            "h": 0.66,
+            "depth": 0.4
+          },
+          {
+            "img": "chars/gi_group_seated.png",
+            "x": 0.3,
+            "y": 1.05,
+            "h": 0.5,
+            "depth": 0.9
+          }
+        ],
+        "tags": [
+          {
+            "text": "pp.medinaTagShort",
+            "x": 0.62,
+            "y": 0.08,
+            "at": 0.05
+          },
+          {
+            "text": "u.coC",
+            "x": 0.06,
+            "y": 0.5,
+            "at": 0.55
+          }
+        ],
+        "caption": "t.lzCap",
+        "label": "t.illus",
+        "grade": "brightness(0.78) saturate(0.8) sepia(0.18) contrast(1.05)"
+      }
+    },
+    {
+      "id": "s003d",
+      "say": "n.s003d",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_tent_night.jpg",
+        "layers": [
+          {
+            "img": "chars/medina_ref.png",
+            "x": 0.62,
+            "y": 0.98,
+            "h": 0.72,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.1
+        ],
+        "pan": [
+          0,
+          -30
+        ],
+        "glow": {
+          "x": 0.71,
+          "y": 0.6,
+          "r": 0.3
+        },
+        "dust": true,
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "tags": [
+          {
+            "text": "x.intel",
+            "sub": "x.intelS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "s003e",
+      "say": "n.s003e",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_road_dawn.jpg",
+        "layers": [
+          {
+            "img": "chars/market_women.png",
+            "x": 0.35,
+            "y": 0.98,
+            "h": 0.55,
+            "depth": 0.8,
+            "move": [
+              260,
+              0
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.06
+        ],
+        "pan": [
+          0,
+          -30
+        ],
+        "dust": true,
+        "grade": "brightness(0.92) saturate(0.9)",
+        "tags": [
+          {
+            "text": "x.market",
+            "sub": "x.marketS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s003f",
+      "say": "n.s003f",
+      "v": {
+        "kind": "docscan",
+        "src": "pd/peers_v1_p085.png",
+        "source": "c.peers85",
+        "mark": [
+          0.04,
+          0.33,
+          0.9,
+          0.06
+        ],
+        "verdict": "t.certain",
+        "quote": "q.burn",
+        "quoteVi": "q.burnVi",
+        "cite": "c.peers85cite"
+      }
+    },
+    {
+      "id": "s003g",
+      "say": "n.s003g",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_night_camp.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_group_seated.png",
+            "x": 0.55,
+            "y": 1.06,
+            "h": 0.52,
+            "depth": 0.9
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.12,
+          1.02
+        ],
+        "pan": [
+          -30,
+          0
+        ],
+        "glow": {
+          "x": 0.55,
+          "y": 0.55,
+          "r": 0.3
+        },
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "stamp": {
+          "text": "x.conflict",
+          "at": 0.2,
+          "size": 90,
+          "color": "red"
+        }
+      }
+    },
+    {
+      "id": "s003h",
+      "say": "n.s003h",
+      "v": {
+        "kind": "versus",
+        "at": [
+          0.03,
+          0.45,
+          0.62
+        ],
+        "left": {
+          "who": "vs.someWho",
+          "quote": "vs.someQ",
+          "vi": "vs.someVi"
+        },
+        "right": {
+          "who": "vs.medWho",
+          "quote": "vs.medQ",
+          "vi": "vs.medVi"
+        },
+        "middle": "vs.most",
+        "cite": "c.s2"
+      }
+    },
+    {
+      "id": "s003i",
+      "say": "n.s003i",
+      "v": {
+        "kind": "docscan",
+        "src": "pd/peers_v1_p085.png",
+        "source": "c.peers85",
+        "mark": [
+          0.04,
+          0.385,
+          0.9,
+          0.1
+        ],
+        "verdict": "t.peersConcl",
+        "quote": "q.sig",
+        "quoteVi": "q.sigVi",
+        "cite": "c.peers85cite"
+      }
+    },
+    {
+      "id": "s003j",
+      "say": "n.s003j",
+      "pad": 0.8,
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_lz_dusk.jpg",
+        "layers": [
+          {
+            "img": "chars/howitzer.png",
+            "x": 0.45,
+            "y": 1,
+            "h": 0.5,
+            "depth": 0.8
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "shake": 5,
+        "smoke": true,
+        "grade": "brightness(0.85) saturate(0.8) sepia(0.1)",
+        "tint": "rgba(255,190,150,0.15)",
+        "tags": [
+          {
+            "text": "x.arty",
+            "sub": "x.artyS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "s004a",
+      "say": "n.s004a",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_dawn.jpg",
+        "layers": [
+          {
+            "img": "chars/huey_landing.png",
+            "x": 0.68,
+            "y": 0.52,
+            "h": 0.4,
+            "depth": 0.6,
+            "flip": true,
+            "bob": 6,
+            "move": [
+              -40,
+              40
+            ]
+          },
+          {
+            "img": "chars/gi_run_paddy.png",
+            "x": 0.38,
+            "y": 1.02,
+            "h": 0.4,
+            "depth": 0.9,
+            "flip": true,
+            "move": [
+              200,
+              0
+            ],
+            "at": 0.2
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.1,
+          1
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "wash": {
+          "x": 0.68,
+          "y": 0.6
+        },
+        "shake": 2,
+        "tags": [
+          {
+            "text": "x.t750",
+            "sub": "x.t750S",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "s004b",
+      "say": "n.s004b",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_road_dawn.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_walk_smoke.png",
+            "x": 0.5,
+            "y": 1.05,
+            "h": 0.55,
+            "depth": 0.9,
+            "move": [
+              0,
+              -30
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.1
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "dust": true,
+        "grade": "brightness(0.92) saturate(0.9)",
+        "tags": [
+          {
+            "text": "x.t800",
+            "x": 0.05,
+            "y": 0.12,
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s004c",
+      "say": "n.s004c",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_burning.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_firing.png",
+            "x": 0.4,
+            "y": 1.02,
+            "h": 0.5,
+            "depth": 0.9
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          40,
+          -40
+        ],
+        "smoke": true,
+        "embers": true,
+        "shake": 3,
+        "glow": {
+          "x": 0.24,
+          "y": 0.5,
+          "r": 0.3,
+          "color": "rgba(255,120,40,0.5)"
+        },
+        "grade": "brightness(0.72) saturate(0.75) sepia(0.2)"
+      }
+    },
+    {
+      "id": "s004d",
+      "say": "n.s004d",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_dawn.jpg",
+        "layers": [
+          {
+            "img": "chars/villagers_crouch.png",
+            "x": 0.66,
+            "y": 1,
+            "h": 0.5,
+            "depth": 0.6
+          },
+          {
+            "img": "chars/calley_order.png",
+            "x": 0.24,
+            "y": 1.02,
+            "h": 0.7,
+            "depth": 0.9
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -30
+        ],
+        "smoke": true,
+        "grade": "brightness(0.72) saturate(0.75) sepia(0.2)",
+        "tint": "rgba(60,50,45,0.3)",
+        "tags": [
+          {
+            "text": "x.p1",
+            "x": 0.05,
+            "y": 0.12,
+            "at": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "s004e",
+      "say": "n.s004e",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_ditch.jpg",
+        "layers": [
+          {
+            "img": "chars/villagers_crouch.png",
+            "x": 0.6,
+            "y": 0.9,
+            "h": 0.36,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.12
+        ],
+        "pan": [
+          -40,
+          0
+        ],
+        "smoke": true,
+        "grade": "brightness(0.72) saturate(0.75) sepia(0.2)",
+        "tags": [
+          {
+            "text": "x.trail",
+            "x": 0.05,
+            "y": 0.12,
+            "at": 0.05
+          },
+          {
+            "text": "x.ditchT",
+            "x": 0.05,
+            "y": 0.24,
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "s004f",
+      "say": "n.s004f",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_ditch.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_firing.png",
+            "x": 0.3,
+            "y": 1.04,
+            "h": 0.55,
+            "depth": 0.9
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.12,
+          1.02
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "smoke": true,
+        "shake": 4,
+        "grade": "brightness(0.72) saturate(0.75) sepia(0.2)",
+        "tint": "rgba(80,20,10,0.25)",
+        "tags": [
+          {
+            "text": "x.dozens",
+            "sub": "x.dozensS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "id": "s004g",
+      "say": "n.s004g",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_burning.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_refuse.png",
+            "x": 0.55,
+            "y": 1.02,
+            "h": 0.75,
+            "depth": 0.8
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.1
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "smoke": true,
+        "embers": true,
+        "grade": "brightness(0.72) saturate(0.75) sepia(0.2)",
+        "tags": [
+          {
+            "text": "x.refuse",
+            "x": 0.05,
+            "y": 0.12,
+            "at": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "id": "s004h",
+      "say": "n.s004h",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_burning.jpg",
+        "layers": [
+          {
+            "img": "ai/ml_helicopter_side.png",
+            "x": 0.55,
+            "y": 0.36,
+            "h": 0.22,
+            "depth": 0.7,
+            "bob": 5,
+            "rotors": [
+              {
+                "x": 0.47,
+                "y": 0.07,
+                "w": 2.3684210526315788,
+                "rps": 6,
+                "tilt": 0.05
+              }
+            ],
+            "move": [
+              -300,
+              0
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.25,
+          1.18
+        ],
+        "pan": [
+          0,
+          60
+        ],
+        "smoke": true,
+        "grade": "brightness(0.72) saturate(0.75) sepia(0.2)"
+      }
+    },
+    {
+      "id": "s005a",
+      "say": "n.s005a",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_dawn.jpg",
+        "layers": [
+          {
+            "img": "ai/ml_helicopter_side.png",
+            "x": 0.5,
+            "y": 0.62,
+            "h": 0.42,
+            "depth": 0.7,
+            "bob": 5,
+            "rotors": [
+              {
+                "x": 0.47,
+                "y": 0.07,
+                "w": 2.3684210526315788,
+                "rps": 6,
+                "tilt": 0.05
+              }
+            ],
+            "move": [
+              -160,
+              0
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.06
+        ],
+        "pan": [
+          0,
+          -30
+        ],
+        "grade": "brightness(0.92) saturate(0.9)",
+        "tags": [
+          {
+            "text": "x.crew1",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.1
+          },
+          {
+            "text": "x.crew2",
+            "x": 0.05,
+            "y": 0.2,
+            "at": 0.35
+          },
+          {
+            "text": "x.crew3",
+            "x": 0.05,
+            "y": 0.3,
+            "at": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "id": "s005b",
+      "say": "n.s005b",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_burning.jpg",
+        "layers": [
+          {
+            "img": "ai/ml_helicopter_side.png",
+            "x": 0.6,
+            "y": 0.34,
+            "h": 0.24,
+            "depth": 0.7,
+            "bob": 5,
+            "rotors": [
+              {
+                "x": 0.47,
+                "y": 0.07,
+                "w": 2.3684210526315788,
+                "rps": 6,
+                "tilt": 0.05
+              }
+            ],
+            "move": [
+              -200,
+              20
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.15,
+          1.05
+        ],
+        "pan": [
+          0,
+          40
+        ],
+        "smoke": true,
+        "embers": true,
+        "grade": "brightness(0.72) saturate(0.75) sepia(0.2)",
+        "tags": [
+          {
+            "text": "x.needless",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.35,
+            "sub": "x.needlessS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s005c",
+      "say": "n.s005c",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_ditch.jpg",
+        "layers": [
+          {
+            "img": "chars/calley_order.png",
+            "x": 0.28,
+            "y": 1.02,
+            "h": 0.7,
+            "depth": 0.8
+          },
+          {
+            "img": "chars/thompson_stop.png",
+            "x": 0.7,
+            "y": 1.02,
+            "h": 0.76,
+            "depth": 0.8
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "smoke": false,
+        "grade": "brightness(0.8) saturate(0.8) sepia(0.15)"
+      }
+    },
+    {
+      "id": "s005d",
+      "say": "n.s005d",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_bunker.jpg",
+        "layers": [
+          {
+            "img": "chars/villagers_group.png",
+            "x": 0.84,
+            "y": 0.92,
+            "h": 0.42,
+            "depth": 0.4
+          },
+          {
+            "img": "chars/gi_run_paddy.png",
+            "x": 0.2,
+            "y": 1.02,
+            "h": 0.36,
+            "depth": 0.9,
+            "flip": true,
+            "move": [
+              60,
+              0
+            ]
+          },
+          {
+            "img": "chars/thompson_stop.png",
+            "x": 0.56,
+            "y": 1.03,
+            "h": 0.78,
+            "depth": 0.8
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.06
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "smoke": false,
+        "grade": "brightness(0.8) saturate(0.8) sepia(0.15)"
+      }
+    },
+    {
+      "id": "s005e",
+      "say": "n.s005e",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hamlet_dawn.jpg",
+        "layers": [
+          {
+            "img": "chars/huey_landing.png",
+            "x": 0.6,
+            "y": 0.62,
+            "h": 0.42,
+            "depth": 0.6,
+            "bob": 4
+          },
+          {
+            "img": "chars/villagers_group.png",
+            "x": 0.3,
+            "y": 1.02,
+            "h": 0.5,
+            "depth": 0.9,
+            "move": [
+              120,
+              0
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.06
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "wash": {
+          "x": 0.6,
+          "y": 0.66
+        },
+        "grade": "brightness(0.92) saturate(0.9)",
+        "tags": [
+          {
+            "text": "x.trips",
+            "sub": "x.tripsS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s005f",
+      "say": "n.s005f",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_ditch.jpg",
+        "layers": [
+          {
+            "img": "chars/crew_child.png",
+            "x": 0.4,
+            "y": 1.02,
+            "h": 0.75,
+            "depth": 0.8,
+            "move": [
+              120,
+              0
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "smoke": false,
+        "grade": "brightness(0.8) saturate(0.8) sepia(0.15)",
+        "glow": {
+          "x": 0.4,
+          "y": 0.4,
+          "r": 0.4,
+          "color": "rgba(255,230,180,0.3)"
+        },
+        "tags": [
+          {
+            "text": "x.hosp",
+            "x": 0.05,
+            "y": 0.12,
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "s005g",
+      "say": "n.s005g",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_lz_dusk.jpg",
+        "layers": [
+          {
+            "img": "ai/ml_helicopter_side.png",
+            "x": 0.3,
+            "y": 0.86,
+            "h": 0.3,
+            "depth": 0.5,
+            "bob": 0,
+            "rotors": [
+              {
+                "x": 0.47,
+                "y": 0.07,
+                "w": 2.3684210526315788,
+                "rps": 6,
+                "tilt": 0.05
+              }
+            ]
+          },
+          {
+            "img": "chars/thompson_stop.png",
+            "x": 0.66,
+            "y": 1.02,
+            "h": 0.7,
+            "depth": 0.8
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.06
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "grade": "brightness(0.95) saturate(0.85)",
+        "tint": "rgba(255,240,210,0.1)",
+        "tags": [
+          {
+            "text": "x.report",
+            "x": 0.05,
+            "y": 0.12,
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s005h",
+      "say": "n.s005h",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_tent_night.jpg",
+        "layers": [
+          {
+            "img": "chars/officers_map.png",
+            "x": 0.55,
+            "y": 0.98,
+            "h": 0.6,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.1,
+          1
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "glow": {
+          "x": 0.71,
+          "y": 0.6,
+          "r": 0.3
+        },
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "stamp": {
+          "text": "x.diluted",
+          "sub": "x.dilutedS",
+          "at": 0.35,
+          "size": 120
+        }
+      }
+    },
+    {
+      "id": "s006a",
+      "say": "n.s006a",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_tent_night.jpg",
+        "layers": [
+          {
+            "img": "chars/officer_typing.png",
+            "x": 0.745,
+            "y": 0.97,
+            "h": 0.62,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.1
+        ],
+        "pan": [
+          0,
+          -30
+        ],
+        "glow": {
+          "x": 0.71,
+          "y": 0.6,
+          "r": 0.3
+        },
+        "dust": true,
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "tags": [
+          {
+            "text": "x.rep2028",
+            "sub": "x.rep2028S",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "s006b",
+      "say": "n.s006b",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_tent_night.jpg",
+        "layers": [
+          {
+            "img": "chars/officer_typing.png",
+            "x": 0.6,
+            "y": 1.05,
+            "h": 0.85,
+            "depth": 0.7
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.15,
+          1.25
+        ],
+        "pan": [
+          -80,
+          -40
+        ],
+        "glow": {
+          "x": 0.71,
+          "y": 0.6,
+          "r": 0.3
+        },
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "stamp": {
+          "text": "x.skirmish",
+          "sub": "x.skirmishS",
+          "at": 0.3,
+          "x": 0.38,
+          "size": 120
+        }
+      }
+    },
+    {
+      "id": "s006c",
+      "say": "n.s006c",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_tent_night.jpg",
+        "layers": [
+          {
+            "img": "chars/colonel_sign.png",
+            "x": 0.6,
+            "y": 1,
+            "h": 0.7,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "glow": {
+          "x": 0.71,
+          "y": 0.6,
+          "r": 0.3
+        },
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "tags": [
+          {
+            "text": "x.hend",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.1
+          },
+          {
+            "text": "x.acc",
+            "sub": "x.accS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.2,
+            "at": 0.45
+          }
+        ]
+      }
+    },
+    {
+      "id": "s006d",
+      "say": "n.s006d",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_tent_night.jpg",
+        "layers": [
+          {
+            "img": "chars/colonel_sign.png",
+            "x": 0.6,
+            "y": 1.1,
+            "h": 0.95,
+            "depth": 0.7
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.12,
+          1.2
+        ],
+        "pan": [
+          -40,
+          -20
+        ],
+        "glow": {
+          "x": 0.71,
+          "y": 0.6,
+          "r": 0.3
+        },
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "tags": [
+          {
+            "text": "x.prop",
+            "sub": "x.propS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "s006e",
+      "say": "n.s006e",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hearing_room.jpg",
+        "layers": [
+          {
+            "img": "chars/panel_officers.png",
+            "x": 0.36,
+            "y": 0.95,
+            "h": 0.5,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tags": [
+          {
+            "text": "x.every",
+            "sub": "x.everyS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s006f",
+      "say": "n.s006f",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_lz_dusk.jpg",
+        "layers": [
+          {
+            "img": "chars/photographer_ref.png",
+            "x": 0.6,
+            "y": 1.02,
+            "h": 0.78,
+            "depth": 0.8
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "grade": "brightness(0.78) saturate(0.8) sepia(0.18) contrast(1.05)",
+        "tags": [
+          {
+            "text": "x.haeb",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.1
+          },
+          {
+            "text": "x.haebS",
+            "x": 0.05,
+            "y": 0.2,
+            "at": 0.45
+          }
+        ]
+      }
+    },
+    {
+      "id": "s006g",
+      "say": "n.s006g",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_helmet_dusk.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_walk_smoke.png",
+            "x": 0.5,
+            "y": 1.1,
+            "h": 0.4,
+            "depth": 0.9,
+            "move": [
+              0,
+              -20
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.1
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "dust": true,
+        "grade": "brightness(0.8) saturate(0.8)",
+        "tags": [
+          {
+            "text": "x.year",
+            "x": 0.05,
+            "y": 0.12,
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s007a",
+      "say": "n.s007a",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_livingroom_1969.jpg",
+        "layers": [
+          {
+            "img": "chars/veteran_letter.png",
+            "x": 0.58,
+            "y": 0.95,
+            "h": 0.66,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          20,
+          -20
+        ],
+        "glow": {
+          "x": 0.62,
+          "y": 0.45,
+          "r": 0.3
+        },
+        "grade": "brightness(0.7) saturate(0.85)",
+        "tint": "rgba(30,40,80,0.3)",
+        "tags": [
+          {
+            "text": "x.riden",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.1
+          },
+          {
+            "text": "x.ridenS",
+            "x": 0.05,
+            "y": 0.2,
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "s007b",
+      "say": "n.s007b",
+      "v": {
+        "kind": "cutouts",
+        "items": [
+          {
+            "src": "pd/ridenhour_letter_head.png",
+            "x": 0.3,
+            "y": 0.42,
+            "w": 0.38,
+            "rot": -3,
+            "caption": "t.letter",
+            "delay": 0.2
+          },
+          {
+            "src": "chars/veteran_letter.png",
+            "x": 0.74,
+            "y": 0.5,
+            "w": 0.32,
+            "rot": 2,
+            "caption": "x.toSec",
+            "delay": 1.2
+          }
+        ],
+        "headline": "x.letterH"
+      }
+    },
+    {
+      "id": "s007c",
+      "say": "n.s007c",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_tent_night.jpg",
+        "layers": [
+          {
+            "img": "chars/officers_map.png",
+            "x": 0.6,
+            "y": 0.98,
+            "h": 0.62,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "glow": {
+          "x": 0.71,
+          "y": 0.6,
+          "r": 0.3
+        },
+        "grade": "brightness(0.72) saturate(0.85) sepia(0.15) contrast(1.05)",
+        "tags": [
+          {
+            "text": "x.invest",
+            "x": 0.05,
+            "y": 0.12,
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s007d",
+      "say": "n.s007d",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_courtroom.jpg",
+        "layers": [
+          {
+            "img": "chars/calley_trial.png",
+            "x": 0.62,
+            "y": 1,
+            "h": 0.7,
+            "depth": 0.6
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tags": [
+          {
+            "text": "x.c102",
+            "sub": "x.c102S",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "s007e",
+      "say": "n.s007e",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_newsstand_1969.jpg",
+        "layers": [
+          {
+            "img": "chars/reporter_phone.png",
+            "x": 0.5,
+            "y": 1,
+            "h": 0.75,
+            "depth": 0.7
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.06
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tint": "rgba(30,30,40,0.35)",
+        "tags": [
+          {
+            "text": "x.hersh",
+            "x": 0.05,
+            "y": 0.12,
+            "at": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "s007f",
+      "say": "n.s007f",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_newsstand_1969.jpg",
+        "layers": [
+          {
+            "img": "chars/photographer_ref.png",
+            "x": 0.3,
+            "y": 1.02,
+            "h": 0.7,
+            "depth": 0.8
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.1,
+          1
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tags": [
+          {
+            "text": "x.life",
+            "sub": "x.lifeS",
+            "big": true,
+            "x": 0.45,
+            "y": 0.1,
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s007g",
+      "say": "n.s007g",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_livingroom_1969.jpg",
+        "layers": [
+          {
+            "img": "chars/reader_1969.png",
+            "x": 0.69,
+            "y": 0.85,
+            "h": 0.64,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.12,
+          1.2
+        ],
+        "pan": [
+          -60,
+          -20
+        ],
+        "glow": {
+          "x": 0.28,
+          "y": 0.55,
+          "r": 0.3,
+          "color": "rgba(140,180,255,0.4)"
+        },
+        "grade": "brightness(0.82) saturate(0.9)"
+      }
+    },
+    {
+      "id": "s008a",
+      "say": "n.s008a",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hearing_room.jpg",
+        "layers": [
+          {
+            "img": "chars/panel_officers.png",
+            "x": 0.38,
+            "y": 0.95,
+            "h": 0.52,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tags": [
+          {
+            "text": "x.peersN",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.15
+          },
+          {
+            "text": "x.peersD",
+            "x": 0.05,
+            "y": 0.2,
+            "at": 0.45
+          }
+        ]
+      }
+    },
+    {
+      "id": "s008b",
+      "say": "n.s008b",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hearing_room.jpg",
+        "layers": [
+          {
+            "img": "chars/panel_officers.png",
+            "x": 0.4,
+            "y": 1.05,
+            "h": 0.75,
+            "depth": 0.7
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.1,
+          1.18
+        ],
+        "pan": [
+          -40,
+          0
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tags": [
+          {
+            "text": "x.scope1",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.1
+          },
+          {
+            "text": "x.scope2",
+            "x": 0.05,
+            "y": 0.2,
+            "at": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "id": "s008c",
+      "say": "n.s008c",
+      "v": {
+        "kind": "docscan",
+        "src": "pd/peers_v1_cover.png",
+        "source": "c.peers",
+        "stamp": "x.sent"
+      }
+    },
+    {
+      "id": "s008d",
+      "say": "n.s008d",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hearing_room.jpg",
+        "layers": [
+          {
+            "img": "chars/panel_officers.png",
+            "x": 0.62,
+            "y": 0.95,
+            "h": 0.5,
+            "depth": 0.5
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.06,
+          1
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tags": [
+          {
+            "text": "x.f1",
+            "x": 0.04,
+            "y": 0.1,
+            "at": 0.05
+          },
+          {
+            "text": "x.f2",
+            "x": 0.04,
+            "y": 0.2,
+            "at": 0.4
+          },
+          {
+            "text": "x.f3",
+            "x": 0.04,
+            "y": 0.3,
+            "at": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "id": "s008e",
+      "say": "n.s008e",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_hearing_room.jpg",
+        "layers": [
+          {
+            "img": "chars/panel_officers.png",
+            "x": 0.5,
+            "y": 1.04,
+            "h": 0.7,
+            "depth": 0.7
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tags": [
+          {
+            "text": "x.named",
+            "sub": "x.namedS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "s009a",
+      "say": "n.s009a",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_courtroom.jpg",
+        "layers": [
+          {
+            "img": "chars/panel_officers.png",
+            "x": 0.5,
+            "y": 0.82,
+            "h": 0.38,
+            "depth": 0.4
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tags": [
+          {
+            "text": "x.n12",
+            "sub": "x.n12S",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "s009b",
+      "say": "n.s009b",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_airfield_1967.jpg",
+        "layers": [
+          {
+            "img": "chars/gi_walk_smoke.png",
+            "x": 0.55,
+            "y": 1,
+            "h": 0.5,
+            "depth": 0.8,
+            "move": [
+              220,
+              -10
+            ]
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.05
+        ],
+        "pan": [
+          0,
+          30
+        ],
+        "grade": "brightness(0.92) saturate(0.9)",
+        "tags": [
+          {
+            "text": "x.acq",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.1
+          },
+          {
+            "text": "x.dis",
+            "x": 0.05,
+            "y": 0.2,
+            "at": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "id": "s009c",
+      "say": "n.s009c",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_courtroom.jpg",
+        "layers": [
+          {
+            "img": "chars/calley_trial.png",
+            "x": 0.62,
+            "y": 1,
+            "h": 0.72,
+            "depth": 0.6
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.08
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tags": [
+          {
+            "text": "x.benning",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.1
+          },
+          {
+            "text": "x.panel6",
+            "x": 0.05,
+            "y": 0.2,
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "s009d",
+      "say": "n.s009d",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_courtroom.jpg",
+        "layers": [
+          {
+            "img": "chars/calley_trial.png",
+            "x": 0.3,
+            "y": 1,
+            "h": 0.66,
+            "depth": 0.6
+          },
+          {
+            "img": "chars/medina_ref.png",
+            "x": 0.76,
+            "y": 1.02,
+            "h": 0.78,
+            "depth": 0.8
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.06
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tags": [
+          {
+            "text": "x.cSays",
+            "x": 0.04,
+            "y": 0.1,
+            "at": 0.05
+          },
+          {
+            "text": "x.mSays",
+            "x": 0.6,
+            "y": 0.1,
+            "at": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "id": "s009e",
+      "say": "n.s009e",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_courtroom.jpg",
+        "layers": [
+          {
+            "img": "chars/calley_trial.png",
+            "x": 0.6,
+            "y": 1.08,
+            "h": 0.95,
+            "depth": 0.7
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.1,
+          1.16
+        ],
+        "pan": [
+          -40,
+          0
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "tags": [
+          {
+            "text": "x.g22",
+            "sub": "x.g22S",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s009f",
+      "say": "n.s009f",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_courtroom.jpg",
+        "layers": [
+          {
+            "img": "chars/panel_officers.png",
+            "x": 0.5,
+            "y": 0.82,
+            "h": 0.38,
+            "depth": 0.4
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.06,
+          1
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "grade": "brightness(0.85) saturate(0.9) sepia(0.08)",
+        "stamp": {
+          "text": "x.life2",
+          "sub": "x.life2S",
+          "at": 0.15,
+          "size": 150
+        }
+      }
+    },
+    {
+      "id": "s009g",
+      "say": "n.s009g",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_courtroom.jpg",
+        "layers": [
+          {
+            "img": "chars/calley_trial.png",
+            "x": 0.62,
+            "y": 1,
+            "h": 0.7,
+            "depth": 0.6
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1,
+          1.06
+        ],
+        "pan": [
+          0,
+          -20
+        ],
+        "grade": "brightness(0.75) saturate(0.8)",
+        "tags": [
+          {
+            "text": "x.r1",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.02
+          },
+          {
+            "text": "x.r2",
+            "x": 0.05,
+            "y": 0.2,
+            "at": 0.25
+          },
+          {
+            "text": "x.r3",
+            "x": 0.05,
+            "y": 0.3,
+            "at": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "id": "s009h",
+      "say": "n.s009h",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_courtroom.jpg",
+        "layers": [
+          {
+            "img": "chars/calley_trial.png",
+            "x": 0.62,
+            "y": 1,
+            "h": 0.7,
+            "depth": 0.6
+          }
+        ],
+        "label": "t.illus",
+        "zoom": [
+          1.08,
+          1
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "grade": "brightness(0.65) saturate(0.7)",
+        "tags": [
+          {
+            "text": "x.parole",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.1
+          },
+          {
+            "text": "x.only",
+            "sub": "x.onlyS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.2,
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "s010a",
+      "say": "n.s010a",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_memorial_today.jpg",
+        "layers": [],
+        "zoom": [
+          1,
+          1.1
+        ],
+        "pan": [
+          0,
+          -30
+        ],
+        "smoke": false,
+        "dust": true,
+        "tags": [
+          {
+            "text": "x.ml4",
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.1
+          },
+          {
+            "text": "x.ty",
+            "x": 0.05,
+            "y": 0.2,
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "s010b",
+      "say": "n.s010b",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_memorial_today.jpg",
+        "layers": [],
+        "zoom": [
+          1.15,
+          1.25
+        ],
+        "pan": [
+          -60,
+          0
+        ],
+        "dust": true
+      }
+    },
+    {
+      "id": "s010c",
+      "say": "n.s010c",
+      "v": {
+        "kind": "stage",
+        "bg": "ai/ml_memorial_today.jpg",
+        "layers": [],
+        "zoom": [
+          1.25,
+          1.12
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "dust": true,
+        "tags": [
+          {
+            "text": "x.peersN2",
+            "sub": "x.peersN2S",
+            "big": true,
+            "x": 0.05,
+            "y": 0.1,
+            "at": 0.05
+          },
+          {
+            "text": "x.dist",
+            "sub": "x.distS",
+            "big": true,
+            "x": 0.05,
+            "y": 0.45,
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "s010d",
+      "say": "n.s010d",
+      "v": {
+        "kind": "cutouts",
+        "items": [
+          {
+            "src": "ai/ml_helicopter_side.png",
+            "x": 0.18,
+            "y": 0.45,
+            "w": 0.26,
+            "rot": -3,
+            "caption": "t.pilot",
+            "delay": 0.1
+          },
+          {
+            "src": "pd/ridenhour_letter_head.png",
+            "x": 0.45,
+            "y": 0.35,
+            "w": 0.26,
+            "rot": 2,
+            "caption": "t.letter",
+            "delay": 0.9
+          },
+          {
+            "src": "chars/photographer_ref.png",
+            "x": 0.68,
+            "y": 0.5,
+            "w": 0.1,
+            "rot": -2,
+            "caption": "t.photos",
+            "delay": 1.7
+          },
+          {
+            "src": "chars/veteran_letter.png",
+            "x": 0.87,
+            "y": 0.48,
+            "w": 0.18,
+            "rot": 3,
+            "caption": "x.spoke",
+            "delay": 2.5
+          }
+        ],
+        "headline": "x.notBuried"
+      }
+    },
+    {
+      "id": "s010e",
+      "say": "n.s010e",
+      "v": {
+        "kind": "title",
+        "text": "t.title",
+        "sub": "x.srcDesc",
+        "bg": "ai/ml_memorial_today.jpg"
+      },
+      "pad": 2.5
+    }
+  ],
+  "cues": [
+    {
+      "at": "s001a",
+      "src": "assets/audio/music_tension.mp3"
+    },
+    {
+      "at": "s002a",
+      "src": "assets/audio/music_investigate.mp3"
+    },
+    {
+      "at": "s004a",
+      "src": "assets/audio/music_tension.mp3"
+    },
+    {
+      "at": "s005a",
+      "src": "assets/audio/music_calm.mp3"
+    },
+    {
+      "at": "s006a",
+      "src": "assets/audio/music_investigate.mp3"
+    },
+    {
+      "at": "s008a",
+      "src": "assets/audio/music_calm.mp3"
+    },
+    {
+      "at": "s010a",
+      "src": "assets/audio/music_grief.mp3"
+    }
+  ],
+  "duck": 0.35
+}

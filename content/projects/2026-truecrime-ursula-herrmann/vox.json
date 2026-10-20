@@ -1,0 +1,2851 @@
+{
+ "project": "2026-truecrime-ursula-herrmann",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": "vi-VN-NamMinhNeural",
+ "rate": "-2%",
+ "music": "assets/audio/music.mp3",
+ "tts": {
+  "Ursula": "U-xu-la",
+  "Herrmann": "Hơ-man",
+  "Eching am Ammersee": "Ê-khinh am A-mơ-dê",
+  "Eching": "Ê-khinh",
+  "Ammersee": "A-mơ-dê",
+  "Schondorf": "Sôn-đoóc",
+  "Seeweg": "Dê-véc",
+  "Weingarten": "Vai-nơ-gác-tần",
+  "Perfallhütte": "Pe-phan-huýt-tơ",
+  "Bayern 3": "Bai-ơn ba",
+  "Bayern": "Bai-ơn",
+  "München": "Muyn-khần",
+  "Landsberg": "Lan-xbéc",
+  "Augsburger Allgemeine": "Au-xbuốc-gơ An-gơ-mai-nơ",
+  "Augsburg": "Au-xbuốc",
+  "Fiat 600": "Phi-át sáu trăm",
+  "Grundig": "Grun-đích",
+  "TK 248": "tê ca hai bốn tám",
+  "Werner M.": "Vec-nơ Em",
+  "Michael": "Mi-kha-en",
+  "Porst": "Pót-xtơ",
+  "Spiegel": "Xpi-gơn",
+  "Guardian": "Ga-đi-ần",
+  "Abendzeitung": "A-bần-xai-tung",
+  "Zürich": "Duy-rích",
+  "DNA": "đê en a",
+  "ti-vi": "ti vi",
+  "sô-cô-la": "sô cô la",
+  "ô-xy": "ô xy"
+ },
+ "shots": [
+  {
+   "id": "H01",
+   "say": "n.H01",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_lakepath.jpg",
+    "label": "c.ai",
+    "to": 1.1,
+    "x": 0.4
+   }
+  },
+  {
+   "id": "H02",
+   "say": "n.H02",
+   "pad": 0.6,
+   "v": {
+    "kind": "stamp",
+    "text": "u.H02.1",
+    "sub": "u.H02.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "H03",
+   "say": "n.H03",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_clearing.jpg",
+    "label": "c.ai",
+    "to": 1.12,
+    "y": 0.6
+   }
+  },
+  {
+   "id": "H04",
+   "say": "n.H04",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_verdict.png",
+    "wide": true,
+    "tape": "c.court",
+    "title": "u.H04.1",
+    "sub": "u.H04.2",
+    "aspect": 4
+   }
+  },
+  {
+   "id": "H05",
+   "say": "n.H05",
+   "v": {
+    "kind": "cutouts",
+    "items": [
+     {
+      "src": "cc/grundig_tk121.jpg",
+      "x": 0.3,
+      "y": 0.47,
+      "w": 0.44,
+      "rot": -3,
+      "caption": "u.H05.1"
+     }
+    ],
+    "stamp": "u.H05.2"
+   }
+  },
+  {
+   "id": "H06",
+   "say": "n.H06",
+   "v": {
+    "kind": "stamp",
+    "text": "u.H06.1",
+    "sub": "u.H06.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "H07",
+   "say": "n.H07",
+   "v": {
+    "kind": "stamp",
+    "text": "u.H07.1",
+    "sub": "u.H07.2",
+    "dark": true
+   }
+  },
+  {
+   "id": "H08",
+   "say": "n.H08",
+   "pad": 0.6,
+   "v": {
+    "kind": "doc",
+    "cite": "u.H08.1",
+    "quote": "u.H08.2",
+    "mark": "ich war es nicht",
+    "quoteVi": "u.H08.3"
+   }
+  },
+  {
+   "id": "H09",
+   "say": "n.H09",
+   "pad": 1,
+   "v": {
+    "kind": "title",
+    "text": "u.H09.1",
+    "sub": "u.H09.2"
+   }
+  },
+  {
+   "id": "H10",
+   "say": "n.H10",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_cover.png",
+    "tape": "c.court",
+    "title": "u.H10.1",
+    "sub": "u.H10.2"
+   }
+  },
+  {
+   "id": "H11",
+   "say": "n.H11",
+   "pad": 0.6,
+   "v": {
+    "kind": "stamp",
+    "text": "u.H11.1",
+    "sub": "u.H11.2",
+    "dark": true
+   }
+  },
+  {
+   "id": "C101",
+   "say": "n.C101",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "01",
+    "title": "u.C101.1"
+   }
+  },
+  {
+   "id": "C102",
+   "say": "n.C102",
+   "v": {
+    "kind": "geomap",
+    "src": "demap.json",
+    "provinces": true,
+    "fill": {
+     "DEU": "#efe0b4"
+    },
+    "cam": [
+     {
+      "at": 0,
+      "pt": "de",
+      "zoom": 0.55
+     },
+     {
+      "at": 0.55,
+      "pt": "eching",
+      "zoom": 3
+     }
+    ],
+    "labels": [
+     {
+      "text": "u.C102.1",
+      "pt": "de",
+      "at": 0.05,
+      "style": "country",
+      "size": 64
+     },
+     {
+      "text": "u.C102.2",
+      "pt": "bayern",
+      "at": 0.3,
+      "style": "country",
+      "size": 34
+     },
+     {
+      "text": "u.C102.3",
+      "pt": "muenchen",
+      "at": 0.6,
+      "style": "box",
+      "dx": 90,
+      "dy": -40
+     },
+     {
+      "text": "u.C102.4",
+      "pt": "eching",
+      "at": 0.7,
+      "style": "box",
+      "dx": -170,
+      "dy": -50
+     }
+    ],
+    "bursts": [
+     {
+      "pt": "eching",
+      "at": 0.68
+     }
+    ],
+    "title": "u.C102.5"
+   }
+  },
+  {
+   "id": "C103",
+   "say": "n.C103",
+   "v": {
+    "kind": "cutouts",
+    "items": [
+     {
+      "src": "cc/ammersee_aerial.jpg",
+      "x": 0.5,
+      "y": 0.46,
+      "w": 0.74,
+      "rot": -2,
+      "caption": "u.C103.1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C104",
+   "say": "n.C104",
+   "v": {
+    "kind": "cutouts",
+    "items": [
+     {
+      "src": "cc/eching_church.jpg",
+      "x": 0.34,
+      "y": 0.47,
+      "w": 0.46,
+      "rot": -3,
+      "caption": "u.C104.1"
+     }
+    ],
+    "stamp": "u.C104.2",
+    "stampSub": "u.C104.3"
+   }
+  },
+  {
+   "id": "C105",
+   "say": "n.C105",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C105.1",
+    "sub": "u.C105.2"
+   }
+  },
+  {
+   "id": "C106",
+   "say": "n.C106",
+   "v": {
+    "kind": "mapphoto",
+    "src": "cc/map1899_lake.jpg",
+    "aspect": 0.9894613583138173,
+    "cam": [
+     {
+      "at": 0,
+      "x": 0.45,
+      "y": 0.45,
+      "zoom": 1.2
+     },
+     {
+      "at": 0.5,
+      "x": 0.42,
+      "y": 0.41,
+      "zoom": 2.4
+     }
+    ],
+    "paths": [
+     {
+      "pts": [
+       [
+        0.4612,
+        0.3412
+       ],
+       [
+        0.4525,
+        0.3628
+       ],
+       [
+        0.4395,
+        0.3864
+       ],
+       [
+        0.4287,
+        0.4079
+       ],
+       [
+        0.4191,
+        0.4315
+       ],
+       [
+        0.4091,
+        0.4573
+       ],
+       [
+        0.3992,
+        0.4787
+       ],
+       [
+        0.3918,
+        0.495
+       ]
+      ],
+      "at": 0.3,
+      "dur": 0.35
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.4655,
+      "y": 0.3176,
+      "at": 0.1,
+      "label": "u.C106.1",
+      "dx": 30,
+      "dy": -60
+     },
+     {
+      "x": 0.331,
+      "y": 0.4808,
+      "at": 0.2,
+      "label": "u.C106.2",
+      "dx": -30,
+      "dy": 20
+     },
+     {
+      "x": 0.385,
+      "y": 0.44,
+      "at": 0.65,
+      "kind": "dot",
+      "label": "u.C106.3",
+      "dx": -30,
+      "dy": -70
+     }
+    ],
+    "title": "u.C106.4",
+    "tape": "c.map1899"
+   }
+  },
+  {
+   "id": "C107",
+   "say": "n.C107",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C107.1",
+    "sub": "u.H02.1",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C108",
+   "say": "n.C108",
+   "v": {
+    "kind": "cutouts",
+    "items": [
+     {
+      "src": "cc/schondorf_autumn.jpg",
+      "x": 0.4,
+      "y": 0.47,
+      "w": 0.56,
+      "rot": 2,
+      "caption": "u.C108.1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C109",
+   "say": "n.C109",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C109.1",
+    "sub": "u.C109.2"
+   }
+  },
+  {
+   "id": "C110",
+   "say": "n.C110",
+   "v": {
+    "kind": "stats",
+    "items": [
+     {
+      "value": "u.C110.1",
+      "label": "u.C110.2",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C111",
+   "say": "n.C111",
+   "v": {
+    "kind": "mapphoto",
+    "src": "cc/map1899_lake.jpg",
+    "aspect": 0.9894613583138173,
+    "cam": [
+     {
+      "at": 0,
+      "x": 0.42,
+      "y": 0.41,
+      "zoom": 2.4
+     },
+     {
+      "at": 0.5,
+      "x": 0.41,
+      "y": 0.45,
+      "zoom": 3.6
+     }
+    ],
+    "paths": [
+     {
+      "pts": [
+       [
+        0.4612,
+        0.3412
+       ],
+       [
+        0.4525,
+        0.3628
+       ],
+       [
+        0.4395,
+        0.3864
+       ],
+       [
+        0.4287,
+        0.4079
+       ],
+       [
+        0.4191,
+        0.4315
+       ],
+       [
+        0.4091,
+        0.4573
+       ],
+       [
+        0.3992,
+        0.4787
+       ],
+       [
+        0.3918,
+        0.495
+       ]
+      ],
+      "at": 0,
+      "dur": 0.01
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.4091,
+      "y": 0.4573,
+      "at": 0.45,
+      "kind": "x",
+      "label": "u.H02.2",
+      "dx": 44,
+      "dy": -20
+     }
+    ],
+    "title": "u.C111.1",
+    "tape": "c.map1899"
+   }
+  },
+  {
+   "id": "C112",
+   "say": "n.C112",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C112.1",
+    "sub": "u.C112.2",
+    "bg": "ai/ai_lakepath.jpg",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C113",
+   "say": "n.C113",
+   "v": {
+    "kind": "cutouts",
+    "items": [
+     {
+      "src": "cc/phone_fetap.jpg",
+      "x": 0.5,
+      "y": 0.46,
+      "w": 0.44,
+      "rot": -3,
+      "caption": "u.C113.1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C114",
+   "say": "n.C114",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_bike.jpg",
+    "label": "c.ai",
+    "from": 1.08,
+    "to": 1,
+    "x": 0.3
+   }
+  },
+  {
+   "id": "C115",
+   "say": "n.C115",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C115.1",
+    "sub": "u.C115.2",
+    "bg": "ai/ai_bike.jpg",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C116",
+   "say": "n.C116",
+   "pad": 0.8,
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_bike.jpg",
+    "label": "c.ai",
+    "from": 1,
+    "to": 1.12,
+    "x": 0.3,
+    "dim": 0.35
+   }
+  },
+  {
+   "id": "C117",
+   "say": "n.C117",
+   "v": {
+    "kind": "mapphoto",
+    "src": "cc/map1899_lake.jpg",
+    "aspect": 0.9894613583138173,
+    "cam": [
+     {
+      "at": 0,
+      "x": 0.41,
+      "y": 0.45,
+      "zoom": 3.6
+     },
+     {
+      "at": 0.45,
+      "x": 0.395,
+      "y": 0.44,
+      "zoom": 4.2
+     }
+    ],
+    "paths": [
+     {
+      "pts": [
+       [
+        0.4612,
+        0.3412
+       ],
+       [
+        0.4525,
+        0.3628
+       ],
+       [
+        0.4395,
+        0.3864
+       ],
+       [
+        0.4287,
+        0.4079
+       ],
+       [
+        0.4191,
+        0.4315
+       ],
+       [
+        0.4091,
+        0.4573
+       ],
+       [
+        0.3992,
+        0.4787
+       ],
+       [
+        0.3918,
+        0.495
+       ]
+      ],
+      "at": 0,
+      "dur": 0.01
+     },
+     {
+      "pts": [
+       [
+        0.4091,
+        0.4573
+       ],
+       [
+        0.394,
+        0.444
+       ],
+       [
+        0.377,
+        0.4255
+       ]
+      ],
+      "at": 0.3,
+      "dur": 0.3,
+      "color": "ink",
+      "dash": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.4091,
+      "y": 0.4573,
+      "at": 0,
+      "kind": "x"
+     },
+     {
+      "x": 0.377,
+      "y": 0.4255,
+      "at": 0.6,
+      "kind": "box",
+      "label": "u.C117.1",
+      "dx": -40,
+      "dy": -70
+     }
+    ],
+    "title": "u.C117.2",
+    "tape": "c.map1899"
+   }
+  },
+  {
+   "id": "C118",
+   "say": "n.C118",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C118.1",
+    "sub": "u.C118.2",
+    "bg": "ai/ai_cutletters.jpg"
+   }
+  },
+  {
+   "id": "C201",
+   "say": "n.C201",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "02",
+    "title": "u.C201.1"
+   }
+  },
+  {
+   "id": "C202",
+   "say": "n.C202",
+   "v": {
+    "kind": "calls",
+    "days": [
+     {
+      "label": "u.C202.1",
+      "n": 7
+     },
+     {
+      "label": "u.C202.2",
+      "n": 4,
+      "sub": "u.C202.3"
+     }
+    ],
+    "from": 0,
+    "upto": 1,
+    "note": "u.C202.4"
+   }
+  },
+  {
+   "id": "C203",
+   "say": "n.C203",
+   "v": {
+    "kind": "calls",
+    "days": [
+     {
+      "label": "u.C202.1",
+      "n": 7
+     },
+     {
+      "label": "u.C202.2",
+      "n": 4,
+      "sub": "u.C202.3"
+     }
+    ],
+    "from": 1,
+    "upto": 7,
+    "note": "u.C202.4"
+   }
+  },
+  {
+   "id": "C204",
+   "say": "n.C204",
+   "v": {
+    "kind": "calls",
+    "days": [
+     {
+      "label": "u.C202.1",
+      "n": 7
+     },
+     {
+      "label": "u.C202.2",
+      "n": 4,
+      "sub": "u.C202.3"
+     }
+    ],
+    "from": 7,
+    "note": "u.C202.4"
+   }
+  },
+  {
+   "id": "C205",
+   "say": "n.C205",
+   "v": {
+    "kind": "wave",
+    "rows": [
+     "u.C205.1"
+    ],
+    "show": 1,
+    "note": "u.C205.2"
+   }
+  },
+  {
+   "id": "C206",
+   "say": "n.C206",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_phonebooth.jpg",
+    "label": "c.ai",
+    "to": 1.08,
+    "x": 0.25
+   }
+  },
+  {
+   "id": "C207",
+   "say": "n.C207",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_calls.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0,
+     0,
+     1,
+     0.3
+    ],
+    "title": "u.C207.1",
+    "sub": "u.C207.2",
+    "aspect": 2.6989
+   }
+  },
+  {
+   "id": "C208",
+   "say": "n.C208",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_mailbox.jpg",
+    "label": "c.ai",
+    "to": 1.08,
+    "x": 0.3
+   }
+  },
+  {
+   "id": "C209",
+   "say": "n.C209",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_cutletters.jpg",
+    "label": "c.ai",
+    "to": 1.1
+   }
+  },
+  {
+   "id": "C210",
+   "say": "n.C210",
+   "v": {
+    "kind": "letter",
+    "lines": [
+     "u.C210.1",
+     "u.C210.2"
+    ],
+    "hot": [
+     1
+    ],
+    "vi": "u.C210.3",
+    "tape": "u.C210.4",
+    "seed": "A"
+   }
+  },
+  {
+   "id": "C211",
+   "say": "n.C211",
+   "v": {
+    "kind": "letter",
+    "lines": [
+     "u.C211.1"
+    ],
+    "vi": "u.C211.2",
+    "tape": "u.C210.4",
+    "seed": "B"
+   }
+  },
+  {
+   "id": "C212",
+   "say": "n.C212",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_explain.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0,
+     0.38,
+     1,
+     0.42
+    ],
+    "title": "u.C212.1",
+    "sub": "u.C212.2",
+    "aspect": 4.1667
+   }
+  },
+  {
+   "id": "C213",
+   "say": "n.C213",
+   "v": {
+    "kind": "letter",
+    "lines": [
+     "u.C213.1",
+     "u.C213.2",
+     "u.C213.3"
+    ],
+    "hot": [
+     2
+    ],
+    "vi": "u.C213.4",
+    "tape": "u.C210.4",
+    "seed": "C"
+   }
+  },
+  {
+   "id": "C214",
+   "say": "n.C214",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_letter.png",
+    "tape": "c.court",
+    "mark": [
+     0,
+     0.2,
+     1,
+     0.1
+    ],
+    "title": "u.C214.1",
+    "sub": "u.C214.2"
+   }
+  },
+  {
+   "id": "C215",
+   "say": "n.C215",
+   "v": {
+    "kind": "geomap",
+    "src": "demap.json",
+    "provinces": true,
+    "fill": {
+     "DEU": "#efe0b4"
+    },
+    "cam": [
+     {
+      "at": 0,
+      "pt": "eching",
+      "zoom": 5
+     },
+     {
+      "at": 0.5,
+      "pt": "muenchen",
+      "zoom": 4.6
+     }
+    ],
+    "labels": [
+     {
+      "text": "u.C215.1",
+      "pt": "landsberg",
+      "at": 0.1,
+      "style": "box",
+      "dx": -20,
+      "dy": 46
+     },
+     {
+      "text": "u.C215.2",
+      "pt": "muenchen",
+      "at": 0.5,
+      "style": "box",
+      "dy": -56
+     },
+     {
+      "text": "u.C106.1",
+      "pt": "eching",
+      "at": 0.05,
+      "style": "place",
+      "dy": -36
+     }
+    ],
+    "bursts": [
+     {
+      "pt": "muenchen",
+      "at": 0.5
+     }
+    ],
+    "title": "u.C215.3"
+   }
+  },
+  {
+   "id": "C216",
+   "say": "n.C216",
+   "v": {
+    "kind": "letter",
+    "lines": [
+     "u.C216.1",
+     "u.C216.2"
+    ],
+    "hot": [
+     0
+    ],
+    "vi": "u.C216.3",
+    "tape": "u.C216.4",
+    "seed": "D"
+   }
+  },
+  {
+   "id": "C217",
+   "say": "n.C217",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C217.1",
+    "sub": "u.C217.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C218",
+   "say": "n.C218",
+   "v": {
+    "kind": "calls",
+    "days": [
+     {
+      "label": "u.C202.1",
+      "n": 7
+     },
+     {
+      "label": "u.C202.2",
+      "n": 4,
+      "sub": "u.C218.1"
+     }
+    ],
+    "from": 11,
+    "note": "u.C218.2"
+   }
+  },
+  {
+   "id": "C219",
+   "say": "n.C219",
+   "pad": 0.8,
+   "v": {
+    "kind": "stamp",
+    "text": "u.C219.1",
+    "dark": true
+   }
+  },
+  {
+   "id": "C220",
+   "say": "n.C220",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_lebens.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0,
+     0.48,
+     1,
+     0.42
+    ],
+    "title": "u.C220.1",
+    "sub": "u.C220.2",
+    "aspect": 3.5185
+   }
+  },
+  {
+   "id": "C301",
+   "say": "n.C301",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "03",
+    "title": "u.C301.1"
+   }
+  },
+  {
+   "id": "C302",
+   "say": "n.C302",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_search.jpg",
+    "label": "c.ai",
+    "to": 1.08
+   }
+  },
+  {
+   "id": "C303",
+   "say": "n.C303",
+   "v": {
+    "kind": "stats",
+    "items": [
+     {
+      "value": "u.C303.1",
+      "label": "u.C303.2"
+     },
+     {
+      "value": "u.C303.3",
+      "label": "u.C303.4",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C304",
+   "say": "n.C304",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_found.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0,
+     0,
+     1,
+     0.4
+    ],
+    "title": "u.C304.1",
+    "sub": "u.C220.2",
+    "aspect": 4.1304
+   }
+  },
+  {
+   "id": "C305",
+   "say": "n.C305",
+   "v": {
+    "kind": "stamp",
+    "count": 19,
+    "sub": "u.C305.1"
+   }
+  },
+  {
+   "id": "C306",
+   "say": "n.C306",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_clearing.jpg",
+    "label": "c.ai",
+    "from": 1.12,
+    "to": 1,
+    "y": 0.6
+   }
+  },
+  {
+   "id": "C307",
+   "say": "n.C307",
+   "v": {
+    "kind": "boxplan",
+    "stage": 1
+   }
+  },
+  {
+   "id": "C308",
+   "say": "n.C308",
+   "v": {
+    "kind": "boxplan",
+    "stage": 2
+   }
+  },
+  {
+   "id": "C309",
+   "say": "n.C309",
+   "v": {
+    "kind": "boxplan",
+    "stage": 3
+   }
+  },
+  {
+   "id": "C310",
+   "say": "n.C310",
+   "v": {
+    "kind": "boxplan",
+    "stage": 4
+   }
+  },
+  {
+   "id": "C311",
+   "say": "n.C311",
+   "v": {
+    "kind": "checklist",
+    "title": "u.C311.1",
+    "items": [
+     {
+      "text": "u.C311.2"
+     },
+     {
+      "text": "u.C311.3"
+     },
+     {
+      "text": "u.C311.4"
+     },
+     {
+      "text": "u.C311.5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C312",
+   "say": "n.C312",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_vorsatz.png",
+    "wide": true,
+    "tape": "c.court",
+    "title": "u.C312.1",
+    "sub": "u.C312.2",
+    "aspect": 9.6
+   }
+  },
+  {
+   "id": "C313",
+   "say": "n.C313",
+   "v": {
+    "kind": "boxplan",
+    "stage": 4
+   }
+  },
+  {
+   "id": "C314",
+   "say": "n.C314",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C314.1",
+    "sub": "u.C314.2"
+   }
+  },
+  {
+   "id": "C315",
+   "say": "n.C315",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_found.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0,
+     0.55,
+     1,
+     0.45
+    ],
+    "title": "u.C315.1",
+    "sub": "u.C315.2",
+    "aspect": 4.1304
+   }
+  },
+  {
+   "id": "C316",
+   "say": "n.C316",
+   "v": {
+    "kind": "checklist",
+    "title": "u.C316.1",
+    "items": [
+     {
+      "text": "u.C316.2",
+      "mark": "x"
+     },
+     {
+      "text": "u.C316.3",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C316.4",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C316.5",
+      "mark": "dot"
+     }
+    ],
+    "hot": 0
+   }
+  },
+  {
+   "id": "C317",
+   "say": "n.C317",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C317.1",
+    "sub": "u.C317.2"
+   }
+  },
+  {
+   "id": "C318",
+   "say": "n.C318",
+   "pad": 1.4,
+   "v": {
+    "kind": "memorial",
+    "title": "u.H02.1",
+    "names": [
+     "u.C318.1"
+    ]
+   }
+  },
+  {
+   "id": "C401",
+   "say": "n.C401",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "04",
+    "title": "u.C401.1"
+   }
+  },
+  {
+   "id": "C402",
+   "say": "n.C402",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C402.1",
+    "sub": "u.C402.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C403",
+   "say": "n.C403",
+   "v": {
+    "kind": "stats",
+    "items": [
+     {
+      "value": "u.C403.1",
+      "label": "u.C403.2"
+     },
+     {
+      "value": "u.C403.3",
+      "label": "u.C403.4"
+     },
+     {
+      "value": "u.C403.5",
+      "label": "u.C403.6"
+     },
+     {
+      "value": "u.C403.7",
+      "label": "u.C403.8"
+     }
+    ],
+    "size": 110
+   }
+  },
+  {
+   "id": "C404",
+   "say": "n.C404",
+   "v": {
+    "kind": "stamp",
+    "count": 1,
+    "sub": "u.C404.1"
+   }
+  },
+  {
+   "id": "C405",
+   "say": "n.C405",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C405.1",
+    "sub": "u.C405.2"
+   }
+  },
+  {
+   "id": "C406",
+   "say": "n.C406",
+   "v": {
+    "kind": "timeline",
+    "from": 1980,
+    "to": 2012,
+    "events": [
+     {
+      "y": 1981.7,
+      "label": "u.C406.1",
+      "red": true
+     }
+    ],
+    "title": "u.C406.2"
+   }
+  },
+  {
+   "id": "C407",
+   "say": "n.C407",
+   "v": {
+    "kind": "people",
+    "items": [
+     {
+      "name": "u.C407.1",
+      "role": "u.C407.2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C408",
+   "say": "n.C408",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C408.1",
+    "sub": "u.C408.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C409",
+   "say": "n.C409",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_search.jpg",
+    "label": "c.ai",
+    "dim": 0.45,
+    "to": 1.05
+   }
+  },
+  {
+   "id": "C410",
+   "say": "n.C410",
+   "v": {
+    "kind": "timeline",
+    "from": 1980,
+    "to": 2012,
+    "shown": 1,
+    "events": [
+     {
+      "y": 1981.7,
+      "label": "u.C406.1",
+      "red": true
+     },
+     {
+      "y": 1982.15,
+      "label": "u.C410.1"
+     }
+    ],
+    "focus": 1,
+    "title": "u.C406.2"
+   }
+  },
+  {
+   "id": "C411",
+   "say": "n.C411",
+   "v": {
+    "kind": "stats",
+    "items": [
+     {
+      "value": "u.C411.1",
+      "label": "u.C411.2"
+     },
+     {
+      "value": "u.C411.3",
+      "label": "u.C411.4",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C412",
+   "say": "n.C412",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C412.1",
+    "sub": "u.C412.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C413",
+   "say": "n.C413",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C413.1",
+    "sub": "u.C413.2",
+    "dark": true
+   }
+  },
+  {
+   "id": "C414",
+   "say": "n.C414",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_zweifel.png",
+    "wide": true,
+    "tape": "c.court",
+    "title": "u.C414.1",
+    "sub": "u.C414.2",
+    "aspect": 6.9286
+   }
+  },
+  {
+   "id": "C415",
+   "say": "n.C415",
+   "v": {
+    "kind": "timeline",
+    "from": 1980,
+    "to": 2012,
+    "shown": 2,
+    "events": [
+     {
+      "y": 1981.7,
+      "label": "u.C406.1",
+      "red": true
+     },
+     {
+      "y": 1982.15,
+      "label": "u.C410.1"
+     }
+    ],
+    "gap": [
+     1982.3,
+     2005
+    ],
+    "gapLabel": "u.C415.1",
+    "title": "u.C406.2"
+   }
+  },
+  {
+   "id": "C416",
+   "say": "n.C416",
+   "v": {
+    "kind": "timeline",
+    "from": 1980,
+    "to": 2012,
+    "shown": 2,
+    "events": [
+     {
+      "y": 1981.7,
+      "label": "u.C406.1",
+      "red": true
+     },
+     {
+      "y": 1982.15,
+      "label": "u.C410.1"
+     },
+     {
+      "y": 2005.45,
+      "label": "u.C416.1"
+     }
+    ],
+    "focus": 2,
+    "gap": [
+     1982.3,
+     2005
+    ],
+    "title": "u.C406.2"
+   }
+  },
+  {
+   "id": "C417",
+   "say": "n.C417",
+   "v": {
+    "kind": "stats",
+    "items": [
+     {
+      "value": "u.C417.1",
+      "label": "u.C417.2"
+     },
+     {
+      "value": "u.C417.3",
+      "label": "u.C417.4",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C418",
+   "say": "n.C418",
+   "v": {
+    "kind": "doc",
+    "cite": "u.C418.1",
+    "quote": "u.C418.2",
+    "mark": "exhumiert",
+    "quoteVi": "u.C418.3"
+   }
+  },
+  {
+   "id": "C419",
+   "say": "n.C419",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C419.1",
+    "sub": "u.C419.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C420",
+   "say": "n.C420",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C420.1",
+    "sub": "u.C420.2"
+   }
+  },
+  {
+   "id": "C421",
+   "say": "n.C421",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C421.1",
+    "sub": "u.C421.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C422",
+   "say": "n.C422",
+   "v": {
+    "kind": "doc",
+    "cite": "u.C422.1",
+    "quote": "u.C422.2",
+    "mark": "nicht um Täter-DNA",
+    "quoteVi": "u.C422.3"
+   }
+  },
+  {
+   "id": "C423",
+   "say": "n.C423",
+   "v": {
+    "kind": "calendar",
+    "from": "1981-09",
+    "to": "2007-10",
+    "label": "u.C423.1"
+   }
+  },
+  {
+   "id": "C501",
+   "say": "n.C501",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "05",
+    "title": "u.C501.1"
+   }
+  },
+  {
+   "id": "C502",
+   "say": "n.C502",
+   "v": {
+    "kind": "geomap",
+    "src": "demap.json",
+    "provinces": true,
+    "fill": {
+     "DEU": "#efe0b4"
+    },
+    "cam": [
+     {
+      "at": 0,
+      "pt": "eching",
+      "zoom": 3
+     },
+     {
+      "at": 0.6,
+      "pt": "de",
+      "zoom": 0.55
+     }
+    ],
+    "labels": [
+     {
+      "text": "u.C106.1",
+      "pt": "eching",
+      "at": 0.05,
+      "style": "box",
+      "dy": -50
+     },
+     {
+      "text": "u.C502.1",
+      "pt": "kappeln",
+      "at": 0.55,
+      "style": "box",
+      "dx": 90,
+      "dy": 40
+     }
+    ],
+    "bursts": [
+     {
+      "pt": "kappeln",
+      "at": 0.6
+     }
+    ],
+    "title": "u.C502.2"
+   }
+  },
+  {
+   "id": "C503",
+   "say": "n.C503",
+   "v": {
+    "kind": "cutouts",
+    "items": [
+     {
+      "src": "cc/grundig_tk145.jpg",
+      "x": 0.27,
+      "y": 0.47,
+      "w": 0.44,
+      "rot": 2,
+      "caption": "u.C503.1"
+     }
+    ],
+    "stamp": "u.H05.2",
+    "stampSub": "u.C503.2"
+   }
+  },
+  {
+   "id": "C504",
+   "say": "n.C504",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C504.1",
+    "sub": "u.C504.2"
+   }
+  },
+  {
+   "id": "C505",
+   "say": "n.C505",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_flohmarkt.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0,
+     0.48,
+     1,
+     0.26
+    ],
+    "title": "u.C505.1",
+    "sub": "u.C505.2",
+    "aspect": 5.2432
+   }
+  },
+  {
+   "id": "C506",
+   "say": "n.C506",
+   "v": {
+    "kind": "cutouts",
+    "items": [
+     {
+      "src": "cc/grundig_tk121.jpg",
+      "x": 0.62,
+      "y": 0.47,
+      "w": 0.48,
+      "rot": -2,
+      "caption": "u.C506.1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C507",
+   "say": "n.C507",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C507.1",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C508",
+   "say": "n.C508",
+   "v": {
+    "kind": "wave",
+    "rows": [
+     "u.C205.1",
+     "u.C508.1"
+    ],
+    "show": 2
+   }
+  },
+  {
+   "id": "C509",
+   "say": "n.C509",
+   "v": {
+    "kind": "wave",
+    "rows": [
+     "u.C205.1",
+     "u.C508.1"
+    ],
+    "show": 2,
+    "note": "u.C509.1"
+   }
+  },
+  {
+   "id": "C510",
+   "say": "n.C510",
+   "v": {
+    "kind": "wave",
+    "rows": [
+     "u.C205.1",
+     "u.C508.1"
+    ],
+    "show": 2,
+    "clicks": [
+     "u.C510.1",
+     "u.C510.2",
+     "u.C510.3"
+    ]
+   }
+  },
+  {
+   "id": "C511",
+   "say": "n.C511",
+   "v": {
+    "kind": "stats",
+    "items": [
+     {
+      "value": "u.C511.1",
+      "label": "u.C511.2"
+     },
+     {
+      "value": "u.C419.1",
+      "label": "u.C511.3",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C512",
+   "say": "n.C512",
+   "pad": 0.6,
+   "v": {
+    "kind": "stamp",
+    "text": "u.C512.1",
+    "dark": true
+   }
+  },
+  {
+   "id": "C513",
+   "say": "n.C513",
+   "v": {
+    "kind": "ladder",
+    "steps": [
+     {
+      "de": "u.C513.1",
+      "vi": "u.C513.2"
+     },
+     {
+      "de": "u.C513.3",
+      "vi": "u.C513.4"
+     },
+     {
+      "de": "u.C513.5",
+      "vi": "u.C513.6"
+     },
+     {
+      "de": "u.C513.7",
+      "vi": "u.C513.8"
+     },
+     {
+      "de": "u.C513.9",
+      "vi": "u.C513.10"
+     }
+    ],
+    "hit": -1,
+    "title": "u.C513.11"
+   }
+  },
+  {
+   "id": "C514",
+   "say": "n.C514",
+   "v": {
+    "kind": "ladder",
+    "steps": [
+     {
+      "de": "u.C513.1",
+      "vi": "u.C513.2"
+     },
+     {
+      "de": "u.C513.3",
+      "vi": "u.C513.4"
+     },
+     {
+      "de": "u.C513.5",
+      "vi": "u.C513.6"
+     },
+     {
+      "de": "u.C513.7",
+      "vi": "u.C513.8"
+     },
+     {
+      "de": "u.C513.9",
+      "vi": "u.C513.10"
+     }
+    ],
+    "hit": 1,
+    "note": "u.C514.1",
+    "title": "u.C513.11"
+   }
+  },
+  {
+   "id": "C515",
+   "say": "n.C515",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_wahr.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0,
+     0.1,
+     1,
+     0.28
+    ],
+    "title": "u.C515.1",
+    "sub": "u.C515.2",
+    "aspect": 3.0449
+   }
+  },
+  {
+   "id": "C516",
+   "say": "n.C516",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_moeglich.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0,
+     0.18,
+     1,
+     0.42
+    ],
+    "title": "u.C516.1",
+    "sub": "u.C516.2",
+    "aspect": 4.4186
+   }
+  },
+  {
+   "id": "C517",
+   "say": "n.C517",
+   "v": {
+    "kind": "doc",
+    "cite": "u.C517.1",
+    "quote": "u.C517.2",
+    "mark": "Luft dünner werde",
+    "quoteVi": "u.C517.3"
+   }
+  },
+  {
+   "id": "C518",
+   "say": "n.C518",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C518.1",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C601",
+   "say": "n.C601",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "06",
+    "title": "u.C601.1"
+   }
+  },
+  {
+   "id": "C602",
+   "say": "n.C602",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C602.1",
+    "sub": "u.C602.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C603",
+   "say": "n.C603",
+   "v": {
+    "kind": "cutouts",
+    "items": [
+     {
+      "src": "cc/augsburg_court.jpg",
+      "x": 0.27,
+      "y": 0.46,
+      "w": 0.4,
+      "rot": -2,
+      "caption": "u.C603.1"
+     }
+    ],
+    "stamp": "u.C603.2",
+    "stampSub": "u.C603.3"
+   }
+  },
+  {
+   "id": "C604",
+   "say": "n.C604",
+   "v": {
+    "kind": "stats",
+    "items": [
+     {
+      "value": "u.C604.1",
+      "label": "u.C604.2"
+     },
+     {
+      "value": "u.C604.3",
+      "label": "u.C604.4",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C605",
+   "say": "n.C605",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_courtroom.jpg",
+    "label": "c.ai",
+    "to": 1.08
+   }
+  },
+  {
+   "id": "C606",
+   "say": "n.C606",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C408.1",
+    "sub": "u.C606.1",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C607",
+   "say": "n.C607",
+   "v": {
+    "kind": "checklist",
+    "items": [
+     {
+      "text": "u.C607.1",
+      "mark": "x"
+     },
+     {
+      "text": "u.C607.2",
+      "mark": "x"
+     },
+     {
+      "text": "u.C607.3",
+      "mark": "x"
+     },
+     {
+      "text": "u.C607.4",
+      "mark": "check"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C608",
+   "say": "n.C608",
+   "v": {
+    "kind": "checklist",
+    "title": "u.C608.1",
+    "items": [
+     {
+      "text": "u.C608.2",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.3",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.4",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.5",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.6",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.7",
+      "mark": "dot"
+     }
+    ],
+    "from": 0,
+    "hot": 0
+   }
+  },
+  {
+   "id": "C609",
+   "say": "n.C609",
+   "v": {
+    "kind": "checklist",
+    "title": "u.C608.1",
+    "items": [
+     {
+      "text": "u.C608.2",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.3",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.4",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.5",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.6",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.7",
+      "mark": "dot"
+     }
+    ],
+    "from": 1,
+    "hot": 1
+   }
+  },
+  {
+   "id": "C610",
+   "say": "n.C610",
+   "v": {
+    "kind": "checklist",
+    "title": "u.C608.1",
+    "items": [
+     {
+      "text": "u.C608.2",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.3",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.4",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.5",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.6",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.7",
+      "mark": "dot"
+     }
+    ],
+    "from": 2,
+    "hot": 2
+   }
+  },
+  {
+   "id": "C611",
+   "say": "n.C611",
+   "v": {
+    "kind": "checklist",
+    "title": "u.C608.1",
+    "items": [
+     {
+      "text": "u.C608.2",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.3",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.4",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.5",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.6",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.7",
+      "mark": "dot"
+     }
+    ],
+    "from": 3,
+    "hot": 3
+   }
+  },
+  {
+   "id": "C612",
+   "say": "n.C612",
+   "v": {
+    "kind": "checklist",
+    "title": "u.C608.1",
+    "items": [
+     {
+      "text": "u.C608.2",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.3",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.4",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.5",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.6",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.7",
+      "mark": "dot"
+     }
+    ],
+    "from": 4,
+    "hot": 4
+   }
+  },
+  {
+   "id": "C613",
+   "say": "n.C613",
+   "v": {
+    "kind": "checklist",
+    "title": "u.C608.1",
+    "items": [
+     {
+      "text": "u.C608.2",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.3",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.4",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.5",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.6",
+      "mark": "dot"
+     },
+     {
+      "text": "u.C608.7",
+      "mark": "dot"
+     }
+    ],
+    "from": 5,
+    "hot": 5
+   }
+  },
+  {
+   "id": "C614",
+   "say": "n.C614",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_zweifel.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0.42,
+     0.22,
+     0.58,
+     0.5
+    ],
+    "title": "u.C614.1",
+    "sub": "u.C614.2",
+    "aspect": 6.9286
+   }
+  },
+  {
+   "id": "C615",
+   "say": "n.C615",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_verdict.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0,
+     0,
+     1,
+     0.3
+    ],
+    "title": "u.C615.1",
+    "sub": "u.C615.2",
+    "aspect": 4
+   }
+  },
+  {
+   "id": "C616",
+   "say": "n.C616",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_leicht.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0,
+     0,
+     0.6,
+     0.2
+    ],
+    "title": "u.C616.1",
+    "sub": "u.C616.2",
+    "aspect": 3.9184
+   }
+  },
+  {
+   "id": "C617",
+   "say": "n.C617",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_acquit.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0.1,
+     0.45,
+     0.42,
+     0.55
+    ],
+    "title": "u.C617.1",
+    "sub": "u.C617.2",
+    "aspect": 9.5556
+   }
+  },
+  {
+   "id": "C618",
+   "say": "n.C618",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_tape.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0.02,
+     0,
+     0.96,
+     1
+    ],
+    "title": "u.C618.1",
+    "sub": "u.C618.2",
+    "aspect": 14.3333
+   }
+  },
+  {
+   "id": "C619",
+   "say": "n.C619",
+   "v": {
+    "kind": "docpage",
+    "src": "court/j_komplize.png",
+    "wide": true,
+    "tape": "c.court",
+    "mark": [
+     0,
+     0.27,
+     1,
+     0.24
+    ],
+    "title": "u.C619.1",
+    "sub": "u.C619.2",
+    "aspect": 2.8788
+   }
+  },
+  {
+   "id": "C620",
+   "say": "n.C620",
+   "v": {
+    "kind": "cutouts",
+    "items": [
+     {
+      "src": "cc/bgh.jpg",
+      "x": 0.27,
+      "y": 0.46,
+      "w": 0.4,
+      "rot": 2,
+      "caption": "u.C620.1"
+     }
+    ],
+    "stamp": "u.C620.2",
+    "stampSub": "u.C620.3"
+   }
+  },
+  {
+   "id": "C621",
+   "say": "n.C621",
+   "pad": 0.8,
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_courtroom.jpg",
+    "label": "c.ai",
+    "dim": 0.5,
+    "from": 1.08,
+    "to": 1
+   }
+  },
+  {
+   "id": "C701",
+   "say": "n.C701",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "07",
+    "title": "u.C701.1"
+   }
+  },
+  {
+   "id": "C702",
+   "say": "n.C702",
+   "v": {
+    "kind": "people",
+    "items": [
+     {
+      "name": "u.C702.1",
+      "role": "u.C702.2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C703",
+   "say": "n.C703",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_courtroom.jpg",
+    "label": "c.ai",
+    "to": 1.1,
+    "x": 0.7
+   }
+  },
+  {
+   "id": "C704",
+   "say": "n.C704",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C704.1",
+    "sub": "u.C704.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C705",
+   "say": "n.C705",
+   "v": {
+    "kind": "doc",
+    "cite": "u.C705.1",
+    "quote": "u.C705.2",
+    "mark": "nicht zurückverfolgen",
+    "quoteVi": "u.C705.3"
+   }
+  },
+  {
+   "id": "C706",
+   "say": "n.C706",
+   "v": {
+    "kind": "checklist",
+    "title": "u.C706.1",
+    "items": [
+     {
+      "text": "u.C706.2",
+      "mark": "q"
+     },
+     {
+      "text": "u.C706.3",
+      "mark": "q"
+     }
+    ],
+    "from": 0,
+    "hot": 0
+   }
+  },
+  {
+   "id": "C707",
+   "say": "n.C707",
+   "v": {
+    "kind": "checklist",
+    "title": "u.C706.1",
+    "items": [
+     {
+      "text": "u.C706.2",
+      "mark": "q"
+     },
+     {
+      "text": "u.C706.3",
+      "mark": "q"
+     }
+    ],
+    "from": 1,
+    "hot": 1
+   }
+  },
+  {
+   "id": "C708",
+   "say": "n.C708",
+   "v": {
+    "kind": "doc",
+    "cite": "u.C708.1",
+    "quote": "u.C708.2",
+    "mark": "ein Unschuldiger",
+    "quoteVi": "u.C708.3"
+   }
+  },
+  {
+   "id": "C709",
+   "say": "n.C709",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C709.1",
+    "sub": "u.C709.2",
+    "bg": "ai/ai_prisongate.jpg",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C710",
+   "say": "n.C710",
+   "v": {
+    "kind": "doc",
+    "cite": "u.C710.1",
+    "quote": "u.H08.2",
+    "mark": "ich war es nicht",
+    "quoteVi": "u.H08.3"
+   }
+  },
+  {
+   "id": "C711",
+   "say": "n.C711",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C711.1",
+    "sub": "u.C711.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C712",
+   "say": "n.C712",
+   "v": {
+    "kind": "stats",
+    "size": 200,
+    "items": [
+     {
+      "value": "u.C712.1",
+      "label": "u.C712.2",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C713",
+   "say": "n.C713",
+   "v": {
+    "kind": "doc",
+    "cite": "u.C708.1",
+    "quote": "u.C713.1",
+    "mark": "noch einmal prüfen",
+    "quoteVi": "u.C713.2"
+   }
+  },
+  {
+   "id": "C714",
+   "say": "n.C714",
+   "v": {
+    "kind": "stats",
+    "items": [
+     {
+      "value": "u.C714.1",
+      "label": "u.C714.2",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C715",
+   "say": "n.C715",
+   "v": {
+    "kind": "doc",
+    "cite": "u.C715.1",
+    "quote": "u.C715.2",
+    "mark": "zu Recht als Täter verurteilt",
+    "quoteVi": "u.C715.3"
+   }
+  },
+  {
+   "id": "C716",
+   "say": "n.C716",
+   "v": {
+    "kind": "versus",
+    "left": {
+     "who": "u.C716.1",
+     "quote": "u.C714.1",
+     "vi": "u.C716.2"
+    },
+    "right": {
+     "who": "u.C716.3",
+     "quote": "u.C716.4",
+     "vi": "u.C716.5"
+    },
+    "cite": "u.C716.6",
+    "at": [
+     0.03,
+     0.4,
+     0.45
+    ]
+   }
+  },
+  {
+   "id": "C717",
+   "say": "n.C717",
+   "v": {
+    "kind": "doc",
+    "cite": "u.C717.1",
+    "quote": "u.C717.2",
+    "mark": "etwa 27 Jahre",
+    "quoteVi": "u.C717.3"
+   }
+  },
+  {
+   "id": "C718",
+   "say": "n.C718",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C718.1",
+    "sub": "u.C718.2",
+    "dark": true
+   }
+  },
+  {
+   "id": "C719",
+   "say": "n.C719",
+   "pad": 0.8,
+   "v": {
+    "kind": "stamp",
+    "text": "u.C716.4",
+    "sub": "u.C719.1",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C801",
+   "say": "n.C801",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "08",
+    "title": "u.C801.1"
+   }
+  },
+  {
+   "id": "C802",
+   "say": "n.C802",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C802.1",
+    "sub": "u.C802.2"
+   }
+  },
+  {
+   "id": "C803",
+   "say": "n.C803",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C803.1",
+    "sub": "u.C803.2",
+    "bg": "ai/ai_cutletters.jpg"
+   }
+  },
+  {
+   "id": "C804",
+   "say": "n.C804",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C804.1",
+    "sub": "u.C804.2"
+   }
+  },
+  {
+   "id": "C805",
+   "say": "n.C805",
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_prisongate.jpg",
+    "label": "c.ai",
+    "to": 1.08
+   }
+  },
+  {
+   "id": "C806",
+   "say": "n.C806",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C806.1",
+    "sub": "u.C806.2",
+    "color": "red"
+   }
+  },
+  {
+   "id": "C807",
+   "say": "n.C807",
+   "v": {
+    "kind": "stamp",
+    "text": "u.C807.1",
+    "sub": "u.C807.2",
+    "dark": true
+   }
+  },
+  {
+   "id": "C808",
+   "say": "n.C808",
+   "pad": 0.6,
+   "v": {
+    "kind": "stamp",
+    "text": "u.C808.1",
+    "dark": true
+   }
+  },
+  {
+   "id": "C809",
+   "say": "n.C809",
+   "v": {
+    "kind": "checklist",
+    "items": [
+     {
+      "text": "u.C809.1",
+      "mark": "check"
+     },
+     {
+      "text": "u.C809.2",
+      "mark": "check"
+     },
+     {
+      "text": "u.C809.3",
+      "mark": "q"
+     },
+     {
+      "text": "u.C809.4",
+      "mark": "q"
+     },
+     {
+      "text": "u.C809.5",
+      "mark": "q"
+     }
+    ],
+    "from": 0,
+    "hot": 1
+   }
+  },
+  {
+   "id": "C810",
+   "say": "n.C810",
+   "v": {
+    "kind": "checklist",
+    "items": [
+     {
+      "text": "u.C809.1",
+      "mark": "check"
+     },
+     {
+      "text": "u.C809.2",
+      "mark": "check"
+     },
+     {
+      "text": "u.C809.3",
+      "mark": "q"
+     },
+     {
+      "text": "u.C809.4",
+      "mark": "q"
+     },
+     {
+      "text": "u.C809.5",
+      "mark": "q"
+     }
+    ],
+    "from": 2,
+    "hot": 2
+   }
+  },
+  {
+   "id": "C811",
+   "say": "n.C811",
+   "v": {
+    "kind": "checklist",
+    "items": [
+     {
+      "text": "u.C809.1",
+      "mark": "check"
+     },
+     {
+      "text": "u.C809.2",
+      "mark": "check"
+     },
+     {
+      "text": "u.C809.3",
+      "mark": "q"
+     },
+     {
+      "text": "u.C809.4",
+      "mark": "q"
+     },
+     {
+      "text": "u.C809.5",
+      "mark": "q"
+     }
+    ],
+    "from": 3,
+    "hot": 4
+   }
+  },
+  {
+   "id": "C812",
+   "say": "n.C812",
+   "pad": 0.8,
+   "v": {
+    "kind": "scene",
+    "img": "ai/ai_lakepath.jpg",
+    "label": "c.ai",
+    "dim": 0.4,
+    "from": 1.1,
+    "to": 1
+   }
+  },
+  {
+   "id": "C813",
+   "say": "n.C813",
+   "pad": 0.8,
+   "v": {
+    "kind": "cutouts",
+    "items": [
+     {
+      "src": "cc/ammersee_mist.jpg",
+      "x": 0.5,
+      "y": 0.43,
+      "w": 0.5,
+      "rot": -1,
+      "caption": "u.C813.1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C814",
+   "say": "n.C814",
+   "pad": 1.6,
+   "v": {
+    "kind": "memorial",
+    "title": "u.C814.1",
+    "names": [
+     "u.C318.1",
+     "u.H02.1"
+    ]
+   }
+  },
+  {
+   "id": "C815",
+   "say": "n.C815",
+   "pad": 2,
+   "v": {
+    "kind": "sources",
+    "title": "u.C815.1",
+    "lines": [
+     "u.C815.2",
+     "u.C815.3",
+     "u.C422.1",
+     "u.C815.4",
+     "u.C815.5",
+     "u.C815.6",
+     "u.C815.7"
+    ]
+   }
+  }
+ ]
+}

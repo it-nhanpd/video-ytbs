@@ -1,0 +1,459 @@
+{
+ "project": "2026-truecrime-unabomber",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": "vi-VN-NamMinhNeural",
+ "rate": "-2%",
+ "music": "assets/audio/music.mp3",
+ "tts": {
+  "Kaczynski": "Ca-din-xki",
+  "Unabomber": "Iu-na-bom-mơ",
+  "New York Times": "Niu Oóc Thai",
+  "Washington Post": "Oa-sinh-tơn Pốt",
+  "Berkeley": "Bơ-cơ-li",
+  "FBI": "ép bi ai",
+  "The Elements of Style": "Đờ E-li-mần ốp Xtai",
+  "Hugh Scrutton": "Hiu Xcơ-rát-tân",
+  "Gilbert Murray": "Gin-bớt Mơ-ri",
+  "Thomas Mosser": "Tô-mát Mót-xơ",
+  "David": "Đây-vít",
+  "Ted ": "Tét ",
+  "Ted,": "Tét,",
+  "university": "iu-ni-vơ-xi-ti",
+  "airline": "e-lai",
+  "đô-la": "đô la",
+  "Montana": "Mon-ta-na"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "say": "n.s01",
+   "v": {
+    "kind": "stamp",
+    "text": "t.17",
+    "img": "pd/poster_map.jpg",
+    "imgCaption": "c.poster",
+    "imgSide": "left"
+   }
+  },
+  {
+   "id": "s02",
+   "say": "n.s02",
+   "v": {
+    "kind": "stamp",
+    "count": 16,
+    "sub": "t.16sub",
+    "img": "pd/pd11.jpg",
+    "imgCaption": "c.fbi",
+    "imgSide": "right"
+   }
+  },
+  {
+   "id": "s03",
+   "say": "n.s03",
+   "v": {
+    "kind": "stamp",
+    "text": "t.reward",
+    "sub": "t.rewardSub",
+    "img": "pd/poster_head.jpg",
+    "imgCaption": "c.poster",
+    "imgSide": "left",
+    "color": "red"
+   }
+  },
+  {
+   "id": "s04",
+   "say": "n.s04",
+   "v": {
+    "kind": "crossout",
+    "items": [
+     {
+      "icon": "finger",
+      "label": "t.finger"
+     },
+     {
+      "icon": "camera",
+      "label": "t.camera"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "say": "n.s05",
+   "v": {
+    "kind": "stamp",
+    "text": "t.paper",
+    "bg": "ai/ai_newspapers.jpg",
+    "img": "pd/pd09.jpg",
+    "imgCaption": "c.fbi",
+    "imgSide": "right",
+    "color": "red"
+   }
+  },
+  {
+   "id": "s06",
+   "say": "n.s06",
+   "pad": 0.8,
+   "v": {
+    "kind": "title",
+    "text": "t.title",
+    "sub": "t.titleSub",
+    "img": "pd/pd07.jpg"
+   }
+  },
+  {
+   "id": "s07",
+   "say": "n.s07",
+   "pad": 0.8,
+   "v": {
+    "kind": "map",
+    "mode": "timeline",
+    "title": "t.mapTitle"
+   }
+  },
+  {
+   "id": "s08",
+   "say": "n.s08",
+   "v": {
+    "kind": "acronym"
+   }
+  },
+  {
+   "id": "s09",
+   "say": "n.s09",
+   "v": {
+    "kind": "stats",
+    "items": [
+     {
+      "value": "t.dead",
+      "label": "t.deadSub",
+      "color": "red"
+     },
+     {
+      "value": "t.hurt",
+      "label": "t.hurtSub"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "say": "n.s10",
+   "v": {
+    "kind": "cutouts",
+    "stamp": "t.noName",
+    "items": [
+     {
+      "src": "pd/pd07.jpg",
+      "x": 0.42,
+      "y": 0.47,
+      "w": 0.3,
+      "rot": -2.5,
+      "caption": "t.sketch"
+     },
+     {
+      "src": "pd/pd12.jpg",
+      "x": 0.72,
+      "y": 0.58,
+      "w": 0.2,
+      "rot": 5,
+      "caption": "c.fbi",
+      "delay": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "say": "n.s11",
+   "v": {
+    "kind": "stamp",
+    "text": "t.1995",
+    "sub": "t.offer",
+    "dark": true
+   }
+  },
+  {
+   "id": "s12",
+   "say": "n.s12",
+   "pad": 0.6,
+   "v": {
+    "kind": "cutouts",
+    "headline": "t.manifesto",
+    "headlineSub": "t.manifestoVi",
+    "items": [
+     {
+      "src": "pd/pd09.jpg",
+      "x": 0.5,
+      "y": 0.6,
+      "w": 0.42,
+      "rot": -3,
+      "caption": "c.fbi"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "say": "n.s13",
+   "v": {
+    "kind": "papers",
+    "names": [
+     "t.nyt",
+     "t.wapo"
+    ],
+    "stamp": "t.accepted"
+   }
+  },
+  {
+   "id": "s14",
+   "say": "n.s14",
+   "v": {
+    "kind": "stamp",
+    "text": "t.oneReader",
+    "bg": "ai/ai_newspapers.jpg",
+    "color": "red"
+   }
+  },
+  {
+   "id": "s15",
+   "say": "n.s15",
+   "v": {
+    "kind": "nametag",
+    "bg": "ai/ai_reader.jpg",
+    "name": "t.david",
+    "sub": "t.davidSub",
+    "caption": "c.ai"
+   }
+  },
+  {
+   "id": "s16",
+   "say": "n.s16",
+   "pad": 0.6,
+   "v": {
+    "kind": "cutouts",
+    "link": true,
+    "items": [
+     {
+      "src": "ai/ai_reader.jpg",
+      "x": 0.27,
+      "y": 0.47,
+      "w": 0.34,
+      "rot": -3,
+      "caption": "c.ai",
+      "tag": "t.david",
+      "tagSub": "t.davidSub"
+     },
+     {
+      "src": "pd/pd02.jpg",
+      "x": 0.72,
+      "y": 0.47,
+      "w": 0.34,
+      "rot": 2.5,
+      "caption": "c.fbi",
+      "tag": "t.ted",
+      "tagSub": "t.tedSub",
+      "tagSub2": "t.tedSub2",
+      "delay": 2.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "say": "n.s17",
+   "v": {
+    "kind": "split",
+    "bg": "ai/ai_brothers.jpg",
+    "left": "t.silence",
+    "right": "t.report",
+    "caption": "c.ai"
+   }
+  },
+  {
+   "id": "s18",
+   "say": "n.s18",
+   "v": {
+    "kind": "doc",
+    "quote": "t.q18",
+    "quoteVi": "t.q18vi",
+    "cite": "t.court",
+    "mark": "very reluctantly"
+   }
+  },
+  {
+   "id": "s19",
+   "say": "n.s19",
+   "v": {
+    "kind": "doc",
+    "quote": "t.q19",
+    "quoteVi": "t.q19vi",
+    "cite": "t.court",
+    "mark": "would not seek the death penalty"
+   }
+  },
+  {
+   "id": "s20",
+   "say": "n.s20",
+   "pad": 0.6,
+   "v": {
+    "kind": "map",
+    "mode": "focus",
+    "title": "t.arrest",
+    "img": "pd/pd01.jpg",
+    "imgCaption": "t.cabin",
+    "bg": "ai/ai_montana.jpg"
+   }
+  },
+  {
+   "id": "s21",
+   "say": "n.s21",
+   "v": {
+    "kind": "cutouts",
+    "items": [
+     {
+      "src": "pd/pd04.jpg",
+      "x": 0.25,
+      "y": 0.4,
+      "w": 0.32,
+      "rot": -4,
+      "caption": "t.books"
+     },
+     {
+      "src": "pd/pd05.jpg",
+      "x": 0.3,
+      "y": 0.72,
+      "w": 0.3,
+      "rot": 3,
+      "caption": "c.fbi",
+      "delay": 0.6
+     },
+     {
+      "src": "pd/pd06.jpg",
+      "x": 0.7,
+      "y": 0.52,
+      "w": 0.38,
+      "rot": 2,
+      "caption": "t.typewriter",
+      "delay": 2.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s22",
+   "say": "n.s22",
+   "pad": 0.9,
+   "v": {
+    "kind": "book",
+    "title": "t.eos",
+    "sub": "t.eosSub"
+   }
+  },
+  {
+   "id": "s23",
+   "say": "n.s23",
+   "v": {
+    "kind": "stamp",
+    "text": "t.death",
+    "sub": "t.deathDate",
+    "bg": "ai/ai_courthouse.jpg",
+    "dark": true,
+    "color": "red"
+   }
+  },
+  {
+   "id": "s24",
+   "say": "n.s24",
+   "v": {
+    "kind": "cutouts",
+    "bg": "ai/ai_courthouse.jpg",
+    "stamp": "t.plea",
+    "stampSub": "t.pleaSub",
+    "items": [
+     {
+      "src": "pd/pd10.jpg",
+      "x": 0.33,
+      "y": 0.5,
+      "w": 0.3,
+      "rot": -2,
+      "caption": "c.fbi",
+      "halftone": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s25",
+   "say": "n.s25",
+   "v": {
+    "kind": "stats",
+    "items": [
+     {
+      "value": "t.life",
+      "label": "",
+      "color": "ink"
+     },
+     {
+      "value": "t.plus30",
+      "label": ""
+     },
+     {
+      "value": "t.restitution",
+      "label": "t.restitutionSub",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s26",
+   "say": "n.s26",
+   "pad": 1.2,
+   "v": {
+    "kind": "memorial",
+    "title": "t.memorial",
+    "names": [
+     "t.v1",
+     "t.v2",
+     "t.v3"
+    ]
+   }
+  },
+  {
+   "id": "s27",
+   "say": "n.s27",
+   "pad": 1.2,
+   "v": {
+    "kind": "finale",
+    "lines": [
+     "t.end1",
+     "t.end2"
+    ],
+    "imgs": [
+     "pd/poster_map.jpg",
+     "ai/ai_newspapers.jpg",
+     "ai/ai_reader.jpg"
+    ]
+   }
+  },
+  {
+   "id": "s28",
+   "dur": 8,
+   "v": {
+    "kind": "sources",
+    "title": "t.srcTitle",
+    "lines": [
+     "t.src1",
+     "t.src2",
+     "t.src3",
+     "t.src4",
+     "t.src5",
+     "t.src6"
+    ]
+   }
+  }
+ ]
+}

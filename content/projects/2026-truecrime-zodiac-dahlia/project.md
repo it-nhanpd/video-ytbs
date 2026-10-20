@@ -1,0 +1,41 @@
+# truecrime-zodiac-dahlia: "Mười ba ký tự và một cái tên" (Black Dahlia 1947 × Zodiac 1968–1974)
+
+## Thông số
+- **slug:** `2026-truecrime-zodiac-dahlia`
+- **Topic:** Kiểm toán & điều tra giả thuyết cuối năm 2025 của Alex Baber (*Cold Case Consultants of America*, được phóng viên đoạt giải Pulitzer Christopher Goffard đăng trên *Los Angeles Times* ngày 23/12/2025) cho rằng **Marvin Margolis / Marvin Merrill (1925–1993)** — cựu quân y Hải quân Mỹ tại trận Okinawa, cựu sinh viên dự bị y khoa Đại học Nam California (USC), người từng sống chung với nạn nhân **Elizabeth Short (Black Dahlia)** tháng 10/1946 và nằm trong danh sách 22 nghi phạm của Đại bồi thẩm đoàn Los Angeles năm 1950 — đồng thời là kẻ sát nhân **Zodiac** tại Bắc California (1968–1974). Video dẫn người xem đi qua toàn bộ chuỗi chứng cứ gián tiếp (mật mã Z13 `"My name is —"`, nhà nghỉ *Zodiac Motel* ở Compton năm 1947, con dao lê Okinawa, 3 năm quản chế tại Oceanside trùng khớp khoảng lặng thư Zodiac 1971–1974, bức phác họa *"Elizabeth"* năm 1992 ẩn chữ *ZODIAC*) **và** đối chất trực diện với 4 phản biện khoa học & lịch sử (ảnh khám nghiệm đã in trong *Hollywood Babylon II* từ năm 1984 chứ không phải 1994, giới hạn toán học *unicity distance* của mật mã 13 ký tự theo David Oranchak, chứng cứ ngoại phạm năm 1947 theo sử gia Larry Harnisch, và lập trường của LAPD/FBI) để người xem làm thẩm phán ở cuối video.
+- **Video tham chiếu (chỉ để kiểm toán, không làm nguồn sự kiện):** *"Mới - Tìm Ra Hung Thủ Của Zodiac Và Thược Được Đen Là Cùng 1 Người - Tra Án"* (`https://www.youtube.com/watch?v=lDU2RkvC9ic`, đăng 03/02/2026, 30:41). Báo cáo kiểm toán chi tiết: `research/01-reference-analysis.md`.
+- **Locale:** `vi`. **Khung:** `1920×1080`, `30 fps`. **Giọng:** `vi-VN-NamMinhNeural` (`rate: "-2%"`).
+- **Template:** `vox` (phiên bản "hồ sơ vụ án" v2 như `2026-truecrime-ursula-herrmann-v2`: `scene25`, `desk`, `board`, `docpage`, `letter`, `geomap`, `map`, `timeline`, `yearbar`, `versus`, `memorial`, `sources`), style `content/library/styles/truecrime-collage.md` và quy tắc `.claude/rules/reenactment-first.md`.
+
+## Quyết định / Ủy quyền của người dùng
+- **2026-10-18, người dùng (văn bản trực tiếp trong chat):**
+  > *"pls chec/audit and analytis video use yt-dlp https://www.youtube.com/watch?v=lDU2RkvC9ic and then deep research topic same as. let's create video with topic that. #Note: Bây giờ tôi bận có việc và tôi sẽ để bạn tự làm toàn bộ. Every scene render check/audit lại rồi mới làm tiếp. Tôi sẽ chạy lệnh cuối để maps toàn bộ chúng với nhau ra video full. Đừng hỏi tôi cho phép gì nhé, bạn có quyền toàn bộ nhưng tuyệt đối không xóa và edit ngoài dự án"*
+  > *"Đừng hỏi gì tôi cả, tôi đang rất bận / vì sao bạn vẫn hỏi tôi để chạy lệnh, bạn auto"*
+- **Áp dụng:** Agent tự chạy toàn bộ các cổng G1 (thẻ cảnh), G2 (danh mục asset), G3 (render still kiểm tra/audit từng cảnh), tự tổng hợp giọng đọc TTS, nhạc nền theo mood (`tension`, `investigate`, `grief`), SFX và tư liệu bàn điều tra; để lại lệnh render video full cuối cùng cho người dùng chạy.
+- **Đạo đức / Pháp lý / Nguồn (`source-policy.md` & `truecrime-collage.md`):**
+  1. **Không kết tội thay tòa án:** Marvin Margolis / Marvin Merrill (1925–1993) chưa từng bị kết án trong cả hai vụ. Mọi câu liên hệ ông với vụ án đều ghi rõ nguồn (*"theo báo cáo năm 1950 của Văn phòng Công tố Los Angeles"*, *"theo bài điều tra ngày 23/12/2025 của tờ Los Angeles Times"*, *"theo nhóm nghiên cứu của Alex Baber"*).
+  2. **Tôn trọng nạn nhân:** Không dùng ảnh thi thể nạn nhân; không tạo hình AI mô tả cảnh máu me hay khuôn mặt người thật (người trong ảnh AI chỉ là bóng đen *silhouette* không nét mặt). Có thẻ tưởng niệm (`memorial`) các nạn nhân ở cuối video.
+  3. **Sửa 5 lỗi sai của video tham chiếu (`Tra Án`):**
+     - Sửa sai lịch sử rằng ảnh khám nghiệm Elizabeth Short chỉ công bố năm 1994: thực tế đã in trong cuốn *Hollywood Babylon II* (Kenneth Anger, **1984**) — 8 năm trước khi Merrill vẽ bức tranh năm 1992 (`F32`).
+     - Giải thích đúng toán học mật mã **Z13**: mẫu lặp `A E N ⊕ 8 K 8 M 8 τ N A M` không khớp trực tiếp một-đối-một với `MARVIN MERRILL`, và mật mã 13 ký tự ngắn hơn ngưỡng *unicity distance* theo David Oranchak (`F33`).
+     - Sửa tên điều tra viên từ "Jack Jackson" thành **Rick Jackson** (cựu thám tử án mạng 36 năm LAPD & San Mateo) và **Mitzi Roberts** (cựu thám tử Cold Case LAPD) (`F26`).
+     - Bổ sung phản biện của sử gia **Larry Harnisch** về biên bản xác minh ngoại phạm của LAPD năm 1947 (`F34`).
+     - Nêu đúng trạng thái pháp lý hiện tại: cả hai vụ án vẫn đang mở (*open cold cases*), chưa có kết luận ADN/vân tay chính thức (`F35`).
+
+## Cấu trúc 8 Chương ("Hồ sơ vụ án" — Người xem là thám tử)
+1. **Mở đầu lạnh (Cold Open — `P01`..`P10`):** Một bức vẽ chì màu năm 1992 có chữ *"Elizabeth"*, một dải mật mã 13 ký tự năm 1970 (*"My name is —"*), và câu hỏi nối hai kỳ án cách nhau 21 năm.
+2. **Hồ sơ số 1 (`C101`..`C114`): Sáng 15 tháng 1 năm 1947 (Los Angeles)** — Hiện trường Leimert Park, vết cắt giải phẫu giữa đốt sống thắt lưng L2–L3, bưu kiện lau bằng xăng gửi báo *Los Angeles Examiner* ngày 24/01/1947, và cuộc rà soát trường Y Đại học Nam California (USC).
+3. **Hồ sơ số 2 (`C201`..`C214`): Căn hộ số 726 đại lộ Hollywood & Hồ sơ Đại bồi thẩm đoàn 1950** — Báo cáo của Trung úy Công tố Frank Jemison (tháng 5/1950), Marvin Margolis (sinh viên dự bị y khoa USC duy nhất từng sống chung với Elizabeth Short 12 ngày tháng 10/1946), hồ sơ quân y Hải quân Mỹ tại trận Okinawa 1945 (50% thương tật tâm thần), và mẫu quảng cáo **Zodiac Motel** tại `2615 Santa Fe Ave, Compton`.
+4. **Hồ sơ số 3 (`C301`..`C314`): Bóng ma vùng Vịnh (1968–1970)** — Hai mươi mốt năm sau tại Bắc California: 4 vụ tấn công được xác nhận của Zodiac (Benicia, Vallejo, hồ Berryessa, San Francisco), các bức thư gửi báo chí, mật mã Z408 (1969), Z340 (giải năm 2020 bởi Oranchak–Blake–Van Eycke) và bức thư ngày 20/04/1970 mở đầu bằng câu *"My name is —"* kèm 13 ký tự (**Z13**).
+5. **Hồ sơ số 4 (`C401`..`C412`): 71 triệu cái tên và một bí danh 13 chữ cái** — Alex Baber, bài điều tra ngày 23/12/2025 của *Los Angeles Times*, cách lọc 71 triệu tên từ dữ liệu điều tra dân số 1950 xuống **MARVIN MERRILL**, nhận định của 3 cựu chuyên gia NSA (Ed Giorgio, Patrick Henry, Rich Wisniewski) và 2 cựu thám tử LAPD (Rick Jackson, Mitzi Roberts).
+6. **Hồ sơ số 5 (`C501`..`C514`): Dấu chân xuyên bang California & Khoảng lặng 3 năm (1971–1974)** — Hành trình của Marvin Merrill (Chicago → Kansas → Atascadero → làm việc tại Intel ở Santa Clara thuộc Bắc California → Oceanside), con dao lê Nhật Bản từ Okinawa, án phạt 30 ngày tù + **3 năm quản chế** tại tiệm sửa xe *Bucksavers* ở Oceanside trùng khớp với khoảng lặng thư Zodiac (tháng 3/1971 – tháng 1/1974), và bức vẽ *"Elizabeth"* năm 1992 ẩn chữ *ZODIAC*.
+7. **Hồ sơ số 6 (`C601`..`C614`): Phòng phản biện — 4 lỗ hổng mà truyền thông mạng bỏ qua** — Lật lại hồ sơ như một kiểm sát viên độc lập: (1) Cuốn *Hollywood Babylon II* (1984) đã in ảnh khám nghiệm 8 năm trước bức vẽ 1992; (2) Phản biện toán học của David Oranchak về ngưỡng *unicity distance* của mật mã 13 ký tự; (3) Phản biện của sử gia Larry Harnisch về biên bản ngoại phạm năm 1947; (4) Thực tế pháp y ADN/vân tay và câu trả lời của thám tử Mitzi Roberts.
+8. **Hồ sơ cuối (`J701`..`J706`): Bạn là thẩm phán, Tưởng niệm & Nguồn tham khảo** — Bảng đối chiếu hai cột (*Chuỗi trùng hợp chỉ vào Marvin Margolis* vs *Những câu hỏi khoa học chưa thể vượt qua*), thẻ tưởng niệm các nạn nhân (`memorial`) và bảng nguồn chính thống (`sources`).
+
+## Trạng thái thực hiện
+| Bước | Nội dung | Trạng thái |
+|---|---|---|
+| 1 | Kiểm toán video tham chiếu (`yt-dlp`) + Nghiên cứu nguồn chính thống | Xong: `research/00-ref-meta.json`, `00-ref-transcript.txt`, `01-reference-analysis.md`, `02-sources.md`, `03-facts.md`, `04-open-questions.md` |
+| 2 | Thẻ cảnh (`script/scenes/s001.md`..`s008.md`) & Kịch bản đầy đủ (`vox.json`, `locales/vi.json`, `script/vi.md`, `publish/description.md`) | Đang thực hiện |
+| 3 | Asset: tư liệu bàn điều tra (`assets/docs/`), bản đồ Mỹ/California (`usmap.json`), minh họa 2.5D (`assets/ai/`), âm thanh TTS + nhạc mood + SFX | Đang thực hiện |
+| 4 | Đăng ký `engine/src/Root.tsx`, chạy `typecheck`, xuất still kiểm tra/audit từng cảnh (`qa/stills-review.md`, `qa/style-guard.md`) | Đang thực hiện |

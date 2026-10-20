@@ -1,0 +1,191 @@
+[
+ {
+  "id": "b01",
+  "n": 1,
+  "date": "1978-05-25",
+  "place": "Chicago, IL",
+  "lat": 41.87,
+  "lon": -87.65,
+  "death": false,
+  "lx": 24,
+  "ly": 22,
+  "la": "start"
+ },
+ {
+  "id": "b02",
+  "n": 2,
+  "date": "1979-05-09",
+  "place": "Evanston, IL",
+  "lat": 42.05,
+  "lon": -87.68,
+  "death": false,
+  "lx": -22,
+  "ly": -18,
+  "la": "end"
+ },
+ {
+  "id": "b03",
+  "n": 3,
+  "date": "1979-11-15",
+  "place": "Chicago, IL",
+  "lat": 41.98,
+  "lon": -87.9,
+  "death": false,
+  "lx": 24,
+  "ly": 22,
+  "la": "start"
+ },
+ {
+  "id": "b04",
+  "n": 4,
+  "date": "1980-06-10",
+  "place": "Chicago, IL",
+  "lat": 41.88,
+  "lon": -87.63,
+  "death": false,
+  "lx": 24,
+  "ly": 22,
+  "la": "start"
+ },
+ {
+  "id": "b05",
+  "n": 5,
+  "date": "1981-10-08",
+  "place": "Salt Lake City, UT",
+  "lat": 40.76,
+  "lon": -111.89,
+  "death": false
+ },
+ {
+  "id": "b06",
+  "n": 6,
+  "date": "1982-05-05",
+  "place": "Nashville, TN",
+  "lat": 36.16,
+  "lon": -86.78,
+  "death": false
+ },
+ {
+  "id": "b07",
+  "n": 7,
+  "date": "1982-07-02",
+  "place": "Berkeley, CA",
+  "lat": 37.87,
+  "lon": -122.26,
+  "death": false,
+  "lx": -26,
+  "ly": 30,
+  "la": "end"
+ },
+ {
+  "id": "b08",
+  "n": 8,
+  "date": "1985-05-08",
+  "place": "Auburn, WA",
+  "lat": 47.31,
+  "lon": -122.23,
+  "death": false
+ },
+ {
+  "id": "b09",
+  "n": 9,
+  "date": "1985-05-15",
+  "place": "Berkeley, CA",
+  "lat": 37.87,
+  "lon": -122.26,
+  "death": false,
+  "lx": -26,
+  "ly": 30,
+  "la": "end"
+ },
+ {
+  "id": "b10",
+  "n": 10,
+  "date": "1985-11-15",
+  "place": "Ann Arbor, MI",
+  "lat": 42.28,
+  "lon": -83.74,
+  "death": false,
+  "lx": 16,
+  "ly": -20,
+  "la": "start"
+ },
+ {
+  "id": "b11",
+  "n": 11,
+  "date": "1985-12-11",
+  "place": "Sacramento, CA",
+  "lat": 38.58,
+  "lon": -121.49,
+  "death": true,
+  "lx": 24,
+  "ly": -16,
+  "la": "start"
+ },
+ {
+  "id": "b12",
+  "n": 12,
+  "date": "1987-02-20",
+  "place": "Salt Lake City, UT",
+  "lat": 40.76,
+  "lon": -111.89,
+  "death": false
+ },
+ {
+  "id": "b13",
+  "n": 13,
+  "date": "1993-06-22",
+  "place": "Tiburon, CA",
+  "lat": 37.87,
+  "lon": -122.46,
+  "death": false,
+  "lx": -28,
+  "ly": -16,
+  "la": "end"
+ },
+ {
+  "id": "b14",
+  "n": 14,
+  "date": "1993-06-24",
+  "place": "New Haven, CT",
+  "lat": 41.31,
+  "lon": -72.92,
+  "death": false,
+  "lx": -22,
+  "ly": -20,
+  "la": "end"
+ },
+ {
+  "id": "b15",
+  "n": 15,
+  "date": "1994-12-10",
+  "place": "North Caldwell, NJ",
+  "lat": 40.86,
+  "lon": -74.26,
+  "death": true,
+  "lx": -26,
+  "ly": 26,
+  "la": "end"
+ },
+ {
+  "id": "b16",
+  "n": 16,
+  "date": "1995-04-24",
+  "place": "Sacramento, CA",
+  "lat": 38.58,
+  "lon": -121.49,
+  "death": true,
+  "lx": 24,
+  "ly": -16,
+  "la": "start"
+ },
+ {
+  "id": "lincoln",
+  "n": 0,
+  "date": "1996-04-03",
+  "place": "Lincoln, MT",
+  "lat": 46.95,
+  "lon": -112.68,
+  "death": false
+ }
+]

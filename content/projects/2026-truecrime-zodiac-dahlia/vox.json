@@ -1,0 +1,1314 @@
+{
+  "project": "2026-truecrime-zodiac-dahlia",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "-2%",
+  "duck": 0.55,
+  "tts": {
+    "Cold Case Consultants of America": "Côn Cây Cân-xân-tần ốp A-mê-ri-ca",
+    "San Francisco Chronicle": "Xan Phran-xít-xcô Crô-ni-côn",
+    "Los Angeles Examiner": "Lót An-giơ-lét Ích-da-mi-nơ",
+    "Los Angeles Times": "Lót An-giơ-lét Thai",
+    "Los Angeles": "Lót An-giơ-lét",
+    "San Francisco": "Xan Phran-xít-xcô",
+    "Black Dahlia": "Blách Đa-li-a",
+    "Elizabeth Short": "Ê-li-da-bét Sót",
+    "Elizabeth": "Ê-li-da-bét",
+    "Beth Short": "Bét Sót",
+    "Marvin Margolis": "Ma-vin Ma-gô-lít",
+    "Margolis": "Ma-gô-lít",
+    "Marvin Merrill": "Ma-vin Me-rin",
+    "Marty Merrill": "Ma-ti Me-rin",
+    "Roark Merrill": "Rô-ác Me-rin",
+    "Merrill": "Me-rin",
+    "Alex Baber": "A-lếch Bây-bơ",
+    "Baber": "Bây-bơ",
+    "Christopher Goffard": "Crít-xtô-phơ Góp-phớt",
+    "Frank Jemison": "Phranh Giê-mi-xơn",
+    "Jemison": "Giê-mi-xơn",
+    "Rick Jackson": "Rích Giắc-xơn",
+    "Jack Jackson": "Giắc Giắc-xơn",
+    "Mitzi Roberts": "Mít-xi Rô-bớt",
+    "Larry Harnisch": "La-ri Ha-nít",
+    "Harnisch": "Ha-nít",
+    "Bill Robinson": "Bin Rô-bin-xơn",
+    "Kenneth Anger": "Ken-nét An-gơ",
+    "Hollywood Babylon II": "Hô-li-út Ba-bi-lon hai",
+    "Guardian Arms": "Ga-đi-ần Am",
+    "Hollywood": "Hô-li-út",
+    "Leimert Park": "Lây-mớt Pác",
+    "South Norton": "Xao Nóoc-tần",
+    "Santa Fe": "Xan-ta Phê",
+    "Compton": "Com-tần",
+    "Zodiac Motel": "Dô-đi-ắc Mô-ten",
+    "Zodiac": "Dô-đi-ắc",
+    "ZODIAC": "Dô-đi-ắc",
+    "Okinawa": "Ô-ki-na-oa",
+    "Massachusetts": "Mát-xa-chu-xét",
+    "California": "Ca-li-pho-ni-a",
+    "Chicago": "Si-ca-gô",
+    "Kansas": "Can-dát",
+    "Florida": "Phlo-ri-đa",
+    "Benicia": "Bê-ni-xi-a",
+    "Vallejo": "Va-lê-hô",
+    "Blue Rock Springs": "Blu Rốc Xpring",
+    "Lake Herman": "Lây Hơ-mần",
+    "Berryessa": "Be-ri-ét-xa",
+    "Napa": "Na-pa",
+    "Bryan Hartnell": "Brai-ần Hát-nen",
+    "Cecelia Shepard": "Xê-xi-li-a Sép-pớt",
+    "Presidio Heights": "Prê-xi-đi-ô Hai",
+    "Paul Stine": "Pôn Xtai",
+    "David Faraday": "Đây-vít Pha-ra-đây",
+    "Betty Lou Jensen": "Bét-ti Lu Gien-xơn",
+    "Darlene Ferrin": "Đa-lin Phe-rin",
+    "Donald": "Đô-nan",
+    "Bettye Harden": "Bét-ti Ha-đần",
+    "David Oranchak": "Đây-vít Ô-ran-chắc",
+    "Oranchak": "Ô-ran-chắc",
+    "Sam Blake": "Xam Blây",
+    "Jarl Van Eycke": "Gia Van Ai-cơ",
+    "Ed Giorgio": "Ét Gioóc-giô",
+    "Patrick Henry": "Pát-trích Hen-ri",
+    "Rich Wisniewski": "Rích Uýt-xni-ép-xki",
+    "San Mateo": "Xan Ma-tê-ô",
+    "Santa Clara": "Xan-ta Cla-ra",
+    "Atascadero": "A-tát-xca-đê-rô",
+    "Oceanside": "Ô-sần-xai",
+    "Bucksavers Automotive Repair": "Bắc-xây-vơ Ô-tô-mô-típ Ri-pe",
+    "Bucksavers": "Bắc-xây-vơ",
+    "Intel": "In-ten",
+    "Cold Case": "Côn Cây",
+    "FBI Vault": "ép bi ai Vôn",
+    "FBI": "ép bi ai",
+    "LAPD": "eo ây pi đi",
+    "USC": "iu ét xi",
+    "NSA": "en ét ây",
+    "ADN": "a đê en",
+    "L2–L3": "eo hai eo ba",
+    "Z408": "dét bốn không tám",
+    "Z340": "dét ba bốn mươi",
+    "Z13": "dét mười ba",
+    "Tau": "tau",
+    "ma-nơ-canh": "ma nơ canh",
+    "M-A-R-V-I-N-M-E-R-R-I-L-L": "Em, A, Rờ, Vê, I, En, Em, E, Rờ, Rờ, I, Eo, Eo"
+  },
+  "shots": [
+    {
+      "id": "P01",
+      "say": "n.P01",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_sketch1992.jpg",
+        "ai": true,
+        "cam": "push",
+        "fx": 0.45,
+        "fy": 0.55,
+        "grade": "night",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.P01.1", "at": 0.08}],
+        "sfx": [{"src": "sfx/whoosh.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "P02",
+      "say": "n.P02",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_sketch1992_diagram.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.56, 0.84, 0.28],
+        "trans": "u.P02.1",
+        "source": "u.P02.2",
+        "sfx": [
+          {"src": "sfx/paper.mp3", "at": 0},
+          {"src": "sfx/stinger.mp3", "at": 1.8, "vol": 0.65}
+        ]
+      }
+    },
+    {
+      "id": "P03",
+      "say": "n.P03",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_z13_letter.png",
+        "aspect": 1.6,
+        "mark": [0.06, 0.44, 0.88, 0.30],
+        "trans": "u.P03.1",
+        "source": "u.P03.2",
+        "sfx": [{"src": "sfx/type.mp3", "at": 0.3}]
+      }
+    },
+    {
+      "id": "P04",
+      "say": "n.P04",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_fbi_dahlia_memo.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.36, 0.84, 0.30],
+        "trans": "u.P04.1",
+        "source": "u.P04.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "P05",
+      "say": "n.P05",
+      "v": {
+        "kind": "geomap",
+        "src": "camap.json",
+        "provinces": true,
+        "fill": {"USA": "#efe0b4"},
+        "cam": [
+          {"at": 0, "pt": "ca", "zoom": 0.85},
+          {"at": 0.55, "pt": "ca", "zoom": 1.15}
+        ],
+        "labels": [
+          {"text": "u.P05.1", "pt": "ca", "at": 0.05, "style": "country", "size": 52},
+          {"text": "u.P05.2", "pt": "sf", "at": 0.25, "style": "box", "dx": 160, "dy": -35},
+          {"text": "u.P05.3", "pt": "la", "at": 0.45, "style": "box", "dx": 150, "dy": 35}
+        ],
+        "bursts": [
+          {"pt": "la", "at": 0.4},
+          {"pt": "sf", "at": 0.22}
+        ],
+        "title": "u.P05.4"
+      }
+    },
+    {
+      "id": "P06",
+      "say": "n.P06",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_latimes_2025.png",
+        "aspect": 1.6,
+        "mark": [0.06, 0.28, 0.88, 0.34],
+        "trans": "u.P06.1",
+        "source": "u.P06.2",
+        "sfx": [{"src": "sfx/thud.mp3", "at": 0.8}]
+      }
+    },
+    {
+      "id": "P07",
+      "say": "n.P07",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_jemison_1950.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.40, 0.84, 0.32],
+        "trans": "u.P07.1",
+        "source": "u.P07.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "P08",
+      "say": "n.P08",
+      "v": {
+        "kind": "board",
+        "cards": [
+          {"id": "dahlia", "text": "u.P08.1", "sub": "u.P08.2", "x": 0.24, "y": 0.28, "rot": -2},
+          {"id": "z13", "text": "u.P08.3", "sub": "u.P08.4", "x": 0.76, "y": 0.28, "rot": 2},
+          {"id": "merrill", "text": "u.P08.5", "sub": "u.P08.6", "x": 0.50, "y": 0.50, "at": 0.15},
+          {"id": "doubt", "text": "u.P08.7", "sub": "u.P08.8", "x": 0.50, "y": 0.74, "q": true, "at": 0.42}
+        ],
+        "links": [
+          ["dahlia", "merrill", 0.22],
+          ["z13", "merrill", 0.28],
+          ["merrill", "doubt", 0.52]
+        ],
+        "focus": "doubt",
+        "zoom": 1.08,
+        "sfx": [{"src": "sfx/pin.mp3", "at": 0.9}]
+      }
+    },
+    {
+      "id": "P09",
+      "say": "n.P09",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_desk_files.jpg",
+        "ai": true,
+        "cam": "pull",
+        "grade": "cold",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.P09.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "P10",
+      "say": "n.P10",
+      "pad": 0.8,
+      "v": {
+        "kind": "title",
+        "text": "u.P10.1",
+        "sub": "u.P10.2",
+        "bg": "ai/ai_desk.jpg"
+      }
+    },
+
+    {
+      "id": "C101",
+      "say": "n.C101",
+      "pad": 0.6,
+      "v": {
+        "kind": "chapter",
+        "num": "01",
+        "title": "u.C101.1"
+      }
+    },
+    {
+      "id": "C102",
+      "say": "n.C102",
+      "v": {
+        "kind": "geomap",
+        "src": "camap.json",
+        "provinces": true,
+        "fill": {"USA": "#efe0b4"},
+        "cam": [
+          {"at": 0, "pt": "la", "zoom": 1.3},
+          {"at": 0.55, "pt": "leimert", "zoom": 2.4}
+        ],
+        "labels": [
+          {"text": "u.C102.1", "pt": "hollywood", "at": 0.15, "style": "box", "dx": -180, "dy": -45},
+          {"text": "u.C102.2", "pt": "leimert", "at": 0.35, "style": "box", "dx": 180, "dy": -10},
+          {"text": "u.C102.3", "pt": "compton", "at": 0.6, "style": "box", "dx": 170, "dy": 45}
+        ],
+        "bursts": [{"pt": "leimert", "at": 0.32}],
+        "title": "c.map"
+      }
+    },
+    {
+      "id": "C103",
+      "say": "n.C103",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_leimert_fog.jpg",
+        "ai": true,
+        "cam": "push",
+        "grade": "cold",
+        "atmos": ["fog", "film"],
+        "chips": [{"text": "u.C103.1", "at": 0.1}],
+        "sfx": [{"src": "sfx/whoosh.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "C104",
+      "say": "n.C104",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_fbi_dahlia_id.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.32, 0.84, 0.32],
+        "trans": "u.C104.1",
+        "source": "u.C104.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "C105",
+      "say": "n.C105",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_autopsy_summary.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.30, 0.84, 0.32],
+        "trans": "u.C105.1",
+        "source": "u.C105.2",
+        "sfx": [{"src": "sfx/stinger.mp3", "at": 1.2, "vol": 0.6}]
+      }
+    },
+    {
+      "id": "C106",
+      "say": "n.C106",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_lumbar_diagram.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.38, 0.84, 0.32],
+        "trans": "u.C106.1",
+        "source": "u.C106.2",
+        "sfx": [{"src": "sfx/click.mp3", "at": 0.5}]
+      }
+    },
+    {
+      "id": "C107",
+      "say": "n.C107",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_usc_medical.jpg",
+        "ai": true,
+        "cam": "panR",
+        "grade": "old",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.C107.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C108",
+      "say": "n.C108",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_campus.jpg",
+        "ai": true,
+        "cam": "push",
+        "grade": "warm",
+        "atmos": ["dust", "film"],
+        "chips": [{"text": "u.C108.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C109",
+      "say": "n.C109",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_cutletters.jpg",
+        "ai": true,
+        "cam": "panL",
+        "grade": "night",
+        "atmos": ["dust", "flicker"],
+        "chips": [{"text": "u.C109.1", "at": 0.08}],
+        "sfx": [{"src": "sfx/type.mp3", "at": 0.2}]
+      }
+    },
+    {
+      "id": "C110",
+      "say": "n.C110",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_dahlia_envelope1947.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.32, 0.84, 0.36],
+        "trans": "u.C110.1",
+        "source": "u.C110.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "C111",
+      "say": "n.C111",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_fbi_gasoline_lab.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.40, 0.84, 0.30],
+        "trans": "u.C111.1",
+        "source": "u.C111.2",
+        "sfx": [{"src": "sfx/stinger.mp3", "at": 1.4, "vol": 0.6}]
+      }
+    },
+    {
+      "id": "C112",
+      "say": "n.C112",
+      "v": {
+        "kind": "board",
+        "cards": [
+          {"id": "dahlia", "text": "u.P08.1", "sub": "u.P08.2", "x": 0.50, "y": 0.24},
+          {"id": "l2l3", "text": "u.C112.1", "sub": "u.C112.2", "x": 0.22, "y": 0.56, "at": 0.12, "rot": -2},
+          {"id": "gas", "text": "u.C112.3", "sub": "u.C112.4", "x": 0.50, "y": 0.62, "at": 0.28},
+          {"id": "usc", "text": "u.C112.5", "sub": "u.C112.6", "x": 0.78, "y": 0.56, "at": 0.44, "rot": 2}
+        ],
+        "links": [
+          ["dahlia", "l2l3", 0.20],
+          ["dahlia", "gas", 0.36],
+          ["dahlia", "usc", 0.52]
+        ],
+        "focus": "usc",
+        "zoom": 1.08,
+        "sfx": [{"src": "sfx/pin.mp3", "at": 0.8}]
+      }
+    },
+
+    {
+      "id": "C201",
+      "say": "n.C201",
+      "pad": 0.6,
+      "v": {
+        "kind": "chapter",
+        "num": "02",
+        "title": "u.C201.1"
+      }
+    },
+    {
+      "id": "C202",
+      "say": "n.C202",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_courthouse.jpg",
+        "ai": true,
+        "cam": "push",
+        "grade": "old",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.C202.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C203",
+      "say": "n.C203",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_jemison_cover1950.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.30, 0.84, 0.34],
+        "trans": "u.C203.1",
+        "source": "u.C203.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "C204",
+      "say": "n.C204",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_jemison_1950.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.40, 0.84, 0.32],
+        "trans": "u.C204.1",
+        "source": "u.C204.2",
+        "sfx": [{"src": "sfx/stinger.mp3", "at": 1.0, "vol": 0.65}]
+      }
+    },
+    {
+      "id": "C205",
+      "say": "n.C205",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_corridor.jpg",
+        "ai": true,
+        "cam": "panL",
+        "grade": "warm",
+        "atmos": ["dust", "film"],
+        "chips": [{"text": "u.C205.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C206",
+      "say": "n.C206",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_guardian_arms_record.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.36, 0.84, 0.32],
+        "trans": "u.C206.1",
+        "source": "u.C206.2",
+        "sfx": [{"src": "sfx/click.mp3", "at": 0.4}]
+      }
+    },
+    {
+      "id": "C207",
+      "say": "n.C207",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_okinawa1945.jpg",
+        "ai": true,
+        "cam": "push",
+        "grade": "cold",
+        "atmos": ["fog", "film"],
+        "chips": [{"text": "u.C207.1", "at": 0.1}],
+        "sfx": [{"src": "sfx/thud.mp3", "at": 0.3}]
+      }
+    },
+    {
+      "id": "C208",
+      "say": "n.C208",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_navy_medical1945.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.28, 0.84, 0.32],
+        "trans": "u.C208.1",
+        "source": "u.C208.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "C209",
+      "say": "n.C209",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_foxhole_med1945.jpg",
+        "ai": true,
+        "cam": "handheld",
+        "grade": "night",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.C209.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C210",
+      "say": "n.C210",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_navy_psych1945.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.32, 0.84, 0.34],
+        "trans": "u.C210.1",
+        "source": "u.C210.2",
+        "sfx": [{"src": "sfx/stinger.mp3", "at": 1.2, "vol": 0.65}]
+      }
+    },
+    {
+      "id": "C211",
+      "say": "n.C211",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_navy_quote1945.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.36, 0.84, 0.32],
+        "trans": "u.C211.1",
+        "source": "u.C211.2",
+        "sfx": [{"src": "sfx/type.mp3", "at": 0.3}]
+      }
+    },
+    {
+      "id": "C212",
+      "say": "n.C212",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_zodiac_motel1947.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.34, 0.84, 0.34],
+        "trans": "u.C212.1",
+        "source": "u.C212.2",
+        "sfx": [{"src": "sfx/stinger.mp3", "at": 1.6, "vol": 0.7}]
+      }
+    },
+    {
+      "id": "C213",
+      "say": "n.C213",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_search_night.jpg",
+        "ai": true,
+        "cam": "pull",
+        "grade": "night",
+        "atmos": ["fog", "dust"],
+        "chips": [{"text": "u.C213.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C214",
+      "say": "n.C214",
+      "v": {
+        "kind": "board",
+        "cards": [
+          {"id": "dahlia", "text": "u.P08.1", "sub": "u.P08.2", "x": 0.22, "y": 0.24},
+          {"id": "usc", "text": "u.C112.5", "sub": "u.C112.6", "x": 0.50, "y": 0.24},
+          {"id": "merrill", "text": "u.P08.5", "sub": "u.P08.6", "x": 0.78, "y": 0.24},
+          {"id": "apt726", "text": "u.C214.1", "sub": "u.C214.2", "x": 0.22, "y": 0.60, "at": 0.12, "rot": -2},
+          {"id": "okinawa", "text": "u.C214.3", "sub": "u.C214.4", "x": 0.50, "y": 0.62, "at": 0.28},
+          {"id": "motel", "text": "u.C214.5", "sub": "u.C214.6", "x": 0.78, "y": 0.60, "at": 0.44, "rot": 2}
+        ],
+        "links": [
+          ["dahlia", "apt726", 0.18],
+          ["usc", "merrill"],
+          ["merrill", "okinawa", 0.34],
+          ["dahlia", "motel", 0.50]
+        ],
+        "focus": "motel",
+        "zoom": 1.06,
+        "sfx": [{"src": "sfx/pin.mp3", "at": 0.9}]
+      }
+    },
+
+    {
+      "id": "C301",
+      "say": "n.C301",
+      "pad": 0.6,
+      "v": {
+        "kind": "chapter",
+        "num": "03",
+        "title": "u.C301.1"
+      }
+    },
+    {
+      "id": "C302",
+      "say": "n.C302",
+      "v": {
+        "kind": "geomap",
+        "src": "camap.json",
+        "provinces": true,
+        "fill": {"USA": "#efe0b4"},
+        "cam": [
+          {"at": 0, "pt": "sf", "zoom": 1.2},
+          {"at": 0.55, "pt": "vallejo", "zoom": 2.2}
+        ],
+        "labels": [
+          {"text": "u.C302.1", "pt": "berryessa", "at": 0.15, "style": "box", "dx": 170, "dy": -35},
+          {"text": "u.C302.2", "pt": "vallejo", "at": 0.32, "style": "box", "dx": 185, "dy": 15},
+          {"text": "u.C302.3", "pt": "sf", "at": 0.48, "style": "box", "dx": -175, "dy": 20},
+          {"text": "u.C302.4", "pt": "santaclara", "at": 0.65, "style": "box", "dx": 175, "dy": 45}
+        ],
+        "bursts": [
+          {"pt": "vallejo", "at": 0.28},
+          {"pt": "berryessa", "at": 0.42},
+          {"pt": "sf", "at": 0.56}
+        ],
+        "title": "c.map"
+      }
+    },
+    {
+      "id": "C303",
+      "say": "n.C303",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_vallejo_night1968.jpg",
+        "ai": true,
+        "cam": "push",
+        "grade": "night",
+        "atmos": ["fog", "lamp"],
+        "chips": [{"text": "u.C303.1", "at": 0.1}],
+        "sfx": [{"src": "sfx/thud.mp3", "at": 0.4}]
+      }
+    },
+    {
+      "id": "C304",
+      "say": "n.C304",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_lakedawn.jpg",
+        "ai": true,
+        "cam": "panR",
+        "grade": "cold",
+        "atmos": ["fog", "dust"],
+        "chips": [{"text": "u.C304.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C305",
+      "say": "n.C305",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_phonebooth.jpg",
+        "ai": true,
+        "cam": "push",
+        "grade": "night",
+        "atmos": ["rain", "lamp"],
+        "chips": [{"text": "u.C305.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C306",
+      "say": "n.C306",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_fbi_zodiac_summary.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.28, 0.84, 0.34],
+        "trans": "u.C306.1",
+        "source": "u.C306.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "C307",
+      "say": "n.C307",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_z408_cipher.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.26, 0.84, 0.36],
+        "trans": "u.C307.1",
+        "source": "u.C307.2",
+        "sfx": [{"src": "sfx/type.mp3", "at": 0.3}]
+      }
+    },
+    {
+      "id": "C308",
+      "say": "n.C308",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_z340_oranchak2020.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.30, 0.84, 0.36],
+        "trans": "u.C308.1",
+        "source": "u.C308.2",
+        "sfx": [{"src": "sfx/click.mp3", "at": 0.4}]
+      }
+    },
+    {
+      "id": "C309",
+      "say": "n.C309",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_newspapers.jpg",
+        "ai": true,
+        "cam": "panL",
+        "grade": "cold",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.C309.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C310",
+      "say": "n.C310",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_z13_closeup.png",
+        "aspect": 1.6,
+        "mark": [0.06, 0.38, 0.88, 0.34],
+        "trans": "u.C310.1",
+        "source": "u.C310.2",
+        "sfx": [{"src": "sfx/stinger.mp3", "at": 1.2, "vol": 0.7}]
+      }
+    },
+    {
+      "id": "C311",
+      "say": "n.C311",
+      "v": {
+        "kind": "board",
+        "cards": [
+          {"id": "z13", "text": "u.P08.3", "sub": "u.P08.4", "x": 0.50, "y": 0.25},
+          {"id": "bay4", "text": "u.C311.3", "sub": "u.C311.4", "x": 0.22, "y": 0.58, "at": 0.12, "rot": -2},
+          {"id": "z408", "text": "u.C311.1", "sub": "u.C311.2", "x": 0.50, "y": 0.62, "at": 0.28},
+          {"id": "merrill", "text": "u.P08.5", "sub": "u.P08.6", "x": 0.78, "y": 0.58, "q": true, "at": 0.44, "rot": 2}
+        ],
+        "links": [
+          ["bay4", "z13", 0.20],
+          ["z408", "z13", 0.34],
+          ["z13", "merrill", 0.50]
+        ],
+        "focus": "z13",
+        "zoom": 1.06,
+        "sfx": [{"src": "sfx/pin.mp3", "at": 0.9}]
+      }
+    },
+
+    {
+      "id": "C401",
+      "say": "n.C401",
+      "pad": 0.6,
+      "v": {
+        "kind": "chapter",
+        "num": "04",
+        "title": "u.C401.1"
+      }
+    },
+    {
+      "id": "C402",
+      "say": "n.C402",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_scanner.jpg",
+        "ai": true,
+        "cam": "push",
+        "grade": "cold",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.C402.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C403",
+      "say": "n.C403",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_census_funnel.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.24, 0.84, 0.46],
+        "trans": "u.C403.1",
+        "source": "u.C403.2",
+        "sfx": [{"src": "sfx/type.mp3", "at": 0.3}]
+      }
+    },
+    {
+      "id": "C404",
+      "say": "n.C404",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_merrill_13letters.png",
+        "aspect": 1.6,
+        "mark": [0.06, 0.36, 0.88, 0.34],
+        "trans": "u.C404.1",
+        "source": "u.C404.2",
+        "sfx": [{"src": "sfx/stinger.mp3", "at": 1.3, "vol": 0.65}]
+      }
+    },
+    {
+      "id": "C405",
+      "say": "n.C405",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_z13_elizabeth_key.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.30, 0.84, 0.38],
+        "trans": "u.C405.1",
+        "source": "u.C405.2",
+        "sfx": [{"src": "sfx/click.mp3", "at": 0.4}]
+      }
+    },
+    {
+      "id": "C406",
+      "say": "n.C406",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_nsa_review2025.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.32, 0.84, 0.34],
+        "trans": "u.C406.1",
+        "source": "u.C406.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "C407",
+      "say": "n.C407",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_lapd_detectives_quote.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.30, 0.84, 0.36],
+        "trans": "u.C407.1",
+        "source": "u.C407.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "C408",
+      "say": "n.C408",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_archive2.jpg",
+        "ai": true,
+        "cam": "panR",
+        "grade": "warm",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.C408.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C409",
+      "say": "n.C409",
+      "v": {
+        "kind": "board",
+        "cards": [
+          {"id": "z13", "text": "u.P08.3", "sub": "u.P08.4", "x": 0.24, "y": 0.26},
+          {"id": "merrill", "text": "u.P08.5", "sub": "u.P08.6", "x": 0.76, "y": 0.26},
+          {"id": "key", "text": "u.C409.1", "sub": "u.C409.2", "x": 0.32, "y": 0.62, "at": 0.14, "rot": -2},
+          {"id": "lapd", "text": "u.C409.3", "sub": "u.C409.4", "x": 0.68, "y": 0.62, "at": 0.34, "rot": 2}
+        ],
+        "links": [
+          ["z13", "key", 0.22],
+          ["key", "merrill", 0.30],
+          ["merrill", "lapd", 0.44]
+        ],
+        "focus": "lapd",
+        "zoom": 1.06,
+        "sfx": [{"src": "sfx/pin.mp3", "at": 0.8}]
+      }
+    },
+
+    {
+      "id": "C501",
+      "say": "n.C501",
+      "pad": 0.6,
+      "v": {
+        "kind": "chapter",
+        "num": "05",
+        "title": "u.C501.1"
+      }
+    },
+    {
+      "id": "C502",
+      "say": "n.C502",
+      "v": {
+        "kind": "geomap",
+        "src": "camap.json",
+        "provinces": true,
+        "fill": {"USA": "#efe0b4"},
+        "cam": [
+          {"at": 0, "pt": "santaclara", "zoom": 1.3},
+          {"at": 0.55, "pt": "oceanside", "zoom": 1.6}
+        ],
+        "labels": [
+          {"text": "u.C502.1", "pt": "santaclara", "at": 0.12, "style": "box", "dx": 180, "dy": -25},
+          {"text": "u.C502.2", "pt": "atascadero", "at": 0.35, "style": "box", "dx": 165, "dy": -10},
+          {"text": "u.C502.3", "pt": "oceanside", "at": 0.58, "style": "box", "dx": 180, "dy": 30}
+        ],
+        "bursts": [
+          {"pt": "santaclara", "at": 0.1},
+          {"pt": "oceanside", "at": 0.55}
+        ],
+        "title": "c.map"
+      }
+    },
+    {
+      "id": "C503",
+      "say": "n.C503",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_california_timeline.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.28, 0.84, 0.34],
+        "trans": "u.C503.1",
+        "source": "u.C503.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "C504",
+      "say": "n.C504",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_workshop.jpg",
+        "ai": true,
+        "cam": "push",
+        "grade": "warm",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.C504.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C505",
+      "say": "n.C505",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_probation_gap1971_1974.png",
+        "aspect": 1.6,
+        "mark": [0.06, 0.26, 0.88, 0.48],
+        "trans": "u.C505.1",
+        "source": "u.C505.2",
+        "sfx": [{"src": "sfx/stinger.mp3", "at": 1.2, "vol": 0.65}]
+      }
+    },
+    {
+      "id": "C506",
+      "say": "n.C506",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_bucksavers_court.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.34, 0.84, 0.34],
+        "trans": "u.C506.1",
+        "source": "u.C506.2",
+        "sfx": [{"src": "sfx/thud.mp3", "at": 0.8}]
+      }
+    },
+    {
+      "id": "C507",
+      "say": "n.C507",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_raid2007.jpg",
+        "ai": true,
+        "cam": "panL",
+        "grade": "cold",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.C507.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C508",
+      "say": "n.C508",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_okinawa_bayonet_spec.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.30, 0.84, 0.36],
+        "trans": "u.C508.1",
+        "source": "u.C508.2",
+        "sfx": [{"src": "sfx/click.mp3", "at": 0.4}]
+      }
+    },
+    {
+      "id": "C509",
+      "say": "n.C509",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_sketch1992_diagram.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.24, 0.84, 0.62],
+        "trans": "u.C509.1",
+        "source": "u.C509.2",
+        "sfx": [{"src": "sfx/stinger.mp3", "at": 1.4, "vol": 0.7}]
+      }
+    },
+    {
+      "id": "C510",
+      "say": "n.C510",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_sketch1992.jpg",
+        "ai": true,
+        "cam": "push",
+        "grade": "night",
+        "atmos": ["lamp", "flicker"],
+        "chips": [{"text": "u.C510.1", "at": 0.1}],
+        "sfx": [{"src": "sfx/heart.mp3", "at": 0.3}]
+      }
+    },
+    {
+      "id": "C511",
+      "say": "n.C511",
+      "v": {
+        "kind": "board",
+        "cards": [
+          {"id": "merrill", "text": "u.P08.5", "sub": "u.P08.6", "x": 0.50, "y": 0.24},
+          {"id": "intel", "text": "u.C511.1", "sub": "u.C511.2", "x": 0.22, "y": 0.58, "at": 0.12, "rot": -2},
+          {"id": "prob", "text": "u.C511.3", "sub": "u.C511.4", "x": 0.50, "y": 0.62, "at": 0.28},
+          {"id": "sketch", "text": "u.C511.5", "sub": "u.C511.6", "x": 0.78, "y": 0.58, "at": 0.44, "rot": 2}
+        ],
+        "links": [
+          ["merrill", "intel", 0.20],
+          ["merrill", "prob", 0.36],
+          ["merrill", "sketch", 0.52]
+        ],
+        "focus": "sketch",
+        "zoom": 1.06,
+        "sfx": [{"src": "sfx/pin.mp3", "at": 0.9}]
+      }
+    },
+
+    {
+      "id": "C601",
+      "say": "n.C601",
+      "pad": 0.6,
+      "v": {
+        "kind": "chapter",
+        "num": "06",
+        "title": "u.C601.1"
+      }
+    },
+    {
+      "id": "C602",
+      "say": "n.C602",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_reader.jpg",
+        "ai": true,
+        "cam": "push",
+        "grade": "cold",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.C602.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C603",
+      "say": "n.C603",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_factcheck_1984_vs_1994.png",
+        "aspect": 1.6,
+        "mark": [0.06, 0.22, 0.88, 0.30],
+        "trans": "u.C603.1",
+        "source": "u.C603.2",
+        "sfx": [{"src": "sfx/stinger.mp3", "at": 1.1, "vol": 0.65}]
+      }
+    },
+    {
+      "id": "C604",
+      "say": "n.C604",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_hollywood_babylon1984.png",
+        "aspect": 1.6,
+        "mark": [0.06, 0.44, 0.88, 0.36],
+        "trans": "u.C604.1",
+        "source": "u.C604.2",
+        "sfx": [{"src": "sfx/thud.mp3", "at": 0.9}]
+      }
+    },
+    {
+      "id": "C605",
+      "say": "n.C605",
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_studio.jpg",
+        "ai": true,
+        "cam": "panL",
+        "grade": "old",
+        "atmos": ["dust", "lamp"],
+        "chips": [{"text": "u.C605.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "C606",
+      "say": "n.C606",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_z13_pattern_mismatch.png",
+        "aspect": 1.6,
+        "mark": [0.06, 0.26, 0.88, 0.50],
+        "trans": "u.C606.1",
+        "source": "u.C606.2",
+        "sfx": [{"src": "sfx/click.mp3", "at": 0.5}]
+      }
+    },
+    {
+      "id": "C607",
+      "say": "n.C607",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_unicity_distance.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.28, 0.84, 0.42],
+        "trans": "u.C607.1",
+        "source": "u.C607.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "C608",
+      "say": "n.C608",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_harnisch_rebuttal.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.30, 0.84, 0.38],
+        "trans": "u.C608.1",
+        "source": "u.C608.2",
+        "sfx": [{"src": "sfx/paper.mp3", "at": 0}]
+      }
+    },
+    {
+      "id": "C609",
+      "say": "n.C609",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_forensic_status2025.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.32, 0.84, 0.36],
+        "trans": "u.C609.1",
+        "source": "u.C609.2",
+        "sfx": [{"src": "sfx/thud.mp3", "at": 0.8}]
+      }
+    },
+    {
+      "id": "C610",
+      "say": "n.C610",
+      "v": {
+        "kind": "desk",
+        "src": "docs/doc_roberts_quote2025.png",
+        "aspect": 1.6,
+        "mark": [0.08, 0.32, 0.84, 0.36],
+        "trans": "u.C610.1",
+        "source": "u.C610.2",
+        "sfx": [{"src": "sfx/type.mp3", "at": 0.3}]
+      }
+    },
+    {
+      "id": "C611",
+      "say": "n.C611",
+      "v": {
+        "kind": "board",
+        "cards": [
+          {"id": "b1984", "text": "u.C611.1", "sub": "u.C611.2", "x": 0.24, "y": 0.28, "q": true, "at": 0.08, "rot": -2},
+          {"id": "math", "text": "u.C611.3", "sub": "u.C611.4", "x": 0.76, "y": 0.28, "q": true, "at": 0.22, "rot": 2},
+          {"id": "alibi", "text": "u.C611.5", "sub": "u.C611.6", "x": 0.24, "y": 0.62, "q": true, "at": 0.36, "rot": 1},
+          {"id": "dna", "text": "u.C611.7", "sub": "u.C611.8", "x": 0.76, "y": 0.62, "q": true, "at": 0.50, "rot": -1}
+        ],
+        "links": [
+          ["b1984", "math", 0.28],
+          ["alibi", "dna", 0.56]
+        ],
+        "focus": "dna",
+        "zoom": 1.06,
+        "sfx": [{"src": "sfx/pin.mp3", "at": 0.9}]
+      }
+    },
+
+    {
+      "id": "J701",
+      "say": "n.J701",
+      "pad": 0.6,
+      "v": {
+        "kind": "chapter",
+        "num": "07",
+        "title": "u.J701.1"
+      }
+    },
+    {
+      "id": "J702",
+      "say": "n.J702",
+      "pad": 0.8,
+      "v": {
+        "kind": "board",
+        "cards": [
+          {"id": "lh", "text": "u.J703.1", "sub": "u.J703.2", "x": 0.2, "y": 0.14, "w": 0.24, "at": 0.04},
+          {"id": "l1", "text": "u.C214.1", "sub": "u.C214.2", "x": 0.2, "y": 0.30, "at": 0.12},
+          {"id": "l2", "text": "u.C214.5", "sub": "u.C214.6", "x": 0.2, "y": 0.46, "at": 0.22},
+          {"id": "l3", "text": "u.C511.3", "sub": "u.C511.4", "x": 0.2, "y": 0.62, "at": 0.32},
+          {"id": "l4", "text": "u.C511.5", "sub": "u.C511.6", "x": 0.2, "y": 0.78, "at": 0.42}
+        ],
+        "links": [["lh", "l1", 0.14], ["l1", "l2", 0.24], ["l2", "l3", 0.34], ["l3", "l4", 0.44]],
+        "sfx": [{"src": "sfx/pin.mp3", "at": 0.8}]
+      }
+    },
+    {
+      "id": "J703",
+      "say": "n.J703",
+      "pad": 0.8,
+      "v": {
+        "kind": "board",
+        "cards": [
+          {"id": "lh", "text": "u.J703.1", "sub": "u.J703.2", "x": 0.2, "y": 0.14, "w": 0.24},
+          {"id": "l1", "text": "u.C214.1", "sub": "u.C214.2", "x": 0.2, "y": 0.30},
+          {"id": "l2", "text": "u.C214.5", "sub": "u.C214.6", "x": 0.2, "y": 0.46},
+          {"id": "l3", "text": "u.C511.3", "sub": "u.C511.4", "x": 0.2, "y": 0.62},
+          {"id": "l4", "text": "u.C511.5", "sub": "u.C511.6", "x": 0.2, "y": 0.78},
+          {"id": "rh", "text": "u.J703.3", "sub": "u.J703.4", "x": 0.8, "y": 0.14, "w": 0.24, "at": 0.04},
+          {"id": "r1", "text": "u.C611.1", "sub": "u.C611.2", "x": 0.8, "y": 0.30, "q": true, "at": 0.12},
+          {"id": "r2", "text": "u.C611.3", "sub": "u.C611.4", "x": 0.8, "y": 0.46, "q": true, "at": 0.24},
+          {"id": "r3", "text": "u.C611.5", "sub": "u.C611.6", "x": 0.8, "y": 0.62, "q": true, "at": 0.36},
+          {"id": "r4", "text": "u.C611.7", "sub": "u.C611.8", "x": 0.8, "y": 0.78, "q": true, "at": 0.48}
+        ],
+        "links": [
+          ["lh", "l1"], ["l1", "l2"], ["l2", "l3"], ["l3", "l4"],
+          ["rh", "r1", 0.14], ["r1", "r2", 0.26], ["r2", "r3", 0.38], ["r3", "r4", 0.5]
+        ],
+        "sfx": [{"src": "sfx/riser.mp3", "at": 0.4, "vol": 0.5}]
+      }
+    },
+    {
+      "id": "J704",
+      "say": "n.J704",
+      "pad": 1.0,
+      "v": {
+        "kind": "scene25",
+        "img": "ai/ai_lakedawn.jpg",
+        "ai": true,
+        "cam": "pull",
+        "amt": 1.2,
+        "grade": "dusk",
+        "atmos": ["fog", "dust"],
+        "chips": [{"text": "u.J704.1", "at": 0.1}]
+      }
+    },
+    {
+      "id": "J705",
+      "say": "n.J705",
+      "pad": 1.4,
+      "v": {
+        "kind": "memorial",
+        "title": "u.J705.1",
+        "names": ["u.J705.2", "u.J705.3", "u.J705.4"]
+      }
+    },
+    {
+      "id": "J706",
+      "say": "n.J706",
+      "pad": 1.2,
+      "v": {
+        "kind": "sources",
+        "title": "u.J706.1",
+        "lines": ["u.J706.2", "u.J706.3", "u.J706.4", "u.J706.5", "u.J706.6"]
+      }
+    }
+  ],
+  "cues": [
+    {"at": "P01", "src": "assets/audio/mus_tension.mp3", "vol": 0.5},
+    {"at": "C101", "src": "assets/audio/mus_invest.mp3", "vol": 0.45},
+    {"at": "C105", "src": "assets/audio/mus_tension.mp3", "vol": 0.48},
+    {"at": "C201", "src": "assets/audio/mus_invest.mp3", "vol": 0.45},
+    {"at": "C207", "src": "assets/audio/mus_tension.mp3", "vol": 0.48},
+    {"at": "C301", "src": "assets/audio/mus_tension.mp3", "vol": 0.5},
+    {"at": "C306", "src": "assets/audio/mus_invest.mp3", "vol": 0.45},
+    {"at": "C401", "src": "assets/audio/mus_invest.mp3", "vol": 0.45},
+    {"at": "C501", "src": "assets/audio/mus_invest.mp3", "vol": 0.45},
+    {"at": "C507", "src": "assets/audio/mus_tension.mp3", "vol": 0.5},
+    {"at": "C601", "src": "assets/audio/mus_invest.mp3", "vol": 0.45},
+    {"at": "J701", "src": "assets/audio/mus_grief.mp3", "vol": 0.48}
+  ]
+}

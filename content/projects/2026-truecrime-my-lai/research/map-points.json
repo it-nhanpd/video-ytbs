@@ -1,0 +1,10 @@
+[
+  {"id": "hanoi", "lon": 105.85, "lat": 21.03, "approx": true},
+  {"id": "saigon", "lon": 106.70, "lat": 10.78, "approx": true},
+  {"id": "hue", "lon": 107.59, "lat": 16.46, "approx": true},
+  {"id": "danang", "lon": 108.20, "lat": 16.05, "approx": true},
+  {"id": "quangngai", "lon": 108.79, "lat": 15.12, "approx": true},
+  {"id": "sonmy", "lon": 108.87, "lat": 15.18, "approx": true},
+  {"id": "dmz-w", "lon": 106.55, "lat": 17.0, "approx": true, "note": "đường vĩ tuyến 17 vẽ minh họa, không phải ranh giới đo đạc"},
+  {"id": "dmz-e", "lon": 107.11, "lat": 17.0, "approx": true}
+]

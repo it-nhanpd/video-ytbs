@@ -1,0 +1,363 @@
+{
+  "c.ai": "Minh họa (AI)",
+  "c.map": "Natural Earth (phạm vi công cộng) · vị trí minh họa theo hồ sơ",
+  "u.chapter": "HỒ SƠ SỐ",
+  "u.trans": "HỒ SƠ",
+
+  "n.P01": "Năm 1992, một người đàn ông đang hấp hối vì bệnh ung thư đặt bút vẽ một bức tranh chì màu cuối cùng.",
+  "u.P01.1": "1992 · NAM CALIFORNIA",
+
+  "n.P02": "Phía trên bức vẽ, ông viết cái tên “Elizabeth”, ký tên “Marty Merrill 92”, còn dưới lớp bóng chì đen lại ẩn một chữ cái khác: “ZODIAC”.",
+  "u.P02.1": "Sơ đồ phân tích bức vẽ năm 1992: tiêu đề “Elizabeth”, chữ ký “Marty Merrill '92” và vùng bóng chì ẩn chữ “ZODIAC”",
+  "u.P02.2": "Theo Los Angeles Times (23/12/2025)",
+
+  "n.P03": "Hai mươi hai năm trước bức vẽ ấy, ngày 20 tháng 4 năm 1970, kẻ sát nhân Zodiac gửi tới báo San Francisco Chronicle một bức thư mở đầu bằng câu: “Tên của ta là…” kèm đúng mười ba ký hiệu mật mã.",
+  "u.P03.1": "“My name is —” · 13 ký hiệu mật mã Z13 trong thư gửi San Francisco Chronicle (20/04/1970)",
+  "u.P03.2": "Hồ sơ FBI Vault · The Zodiac Killer",
+
+  "n.P04": "Và bốn mươi lăm năm trước bức vẽ ấy, tháng 1 năm 1947 tại Los Angeles, thi thể cô gái hai mươi hai tuổi Elizabeth Short — biệt danh Thược Dược Đen — được tìm thấy với vết cắt ngang thắt lưng chuẩn xác như một ca phẫu thuật.",
+  "u.P04.1": "Bản ghi nhớ điều tra FBI (1947): Vụ sát hại Elizabeth Short (“The Black Dahlia”) tại Los Angeles",
+  "u.P04.2": "Hồ sơ FBI Vault · Black Dahlia",
+
+  "n.P05": "Suốt gần tám thập kỷ, lịch sử hình sự Mỹ coi Thược Dược Đen năm 1947 và sát nhân Zodiac năm 1968 là hai bóng ma hoàn toàn tách biệt, cách nhau hơn năm trăm cây số và hai mươi mốt năm.",
+  "u.P05.1": "CALIFORNIA",
+  "u.P05.2": "San Francisco · Zodiac (1968–1974)",
+  "u.P05.3": "Los Angeles · Black Dahlia (1947)",
+  "u.P05.4": "Natural Earth (phạm vi công cộng) · Khoảng cách ~560 km (đường chim bay)",
+
+  "n.P06": "Cho đến ngày 23 tháng 12 năm 2025, khi tờ Los Angeles Times công bố bài điều tra về giả thuyết của nhà giải mã độc lập Alex Baber: cả hai kỳ án có thể dẫn về cùng một người đàn ông.",
+  "u.P06.1": "Bài điều tra của nhà báo Christopher Goffard trên tờ Los Angeles Times (23/12/2025)",
+  "u.P06.2": "Los Angeles Times · 23/12/2025",
+
+  "n.P07": "Tên thật của ông ta trong hồ sơ Đại bồi thẩm đoàn Los Angeles năm 1950 là Marvin Margolis — còn bí danh ông dùng suốt phần đời còn lại là Marvin Merrill, vừa đúng mười ba chữ cái.",
+  "u.P07.1": "Trích báo cáo của Trung úy Công tố Frank Jemison trình Đại bồi thẩm đoàn Los Angeles (tháng 5/1950)",
+  "u.P07.2": "Văn phòng Công tố Quận Los Angeles · 1950",
+
+  "n.P08": "Hai cựu thám tử điều tra án mạng của Sở Cảnh sát Los Angeles gọi chuỗi chứng cứ gián tiếp này là “rất thuyết phục”; nhưng các chuyên gia mật mã học và sử gia lâu năm lại chỉ ra những lỗ hổng nghiêm trọng mà các video trên mạng đã bỏ qua.",
+  "u.P08.1": "BLACK DAHLIA",
+  "u.P08.2": "Los Angeles · 15/01/1947",
+  "u.P08.3": "MẬT MÃ Z13",
+  "u.P08.4": "San Francisco · 20/04/1970",
+  "u.P08.5": "MARVIN MERRILL",
+  "u.P08.6": "Marvin Margolis (1925–1993)",
+  "u.P08.7": "4 LỖ HỔNG KHOA HỌC",
+  "u.P08.8": "Mật mã học & Lịch sử ảnh 1984",
+
+  "n.P09": "Hôm nay, toàn bộ hồ sơ của cả hai phía nằm trên bàn của bạn. Chúng ta sẽ kiểm tra từng tài liệu gốc, bóc tách từng lời đồn sai lệch, để cuối cùng chính bạn là người phán xét.",
+  "u.P09.1": "KIỂM TOÁN HỒ SƠ KÉP · 1947 – 2025",
+
+  "n.P10": "Mười ba ký tự và một cái tên. Hồ sơ kiểm toán vụ Thược Dược Đen và sát nhân Zodiac.",
+  "u.P10.1": "MƯỜI BA KÝ TỰ",
+  "u.P10.2": "HỒ SƠ KIỂM TOÁN: BLACK DAHLIA (1947) × ZODIAC (1968–1974)",
+
+  "n.C101": "Hồ sơ số một. Sáng mười lăm tháng giêng năm một chín bốn bảy.",
+  "u.C101.1": "Sáng 15 tháng Giêng",
+
+  "n.C102": "Sáng ngày 15 tháng 1 năm 1947, trong làn sương mù mùa đông ở khu Leimert Park, phía nam Los Angeles, một người dân đi bộ qua lô đất trống cạnh đại lộ South Norton.",
+  "u.C102.1": "Hollywood · Phòng 726 Guardian Arms",
+  "u.C102.2": "Leimert Park · S. Norton Ave (15/01/1947)",
+  "u.C102.3": "Compton · 2615 Santa Fe Ave",
+
+  "n.C103": "Ban đầu, bà tưởng thứ nằm bên vệ cỏ chỉ là một con ma-nơ-canh bị vứt bỏ từ cửa hiệu thời trang.",
+  "u.C103.1": "15/01/1947 · ĐẠI LỘ SOUTH NORTON, LEIMERT PARK",
+
+  "n.C104": "Nạn nhân là Elizabeth Short, hai mươi hai tuổi, quê ở bang Massachusetts — người mà báo chí Los Angeles sau đó đặt biệt danh là “Black Dahlia”, tức Thược Dược Đen.",
+  "u.C104.1": "Hồ sơ nhận dạng nạn nhân của FBI: Elizabeth Short (22 tuổi, sinh tại Hyde Park, Massachusetts)",
+  "u.C104.2": "FBI Vault · Black Dahlia (Part 1)",
+
+  "n.C105": "Báo cáo khám nghiệm tử thi ghi nhận một chi tiết khiến các điều tra viên kỳ cựu nhất của Sở Cảnh sát Los Angeles phải khựng lại: thi thể đã được rửa sạch hoàn toàn, không còn một giọt máu tại hiện trường.",
+  "u.C105.1": "Tóm tắt khám nghiệm pháp y (15/01/1947): Thi thể bị rút sạch máu và rửa sạch trước khi đưa tới hiện trường",
+  "u.C105.2": "Hồ sơ LAPD / Đại bồi thẩm đoàn LA (1950)",
+
+  "n.C106": "Đáng chú ý hơn, cơ thể nạn nhân bị cắt rời ngang thắt lưng bằng một đường cắt đi chính xác qua khe sụn giữa đốt sống thắt lưng số hai và số ba — không hề dùng cưa và không làm vỡ xương.",
+  "u.C106.1": "Sơ đồ giải phẫu cột sống thắt lưng: Đường cắt đi qua khe đĩa đệm L2–L3 mà không chạm xương",
+  "u.C106.2": "Phân tích pháp y LAPD · 1947",
+
+  "n.C107": "Trong y văn thập niên 1930 và 1940, thao tác giải phẫu này đòi hỏi người thực hiện phải nắm vững cấu trúc cột sống và từng cầm dao mổ.",
+  "u.C107.1": "NHẬN ĐỊNH PHÁP Y: KỸ NĂNG GIẢI PHẪU Y KHOA",
+
+  "n.C108": "Vì vậy, Sở Cảnh sát Los Angeles lập tức khoanh vùng một nhóm nghi phạm đặc biệt: các bác sĩ, nhân viên quân y, và sinh viên trường Y thuộc Đại học Nam California — tức USC, nằm cách hiện trường chỉ vài dặm.",
+  "u.C108.1": "ĐẠI HỌC NAM CALIFORNIA (USC) · RÀ SOÁT TRƯỜNG Y NĂM 1947",
+
+  "n.C109": "Chín ngày sau, ngày 24 tháng 1 năm 1947, kẻ giết người chủ động lên tiếng.",
+  "u.C109.1": "24/01/1947 · BƯU KIỆN GỬI BÁO LOS ANGELES EXAMINER",
+
+  "n.C110": "Một bưu kiện được gửi tới tòa soạn báo Los Angeles Examiner, bên ngoài dán những chữ cái cắt rời từ mặt báo: “Đây là đồ đạc của Dahlia. Thư sẽ gửi tiếp theo”.",
+  "u.C110.1": "“Here is Dahlia's belongings / letter to follow” · Bưu kiện ghép chữ gửi báo Los Angeles Examiner (24/01/1947)",
+  "u.C110.2": "FBI Vault · Black Dahlia",
+
+  "n.C111": "Bên trong phong bì là giấy khai sinh, danh thiếp và sổ địa chỉ của Elizabeth Short có vài trang đã bị xé mất — và toàn bộ vật dụng đều được lau kỹ bằng xăng để xóa sạch dấu vân tay.",
+  "u.C111.1": "Biên bản giám định vật chứng (1947): Vật dụng cá nhân bị lau bằng xăng (gasoline) để xóa dấu vân tay",
+  "u.C111.2": "FBI Vault · Black Dahlia",
+
+  "n.C112": "Ghi vào bảng điều tra ba manh mối gốc của năm 1947: một vết cắt giải phẫu qua khe đốt sống L2–L3, một bưu kiện ghép chữ lau bằng xăng, và danh sách sinh viên y khoa trường USC. Nhưng ai trong danh sách ấy thực sự quen biết Elizabeth Short?",
+  "u.C112.1": "VẾT CẮT L2–L3",
+  "u.C112.2": "Kỹ năng giải phẫu",
+  "u.C112.3": "THƯ LAU XĂNG",
+  "u.C112.4": "24/01/1947 · Xóa vân tay",
+  "u.C112.5": "TRƯỜNG Y USC",
+  "u.C112.6": "Danh sách sinh viên 1947",
+
+  "n.C201": "Hồ sơ số hai. Phòng bảy hai sáu đại lộ Hollywood và hồ sơ năm một chín năm mươi.",
+  "u.C201.1": "Phòng 726 Hollywood",
+
+  "n.C202": "Sau gần ba năm điều tra không bắt được hung thủ, cuối năm 1949, Đại bồi thẩm đoàn Quận Los Angeles mở cuộc điều tra đặc biệt về vụ Thược Dược Đen.",
+  "u.C202.1": "1949–1950 · ĐẠI BỒI THẨM ĐOÀN QUẬN LOS ANGELES",
+
+  "n.C203": "Tháng 5 năm 1950, Trung úy điều tra Frank Jemison của Văn phòng Công tố Quận Los Angeles đệ trình bản báo cáo tổng hợp hai mươi hai nghi phạm chính.",
+  "u.C203.1": "Báo cáo tổng hợp 22 nghi phạm chính của Trung úy Công tố Frank Jemison trình Đại bồi thẩm đoàn (tháng 5/1950)",
+  "u.C203.2": "Văn phòng Công tố Quận Los Angeles · 1950",
+
+  "n.C204": "Trong bản báo cáo đó, Jemison gạch chân một cái tên: Marvin Margolis, hai mươi mốt tuổi, sinh viên dự bị y khoa tại Đại học Nam California.",
+  "u.C204.1": "Hồ sơ nghi phạm số 1947–1950: Marvin Margolis (sinh năm 1925 tại Chicago, sinh viên dự bị y khoa USC)",
+  "u.C204.2": "Báo cáo Frank Jemison · Tháng 5/1950",
+
+  "n.C205": "Tháng 10 năm 1946 — tức chỉ ba tháng trước khi vụ án mạng xảy ra — Elizabeth Short đã sống chung mười hai ngày với Marvin Margolis tại phòng 726, chung cư Guardian Arms, số 5217 đại lộ Hollywood.",
+  "u.C205.1": "THÁNG 10/1946 · PHÒNG 726 GUARDIAN ARMS, 5217 HOLLYWOOD BLVD",
+
+  "n.C206": "Trung úy Jemison ghi rõ trong hồ sơ công tố: Margolis là “sinh viên dự bị y khoa duy nhất từng sống chung như bạn trai với Beth Short”.",
+  "u.C206.1": "“…the only pre-medical student who ever lived as a boy friend with Beth Short” (12 ngày, tháng 10/1946)",
+  "u.C206.2": "Báo cáo Frank Jemison · Đại bồi thẩm đoàn LA (1950)",
+
+  "n.C207": "Nhưng lý lịch quân ngũ của chàng sinh viên hai mươi mốt tuổi này trong Thế chiến thứ hai còn đáng chú ý hơn.",
+  "u.C207.1": "THÁNG 04/1945 · CHIẾN DỊCH ĐẢO OKINAWA",
+
+  "n.C208": "Theo hồ sơ Hải quân Mỹ được dẫn trong bài điều tra của tờ Los Angeles Times, Margolis là lính quân y phối thuộc Sư đoàn Thủy quân Lục chiến số 1, đổ bộ trong đợt đầu tiên lên đảo Okinawa tháng 4 năm 1945.",
+  "u.C208.1": "Hồ sơ quân y Hải quân Mỹ: Pharmacist's Mate Marvin Margolis — Sư đoàn TQLC số 1, chiến dịch Okinawa (04/1945)",
+  "u.C208.2": "Hồ sơ Hải quân Mỹ / LA Times (23/12/2025)",
+
+  "n.C209": "Giữa chiến hào Okinawa, ông ta trực tiếp xử lý các vết thương chiến trường bằng dao mổ, từng bị chôn sống dưới hầm sập, và nộp đơn xin học lớp trợ lý phẫu thuật của Hải quân nhưng bị từ chối.",
+  "u.C209.1": "PHẪU THUẬT CHIẾN HÀO (FOXHOLE SURGERY) · OKINAWA 1945",
+
+  "n.C210": "Khi giải ngũ với mức thương tật tâm thần năm mươi phần trăm, hội đồng y khoa Hải quân ghi nhận Margolis là “một cá nhân đầy oán giận, bộc lộ nhiều bằng chứng của sự hung hăng công khai”.",
+  "u.C210.1": "“…resentful individual who shows ample evidence of open aggression” — Giải ngũ với 50% thương tật tâm thần",
+  "u.C210.2": "Hồ sơ Y khoa Hải quân Mỹ (1945) / LA Times",
+
+  "n.C211": "Hồ sơ còn chép lại nguyên văn câu Margolis nói với bác sĩ tâm thần quân đội: “Lần tới nếu có chiến tranh, sẽ có hai người không đi — kẻ đến bắt tôi đi và chính tôi”.",
+  "u.C211.1": "“The next time there is a war, two of us are not going — the one who comes after me and myself.”",
+  "u.C211.2": "Hồ sơ Y khoa Hải quân Mỹ (1945) / LA Times",
+
+  "n.C212": "Và còn một chi tiết địa lý kỳ lạ trong hồ sơ năm 1947: đêm 14 tháng 1, một thanh niên bồn chồn đến tìm thuê phòng có bồn tắm trên đại lộ Santa Fe ở Compton. Khi lục lại quảng cáo báo chí năm 1947, nhà nghỉ có bồn tắm tại địa chỉ 2615 đại lộ Santa Fe lúc ấy mang tên: “Zodiac Motel”.",
+  "u.C212.1": "Quảng cáo báo chí Los Angeles (1947): Nhà nghỉ có bồn tắm tại 2615 Santa Fe Ave, Compton mang tên “ZODIAC MOTEL”",
+  "u.C212.2": "Lưu trữ báo 1947 / LA Times (23/12/2025)",
+
+  "n.C213": "Khi bị cảnh sát Los Angeles thẩm vấn, Margolis ban đầu nói dối về mức độ quen biết với Elizabeth Short, rồi nhanh chóng rời khỏi thành phố, bỏ học y khoa và bắt đầu dùng một cái tên mới: Marvin Merrill.",
+  "u.C213.1": "RỜI LOS ANGELES · ĐỔI TÊN THÀNH MARVIN MERRILL",
+
+  "n.C214": "Ghim lên bảng điều tra Hồ sơ số 2: cựu quân y Okinawa, bạn trai từng sống chung với nạn nhân ở phòng 726, nhà nghỉ Zodiac Motel ở Compton, và cái tên mới Marvin Merrill. Hai mươi mốt năm sau, cái tên ấy sẽ chạm trán một mật mã ở Bắc California.",
+  "u.C214.1": "PHÒNG 726",
+  "u.C214.2": "Sống cùng Short 12 ngày",
+  "u.C214.3": "QUÂN Y OKINAWA",
+  "u.C214.4": "50% thương tật tâm thần",
+  "u.C214.5": "ZODIAC MOTEL",
+  "u.C214.6": "2615 Santa Fe, Compton (1947)",
+
+  "n.C301": "Hồ sơ số ba. Bóng ma vùng Vịnh và mười ba ký tự chưa lời giải.",
+  "u.C301.1": "Bóng ma vùng Vịnh",
+
+  "n.C302": "Hai mươi mốt năm sau vụ Thược Dược Đen, từ tháng 12 năm 1968 đến tháng 10 năm 1969, vùng Vịnh San Francisco ở Bắc California rúng động bởi bốn vụ tấn công liên tiếp.",
+  "u.C302.1": "Hồ Berryessa · 27/09/1969",
+  "u.C302.2": "Benicia & Vallejo · 12/1968 – 07/1969",
+  "u.C302.3": "San Francisco · 11/10/1969",
+  "u.C302.4": "Santa Clara · Thung lũng Silicon",
+
+  "n.C303": "Khởi đầu là đêm 20 tháng 12 năm 1968 trên đường Lake Herman ở Benicia, tiếp theo là đêm 4 tháng 7 năm 1969 tại công viên Blue Rock Springs ở Vallejo — nơi hung thủ bắn vào các cặp đôi trẻ đang ngồi trong xe hơi.",
+  "u.C303.1": "20/12/1968 (BENICIA) & 04/07/1969 (VALLEJO)",
+
+  "n.C304": "Chiều 27 tháng 9 năm 1969 bên bờ hồ Berryessa, hắn đội mũ trùm đầu đen in biểu tượng tâm ngắm chữ thập, dùng dao tấn công hai sinh viên Bryan Hartnell và Cecelia Shepard.",
+  "u.C304.1": "27/09/1969 · HỒ BERRYESSA, HẠT NAPA",
+
+  "n.C305": "Và đêm 11 tháng 10 năm 1969 ngay giữa khu Presidio Heights, San Francisco, hắn sát hại tài xế taxi hai mươi chín tuổi Paul Stine, rồi cắt lấy một mảnh áo dính máu của nạn nhân gửi cho báo chí.",
+  "u.C305.1": "11/10/1969 · PRESIDIO HEIGHTS, SAN FRANCISCO",
+
+  "n.C306": "Tổng cộng trong bốn vụ tấn công được cảnh sát xác nhận, năm nạn nhân đã thiệt mạng và hai người sống sót. Nhưng thứ biến kẻ tự xưng là Zodiac thành nỗi ám ảnh toàn cầu lại nằm ở những bức thư gửi tới các tòa soạn báo.",
+  "u.C306.1": "Tổng hợp hồ sơ FBI: 4 vụ tấn công được xác nhận tại Bắc California (5 nạn nhân tử vong, 2 người sống sót)",
+  "u.C306.2": "FBI Vault · The Zodiac Killer",
+
+  "n.C307": "Tháng 8 năm 1969, bản mật mã đầu tiên dài 408 ký tự — gọi tắt là Z408 — bị vợ chồng giáo viên trung học Donald và Bettye Harden giải mã chỉ sau một tuần: hắn tuyên bố giết người để thu thập nô lệ cho thế giới bên kia, nhưng tuyệt nhiên không nói tên thật.",
+  "u.C307.1": "Mật mã Z408 (tháng 8/1969): Đã giải mã bởi Donald & Bettye Harden — Không chứa tên hung thủ",
+  "u.C307.2": "FBI Vault · The Zodiac Killer",
+
+  "n.C308": "Tháng 11 năm 1969, hắn gửi tiếp bản mật mã thứ hai phức tạp hơn nhiều, dài 340 ký tự — tức Z340. Phải mất đúng năm mươi mốt năm, đến tháng 12 năm 2020, nhóm ba chuyên gia quốc tế gồm David Oranchak, Sam Blake và Jarl Van Eycke mới giải được bản mã này, và được FBI chính thức xác nhận.",
+  "u.C308.1": "Mật mã Z340 (08/11/1969): Giải mã tháng 12/2020 bởi Oranchak, Blake & Van Eycke — FBI xác nhận ngày 11/12/2020",
+  "u.C308.2": "FBI San Francisco / arXiv:2403.17350",
+
+  "n.C309": "Thế nhưng, ngay cả khi Z340 được giải, cái tên thật sự của Zodiac vẫn hoàn toàn vắng bóng. Mọi ánh mắt dồn về bức thư ngắn gửi ngày 20 tháng 4 năm 1970.",
+  "u.C309.1": "20/04/1970 · THƯ “MY NAME IS —” GỬI SF CHRONICLE",
+
+  "n.C310": "Trong bức thư ấy, hung thủ viết: “Tên của ta là —”, rồi vẽ đúng mười ba ký hiệu: bao gồm các chữ cái A, E, N, K, M, chữ Tau Hy Lạp, ký hiệu tâm ngắm chữ thập và ba con số 8 lặp lại ở vị trí thứ năm, thứ bảy và thứ chín.",
+  "u.C310.1": "Dải mật mã Z13 (20/04/1970): A - E - N - ⊕ - 8 - K - 8 - M - 8 - τ - N - A - M (13 ký tự, 8 ký hiệu phân biệt)",
+  "u.C310.2": "FBI Vault · The Zodiac Killer",
+
+  "n.C311": "Ghi vào bảng điều tra Hồ sơ số 3: bốn vụ tấn công ở Bắc California, hai bản mã lớn Z408 và Z340 không có tên, và dải mật mã Z13 dài đúng mười ba ký tự. Liệu mười ba ký tự ấy có thực sự ẩn giấu cái tên Marvin Merrill?",
+  "u.C311.1": "Z408 & Z340",
+  "u.C311.2": "Đã giải mã · Không có tên",
+  "u.C311.3": "4 VỤ VÙNG VỊNH",
+  "u.C311.4": "1968–1969 · Bắc California",
+
+  "n.C401": "Hồ sơ số bốn. Bảy mươi mốt triệu cái tên và từ khóa Elizabeth.",
+  "u.C401.1": "Bảy mươi mốt triệu tên",
+
+  "n.C402": "Người đặt hai hồ sơ này lên cùng một bàn cân là Alex Baber, năm mươi tuổi, sống tại bang Florida — một nhà nghiên cứu tự học được chẩn đoán mắc chứng tự kỷ từ năm mười hai tuổi và là người đồng sáng lập nhóm Cold Case Consultants of America.",
+  "u.C402.1": "ALEX BABER · COLD CASE CONSULTANTS OF AMERICA",
+
+  "n.C403": "Theo bài điều tra ngày 23 tháng 12 năm 2025 của nhà báo đoạt giải Pulitzer Christopher Goffard trên tờ Los Angeles Times, Baber bắt đầu bằng việc dùng trí tuệ nhân tạo quét dữ liệu điều tra dân số Mỹ năm 1950, hồ sơ quân đội và hồ sơ kết hôn.",
+  "u.C403.1": "Phễu lọc dữ liệu hộ tịch 1950 (theo Alex Baber / LA Times): 71.000.000 tên 13 chữ cái → 185 → 14 → 1",
+  "u.C403.2": "Los Angeles Times · 23/12/2025",
+
+  "n.C404": "Từ bảy mươi mốt triệu tổ hợp tên có đúng mười ba chữ cái, ông lọc theo độ tuổi, bang cư trú và lý lịch quân ngũ xuống còn một trăm tám mươi lăm người, rồi mười bốn người, và cuối cùng dừng lại ở một bí danh duy nhất: Marvin Merrill.",
+  "u.C404.1": "M - A - R - V - I - N - M - E - R - R - I - L - L (13 chữ cái) · Bí danh của Marvin Margolis",
+  "u.C404.2": "Theo Los Angeles Times · 23/12/2025",
+
+  "n.C405": "Baber cho rằng Zodiac đã mã hóa cái tên Marvin Merrill trong mật mã Z13 bằng phép thế đa bảng nhiều bước, sử dụng chính tên của nạn nhân năm 1947 — “ELIZABETH” — làm từ khóa giải mã.",
+  "u.C405.1": "Giả thuyết giải mã của Alex Baber: Bản mã Z13 + Từ khóa “ELIZABETH” → “MARVIN MERRILL”",
+  "u.C405.2": "Theo Los Angeles Times · 23/12/2025",
+
+  "n.C406": "Theo tờ Los Angeles Times, ba cựu chuyên gia mật mã của Cơ quan An ninh Quốc gia Mỹ — tức NSA — gồm cựu trưởng bộ phận tạo và phá mã Ed Giorgio cùng hai nhà toán học mật mã Patrick Henry và Rich Wisniewski đã kiểm tra phép tính của Baber và nhận xét rằng cấu trúc này “khớp về mặt logic”.",
+  "u.C406.1": "Nhận định của Ed Giorgio, Patrick Henry & Rich Wisniewski (cựu chuyên gia NSA) trên tờ LA Times (23/12/2025)",
+  "u.C406.2": "Los Angeles Times · 23/12/2025",
+
+  "n.C407": "Không chỉ dừng ở mật mã, Baber mang toàn bộ hồ sơ nhân thân của Marvin Margolis tới gặp hai cựu điều tra viên kỳ cựu của Sở Cảnh sát Los Angeles: thám tử án mạng Rick Jackson — người có ba mươi sáu năm kinh nghiệm — và nữ thám tử Mitzi Roberts, người từng trực tiếp phụ trách hồ sơ gốc vụ Thược Dược Đen tại đơn vị Cold Case.",
+  "u.C407.1": "Hai cựu thám tử LAPD xem xét hồ sơ: Rick Jackson (36 năm điều tra án mạng) & Mitzi Roberts (cựu thám tử Cold Case)",
+  "u.C407.2": "Los Angeles Times · 23/12/2025",
+
+  "n.C408": "Lưu ý một điểm kiểm toán quan trọng: một số video tiếng Việt trên mạng đã gọi nhầm tên thám tử Rick Jackson thành “Jack Jackson thuộc đơn vị huấn luyện”. Trong hồ sơ báo chí chính thống, ông là Rick Jackson, cựu thám tử điều tra án mạng của LAPD và hạt San Mateo.",
+  "u.C408.1": "ĐÍNH CHÍNH KIỂM TOÁN: THÁM TỬ RICK JACKSON & MITZI ROBERTS",
+
+  "n.C409": "Ghim vào bảng điều tra Hồ sơ số 4: từ khóa Elizabeth, cái tên mười ba chữ cái Marvin Merrill, và sự ủng hộ của hai cựu thám tử LAPD. Nhưng để buộc một người đàn ông vào loạt án mạng Zodiac, ông ta phải có mặt ở Bắc California đúng vào năm 1968.",
+  "u.C409.1": "KHÓA “ELIZABETH”",
+  "u.C409.2": "71 triệu tên → 1 tên",
+  "u.C409.3": "JACKSON & ROBERTS",
+  "u.C409.4": "2 cựu thám tử LAPD ủng hộ",
+
+  "n.C501": "Hồ sơ số năm. Ba năm im lặng và bức tranh trước lúc lâm chung.",
+  "u.C501.1": "Ba năm im lặng",
+
+  "n.C502": "Khi lần theo dấu chân của Marvin Margolis sau khi đổi tên thành Marvin Merrill, hồ sơ cho thấy ông rời Chicago sang Kansas năm 1961, rồi quay trở lại bang California vào thập niên 1960.",
+  "u.C502.1": "Santa Clara · Làm việc tại Intel (Bắc CA)",
+  "u.C502.2": "Atascadero · Mở nhà hàng",
+  "u.C502.3": "Oceanside · Tiệm sửa xe Bucksavers (Nam CA)",
+
+  "n.C503": "Đáng chú ý nhất, theo bài điều tra trên tờ Los Angeles Times, Merrill từng làm việc cho tập đoàn công nghệ Intel tại Santa Clara — nằm ngay phía nam Vịnh San Francisco, đúng vào giai đoạn vùng Vịnh xảy ra loạt án mạng Zodiac.",
+  "u.C503.1": "Hành trình tại California: Làm việc tại Intel (Santa Clara, vùng Vịnh SF) → Chuyển xuống Oceanside đầu thập niên 1970",
+  "u.C503.2": "Theo Los Angeles Times · 23/12/2025",
+
+  "n.C504": "Đầu thập niên 1970, ông chuyển xuống thành phố biển Oceanside ở Nam California và mở tiệm sửa chữa phụ tùng ô tô mang tên Bucksavers Automotive Repair.",
+  "u.C504.1": "ĐẦU THẬP NIÊN 1970 · BUCKSAVERS AUTOMOTIVE REPAIR, OCEANSIDE",
+
+  "n.C505": "Tại đây, một sự trùng hợp về thời gian xuất hiện: trong hồ sơ FBI, sau bức thư tháng 3 năm 1971, sát nhân Zodiac đột ngột im bặt suốt gần ba năm, trước khi gửi lại bức thư ngày 29 tháng 1 năm 1974.",
+  "u.C505.1": "Đối chiếu dòng thời gian: Khoảng lặng thư Zodiac (03/1971 – 01/1974) trùng khớp với 3 năm quản chế của Marvin Merrill",
+  "u.C505.2": "FBI Vault & Hồ sơ tòa án CA / LA Times",
+
+  "n.C506": "Hồ sơ tòa án California cho thấy đúng vào khoảng thời gian đó, chủ tiệm sửa xe Marvin Merrill bị bắt vì tội lừa đảo khách hàng, phải ngồi tù ba mươi ngày và chịu đúng ba năm quản chế dưới sự giám sát của cơ quan tư pháp.",
+  "u.C506.1": "Bản án tại Oceanside: 30 ngày tù giam + 3 năm quản chế (Probation) vì gian lận tại tiệm sửa xe Bucksavers",
+  "u.C506.2": "Hồ sơ tòa án California / LA Times (23/12/2025)",
+
+  "n.C507": "Nhưng mảnh ghép gây chấn động nhất lại đến từ chính gia đình ông sau khi Marvin Merrill qua đời vì bệnh ung thư năm 1993 ở tuổi sáu mươi tám.",
+  "u.C507.1": "1993 · DI VẬT DO CON TRAI ROARK MERRILL LƯU GIỮ",
+
+  "n.C508": "Theo tờ Los Angeles Times, người con trai là Roark Merrill đã cho Alex Baber xem hai di vật của cha mình: thứ nhất là một con dao lê quân đội Nhật Bản mà ông mang về từ trận Okinawa năm 1945 — có chiều dài và độ rộng lưỡi dao được Baber đem đối chiếu với vết đâm tại hồ Berryessa năm 1969.",
+  "u.C508.1": "Di vật số 1: Dao lê quân đội Nhật Bản từ Okinawa (1945) được đem đối chiếu kích thước với vết thương tại hồ Berryessa (1969)",
+  "u.C508.2": "Theo Los Angeles Times · 23/12/2025",
+
+  "n.C509": "Di vật thứ hai là bức tranh chì màu ông vẽ năm 1992, một năm trước khi qua đời: phía trên đề chữ “Elizabeth”, góc dưới ký tên “Marty Merrill 92”, vẽ phần thân trên trần trụi của một phụ nữ bị cắt ngang phía trên rốn với những vết cắt trùng khớp vị trí thương tích của Elizabeth Short.",
+  "u.C509.1": "Di vật số 2: Bức tranh chì màu năm 1992 mang tên “Elizabeth”, ký tên “Marty Merrill '92”, ẩn chữ “ZODIAC”",
+  "u.C509.2": "Theo Los Angeles Times · 23/12/2025",
+
+  "n.C510": "Và khi tăng độ tương phản ánh sáng trên phần bóng tối của bức tranh, chữ cái “ZODIAC” được phác bằng nét mực bên dưới lớp chì đen hiện lên rõ rệt.",
+  "u.C510.1": "CHỮ “ZODIAC” ẨN DƯỚI LỚP BÓNG CHÌ NĂM 1992",
+
+  "n.C511": "Nhìn lên bảng điều tra lúc này, mọi sợi chỉ đỏ dường như đã khép kín quanh Marvin Margolis. Nhưng khoan vội kết luận: khi các nhà báo điều tra và giới mật mã học độc lập kiểm tra lại hồ sơ này, bốn lỗ hổng lớn đã lộ diện.",
+  "u.C511.1": "INTEL SANTA CLARA",
+  "u.C511.2": "Cư trú tại Bắc CA",
+  "u.C511.3": "3 NĂM QUẢN CHẾ",
+  "u.C511.4": "Khớp khoảng lặng 1971–1974",
+  "u.C511.5": "BỨC VẼ 1992",
+  "u.C511.6": "“Elizabeth” + chữ “ZODIAC”",
+
+  "n.C601": "Hồ sơ số sáu. Phòng phản biện và bốn lỗ hổng bị bỏ quên.",
+  "u.C601.1": "Phòng phản biện",
+
+  "n.C602": "Một điều tra viên thực thụ không bao giờ chỉ tìm chứng cứ buộc tội — họ phải thử đập vỡ giả thuyết của chính mình. Và khi kiểm tra lại những tuyên bố lan truyền trên mạng, lỗ hổng đầu tiên lập tức lộ ra.",
+  "u.C602.1": "KIỂM TOÁN ĐỘC LẬP · 4 PHẢN BIỆN KHOA HỌC & LỊCH SỬ",
+
+  "n.C603": "Nhiều video kể lại vụ án khẳng định rằng: ảnh chụp vết thương trên thi thể Elizabeth Short chỉ được công bố lần đầu vào năm 1994 — một năm sau khi Marvin Merrill qua đời — nên năm 1992 chỉ có hung thủ thật sự mới vẽ đúng các vết cắt ấy.",
+  "u.C603.1": "Kiểm toán lời đồn: Khẳng định “ảnh khám nghiệm chỉ mới công bố năm 1994 (sau khi Merrill mất năm 1993)” là SAI LỊCH SỬ",
+  "u.C603.2": "Đối chiếu LA Times · 23/12/2025",
+
+  "n.C604": "Thực tế lịch sử hoàn toàn trái ngược: ngay trong bài điều tra ngày 23 tháng 12 năm 2025 của tờ Los Angeles Times, nhà báo Christopher Goffard chỉ rõ những bức ảnh chụp thi thể trần trụi của Elizabeth Short đã được in công khai từ năm 1984 trong cuốn sách “Hollywood Babylon II” của tác giả Kenneth Anger — tức tám năm trước khi Merrill vẽ bức phác họa năm 1992.",
+  "u.C604.1": "Kenneth Anger, “Hollywood Babylon II” (E. P. Dutton, 1984): Đã in công khai ảnh chụp thi thể từ 8 năm trước bức vẽ 1992",
+  "u.C604.2": "LA Times (23/12/2025) & E. P. Dutton (1984)",
+
+  "n.C605": "Điều đó có nghĩa là một người từng sống chung với nạn nhân và bị ám ảnh bởi vụ án như Merrill hoàn toàn có thể nhìn thấy bức ảnh trên sách xuất bản công khai, chứ không nhất thiết phải là người trực tiếp gây án.",
+  "u.C605.1": "1984 VS 1992 · ĐÃ XUẤT BẢN TRƯỚC BỨC VẼ 8 NĂM",
+
+  "n.C606": "Lỗ hổng thứ hai nằm ở toán học của mật mã Z13. Không giống như lời đồn rằng quy luật lặp ký tự của Z13 khớp một-đối-một với chữ cái trong tên Marvin Merrill: trên thực tế, trong Z13, ký hiệu số 8 lặp lại ở vị trí thứ năm, thứ bảy và thứ chín; còn trong tên M-A-R-V-I-N-M-E-R-R-I-L-L, các vị trí thứ năm, thứ bảy và thứ chín lại là ba chữ cái hoàn toàn khác nhau: I, M và R.",
+  "u.C606.1": "Đối chiếu mẫu lặp ký tự: Z13 (vị trí 5, 7, 9 đều là ký hiệu “8”) ≠ MARVIN MERRILL (vị trí 5, 7, 9 là “I, M, R”)",
+  "u.C606.2": "Phân tích mật mã Z13 · arXiv:2403.17350",
+
+  "n.C607": "Chuyên gia giải mã David Oranchak — người đã giải thành công mật mã Z340 năm 2020 — giải thích rằng với một mật mã cực ngắn chỉ có mười ba ký tự, độ dài của nó nằm dưới ngưỡng duy nhất của lý thuyết thông tin: khi áp dụng nhiều bước biến đổi phức tạp, người ta có thể tạo ra hàng nghìn cái tên mười ba chữ cái khác nhau từ cùng một dải ký hiệu.",
+  "u.C607.1": "Ngưỡng độ dài duy nhất (Unicity Distance — Oranchak, Blake & Van Eycke): 13 ký tự quá ngắn để chứng minh duy nhất 1 tên",
+  "u.C607.2": "arXiv:2403.17350 & LA Times (23/12/2025)",
+
+  "n.C608": "Lỗ hổng thứ ba đến từ lịch sử điều tra năm 1947: nhà nghiên cứu hàng đầu về vụ Thược Dược Đen là Larry Harnisch — cựu biên tập viên tờ Los Angeles Times — đã bác bỏ giả thuyết của Baber và chỉ ra rằng các thám tử LAPD năm 1947 đã kiểm tra kỹ lịch làm việc của Marvin Margolis cùng người bạn cùng phòng Bill Robinson, từ đó loại trừ cả hai khỏi diện nghi phạm trực tiếp.",
+  "u.C608.1": "Phản biện của sử gia Larry Harnisch (LA Times, 23/12/2025): LAPD năm 1947 đã xác minh lịch làm việc của Margolis & Robinson",
+  "u.C608.2": "Los Angeles Times · 23/12/2025",
+
+  "n.C609": "Và lỗ hổng thứ tư là bằng chứng pháp y vật chất: đến nay, chưa có bất kỳ mẫu ADN hay dấu vân tay nào từ hiện trường vụ Thược Dược Đen hay các bức thư Zodiac được cơ quan chức năng xác nhận trùng khớp với Marvin Margolis.",
+  "u.C609.1": "Trạng thái pháp y (LAPD & FBI): Chưa có đối chiếu ADN hay vân tay chính thức nào khớp với Marvin Margolis",
+  "u.C609.2": "FBI Vault & LA Times (23/12/2025)",
+
+  "n.C610": "Chính cựu thám tử Cold Case của LAPD là bà Mitzi Roberts — dù đánh giá cao nghiên cứu của Baber — cũng nói thẳng với tờ Los Angeles Times: “Đó không phải là ưu tiên nóng trên radar của họ lúc này. Tôi không nghĩ LAPD sẽ bao giờ đưa ra lập trường chính thức và tuyên bố vụ án đã được phá”.",
+  "u.C610.1": "“It's not a burning thing on their radar right now. I don't think the LAPD will ever take a position and say it's solved.” — Mitzi Roberts",
+  "u.C610.2": "Los Angeles Times · 23/12/2025",
+
+  "n.C611": "Ghim bốn thẻ dấu hỏi đỏ lên bảng điều tra đối diện với chuỗi chứng cứ của Marvin Margolis: cuốn sách năm 1984, ngưỡng toán học mười ba ký tự, biên bản ngoại phạm năm 1947, và khoảng trống pháp y ADN.",
+  "u.C611.1": "SÁCH NĂM 1984",
+  "u.C611.2": "Hollywood Babylon II đã in ảnh",
+  "u.C611.3": "TOÁN HỌC Z13",
+  "u.C611.4": "Dưới ngưỡng Unicity Distance",
+  "u.C611.5": "NGOẠI PHẠM 1947",
+  "u.C611.6": "LAPD đã kiểm lịch làm việc",
+  "u.C611.7": "CHƯA CÓ ADN",
+  "u.C611.8": "Vụ án vẫn mở tại FBI & LAPD",
+
+  "n.J701": "Hồ sơ cuối. Bạn là thẩm phán.",
+  "u.J701.1": "Bạn là thẩm phán",
+
+  "n.J702": "Bây giờ, toàn bộ hồ sơ nằm trước mặt bạn. Ở cột bên trái là chuỗi trùng hợp khó tin chỉ về Marvin Margolis — tức Marvin Merrill: cựu quân y phẫu thuật chiến trường Okinawa với năm mươi phần trăm thương tật tâm thần, sinh viên dự bị y khoa duy nhất từng sống chung với Elizabeth Short ở phòng 726 đại lộ Hollywood, nhà nghỉ Zodiac Motel ở Compton năm 1947, thời gian làm việc ở Bắc California, ba năm quản chế trùng khớp khoảng lặng thư Zodiac từ 1971 đến 1974, và bức vẽ “Elizabeth” ẩn chữ “ZODIAC” một năm trước khi chết.",
+  "u.J702.1": "BÀN CÂN THẨM ĐỊNH HỒ SƠ KÉP (1947 – 2025)",
+  "u.J702.2": "CHUỖI TRÙNG HỢP (MARVIN MARGOLIS / MERRILL)",
+  "u.J702.3": "PHẢN BIỆN KHOA HỌC & LỊCH SỬ",
+  "u.J702.4": "Quân y Okinawa (1945, 50% thương tật tâm thần) + Sinh viên dự bị y khoa USC sống cùng Elizabeth Short 12 ngày (tháng 10/1946)",
+  "u.J702.5": "Nhà nghỉ Zodiac Motel (2615 Santa Fe Ave, Compton, 1947) + Đổi tên thành Marvin Merrill (13 chữ cái)",
+  "u.J702.6": "Làm việc tại Santa Clara (vùng Vịnh SF) + Án 3 năm quản chế tại Oceanside khớp khoảng lặng thư Zodiac (1971–1974)",
+  "u.J702.7": "Dao lê Nhật Bản từ Okinawa + Bức vẽ “Elizabeth” năm 1992 ẩn chữ “ZODIAC” dưới lớp bóng chì",
+  "u.J702.8": "Ảnh thi thể Elizabeth Short đã in trong sách Hollywood Babylon II (1984) — 8 năm trước khi Merrill vẽ bức tranh năm 1992",
+  "u.J702.9": "Mật mã Z13 (13 ký tự) không khớp mẫu lặp 1–1 và nằm dưới ngưỡng duy nhất toán học (theo David Oranchak)",
+  "u.J702.10": "Sử gia Larry Harnisch chỉ ra hồ sơ LAPD năm 1947 đã xác minh lịch làm việc / ngoại phạm của Margolis",
+  "u.J702.11": "Chưa có kết luận đối chiếu ADN hay vân tay chính thức từ LAPD hay FBI; cả hai vụ án vẫn đang mở",
+
+  "n.J703": "Còn ở cột bên phải là những giới hạn khoa học không thể bỏ qua: bức ảnh khám nghiệm đã được in trong sách từ năm 1984 chứ không phải 1994, mật mã mười ba ký tự quá ngắn để có đáp án toán học duy nhất theo David Oranchak, biên bản xác minh ngoại phạm năm 1947 của LAPD, và sự vắng mặt của bằng chứng ADN hay vân tay chính thức.",
+  "u.J703.1": "CHỨNG CỨ GIÁN TIẾP",
+  "u.J703.2": "Hồ sơ Công tố 1950 & LA Times 2025",
+  "u.J703.3": "CÂU HỎI KHOA HỌC",
+  "u.J703.4": "Mật mã học Z13 & Sách năm 1984",
+
+  "n.J704": "Theo bạn, bức vẽ năm 1992 của Marvin Merrill là lời thú tội thầm lặng của kẻ đã gây ra cả hai kỳ án chấn động nước Mỹ, hay chỉ là nỗi ám ảnh cuối đời của một nghi phạm cũ? Hãy để lại lập luận của bạn dưới phần bình luận.",
+  "u.J704.1": "BẠN LÀ THẨM PHÁN · LỜI THÚ TỘI HAY NỖI ÁM ẢNH?",
+
+  "n.J705": "Phía sau mọi mật mã và tranh cãi suốt tám thập kỷ là những sinh mạng có thật đã bị tước đoạt: Elizabeth Short ở tuổi hai mươi hai, cùng các nạn nhân tại Bắc California từ năm 1968 đến năm 1969.",
+  "u.J705.1": "TƯỞNG NHỚ CÁC NẠN NHÂN",
+  "u.J705.2": "Elizabeth Short (1924 – 1947)",
+  "u.J705.3": "David Faraday (1951 – 1968) · Betty Lou Jensen (1952 – 1968)",
+  "u.J705.4": "Darlene Ferrin (1947 – 1969) · Cecelia Shepard (1947 – 1969) · Paul Stine (1940 – 1969)",
+
+  "n.J706": "Toàn bộ tài liệu FBI Vault, báo cáo Đại bồi thẩm đoàn Los Angeles năm 1950, công trình mật mã học Z340 và bài điều tra ngày 23 tháng 12 năm 2025 của tờ Los Angeles Times đều được đính kèm trong phần mô tả video.",
+  "u.J706.1": "TÀI LIỆU THAM KHẢO CHÍNH THỐNG",
+  "u.J706.2": "1. FBI Records: The Vault — The Zodiac Killer (Parts 1–6) & Elizabeth Short (The Black Dahlia, Parts 1–2)",
+  "u.J706.3": "2. Lt. Frank Jemison, Summary Report to the Los Angeles County Grand Jury (Tháng 5/1950)",
+  "u.J706.4": "3. Christopher Goffard, Los Angeles Times (23/12/2025): “An amateur codebreaker may have just solved...”",
+  "u.J706.5": "4. David Oranchak, Sam Blake & Jarl Van Eycke, “The Solution of the Zodiac Killer's 340-Character Cipher” (arXiv:2403.17350)",
+  "u.J706.6": "5. Kenneth Anger, “Hollywood Babylon II” (New York: E. P. Dutton, 1984) · Lịch sử xuất bản ảnh 1984"
+}

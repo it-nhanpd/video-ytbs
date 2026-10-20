@@ -1,0 +1,5329 @@
+{
+ "project": "2026-truecrime-ursula-herrmann",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": "vi-VN-NamMinhNeural",
+ "rate": "-2%",
+ "tts": {
+  "Ursula": "U-xu-la",
+  "Herrmann": "Hơ-man",
+  "Eching am Ammersee": "Ê-khinh am A-mơ-dê",
+  "Eching": "Ê-khinh",
+  "Ammersee": "A-mơ-dê",
+  "Schondorf": "Sôn-đoóc",
+  "Seeweg": "Dê-véc",
+  "Weingarten": "Vai-nơ-gác-tần",
+  "Perfallhütte": "Pe-phan-huýt-tơ",
+  "Bayern 3": "Bai-ơn ba",
+  "Bayern": "Bai-ơn",
+  "München": "Muyn-khần",
+  "Landsberg": "Lan-xbéc",
+  "Augsburger Allgemeine": "Au-xbuốc-gơ An-gơ-mai-nơ",
+  "Augsburg": "Au-xbuốc",
+  "Fiat 600": "Phi-át sáu trăm",
+  "Grundig": "Grun-đích",
+  "TK 248": "tê ca hai bốn tám",
+  "Werner M.": "Vec-nơ Em",
+  "Michael": "Mi-kha-en",
+  "Porst": "Pót-xtơ",
+  "Spiegel": "Xpi-gơn",
+  "Guardian": "Ga-đi-ần",
+  "Abendzeitung": "A-bần-xai-tung",
+  "Zürich": "Duy-rích",
+  "DNA": "đê en a",
+  "ti-vi": "ti vi",
+  "sô-cô-la": "sô cô la",
+  "ô-xy": "ô xy"
+ },
+ "shots": [
+  {
+   "id": "P001",
+   "say": "n.P001",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_raid2007.jpg",
+    "cam": "push",
+    "fx": 0.25,
+    "fy": 0.65,
+    "atmos": [
+     "dust",
+     "flicker"
+    ],
+    "ai": true,
+    "chips": [
+     {
+      "text": "u.P001.1",
+      "at": 0.05
+     }
+    ],
+    "sfx": [
+     {
+      "src": "sfx/whoosh.mp3",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P002",
+   "say": "n.P002",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_tape.png",
+    "mark": [
+     0.26,
+     0.08,
+     0.5,
+     0.84
+    ],
+    "trans": "u.P002.1",
+    "source": "u.P002.2",
+    "aspect": 14.3333,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P003",
+   "say": "n.P003",
+   "v": {
+    "kind": "scene25",
+    "img": "cc/grundig_tk121.jpg",
+    "cam": "push",
+    "amt": 1.4,
+    "grade": "warm",
+    "atmos": [
+     "dust"
+    ],
+    "credit": "u.P003.1",
+    "sfx": [
+     {
+      "src": "sfx/click.mp3",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "P004",
+   "say": "n.P004",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_verdict.png",
+    "mark": [
+     0.2,
+     0.36,
+     0.52,
+     0.18
+    ],
+    "trans": "u.P004.1",
+    "source": "u.P004.2",
+    "chips": [
+     {
+      "text": "u.P004.3",
+      "at": 0.1
+     }
+    ],
+    "aspect": 4,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0
+     },
+     {
+      "src": "sfx/thud.mp3",
+      "at": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "P005",
+   "say": "n.P005",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_wahr.png",
+    "mark": [
+     0,
+     0.245,
+     0.62,
+     0.13
+    ],
+    "markAt": 0.45,
+    "zoom": 1.4,
+    "trans": "u.P005.1",
+    "source": "u.P005.2",
+    "aspect": 3.0449,
+    "sfx": [
+     {
+      "src": "sfx/stinger.mp3",
+      "at": 2.2,
+      "vol": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "id": "P006",
+   "say": "n.P006",
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "tape",
+      "text": "u.P006.1",
+      "sub": "u.P006.2",
+      "x": 0.72,
+      "y": 0.25
+     },
+     {
+      "id": "verdict",
+      "text": "u.P006.3",
+      "sub": "u.P006.4",
+      "x": 0.88,
+      "y": 0.47
+     },
+     {
+      "id": "expert",
+      "text": "u.P006.5",
+      "sub": "u.P006.6",
+      "x": 0.6,
+      "y": 0.5,
+      "q": true
+     },
+     {
+      "id": "brother",
+      "text": "u.P006.7",
+      "x": 0.86,
+      "y": 0.74,
+      "q": true,
+      "at": 0.3
+     }
+    ],
+    "links": [
+     [
+      "tape",
+      "verdict"
+     ],
+     [
+      "tape",
+      "expert"
+     ],
+     [
+      "verdict",
+      "brother",
+      0.45
+     ]
+    ],
+    "focus": "brother",
+    "zoom": 1.12,
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P007",
+   "say": "n.P007",
+   "v": {
+    "kind": "desk",
+    "note": {
+     "lines": [
+      "u.P007.1"
+     ],
+     "sign": "u.P007.2"
+    },
+    "markAt": 0.55,
+    "trans": "u.P007.3",
+    "source": "u.P007.4",
+    "sfx": [
+     {
+      "src": "sfx/type.mp3",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "P008",
+   "say": "n.P008",
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "tape",
+      "text": "u.P006.1",
+      "sub": "u.P006.2",
+      "x": 0.72,
+      "y": 0.25
+     },
+     {
+      "id": "verdict",
+      "text": "u.P006.3",
+      "sub": "u.P006.4",
+      "x": 0.88,
+      "y": 0.47
+     },
+     {
+      "id": "expert",
+      "text": "u.P006.5",
+      "sub": "u.P006.6",
+      "x": 0.6,
+      "y": 0.5,
+      "q": true
+     },
+     {
+      "id": "brother",
+      "text": "u.P006.7",
+      "x": 0.86,
+      "y": 0.74,
+      "q": true
+     },
+     {
+      "id": "denies",
+      "text": "u.P008.1",
+      "x": 0.63,
+      "y": 0.75,
+      "at": 0.12
+     }
+    ],
+    "links": [
+     [
+      "tape",
+      "verdict"
+     ],
+     [
+      "tape",
+      "expert"
+     ],
+     [
+      "verdict",
+      "brother"
+     ],
+     [
+      "verdict",
+      "denies",
+      0.25
+     ]
+    ],
+    "focus": "expert",
+    "zoom": 1.2,
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 0.6
+     },
+     {
+      "src": "sfx/riser.mp3",
+      "at": 5.5,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "P009",
+   "say": "n.P009",
+   "pad": 1.6,
+   "v": {
+    "kind": "scene25",
+    "layers": [
+     {
+      "img": "ai/ai_clearing.jpg",
+      "z": 0.8
+     },
+     {
+      "img": "ai/fg_spruce.png",
+      "z": 1.6
+     }
+    ],
+    "cam": "pull",
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ],
+    "title": "u.P009.1",
+    "sub": "u.P009.2",
+    "ai": true,
+    "sfx": [
+     {
+      "src": "sfx/stinger.mp3",
+      "at": 0,
+      "vol": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "P010",
+   "say": "n.P010",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_cover.png",
+    "w": 0.5,
+    "source": "u.P010.1",
+    "chips": [
+     {
+      "text": "u.P010.2",
+      "at": 0.1,
+      "big": true
+     }
+    ],
+    "aspect": 1.3704,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P101",
+   "say": "n.P101",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "01",
+    "title": "u.P101.1",
+    "atmos": [
+     "film"
+    ],
+    "sfx": [
+     {
+      "src": "sfx/type.mp3",
+      "at": 0.1,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "P102",
+   "say": "n.P102",
+   "v": {
+    "kind": "scene25",
+    "img": "cc/eching_church.jpg",
+    "cam": "panR",
+    "grade": "warm",
+    "atmos": [
+     "film"
+    ],
+    "credit": "u.P102.1",
+    "chips": [
+     {
+      "text": "u.P102.2",
+      "at": 0.08
+     }
+    ]
+   }
+  },
+  {
+   "id": "P103",
+   "say": "n.P103",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_house_dusk.jpg",
+    "cam": "push",
+    "fx": 0.62,
+    "fy": 0.55,
+    "grade": "dusk",
+    "atmos": [
+     "film"
+    ],
+    "ai": true,
+    "chips": [
+     {
+      "text": "u.P103.1",
+      "at": 0.1,
+      "big": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "P104",
+   "say": "n.P104",
+   "v": {
+    "kind": "scene25",
+    "img": "cc/schondorf_autumn.jpg",
+    "cam": "panL",
+    "grade": "warm",
+    "atmos": [
+     "film"
+    ],
+    "credit": "u.P104.1",
+    "chips": [
+     {
+      "text": "u.P104.2",
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "P105",
+   "say": "n.P105",
+   "v": {
+    "kind": "mapphoto",
+    "src": "cc/map1899_lake.jpg",
+    "aspect": 0.9894613583138173,
+    "cam": [
+     {
+      "at": 0,
+      "x": 0.45,
+      "y": 0.45,
+      "zoom": 1.2
+     },
+     {
+      "at": 0.5,
+      "x": 0.42,
+      "y": 0.41,
+      "zoom": 2.4
+     }
+    ],
+    "paths": [
+     {
+      "pts": [
+       [
+        0.4612,
+        0.3412
+       ],
+       [
+        0.4525,
+        0.3628
+       ],
+       [
+        0.4395,
+        0.3864
+       ],
+       [
+        0.4287,
+        0.4079
+       ],
+       [
+        0.4191,
+        0.4315
+       ],
+       [
+        0.4091,
+        0.4573
+       ],
+       [
+        0.3992,
+        0.4787
+       ],
+       [
+        0.3918,
+        0.495
+       ]
+      ],
+      "at": 0.3,
+      "dur": 0.35
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.4655,
+      "y": 0.3176,
+      "at": 0.1,
+      "label": "u.C106.1",
+      "dx": 30,
+      "dy": -60
+     },
+     {
+      "x": 0.331,
+      "y": 0.4808,
+      "at": 0.2,
+      "label": "u.C106.2",
+      "dx": -30,
+      "dy": 20
+     },
+     {
+      "x": 0.385,
+      "y": 0.44,
+      "at": 0.65,
+      "kind": "dot",
+      "label": "u.C106.3",
+      "dx": -30,
+      "dy": -70
+     }
+    ],
+    "title": "u.C106.4",
+    "tape": "c.map1899"
+   }
+  },
+  {
+   "id": "P106",
+   "say": "n.P106",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_house_dusk.jpg",
+    "cam": "pull",
+    "fx": 0.4,
+    "fy": 0.4,
+    "grade": "dusk",
+    "ai": true,
+    "chips": [
+     {
+      "text": "u.P106.1",
+      "at": 0.05,
+      "big": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "P107",
+   "say": "n.P107",
+   "v": {
+    "kind": "scene25",
+    "layers": [
+     {
+      "img": "ai/ai_lakepath.jpg",
+      "z": 0.9
+     },
+     {
+      "img": "ai/fg_ferns.png",
+      "z": 1.5
+     }
+    ],
+    "cam": "panR",
+    "grade": "dusk",
+    "atmos": [
+     "fog"
+    ],
+    "ai": true,
+    "chips": [
+     {
+      "text": "u.P107.1",
+      "at": 0.1,
+      "big": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "P108",
+   "say": "n.P108",
+   "v": {
+    "kind": "scene25",
+    "img": "cc/ammersee_mist.jpg",
+    "cam": "push",
+    "grade": "dusk",
+    "atmos": [
+     "fog"
+    ],
+    "credit": "u.P108.1",
+    "chips": [
+     {
+      "text": "u.P108.2",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "P109",
+   "say": "n.P109",
+   "v": {
+    "kind": "scene25",
+    "layers": [
+     {
+      "img": "ai/ai_lakepath.jpg",
+      "z": 0.9
+     },
+     {
+      "img": "ai/fg_spruce.png",
+      "z": 1.5
+     },
+     {
+      "img": "ai/fg_ferns.png",
+      "z": 1.7
+     }
+    ],
+    "cam": "push",
+    "amt": 0.8,
+    "fx": 0.4,
+    "grade": "night",
+    "atmos": [
+     "fog"
+    ],
+    "ai": true,
+    "chips": [
+     {
+      "text": "u.P109.1",
+      "at": 0.05,
+      "big": true
+     },
+     {
+      "text": "u.P109.2",
+      "at": 0.45
+     }
+    ],
+    "sfx": [
+     {
+      "src": "sfx/heart.mp3",
+      "at": 0.2,
+      "vol": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "id": "P110",
+   "say": "n.P110",
+   "v": {
+    "kind": "scene25",
+    "layers": [
+     {
+      "img": "ai/ai_bellwire.jpg",
+      "z": 1
+     },
+     {
+      "img": "ai/fg_spruce.png",
+      "z": 1.5
+     }
+    ],
+    "cam": "push",
+    "fx": 0.3,
+    "fy": 0.6,
+    "amt": 1.3,
+    "grade": "night",
+    "atmos": [
+     "fog"
+    ],
+    "ai": true,
+    "chips": [
+     {
+      "text": "u.P110.1",
+      "at": 0.6,
+      "pos": "tr"
+     }
+    ]
+   }
+  },
+  {
+   "id": "P111",
+   "say": "n.P111",
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "tape",
+      "text": "u.P006.1",
+      "sub": "u.P006.2",
+      "x": 0.72,
+      "y": 0.25
+     },
+     {
+      "id": "verdict",
+      "text": "u.P006.3",
+      "sub": "u.P006.4",
+      "x": 0.88,
+      "y": 0.47
+     },
+     {
+      "id": "expert",
+      "text": "u.P006.5",
+      "sub": "u.P006.6",
+      "x": 0.6,
+      "y": 0.5,
+      "q": true
+     },
+     {
+      "id": "brother",
+      "text": "u.P006.7",
+      "x": 0.86,
+      "y": 0.74,
+      "q": true
+     },
+     {
+      "id": "denies",
+      "text": "u.P008.1",
+      "x": 0.63,
+      "y": 0.75
+     },
+     {
+      "id": "place",
+      "img": "ai/ai_lakepath.jpg",
+      "text": "u.P111.1",
+      "sub": "u.P111.2",
+      "x": 0.2,
+      "y": 0.3,
+      "w": 0.17,
+      "rot": -2,
+      "at": 0.05
+     },
+     {
+      "id": "wire",
+      "text": "u.P111.3",
+      "sub": "u.P111.4",
+      "x": 0.42,
+      "y": 0.2,
+      "rot": 2,
+      "at": 0.35
+     }
+    ],
+    "links": [
+     [
+      "tape",
+      "verdict"
+     ],
+     [
+      "tape",
+      "expert"
+     ],
+     [
+      "verdict",
+      "brother"
+     ],
+     [
+      "verdict",
+      "denies"
+     ],
+     [
+      "place",
+      "wire",
+      0.55
+     ]
+    ],
+    "focus": "wire",
+    "zoom": 1.35,
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 0.3
+     },
+     {
+      "src": "sfx/pin.mp3",
+      "at": 1.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "P112",
+   "say": "n.P112",
+   "v": {
+    "kind": "scene25",
+    "img": "cc/phone_fetap.jpg",
+    "cam": "push",
+    "amt": 1.3,
+    "grade": "warm",
+    "atmos": [
+     "dust"
+    ],
+    "credit": "u.P112.1",
+    "sfx": [
+     {
+      "src": "sfx/ring.mp3",
+      "at": 0,
+      "vol": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "id": "P113",
+   "say": "n.P113",
+   "pad": 0.8,
+   "v": {
+    "kind": "scene25",
+    "layers": [
+     {
+      "img": "ai/ai_search_night.jpg",
+      "z": 0.9
+     },
+     {
+      "img": "ai/fg_ferns.png",
+      "z": 1.5
+     }
+    ],
+    "cam": "handheld",
+    "atmos": [
+     "fog",
+     "beams"
+    ],
+    "ai": true,
+    "chips": [
+     {
+      "text": "u.P113.1",
+      "at": 0.1
+     }
+    ]
+   }
+  },
+  {
+   "id": "P114",
+   "say": "n.P114",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_bike.jpg",
+    "cam": "snap",
+    "fx": 0.4,
+    "fy": 0.6,
+    "over": 1.45,
+    "ox": 0,
+    "atmos": [
+     "fog"
+    ],
+    "ai": true,
+    "chips": [
+     {
+      "text": "u.P114.1",
+      "at": 0.55
+     }
+    ],
+    "sfx": [
+     {
+      "src": "sfx/stinger.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "P115",
+   "say": "n.P115",
+   "pad": 1.4,
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_bike.jpg",
+    "cam": "pull",
+    "fx": 0.4,
+    "fy": 0.6,
+    "over": 1.45,
+    "ox": 0,
+    "dim": 0.25,
+    "atmos": [
+     "fog"
+    ],
+    "ai": true
+   }
+  },
+  {
+   "id": "P116",
+   "say": "n.P116",
+   "v": {
+    "kind": "mapphoto",
+    "src": "cc/map1899_lake.jpg",
+    "aspect": 0.9894613583138173,
+    "cam": [
+     {
+      "at": 0,
+      "x": 0.41,
+      "y": 0.45,
+      "zoom": 3.6
+     },
+     {
+      "at": 0.45,
+      "x": 0.395,
+      "y": 0.44,
+      "zoom": 4.2
+     }
+    ],
+    "paths": [
+     {
+      "pts": [
+       [
+        0.4612,
+        0.3412
+       ],
+       [
+        0.4525,
+        0.3628
+       ],
+       [
+        0.4395,
+        0.3864
+       ],
+       [
+        0.4287,
+        0.4079
+       ],
+       [
+        0.4191,
+        0.4315
+       ],
+       [
+        0.4091,
+        0.4573
+       ],
+       [
+        0.3992,
+        0.4787
+       ],
+       [
+        0.3918,
+        0.495
+       ]
+      ],
+      "at": 0,
+      "dur": 0.01
+     },
+     {
+      "pts": [
+       [
+        0.4091,
+        0.4573
+       ],
+       [
+        0.394,
+        0.444
+       ],
+       [
+        0.377,
+        0.4255
+       ]
+      ],
+      "at": 0.3,
+      "dur": 0.3,
+      "color": "ink",
+      "dash": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.4091,
+      "y": 0.4573,
+      "at": 0,
+      "kind": "x"
+     },
+     {
+      "x": 0.377,
+      "y": 0.4255,
+      "at": 0.6,
+      "kind": "box",
+      "label": "u.C117.1",
+      "dx": -40,
+      "dy": -70
+     }
+    ],
+    "title": "u.C117.2",
+    "tape": "c.map1899"
+   }
+  },
+  {
+   "id": "P117",
+   "say": "n.P117",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_letter.png",
+    "mark": [
+     0,
+     0.015,
+     0.98,
+     0.075
+    ],
+    "markAt": 0.25,
+    "trans": "u.P117.1",
+    "source": "u.P117.2",
+    "aspect": 1.5929,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "P118",
+   "say": "n.P118",
+   "pad": 1.2,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "tape",
+      "text": "u.P006.1",
+      "sub": "u.P006.2",
+      "x": 0.72,
+      "y": 0.25
+     },
+     {
+      "id": "verdict",
+      "text": "u.P006.3",
+      "sub": "u.P006.4",
+      "x": 0.88,
+      "y": 0.47
+     },
+     {
+      "id": "expert",
+      "text": "u.P006.5",
+      "sub": "u.P006.6",
+      "x": 0.6,
+      "y": 0.5,
+      "q": true
+     },
+     {
+      "id": "brother",
+      "text": "u.P006.7",
+      "x": 0.86,
+      "y": 0.74,
+      "q": true
+     },
+     {
+      "id": "denies",
+      "text": "u.P008.1",
+      "x": 0.63,
+      "y": 0.75
+     },
+     {
+      "id": "place",
+      "img": "ai/ai_lakepath.jpg",
+      "text": "u.P111.1",
+      "sub": "u.P111.2",
+      "x": 0.2,
+      "y": 0.3,
+      "w": 0.17,
+      "rot": -2
+     },
+     {
+      "id": "wire",
+      "text": "u.P111.3",
+      "sub": "u.P111.4",
+      "x": 0.42,
+      "y": 0.2,
+      "rot": 2
+     },
+     {
+      "id": "bike",
+      "text": "u.P118.1",
+      "sub": "u.P118.2",
+      "x": 0.14,
+      "y": 0.7,
+      "rot": 1.5,
+      "at": 0.05
+     },
+     {
+      "id": "box",
+      "text": "u.P118.3",
+      "sub": "u.P118.4",
+      "x": 0.38,
+      "y": 0.52,
+      "rot": -1,
+      "at": 0.12
+     },
+     {
+      "id": "letter",
+      "text": "u.P118.5",
+      "sub": "u.P118.6",
+      "x": 0.38,
+      "y": 0.77,
+      "rot": 2,
+      "at": 0.25
+     }
+    ],
+    "links": [
+     [
+      "tape",
+      "verdict"
+     ],
+     [
+      "tape",
+      "expert"
+     ],
+     [
+      "verdict",
+      "brother"
+     ],
+     [
+      "verdict",
+      "denies"
+     ],
+     [
+      "place",
+      "wire"
+     ],
+     [
+      "place",
+      "bike",
+      0.08
+     ],
+     [
+      "place",
+      "box",
+      0.15
+     ],
+     [
+      "box",
+      "letter",
+      0.28
+     ],
+     [
+      "place",
+      "tape",
+      0.72
+     ]
+    ],
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 0.4
+     },
+     {
+      "src": "sfx/pin.mp3",
+      "at": 1.5
+     },
+     {
+      "src": "sfx/pin.mp3",
+      "at": 3.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "D201",
+   "say": "n.D201",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "02",
+    "title": "u.D201.1",
+    "atmos": [
+     "film"
+    ],
+    "sfx": [
+     {
+      "src": "sfx/whoosh.mp3",
+      "at": 0,
+      "vol": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "C202",
+   "say": "n.C202",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_livingroom.jpg",
+    "ai": true,
+    "cam": "push",
+    "fx": 0.3,
+    "fy": 0.6,
+    "grade": "dusk",
+    "atmos": [
+     "film",
+     "flicker"
+    ],
+    "chips": [
+     {
+      "text": "u.C202.5",
+      "at": 0.1,
+      "big": true
+     }
+    ],
+    "sfx": [
+     {
+      "src": "sfx/ring.mp3",
+      "at": 0.3,
+      "vol": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "id": "C203",
+   "say": "n.C203",
+   "v": {
+    "kind": "calls",
+    "days": [
+     {
+      "label": "u.C202.1",
+      "n": 7
+     },
+     {
+      "label": "u.C202.2",
+      "n": 4,
+      "sub": "u.C202.3"
+     }
+    ],
+    "from": 1,
+    "upto": 7,
+    "note": "u.C202.4"
+   }
+  },
+  {
+   "id": "C204",
+   "say": "n.C204",
+   "v": {
+    "kind": "calls",
+    "days": [
+     {
+      "label": "u.C202.1",
+      "n": 7
+     },
+     {
+      "label": "u.C202.2",
+      "n": 4,
+      "sub": "u.C202.3"
+     }
+    ],
+    "from": 7,
+    "note": "u.C202.4"
+   }
+  },
+  {
+   "id": "C205",
+   "say": "n.C205",
+   "v": {
+    "kind": "wave",
+    "rows": [
+     "u.C205.1"
+    ],
+    "show": 1,
+    "note": "u.C205.2"
+   }
+  },
+  {
+   "id": "C206",
+   "say": "n.C206",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_phonebooth.jpg",
+    "ai": true,
+    "cam": "push",
+    "amt": 1.2,
+    "grade": "night",
+    "atmos": [
+     "rain",
+     "flicker"
+    ],
+    "chips": [
+     {
+      "text": "u.C206.1",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "C207",
+   "say": "n.C207",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_calls.png",
+    "mark": [
+     0,
+     0,
+     1,
+     0.3
+    ],
+    "trans": "u.C207.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C207.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 2.6989,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C208",
+   "say": "n.C208",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_mailbox.jpg",
+    "ai": true,
+    "cam": "push",
+    "grade": "night",
+    "atmos": [
+     "rain"
+    ],
+    "chips": [
+     {
+      "text": "u.C208.1",
+      "at": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "id": "C209",
+   "say": "n.C209",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_cutletters.jpg",
+    "ai": true,
+    "cam": "pull",
+    "amt": 1.4,
+    "grade": "warm",
+    "atmos": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "id": "C210",
+   "say": "n.C210",
+   "v": {
+    "kind": "letter",
+    "lines": [
+     "u.C210.1",
+     "u.C210.2"
+    ],
+    "hot": [
+     1
+    ],
+    "vi": "u.C210.3",
+    "tape": "u.C210.4",
+    "seed": "A"
+   }
+  },
+  {
+   "id": "C211",
+   "say": "n.C211",
+   "v": {
+    "kind": "letter",
+    "lines": [
+     "u.C211.1"
+    ],
+    "vi": "u.C211.2",
+    "tape": "u.C210.4",
+    "seed": "B"
+   }
+  },
+  {
+   "id": "C212",
+   "say": "n.C212",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_explain.png",
+    "mark": [
+     0,
+     0.38,
+     1,
+     0.42
+    ],
+    "trans": "u.C212.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C212.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 4.1667,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C213",
+   "say": "n.C213",
+   "v": {
+    "kind": "letter",
+    "lines": [
+     "u.C213.1",
+     "u.C213.2",
+     "u.C213.3"
+    ],
+    "hot": [
+     2
+    ],
+    "vi": "u.C213.4",
+    "tape": "u.C210.4",
+    "seed": "C"
+   }
+  },
+  {
+   "id": "C214",
+   "say": "n.C214",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_letter.png",
+    "mark": [
+     0,
+     0.2,
+     1,
+     0.1
+    ],
+    "trans": "u.C214.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C214.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 1.5929,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C215",
+   "say": "n.C215",
+   "v": {
+    "kind": "geomap",
+    "src": "demap.json",
+    "provinces": true,
+    "fill": {
+     "DEU": "#efe0b4"
+    },
+    "cam": [
+     {
+      "at": 0,
+      "pt": "eching",
+      "zoom": 5
+     },
+     {
+      "at": 0.5,
+      "pt": "muenchen",
+      "zoom": 4.6
+     }
+    ],
+    "labels": [
+     {
+      "text": "u.C215.1",
+      "pt": "landsberg",
+      "at": 0.1,
+      "style": "box",
+      "dx": -20,
+      "dy": 46
+     },
+     {
+      "text": "u.C215.2",
+      "pt": "muenchen",
+      "at": 0.5,
+      "style": "box",
+      "dy": -56
+     },
+     {
+      "text": "u.C106.1",
+      "pt": "eching",
+      "at": 0.05,
+      "style": "place",
+      "dy": -36
+     }
+    ],
+    "bursts": [
+     {
+      "pt": "muenchen",
+      "at": 0.5
+     }
+    ],
+    "title": "u.C215.3"
+   }
+  },
+  {
+   "id": "C216",
+   "say": "n.C216",
+   "v": {
+    "kind": "letter",
+    "lines": [
+     "u.C216.1",
+     "u.C216.2"
+    ],
+    "hot": [
+     0
+    ],
+    "vi": "u.C216.3",
+    "tape": "u.C216.4",
+    "seed": "D"
+   }
+  },
+  {
+   "id": "C217",
+   "say": "n.C217",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_phonebooth.jpg",
+    "ai": true,
+    "cam": "pull",
+    "grade": "night",
+    "atmos": [
+     "rain",
+     "flicker"
+    ],
+    "chips": [
+     {
+      "text": "u.C217.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C217.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C218",
+   "say": "n.C218",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_kitchen.jpg",
+    "ai": true,
+    "cam": "handheld",
+    "grade": "dusk",
+    "atmos": [
+     "film"
+    ],
+    "chips": [
+     {
+      "text": "u.C218.3",
+      "at": 0.1,
+      "big": true
+     },
+     {
+      "text": "u.C218.4",
+      "at": 0.4
+     }
+    ],
+    "sfx": [
+     {
+      "src": "sfx/ring.mp3",
+      "at": 0,
+      "vol": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "C219",
+   "say": "n.C219",
+   "pad": 0.9,
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_phonebooth.jpg",
+    "ai": true,
+    "cam": "pull",
+    "amt": 1.3,
+    "dim": 0.35,
+    "grade": "night",
+    "atmos": [
+     "flicker",
+     "rain"
+    ]
+   }
+  },
+  {
+   "id": "C220",
+   "say": "n.C220",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_lebens.png",
+    "mark": [
+     0,
+     0.48,
+     1,
+     0.42
+    ],
+    "trans": "u.C220.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C220.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 3.5185,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "E201",
+   "say": "n.E201",
+   "pad": 1.1,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "calls",
+      "text": "u.E201.1",
+      "sub": "u.E201.2",
+      "x": 0.14,
+      "y": 0.26
+     },
+     {
+      "id": "jingle",
+      "text": "u.E201.3",
+      "sub": "u.E201.4",
+      "x": 0.34,
+      "y": 0.5,
+      "at": 0.1,
+      "q": true
+     },
+     {
+      "id": "letters",
+      "text": "u.E201.5",
+      "sub": "u.E201.6",
+      "x": 0.14,
+      "y": 0.74,
+      "at": 0.2
+     },
+     {
+      "id": "money",
+      "text": "u.E201.7",
+      "sub": "u.E201.8",
+      "x": 0.5,
+      "y": 0.26,
+      "at": 0.3
+     },
+     {
+      "id": "fiat",
+      "text": "u.E201.9",
+      "sub": "u.E201.10",
+      "x": 0.5,
+      "y": 0.74,
+      "at": 0.4
+     },
+     {
+      "id": "tape",
+      "text": "u.P006.1",
+      "sub": "u.P006.2",
+      "x": 0.84,
+      "y": 0.5,
+      "at": 0.55,
+      "q": true
+     }
+    ],
+    "links": [
+     [
+      "calls",
+      "jingle",
+      0.1
+     ],
+     [
+      "letters",
+      "money",
+      0.3
+     ],
+     [
+      "money",
+      "fiat",
+      0.4
+     ],
+     [
+      "jingle",
+      "tape",
+      0.6
+     ]
+    ],
+    "focus": "tape",
+    "zoom": 1.05,
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 2
+     },
+     {
+      "src": "sfx/pin.mp3",
+      "at": 4.5
+     },
+     {
+      "src": "sfx/riser.mp3",
+      "at": 8.5,
+      "vol": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "D301",
+   "say": "n.D301",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "03",
+    "title": "u.D301.1",
+    "atmos": [
+     "film"
+    ],
+    "sfx": [
+     {
+      "src": "sfx/whoosh.mp3",
+      "at": 0,
+      "vol": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "C302",
+   "say": "n.C302",
+   "v": {
+    "kind": "scene25",
+    "layers": [
+     {
+      "img": "ai/ai_search.jpg",
+      "z": 0.9
+     },
+     {
+      "img": "ai/fg_ferns.png",
+      "z": 1.5
+     }
+    ],
+    "ai": true,
+    "cam": "panR",
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ]
+   }
+  },
+  {
+   "id": "C303",
+   "say": "n.C303",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_search.jpg",
+    "ai": true,
+    "cam": "push",
+    "amt": 1.4,
+    "fx": 0.6,
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C303.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C303.2",
+      "at": 0.2,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C303.3",
+      "big": true,
+      "at": 0.35,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C303.4",
+      "at": 0.45,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C304",
+   "say": "n.C304",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_found.png",
+    "mark": [
+     0,
+     0,
+     1,
+     0.4
+    ],
+    "trans": "u.C220.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C304.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 4.1304,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C305",
+   "say": "n.C305",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_clearing.jpg",
+    "ai": true,
+    "cam": "snap",
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C305.2",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C305.1",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ],
+    "sfx": [
+     {
+      "src": "sfx/stinger.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C306",
+   "say": "n.C306",
+   "v": {
+    "kind": "scene25",
+    "layers": [
+     {
+      "img": "ai/ai_clearing.jpg",
+      "z": 0.9
+     },
+     {
+      "img": "ai/fg_spruce.png",
+      "z": 1.5
+     }
+    ],
+    "ai": true,
+    "cam": "pull",
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C306.1",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "C307",
+   "say": "n.C307",
+   "v": {
+    "kind": "boxplan",
+    "stage": 1
+   }
+  },
+  {
+   "id": "C308",
+   "say": "n.C308",
+   "v": {
+    "kind": "boxplan",
+    "stage": 2
+   }
+  },
+  {
+   "id": "C309",
+   "say": "n.C309",
+   "v": {
+    "kind": "boxplan",
+    "stage": 3
+   }
+  },
+  {
+   "id": "C310",
+   "say": "n.C310",
+   "v": {
+    "kind": "boxplan",
+    "stage": 4
+   }
+  },
+  {
+   "id": "C311",
+   "say": "n.C311",
+   "v": {
+    "kind": "checklist",
+    "title": "u.C311.1",
+    "items": [
+     {
+      "text": "u.C311.2"
+     },
+     {
+      "text": "u.C311.3"
+     },
+     {
+      "text": "u.C311.4"
+     },
+     {
+      "text": "u.C311.5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C312",
+   "say": "n.C312",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_vorsatz.png",
+    "trans": "u.C312.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C312.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 9.6,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C313",
+   "say": "n.C313",
+   "v": {
+    "kind": "boxplan",
+    "stage": 4
+   }
+  },
+  {
+   "id": "C314",
+   "say": "n.C314",
+   "v": {
+    "kind": "boxplan",
+    "stage": 4
+   }
+  },
+  {
+   "id": "C315",
+   "say": "n.C315",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_found.png",
+    "mark": [
+     0,
+     0.55,
+     1,
+     0.45
+    ],
+    "trans": "u.C315.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C315.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 4.1304,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C316",
+   "say": "n.C316",
+   "v": {
+    "kind": "scene25",
+    "layers": [
+     {
+      "img": "ai/ai_clearing.jpg",
+      "z": 0.9
+     },
+     {
+      "img": "ai/fg_spruce.png",
+      "z": 1.5
+     }
+    ],
+    "ai": true,
+    "cam": "pull",
+    "amt": 1.2,
+    "dim": 0.3,
+    "grade": "night",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C316.6",
+      "at": 0.1,
+      "big": true
+     },
+     {
+      "text": "u.C316.7",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "C317",
+   "say": "n.C317",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_clearing.jpg",
+    "ai": true,
+    "cam": "push",
+    "amt": 0.7,
+    "dim": 0.2,
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C317.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C317.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C318",
+   "say": "n.C318",
+   "pad": 1.2,
+   "v": {
+    "kind": "memorial",
+    "title": "u.H02.1",
+    "names": [
+     "u.C318.1"
+    ]
+   }
+  },
+  {
+   "id": "E301",
+   "say": "n.E301",
+   "pad": 1.1,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "box",
+      "text": "u.E301.1",
+      "sub": "u.E301.2",
+      "x": 0.2,
+      "y": 0.3
+     },
+     {
+      "id": "vent",
+      "text": "u.E301.3",
+      "sub": "u.E301.4",
+      "x": 0.5,
+      "y": 0.3,
+      "at": 0.12
+     },
+     {
+      "id": "cause",
+      "text": "u.E301.5",
+      "sub": "u.E301.6",
+      "x": 0.8,
+      "y": 0.3,
+      "at": 0.25
+     },
+     {
+      "id": "found",
+      "text": "u.E301.7",
+      "sub": "u.E301.8",
+      "x": 0.2,
+      "y": 0.72,
+      "at": 0.38
+     },
+     {
+      "id": "who",
+      "text": "u.E301.9",
+      "sub": "u.E301.10",
+      "x": 0.65,
+      "y": 0.72,
+      "at": 0.55,
+      "q": true
+     }
+    ],
+    "links": [
+     [
+      "box",
+      "vent",
+      0.14
+     ],
+     [
+      "vent",
+      "cause",
+      0.27
+     ],
+     [
+      "box",
+      "found",
+      0.4
+     ],
+     [
+      "found",
+      "who",
+      0.57
+     ]
+    ],
+    "focus": "who",
+    "zoom": 1.05,
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 1.5
+     },
+     {
+      "src": "sfx/pin.mp3",
+      "at": 3.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "D401",
+   "say": "n.D401",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "04",
+    "title": "u.D401.1",
+    "atmos": [
+     "film"
+    ],
+    "sfx": [
+     {
+      "src": "sfx/whoosh.mp3",
+      "at": 0,
+      "vol": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "C402",
+   "say": "n.C402",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_archive2.jpg",
+    "ai": true,
+    "cam": "push",
+    "grade": "warm",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C402.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C402.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C403",
+   "say": "n.C403",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_desk.jpg",
+    "ai": true,
+    "cam": "panL",
+    "grade": "warm",
+    "atmos": [
+     "lamp",
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C403.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C403.2",
+      "at": 0.2,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C403.3",
+      "big": true,
+      "at": 0.35,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C403.4",
+      "at": 0.45,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C403.5",
+      "big": true,
+      "at": 0.6,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C403.6",
+      "at": 0.7,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C403.7",
+      "big": true,
+      "at": 0.85,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C403.8",
+      "at": 0.95,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C404",
+   "say": "n.C404",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_dnalab.jpg",
+    "ai": true,
+    "cam": "snap",
+    "fx": 0.4,
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C404.2",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C404.1",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C405",
+   "say": "n.C405",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_dnalab.jpg",
+    "ai": true,
+    "cam": "pull",
+    "fx": 0.65,
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C405.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C405.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C406",
+   "say": "n.C406",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_workshop.jpg",
+    "ai": true,
+    "cam": "push",
+    "grade": "dusk",
+    "atmos": [
+     "film"
+    ],
+    "chips": [
+     {
+      "text": "u.C406.3",
+      "at": 0.1
+     },
+     {
+      "text": "u.C406.4",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "C407",
+   "say": "n.C407",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_workshop.jpg",
+    "ai": true,
+    "cam": "panR",
+    "grade": "dusk",
+    "atmos": [
+     "film"
+    ],
+    "chips": [
+     {
+      "text": "u.C407.1",
+      "big": true,
+      "at": 0.1
+     },
+     {
+      "text": "u.C407.2",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "C408",
+   "say": "n.C408",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_workshop.jpg",
+    "ai": true,
+    "cam": "pull",
+    "dim": 0.3,
+    "grade": "night",
+    "atmos": [
+     "flicker"
+    ],
+    "chips": [
+     {
+      "text": "u.C408.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C408.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C409",
+   "say": "n.C409",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_corridor.jpg",
+    "ai": true,
+    "cam": "push",
+    "amt": 0.8,
+    "grade": "old",
+    "atmos": [
+     "film"
+    ],
+    "chips": [
+     {
+      "text": "u.C409.1",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "C410",
+   "say": "n.C410",
+   "v": {
+    "kind": "scene25",
+    "layers": [
+     {
+      "img": "ai/ai_clearing.jpg",
+      "z": 0.9
+     },
+     {
+      "img": "ai/fg_ferns.png",
+      "z": 1.5
+     }
+    ],
+    "ai": true,
+    "cam": "panL",
+    "dim": 0.2,
+    "grade": "old",
+    "atmos": [
+     "film",
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C410.2",
+      "at": 0.1
+     },
+     {
+      "text": "u.C410.3",
+      "at": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "id": "C411",
+   "say": "n.C411",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_workshop.jpg",
+    "ai": true,
+    "cam": "push",
+    "amt": 1.3,
+    "fx": 0.7,
+    "grade": "old",
+    "atmos": [
+     "film"
+    ],
+    "chips": [
+     {
+      "text": "u.C411.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C411.2",
+      "at": 0.2,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C411.3",
+      "big": true,
+      "at": 0.35,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C411.4",
+      "at": 0.45,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C412",
+   "say": "n.C412",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_corridor.jpg",
+    "ai": true,
+    "cam": "pull",
+    "dim": 0.25,
+    "grade": "old",
+    "atmos": [
+     "film"
+    ],
+    "chips": [
+     {
+      "text": "u.C412.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C412.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C413",
+   "say": "n.C413",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_lakedawn.jpg",
+    "ai": true,
+    "cam": "push",
+    "amt": 0.8,
+    "dim": 0.2,
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C413.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C413.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C414",
+   "say": "n.C414",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_zweifel.png",
+    "trans": "u.C414.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C414.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 6.9286,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C415",
+   "say": "n.C415",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_archive2.jpg",
+    "ai": true,
+    "cam": "pull",
+    "amt": 1.3,
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C415.2",
+      "at": 0.2,
+      "big": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "C416",
+   "say": "n.C416",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_dnalab.jpg",
+    "ai": true,
+    "cam": "push",
+    "fx": 0.3,
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C416.2",
+      "at": 0.15
+     }
+    ]
+   }
+  },
+  {
+   "id": "C417",
+   "say": "n.C417",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_dnalab.jpg",
+    "ai": true,
+    "cam": "panR",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C417.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C417.2",
+      "at": 0.2,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C417.3",
+      "big": true,
+      "at": 0.35,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C417.4",
+      "at": 0.45,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C418",
+   "say": "n.C418",
+   "v": {
+    "kind": "desk",
+    "note": {
+     "lines": [
+      "u.C418.2"
+     ]
+    },
+    "trans": "u.C418.3",
+    "source": "u.C418.1",
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C419",
+   "say": "n.C419",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_archive2.jpg",
+    "ai": true,
+    "cam": "pull",
+    "dim": 0.3,
+    "grade": "night",
+    "atmos": [
+     "flicker"
+    ],
+    "chips": [
+     {
+      "text": "u.C419.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C419.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C420",
+   "say": "n.C420",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_dnalab.jpg",
+    "ai": true,
+    "cam": "snap",
+    "fx": 0.55,
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C420.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C420.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C421",
+   "say": "n.C421",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_archive2.jpg",
+    "ai": true,
+    "cam": "handheld",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C421.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C421.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C422",
+   "say": "n.C422",
+   "v": {
+    "kind": "desk",
+    "note": {
+     "lines": [
+      "u.C422.2"
+     ]
+    },
+    "trans": "u.C422.3",
+    "source": "u.C422.1",
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C423",
+   "say": "n.C423",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_desk.jpg",
+    "ai": true,
+    "cam": "push",
+    "fx": 0.4,
+    "fy": 0.5,
+    "grade": "warm",
+    "atmos": [
+     "lamp",
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C423.2",
+      "at": 0.25,
+      "big": true
+     },
+     {
+      "text": "u.C423.3",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "E401",
+   "say": "n.E401",
+   "pad": 1.1,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "print",
+      "text": "u.E401.1",
+      "sub": "u.E401.2",
+      "x": 0.16,
+      "y": 0.28,
+      "q": true
+     },
+     {
+      "id": "dna",
+      "text": "u.E401.3",
+      "sub": "u.E401.4",
+      "x": 0.42,
+      "y": 0.28,
+      "at": 0.12
+     },
+     {
+      "id": "t82",
+      "text": "u.E401.5",
+      "sub": "u.E401.6",
+      "x": 0.68,
+      "y": 0.28,
+      "at": 0.25,
+      "q": true
+     },
+     {
+      "id": "suspect",
+      "text": "u.E401.7",
+      "sub": "u.E401.8",
+      "x": 0.3,
+      "y": 0.72,
+      "at": 0.4
+     },
+     {
+      "id": "door",
+      "text": "u.E401.9",
+      "sub": "u.E401.10",
+      "x": 0.72,
+      "y": 0.72,
+      "at": 0.58
+     }
+    ],
+    "links": [
+     [
+      "print",
+      "dna",
+      0.14
+     ],
+     [
+      "dna",
+      "t82",
+      0.27
+     ],
+     [
+      "suspect",
+      "door",
+      0.6
+     ]
+    ],
+    "focus": "door",
+    "zoom": 1.05,
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 2.5
+     },
+     {
+      "src": "sfx/pin.mp3",
+      "at": 5.5
+     },
+     {
+      "src": "sfx/riser.mp3",
+      "at": 9,
+      "vol": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "D501",
+   "say": "n.D501",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "05",
+    "title": "u.D501.1",
+    "atmos": [
+     "film"
+    ],
+    "sfx": [
+     {
+      "src": "sfx/whoosh.mp3",
+      "at": 0,
+      "vol": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "C502",
+   "say": "n.C502",
+   "v": {
+    "kind": "geomap",
+    "src": "demap.json",
+    "provinces": true,
+    "fill": {
+     "DEU": "#efe0b4"
+    },
+    "cam": [
+     {
+      "at": 0,
+      "pt": "eching",
+      "zoom": 3
+     },
+     {
+      "at": 0.6,
+      "pt": "de",
+      "zoom": 0.55
+     }
+    ],
+    "labels": [
+     {
+      "text": "u.C106.1",
+      "pt": "eching",
+      "at": 0.05,
+      "style": "box",
+      "dy": -50
+     },
+     {
+      "text": "u.C502.1",
+      "pt": "kappeln",
+      "at": 0.55,
+      "style": "box",
+      "dx": 90,
+      "dy": 40
+     }
+    ],
+    "bursts": [
+     {
+      "pt": "kappeln",
+      "at": 0.6
+     }
+    ],
+    "title": "u.C502.2"
+   }
+  },
+  {
+   "id": "C503",
+   "say": "n.C503",
+   "v": {
+    "kind": "scene25",
+    "img": "cc/grundig_tk145.jpg",
+    "credit": "u.C503.1",
+    "cam": "push",
+    "amt": 1.3,
+    "grade": "warm",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C503.3",
+      "big": true,
+      "at": 0.1
+     }
+    ]
+   }
+  },
+  {
+   "id": "C504",
+   "say": "n.C504",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_fleamarket.jpg",
+    "ai": true,
+    "cam": "panR",
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C504.3",
+      "at": 0.15
+     },
+     {
+      "text": "u.C504.4",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "C505",
+   "say": "n.C505",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_flohmarkt.png",
+    "mark": [
+     0,
+     0.48,
+     1,
+     0.26
+    ],
+    "trans": "u.C505.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C505.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 5.2432,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C506",
+   "say": "n.C506",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_soundlab.jpg",
+    "ai": true,
+    "cam": "push",
+    "fx": 0.4,
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C506.2",
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "C507",
+   "say": "n.C507",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_soundlab.jpg",
+    "ai": true,
+    "cam": "snap",
+    "fx": 0.65,
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C507.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     }
+    ],
+    "sfx": [
+     {
+      "src": "sfx/click.mp3",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "C508",
+   "say": "n.C508",
+   "v": {
+    "kind": "wave",
+    "rows": [
+     "u.C205.1",
+     "u.C508.1"
+    ],
+    "show": 2
+   }
+  },
+  {
+   "id": "C509",
+   "say": "n.C509",
+   "v": {
+    "kind": "wave",
+    "rows": [
+     "u.C205.1",
+     "u.C508.1"
+    ],
+    "show": 2,
+    "note": "u.C509.1"
+   }
+  },
+  {
+   "id": "C510",
+   "say": "n.C510",
+   "v": {
+    "kind": "wave",
+    "rows": [
+     "u.C205.1",
+     "u.C508.1"
+    ],
+    "show": 2,
+    "clicks": [
+     "u.C510.1",
+     "u.C510.2",
+     "u.C510.3"
+    ]
+   }
+  },
+  {
+   "id": "C511",
+   "say": "n.C511",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_soundlab.jpg",
+    "ai": true,
+    "cam": "panL",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C511.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C511.2",
+      "at": 0.2,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C419.1",
+      "big": true,
+      "at": 0.35,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C511.3",
+      "at": 0.45,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C512",
+   "say": "n.C512",
+   "pad": 0.9,
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_soundlab.jpg",
+    "ai": true,
+    "cam": "pull",
+    "dim": 0.35,
+    "grade": "night",
+    "atmos": [
+     "flicker"
+    ],
+    "chips": [
+     {
+      "text": "u.C512.2",
+      "big": true,
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "C513",
+   "say": "n.C513",
+   "v": {
+    "kind": "ladder",
+    "steps": [
+     {
+      "de": "u.C513.1",
+      "vi": "u.C513.2"
+     },
+     {
+      "de": "u.C513.3",
+      "vi": "u.C513.4"
+     },
+     {
+      "de": "u.C513.5",
+      "vi": "u.C513.6"
+     },
+     {
+      "de": "u.C513.7",
+      "vi": "u.C513.8"
+     },
+     {
+      "de": "u.C513.9",
+      "vi": "u.C513.10"
+     }
+    ],
+    "hit": -1,
+    "title": "u.C513.11"
+   }
+  },
+  {
+   "id": "C514",
+   "say": "n.C514",
+   "v": {
+    "kind": "ladder",
+    "steps": [
+     {
+      "de": "u.C513.1",
+      "vi": "u.C513.2"
+     },
+     {
+      "de": "u.C513.3",
+      "vi": "u.C513.4"
+     },
+     {
+      "de": "u.C513.5",
+      "vi": "u.C513.6"
+     },
+     {
+      "de": "u.C513.7",
+      "vi": "u.C513.8"
+     },
+     {
+      "de": "u.C513.9",
+      "vi": "u.C513.10"
+     }
+    ],
+    "hit": 1,
+    "note": "u.C514.1",
+    "title": "u.C513.11",
+    "sfx": [
+     {
+      "src": "sfx/stinger.mp3",
+      "at": 0.2,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C515",
+   "say": "n.C515",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_wahr.png",
+    "mark": [
+     0,
+     0.1,
+     1,
+     0.28
+    ],
+    "trans": "u.C515.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C515.1",
+      "big": false,
+      "at": 0.1
+     }
+    ],
+    "aspect": 3.0449,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C516",
+   "say": "n.C516",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_moeglich.png",
+    "mark": [
+     0,
+     0.18,
+     1,
+     0.42
+    ],
+    "trans": "u.C516.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C516.1",
+      "big": false,
+      "at": 0.1
+     }
+    ],
+    "aspect": 4.4186,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C517",
+   "say": "n.C517",
+   "v": {
+    "kind": "desk",
+    "note": {
+     "lines": [
+      "u.C517.2"
+     ]
+    },
+    "trans": "u.C517.3",
+    "source": "u.C517.1",
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C518",
+   "say": "n.C518",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_courtroom.jpg",
+    "ai": true,
+    "cam": "push",
+    "amt": 0.8,
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C518.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "E501",
+   "say": "n.E501",
+   "pad": 1.1,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "tape",
+      "text": "u.P006.1",
+      "sub": "u.P006.2",
+      "x": 0.2,
+      "y": 0.3
+     },
+     {
+      "id": "expert",
+      "text": "u.P006.5",
+      "sub": "u.E501.1",
+      "x": 0.5,
+      "y": 0.3,
+      "at": 0.14,
+      "q": true
+     },
+     {
+      "id": "eleven",
+      "text": "u.E501.2",
+      "sub": "u.E501.3",
+      "x": 0.8,
+      "y": 0.3,
+      "at": 0.26
+     },
+     {
+      "id": "market",
+      "text": "u.E501.4",
+      "sub": "u.E501.5",
+      "x": 0.3,
+      "y": 0.72,
+      "at": 0.4
+     },
+     {
+      "id": "more",
+      "text": "u.E501.6",
+      "sub": "u.E501.7",
+      "x": 0.7,
+      "y": 0.72,
+      "at": 0.6,
+      "q": true
+     }
+    ],
+    "links": [
+     [
+      "tape",
+      "expert",
+      0.16
+     ],
+     [
+      "expert",
+      "eleven",
+      0.28
+     ],
+     [
+      "tape",
+      "market",
+      0.42
+     ],
+     [
+      "market",
+      "more",
+      0.62
+     ]
+    ],
+    "focus": "more",
+    "zoom": 1.05,
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 2.5
+     },
+     {
+      "src": "sfx/pin.mp3",
+      "at": 5
+     }
+    ]
+   }
+  },
+  {
+   "id": "D601",
+   "say": "n.D601",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "06",
+    "title": "u.D601.1",
+    "atmos": [
+     "film"
+    ],
+    "sfx": [
+     {
+      "src": "sfx/whoosh.mp3",
+      "at": 0,
+      "vol": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "C602",
+   "say": "n.C602",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_kappeln.jpg",
+    "ai": true,
+    "cam": "push",
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C602.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C602.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C603",
+   "say": "n.C603",
+   "v": {
+    "kind": "scene25",
+    "img": "cc/augsburg_court.jpg",
+    "credit": "u.C603.1",
+    "cam": "panR",
+    "grade": "cold",
+    "chips": [
+     {
+      "text": "u.C603.4",
+      "at": 0.2,
+      "big": true
+     },
+     {
+      "text": "u.C603.5",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "C604",
+   "say": "n.C604",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_courtroom.jpg",
+    "ai": true,
+    "cam": "push",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C604.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C604.2",
+      "at": 0.2,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C604.3",
+      "big": true,
+      "at": 0.35,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C604.4",
+      "at": 0.45,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C605",
+   "say": "n.C605",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_corridor.jpg",
+    "ai": true,
+    "cam": "panL",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C605.1",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "C606",
+   "say": "n.C606",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_courtroom.jpg",
+    "ai": true,
+    "cam": "pull",
+    "dim": 0.2,
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C408.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C606.1",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C607",
+   "say": "n.C607",
+   "pad": 0.4,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "n1",
+      "text": "u.C607.5",
+      "x": 0.18,
+      "y": 0.3
+     },
+     {
+      "id": "n2",
+      "text": "u.C607.6",
+      "x": 0.5,
+      "y": 0.3,
+      "at": 0.12
+     },
+     {
+      "id": "n3",
+      "text": "u.C607.7",
+      "x": 0.82,
+      "y": 0.3,
+      "at": 0.24
+     },
+     {
+      "id": "ind",
+      "text": "u.C607.8",
+      "sub": "u.C607.9",
+      "x": 0.5,
+      "y": 0.74,
+      "at": 0.4,
+      "w": 0.2
+     }
+    ],
+    "links": [
+     [
+      "n1",
+      "ind",
+      0.42
+     ],
+     [
+      "n2",
+      "ind",
+      0.46
+     ],
+     [
+      "n3",
+      "ind",
+      0.5
+     ]
+    ],
+    "focus": "ind",
+    "zoom": 1.12,
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 1
+     },
+     {
+      "src": "sfx/pin.mp3",
+      "at": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "C608",
+   "say": "n.C608",
+   "pad": 0.4,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "ind",
+      "text": "u.C607.8",
+      "sub": "u.C607.9",
+      "x": 0.5,
+      "y": 0.2,
+      "w": 0.2
+     },
+     {
+      "id": "debt",
+      "text": "u.C608.8",
+      "sub": "u.C608.9",
+      "x": 0.18,
+      "y": 0.4,
+      "rot": -2,
+      "at": 0.08
+     }
+    ],
+    "links": [
+     [
+      "ind",
+      "debt",
+      0.12
+     ]
+    ],
+    "focus": "debt",
+    "zoom": 1.1,
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "C609",
+   "say": "n.C609",
+   "pad": 0.4,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "ind",
+      "text": "u.C607.8",
+      "sub": "u.C607.9",
+      "x": 0.5,
+      "y": 0.2,
+      "w": 0.2
+     },
+     {
+      "id": "debt",
+      "text": "u.C608.8",
+      "sub": "u.C608.9",
+      "x": 0.18,
+      "y": 0.4,
+      "rot": -2
+     },
+     {
+      "id": "skill",
+      "text": "u.C609.1",
+      "sub": "u.C608.9",
+      "x": 0.5,
+      "y": 0.4,
+      "rot": 1.5,
+      "at": 0.08
+     }
+    ],
+    "links": [
+     [
+      "ind",
+      "debt"
+     ],
+     [
+      "ind",
+      "skill",
+      0.12
+     ]
+    ],
+    "focus": "skill",
+    "zoom": 1.1,
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "C610",
+   "say": "n.C610",
+   "pad": 0.4,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "ind",
+      "text": "u.C607.8",
+      "sub": "u.C607.9",
+      "x": 0.5,
+      "y": 0.2,
+      "w": 0.2
+     },
+     {
+      "id": "debt",
+      "text": "u.C608.8",
+      "sub": "u.C608.9",
+      "x": 0.18,
+      "y": 0.4,
+      "rot": -2
+     },
+     {
+      "id": "skill",
+      "text": "u.C609.1",
+      "sub": "u.C608.9",
+      "x": 0.5,
+      "y": 0.4,
+      "rot": 1.5
+     },
+     {
+      "id": "t82",
+      "text": "u.C610.1",
+      "sub": "u.C610.2",
+      "x": 0.82,
+      "y": 0.4,
+      "rot": -1,
+      "q": true,
+      "at": 0.08
+     }
+    ],
+    "links": [
+     [
+      "ind",
+      "debt"
+     ],
+     [
+      "ind",
+      "skill"
+     ],
+     [
+      "ind",
+      "t82",
+      0.12
+     ]
+    ],
+    "focus": "t82",
+    "zoom": 1.1,
+    "sfx": [
+     {
+      "src": "sfx/pin.mp3",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "C611",
+   "say": "n.C611",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_binoculars.jpg",
+    "ai": true,
+    "cam": "snap",
+    "fx": 0.5,
+    "fy": 0.6,
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C611.1",
+      "big": true,
+      "at": 0.1
+     },
+     {
+      "text": "u.C611.2",
+      "at": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "id": "C612",
+   "say": "n.C612",
+   "v": {
+    "kind": "scene25",
+    "img": "cc/grundig_tk121.jpg",
+    "credit": "u.C506.1",
+    "cam": "push",
+    "grade": "warm",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C612.1",
+      "big": true,
+      "at": 0.1
+     },
+     {
+      "text": "u.C612.2",
+      "at": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "id": "C613",
+   "say": "n.C613",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_scanner.jpg",
+    "ai": true,
+    "cam": "push",
+    "fx": 0.5,
+    "grade": "night",
+    "atmos": [
+     "flicker",
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C613.1",
+      "big": true,
+      "at": 0.1
+     },
+     {
+      "text": "u.C613.2",
+      "at": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "id": "C614",
+   "say": "n.C614",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_zweifel.png",
+    "mark": [
+     0.42,
+     0.22,
+     0.58,
+     0.5
+    ],
+    "trans": "u.C614.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C614.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 6.9286,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C615",
+   "say": "n.C615",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_verdict.png",
+    "mark": [
+     0,
+     0,
+     1,
+     0.3
+    ],
+    "trans": "u.C615.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C615.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 4,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     },
+     {
+      "src": "sfx/thud.mp3",
+      "at": 1.5,
+      "vol": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "id": "C616",
+   "say": "n.C616",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_leicht.png",
+    "mark": [
+     0,
+     0,
+     0.6,
+     0.2
+    ],
+    "trans": "u.C616.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C616.1",
+      "big": false,
+      "at": 0.1
+     }
+    ],
+    "aspect": 3.9184,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C617",
+   "say": "n.C617",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_acquit.png",
+    "mark": [
+     0.1,
+     0.45,
+     0.42,
+     0.55
+    ],
+    "trans": "u.C617.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C617.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 9.5556,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C618",
+   "say": "n.C618",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_tape.png",
+    "mark": [
+     0.02,
+     0,
+     0.96,
+     1
+    ],
+    "trans": "u.C618.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C618.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 14.3333,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C619",
+   "say": "n.C619",
+   "v": {
+    "kind": "desk",
+    "src": "court/j_komplize.png",
+    "mark": [
+     0,
+     0.27,
+     1,
+     0.24
+    ],
+    "trans": "u.C619.2",
+    "source": "c.court",
+    "chips": [
+     {
+      "text": "u.C619.1",
+      "big": true,
+      "at": 0.1
+     }
+    ],
+    "aspect": 2.8788,
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C620",
+   "say": "n.C620",
+   "v": {
+    "kind": "scene25",
+    "img": "cc/bgh.jpg",
+    "credit": "u.C620.1",
+    "cam": "panL",
+    "grade": "cold",
+    "chips": [
+     {
+      "text": "u.C620.4",
+      "at": 0.2,
+      "big": true
+     },
+     {
+      "text": "u.C620.5",
+      "at": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "id": "C621",
+   "say": "n.C621",
+   "pad": 1,
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_corridor.jpg",
+    "ai": true,
+    "cam": "pull",
+    "amt": 1.3,
+    "grade": "night",
+    "atmos": [
+     "dust",
+     "flicker"
+    ]
+   }
+  },
+  {
+   "id": "D701",
+   "say": "n.D701",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "07",
+    "title": "u.D701.1",
+    "atmos": [
+     "film"
+    ],
+    "sfx": [
+     {
+      "src": "sfx/whoosh.mp3",
+      "at": 0,
+      "vol": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "C702",
+   "say": "n.C702",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_studio.jpg",
+    "ai": true,
+    "cam": "push",
+    "fx": 0.35,
+    "grade": "warm",
+    "atmos": [
+     "dust",
+     "lamp"
+    ],
+    "chips": [
+     {
+      "text": "u.C702.1",
+      "big": true,
+      "at": 0.1
+     },
+     {
+      "text": "u.C702.2",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "C703",
+   "say": "n.C703",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_courtroom.jpg",
+    "ai": true,
+    "cam": "panR",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ]
+   }
+  },
+  {
+   "id": "C704",
+   "say": "n.C704",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_courtroom.jpg",
+    "ai": true,
+    "cam": "snap",
+    "fx": 0.6,
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C704.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C704.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C705",
+   "say": "n.C705",
+   "v": {
+    "kind": "desk",
+    "note": {
+     "lines": [
+      "u.C705.2"
+     ]
+    },
+    "trans": "u.C705.3",
+    "source": "u.C705.1",
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C706",
+   "say": "n.C706",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_studio.jpg",
+    "ai": true,
+    "cam": "pull",
+    "grade": "warm",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C706.4",
+      "at": 0.1
+     },
+     {
+      "text": "u.C706.5",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "C707",
+   "say": "n.C707",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_archive2.jpg",
+    "ai": true,
+    "cam": "push",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C707.1",
+      "at": 0.1
+     },
+     {
+      "text": "u.C707.2",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "C708",
+   "say": "n.C708",
+   "v": {
+    "kind": "desk",
+    "note": {
+     "lines": [
+      "u.C708.2"
+     ]
+    },
+    "trans": "u.C708.3",
+    "source": "u.C708.1",
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C709",
+   "say": "n.C709",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_prisongate.jpg",
+    "ai": true,
+    "cam": "push",
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C709.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C709.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C710",
+   "say": "n.C710",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_prisonletter.jpg",
+    "ai": true,
+    "cam": "push",
+    "amt": 1.2,
+    "grade": "warm",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.P007.3",
+      "at": 0.35,
+      "big": true
+     },
+     {
+      "text": "u.C710.2",
+      "at": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "id": "C711",
+   "say": "n.C711",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_courtroom.jpg",
+    "ai": true,
+    "cam": "pull",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C711.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C711.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C712",
+   "say": "n.C712",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_corridor.jpg",
+    "ai": true,
+    "cam": "push",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C712.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C712.2",
+      "at": 0.2,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C713",
+   "say": "n.C713",
+   "v": {
+    "kind": "desk",
+    "note": {
+     "lines": [
+      "u.C713.1"
+     ]
+    },
+    "trans": "u.C713.2",
+    "source": "u.C708.1",
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C714",
+   "say": "n.C714",
+   "v": {
+    "kind": "scene25",
+    "img": "cc/augsburg_court.jpg",
+    "credit": "u.C603.1",
+    "cam": "push",
+    "amt": 1.3,
+    "fx": 0.4,
+    "grade": "cold",
+    "chips": [
+     {
+      "text": "u.C714.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C714.2",
+      "at": 0.2,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C715",
+   "say": "n.C715",
+   "v": {
+    "kind": "desk",
+    "note": {
+     "lines": [
+      "u.C715.2"
+     ]
+    },
+    "trans": "u.C715.3",
+    "source": "u.C715.1",
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C716",
+   "say": "n.C716",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_courtroom.jpg",
+    "ai": true,
+    "cam": "panL",
+    "fx": 0.4,
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C716.7",
+      "at": 0.15,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C716.8",
+      "at": 0.5,
+      "pos": "tr"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C717",
+   "say": "n.C717",
+   "v": {
+    "kind": "desk",
+    "note": {
+     "lines": [
+      "u.C717.2"
+     ]
+    },
+    "trans": "u.C717.3",
+    "source": "u.C717.1",
+    "sfx": [
+     {
+      "src": "sfx/paper.mp3",
+      "at": 0,
+      "vol": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "C718",
+   "say": "n.C718",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_corridor.jpg",
+    "ai": true,
+    "cam": "pull",
+    "dim": 0.2,
+    "grade": "night",
+    "atmos": [
+     "dust",
+     "flicker"
+    ],
+    "chips": [
+     {
+      "text": "u.C718.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C718.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C719",
+   "say": "n.C719",
+   "pad": 1,
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_studio.jpg",
+    "ai": true,
+    "cam": "pull",
+    "amt": 1.3,
+    "dim": 0.25,
+    "grade": "night",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C716.4",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C719.1",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "D801",
+   "say": "n.D801",
+   "pad": 0.7,
+   "v": {
+    "kind": "chapter",
+    "num": "08",
+    "title": "u.D801.1",
+    "atmos": [
+     "film"
+    ],
+    "sfx": [
+     {
+      "src": "sfx/whoosh.mp3",
+      "at": 0,
+      "vol": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "C802",
+   "say": "n.C802",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_corridor.jpg",
+    "ai": true,
+    "cam": "push",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C802.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C802.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C803",
+   "say": "n.C803",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_mailbox.jpg",
+    "ai": true,
+    "cam": "pull",
+    "grade": "night",
+    "atmos": [
+     "rain"
+    ],
+    "chips": [
+     {
+      "text": "u.C803.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C803.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C804",
+   "say": "n.C804",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_soundlab.jpg",
+    "ai": true,
+    "cam": "panR",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C804.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C804.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C805",
+   "say": "n.C805",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_prisongate.jpg",
+    "ai": true,
+    "cam": "push",
+    "grade": "dusk",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C805.1",
+      "at": 0.1,
+      "big": true
+     },
+     {
+      "text": "u.C805.2",
+      "at": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "id": "C806",
+   "say": "n.C806",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_prisongate.jpg",
+    "ai": true,
+    "cam": "pull",
+    "fx": 0.4,
+    "grade": "dusk",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C806.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C806.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C807",
+   "say": "n.C807",
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_archive2.jpg",
+    "ai": true,
+    "cam": "push",
+    "grade": "cold",
+    "atmos": [
+     "dust"
+    ],
+    "chips": [
+     {
+      "text": "u.C807.1",
+      "big": true,
+      "at": 0.1,
+      "pos": "tl"
+     },
+     {
+      "text": "u.C807.2",
+      "at": 0.3,
+      "pos": "tl"
+     }
+    ]
+   }
+  },
+  {
+   "id": "C808",
+   "say": "n.C808",
+   "pad": 0.9,
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_lakedawn.jpg",
+    "ai": true,
+    "cam": "push",
+    "amt": 1.1,
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ],
+    "chips": [
+     {
+      "text": "u.C808.2",
+      "big": true,
+      "at": 0.1
+     }
+    ]
+   }
+  },
+  {
+   "id": "C809",
+   "say": "n.C809",
+   "pad": 0.4,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "lh",
+      "text": "u.C809.6",
+      "x": 0.2,
+      "y": 0.15,
+      "w": 0.26,
+      "at": 0.05
+     },
+     {
+      "id": "l1",
+      "text": "u.C809.7",
+      "x": 0.2,
+      "y": 0.34,
+      "at": 0.16999999999999998
+     },
+     {
+      "id": "l2",
+      "text": "u.C809.8",
+      "x": 0.2,
+      "y": 0.58,
+      "at": 0.29
+     },
+     {
+      "id": "rh",
+      "text": "u.C809.9",
+      "x": 0.8,
+      "y": 0.15,
+      "w": 0.26
+     }
+    ],
+    "links": [
+     [
+      "lh",
+      "l1",
+      0.1
+     ],
+     [
+      "l1",
+      "l2",
+      0.2
+     ]
+    ],
+    "focus": "l2",
+    "zoom": 1
+   }
+  },
+  {
+   "id": "C810",
+   "say": "n.C810",
+   "pad": 0.4,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "lh",
+      "text": "u.C809.6",
+      "x": 0.2,
+      "y": 0.15,
+      "w": 0.26
+     },
+     {
+      "id": "l1",
+      "text": "u.C809.7",
+      "x": 0.2,
+      "y": 0.34
+     },
+     {
+      "id": "l2",
+      "text": "u.C809.8",
+      "x": 0.2,
+      "y": 0.58
+     },
+     {
+      "id": "rh",
+      "text": "u.C809.9",
+      "x": 0.8,
+      "y": 0.15,
+      "w": 0.26
+     },
+     {
+      "id": "r1",
+      "text": "u.C810.1",
+      "x": 0.8,
+      "y": 0.34,
+      "at": 0.15
+     }
+    ],
+    "links": [
+     [
+      "rh",
+      "r1",
+      0.2
+     ]
+    ],
+    "focus": "r1",
+    "zoom": 1
+   }
+  },
+  {
+   "id": "C811",
+   "say": "n.C811",
+   "pad": 0.8,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "lh",
+      "text": "u.C809.6",
+      "x": 0.2,
+      "y": 0.15,
+      "w": 0.26
+     },
+     {
+      "id": "l1",
+      "text": "u.C809.7",
+      "x": 0.2,
+      "y": 0.34
+     },
+     {
+      "id": "l2",
+      "text": "u.C809.8",
+      "x": 0.2,
+      "y": 0.58
+     },
+     {
+      "id": "rh",
+      "text": "u.C809.9",
+      "x": 0.8,
+      "y": 0.15,
+      "w": 0.26
+     },
+     {
+      "id": "r1",
+      "text": "u.C810.1",
+      "x": 0.8,
+      "y": 0.34
+     },
+     {
+      "id": "r2",
+      "text": "u.C811.1",
+      "x": 0.8,
+      "y": 0.58,
+      "at": 0.1
+     },
+     {
+      "id": "r3",
+      "text": "u.C811.2",
+      "x": 0.5,
+      "y": 0.58,
+      "at": 0.3
+     }
+    ],
+    "links": [
+     [
+      "rh",
+      "r1"
+     ],
+     [
+      "r1",
+      "r2",
+      0.15
+     ],
+     [
+      "r2",
+      "r3",
+      0.45
+     ]
+    ]
+   }
+  },
+  {
+   "id": "J801",
+   "say": "n.J801",
+   "pad": 1.2,
+   "v": {
+    "kind": "board",
+    "cards": [
+     {
+      "id": "lh",
+      "text": "u.J801.1",
+      "x": 0.2,
+      "y": 0.13,
+      "w": 0.26,
+      "at": 0.04
+     },
+     {
+      "id": "a1",
+      "text": "u.J801.2",
+      "sub": "u.C608.9",
+      "x": 0.2,
+      "y": 0.29,
+      "at": 0.08499999999999999
+     },
+     {
+      "id": "a2",
+      "text": "u.J801.3",
+      "sub": "u.J801.4",
+      "x": 0.2,
+      "y": 0.46,
+      "q": true,
+      "at": 0.13
+     },
+     {
+      "id": "a3",
+      "text": "u.J801.5",
+      "sub": "u.J801.6",
+      "x": 0.2,
+      "y": 0.63,
+      "at": 0.17500000000000002
+     },
+     {
+      "id": "a4",
+      "text": "u.J801.7",
+      "sub": "u.J801.8",
+      "x": 0.2,
+      "y": 0.8,
+      "q": true,
+      "at": 0.22
+     },
+     {
+      "id": "rh",
+      "text": "u.J801.9",
+      "x": 0.8,
+      "y": 0.13,
+      "w": 0.26,
+      "at": 0.26499999999999996
+     },
+     {
+      "id": "b1",
+      "text": "u.J801.10",
+      "x": 0.8,
+      "y": 0.29,
+      "at": 0.31
+     },
+     {
+      "id": "b2",
+      "text": "u.J801.11",
+      "x": 0.8,
+      "y": 0.46,
+      "at": 0.355
+     },
+     {
+      "id": "b3",
+      "text": "u.J801.12",
+      "x": 0.8,
+      "y": 0.63,
+      "at": 0.39999999999999997
+     },
+     {
+      "id": "b4",
+      "text": "u.J801.13",
+      "x": 0.8,
+      "y": 0.8,
+      "at": 0.44499999999999995
+     }
+    ],
+    "links": [],
+    "sfx": [
+     {
+      "src": "sfx/riser.mp3",
+      "at": 0.5,
+      "vol": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "C812",
+   "say": "n.C812",
+   "pad": 1,
+   "v": {
+    "kind": "scene25",
+    "img": "ai/ai_lakedawn.jpg",
+    "ai": true,
+    "cam": "pull",
+    "amt": 1.2,
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ]
+   }
+  },
+  {
+   "id": "C813",
+   "say": "n.C813",
+   "v": {
+    "kind": "scene25",
+    "img": "cc/ammersee_mist.jpg",
+    "credit": "u.C813.1",
+    "cam": "push",
+    "grade": "cold",
+    "atmos": [
+     "fog"
+    ]
+   }
+  },
+  {
+   "id": "C814",
+   "say": "n.C814",
+   "pad": 1.6,
+   "v": {
+    "kind": "memorial",
+    "title": "u.C814.1",
+    "names": [
+     "u.C318.1",
+     "u.H02.1"
+    ]
+   }
+  },
+  {
+   "id": "C815",
+   "say": "n.C815",
+   "v": {
+    "kind": "sources",
+    "title": "u.C815.1",
+    "lines": [
+     "u.C815.2",
+     "u.C815.3",
+     "u.C422.1",
+     "u.C815.4",
+     "u.C815.5",
+     "u.C815.6",
+     "u.C815.7"
+    ]
+   }
+  }
+ ],
+ "variant": "v2",
+ "duck": 0.55,
+ "cues": [
+  {
+   "at": "P001",
+   "src": "assets/audio/mus_tension.mp3",
+   "vol": 0.5
+  },
+  {
+   "at": "P101",
+   "src": "assets/audio/mus_invest.mp3",
+   "vol": 0.45
+  },
+  {
+   "at": "P109",
+   "src": "assets/audio/mus_tension.mp3",
+   "vol": 0.5
+  },
+  {
+   "at": "P115",
+   "src": ""
+  },
+  {
+   "at": "P116",
+   "src": "assets/audio/mus_tension.mp3",
+   "vol": 0.45
+  },
+  {
+   "at": "D201",
+   "src": "assets/audio/mus_invest.mp3",
+   "vol": 0.45
+  },
+  {
+   "at": "C218",
+   "src": "assets/audio/mus_tension.mp3",
+   "vol": 0.45
+  },
+  {
+   "at": "D301",
+   "src": "assets/audio/mus_tension.mp3",
+   "vol": 0.5
+  },
+  {
+   "at": "C318",
+   "src": "assets/audio/mus_grief.mp3",
+   "vol": 0.5
+  },
+  {
+   "at": "D401",
+   "src": "assets/audio/mus_invest.mp3",
+   "vol": 0.45
+  },
+  {
+   "at": "C420",
+   "src": "assets/audio/mus_tension.mp3",
+   "vol": 0.4
+  },
+  {
+   "at": "D501",
+   "src": "assets/audio/mus_invest.mp3",
+   "vol": 0.45
+  },
+  {
+   "at": "C515",
+   "src": "assets/audio/mus_tension.mp3",
+   "vol": 0.45
+  },
+  {
+   "at": "D601",
+   "src": "assets/audio/mus_invest.mp3",
+   "vol": 0.4
+  },
+  {
+   "at": "C615",
+   "src": "assets/audio/mus_tension.mp3",
+   "vol": 0.45
+  },
+  {
+   "at": "C621",
+   "src": ""
+  },
+  {
+   "at": "D701",
+   "src": "assets/audio/mus_grief.mp3",
+   "vol": 0.4
+  },
+  {
+   "at": "C708",
+   "src": "assets/audio/mus_invest.mp3",
+   "vol": 0.4
+  },
+  {
+   "at": "D801",
+   "src": "assets/audio/mus_tension.mp3",
+   "vol": 0.4
+  },
+  {
+   "at": "C809",
+   "src": "assets/audio/mus_invest.mp3",
+   "vol": 0.4
+  },
+  {
+   "at": "J801",
+   "src": "assets/audio/mus_grief.mp3",
+   "vol": 0.5
+  }
+ ]
+}
