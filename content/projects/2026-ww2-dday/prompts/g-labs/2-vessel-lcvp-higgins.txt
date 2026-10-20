@@ -1,0 +1,8 @@
+LCVP (Landing Craft, Vehicle, Personnel) Higgins boat landing craft, June 1944 Normandy D-Day invasion. Rectangular flat-bottomed wooden and steel hull, blunt bow with closed upright steel landing ramp door, raised armored coxswain helm station at the rear, twin round machine gun tubs at the stern. Painted in matte US Navy #5-H Haze Gray with realistic water stains and weathering streaks, clean stenciled off-white hull marking "PA 26-2" on the forward side. Unmanned, no passengers visible above the bulwarks.
+solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no texture, no noise,
+subject centered with at least 12% empty margin on every side and the bottom-right corner completely empty,
+no ground, no shadow, no reflection, no other objects, single subject only,
+no part of the subject uses the same neutral gray as the background (interiors and openings must be deep shadow or a clearly different color),
+strict 90-degree side profile, horizontal 5:2 composition, bow pointing LEFT,
+2D animated documentary style, clean dark ink outlines of even thickness, flat cel shading with two tones (light and shadow), subtle warm rim light, muted cold naval palette, hand-drawn animation look, no photorealism, no 3D render, no anime, no text except specified hull markings.
+Avoid: photo, 3D, anime, glossy, thick outline variation, shadow on ground, three-quarter view, extra objects, watermark. The attached style reference images are for drawing style, color and mood only: do not reproduce their people, helmets, weapons, vehicles or locations.

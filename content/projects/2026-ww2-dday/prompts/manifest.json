@@ -1,0 +1,62 @@
+{
+  "assets": [
+    {
+      "assetId": "us_infantry_omaha_1944_base",
+      "inbox": "us_infantry_omaha_1944_base",
+      "target": "projects/2026-ww2-dday/assets/us_infantry_omaha_1944_base.png",
+      "scene": "s001",
+      "layer": "soldier_base",
+      "process": {
+        "crop": {
+          "left": 150,
+          "top": 40,
+          "width": 750,
+          "height": 960
+        },
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 800,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "assetId": "vessel_lcvp_higgins",
+      "inbox": "vessel_lcvp_higgins",
+      "target": "projects/2026-ww2-dday/assets/vessel_lcvp_higgins.png",
+      "scene": "s001",
+      "layer": "lcvp_boat",
+      "process": {
+        "crop": {
+          "left": 80,
+          "top": 180,
+          "width": 1230,
+          "height": 530
+        },
+        "keyOut": true,
+        "keyTolerance": 25,
+        "minHolePx": 999999,
+        "trim": true,
+        "fit": {
+          "width": 2000,
+          "height": 800
+        }
+      }
+    },
+    {
+      "assetId": "bg_omaha_sea_far",
+      "inbox": "bg_omaha_sea_far",
+      "target": "projects/2026-ww2-dday/assets/bg_omaha_sea_far.png",
+      "scene": "s001",
+      "layer": "sky_sea",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    }
+  ]
+}

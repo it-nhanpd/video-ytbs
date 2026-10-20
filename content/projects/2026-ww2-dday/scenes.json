@@ -1,0 +1,104 @@
+{
+  "project": "2026-ww2-dday",
+  "locale": "vi",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "s001",
+      "durationSec": 55,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -40
+        ],
+        "zoom": [
+          1,
+          1.05
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky_sea",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_omaha_sea_far",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/bg_omaha_sea_far.png",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "fog_channel",
+          "type": "fog",
+          "z": 1.5,
+          "y": 0.6,
+          "height": 0.4,
+          "color": "rgba(180,195,205,0.35)",
+          "blur": 6
+        },
+        {
+          "id": "soldier_base",
+          "type": "image",
+          "z": 2.9,
+          "assetId": "us_infantry_omaha_1944_base",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/us_infantry_omaha_1944_base.png",
+          "width": 0.22,
+          "x": [
+            0.44,
+            0.41
+          ],
+          "y": [
+            0.585,
+            0.605
+          ],
+          "bobPx": 8,
+          "aspect": 1.25
+        },
+        {
+          "id": "lcvp_boat",
+          "type": "image",
+          "z": 3,
+          "assetId": "vessel_lcvp_higgins",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/vessel_lcvp_higgins.png",
+          "width": 0.75,
+          "x": [
+            0.48,
+            0.45
+          ],
+          "y": [
+            0.65,
+            0.67
+          ],
+          "bobPx": 8,
+          "aspect": 0.4
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s001.title",
+          "subKey": "s001.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
+    }
+  ]
+}
