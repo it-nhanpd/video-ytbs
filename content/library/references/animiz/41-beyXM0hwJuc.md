@@ -1,0 +1,594 @@
+# TỪ A - Z CÁCH LÀM PHIM HOẠT HÌNH CHO NGƯỜI MỚI BẮT ĐẦU
+
+- **Video:** beyXM0hwJuc (26:08)
+- **URL:** https://www.youtube.com/watch?v=beyXM0hwJuc
+- **Nguồn phụ đề:** YouTube tự động tiếng Việt (vi, asr), tải bằng yt-dlp; lỗi nhận dạng giọng nói còn nguyên
+
+## Transcript
+
+- `[00:00]` Hello xin chào các bạn chào mừng các bạn
+- `[00:02]` đến với kênh phương bic và trong video
+- `[00:05]` ngày hôm nay mình sẽ hướng dẫn các bạn
+- `[00:08]` cách là một cái bộ phim animate
+- `[00:10]` Animation maker cực kỳ là đơn giản nhá
+- `[00:13]` theo thứ tự và cái quy trình từ đó các
+- `[00:16]` bạn có thể tiết kiệm thời gian và học
+- `[00:19]` hỏi làm việc hiệu quả hơn nhá thì đầu
+- `[00:22]` tiên các bạn hãy chuẩn bị nội dung cho
+- `[00:23]` mình nhá cái bước đầu tiên rất là quan
+- `[00:25]` trọng các bạn phải có một cái kịch bản
+- `[00:28]` thì mình giới thiệu cho bạn một cái con
+- `[00:30]` chat tt con này thì đối với một số bạn
+- `[00:33]` thì các bạn không biết viết kị bản thế
+- `[00:34]` nào này các bạn lúng túng này đây thì
+- `[00:37]` các bạn có thể tham khảo con chat City
+- `[00:39]` này nhá Còn nếu bạn nào mà viết được thì
+- `[00:41]` lại càng tốt Đây mình giới thiệu các bạn
+- `[00:44]` con chat cvt này đi cho nó tạng một cái
+- `[00:46]` cuộc hội thoại bất kỳ đi Mình lấy ví dụ
+- `[00:48]` như thệ
+- `[00:50]` là viết cho tôi nè viết cho tôi một cuộc
+- `[00:55]` đối
+- `[00:57]` thoại giữa hai học sinh
+- `[01:00]` học sinh này cấp ba này về chủ đề tình
+- `[01:04]` yêu
+- `[01:05]` đi đy nhiều này gồm ba cảnh đấy mình cck
+- `[01:13]` vào
+- `[01:14]` Enter và video trước thì mình có giới
+- `[01:16]` thiệu các bạn cách sử dụng cái phần mềm
+- `[01:18]` chat cbt nhá các bạn có thể theo dõi cái
+- `[01:20]` video đó cực kỳ nhanh luôn nhá
+- `[01:28]` u
+- `[01:30]` C chat này cực kỳ thên lợi khi mà nó tạo
+- `[01:35]` ra một cái C điện thoại này thì các bạn
+- `[01:37]` có thể dựa vào đây làm luôn trực tiếp
+- `[01:39]` hoặc các bạn thể biến tối nó đi nhá thấy
+- `[01:41]` đoạn nào nó không hay thì các bạn có
+- `[01:42]` điều chỉnh đây thì đầu tiên thì các bạn
+- `[01:45]` chú ý nhá cạnh một này tại sân trường
+- `[01:47]` này khi mà các bạn có cạch bản xong
+- `[01:49]` không thì các bạn phải sang một cái phần
+- `[01:51]` mềm nữa là phần mềm chuyển giọng ai Nếu
+- `[01:54]` bạn nào mà tự tin mà thể record lại thu
+- `[01:56]` âm lại thì các bạn không cần dọ a nhá
+- `[01:59]` một số bạn rất là ngại hoặc học sinh
+- `[02:01]` sinh viên gì đó các bạn muốn sáng tạo
+- `[02:02]` câu chuyện rồi các bạn cần đến dọng ai
+- `[02:05]` thì các bạn hẽ dùng cái trang web V hoặc
+- `[02:08]` là cái phần mềm mình đang dùng đây và
+- `[02:10]` video trước mình cũng có giới thiệu cái
+- `[02:12]` phần mềm này rồi nhá Đây mình sẽ Click
+- `[02:14]` vào cái phần mềm này này baba
+- `[02:19]` này bạn đậ một xíu nữ Download nhá Cái
+- `[02:22]` phần mềm này thì khi mình dùng một số
+- `[02:24]` phần mềm khác ấ thì nó bắt hơi lâu có gì
+- `[02:26]` mong các bạn thông cảm nhá Để mình sẽ mở
+- `[02:29]` cái phần mềm anit này lên cho được buồn
+- `[02:32]` trong khi đợi cái phần mềm giọng nói kia
+- `[02:35]` lên và mình có một điều này lưu ý khi
+- `[02:39]` share các bạn này khi mà các bạn làm mấy
+- `[02:42]` cái nhân vật này các bạn chú ý nhá Thanh
+- `[02:45]` NL rất là quan trọng khi mà các bạn làm
+- `[02:47]` nhiều hiệu ứng thì các bạn hãy nhìn này
+- `[02:49]` Gióng sang cái góc phía bên tay trái này
+- `[02:53]` Đây cứ một cái nhân vật hoặc là một hiệu
+- `[02:56]` ứng ấy thì nó tương đương với một cái
+- `[02:58]` ler ấy mình không biết là gọi trong anit
+- `[03:02]` là gì ấy thường thường gọi là layer đi
+- `[03:04]` đây nó từng lớp một đấy Đây
+- `[03:08]` đấy đây mình trở về cái hình chính đi
+- `[03:11]` Xem cái phần mềm kia nó load được chưa
+- `[03:14]` Cái phần mềm này load hơi chậm các bạn
+- `[03:15]` Các bạn thông cảm nhá Thôi mình nhấn
+- `[03:17]` Ctrl shift SC này xem máy nó hoạt động
+- `[03:20]` như thế nào xy nó không ổn chỗ
+- `[03:23]` nào máy này thì mình
+- `[03:27]` mua mua được vài tháng này còn này là
+- `[03:31]` đời nhờ Đời 12 13 gì đó à Ok được rồi
+- `[03:35]` Các bạn đây mình sẽ nhấn t phím này Ctrl
+- `[03:38]` shift d này đây ủ s nữa ta Ctrl shift D
+- `[03:44]` lần nữa xem các bạn đợi một xíu nữa đ
+- `[03:47]` hơi đơ đấy chắc là mình dùng nhiều Tab
+- `[03:50]` lắm đây nhá Một tab này hai Tab
+- `[03:53]` Ui Cái gì vạy trời ba cái cơ thô mình
+- `[03:57]` dùng lấy một cái thôi mình nhấn t phím
+- `[04:00]` này Ctrl shift d này nó vẫn chưa ra các
+- `[04:04]` bạn ạ lại tiếp Ctrl shift D chắc lag
+- `[04:10]` rồi lag lại lag rồi Chắc là dùng nhiều t
+- `[04:15]` quá lag các bạn các bạn không biết là có
+- `[04:18]` nghe cái tế quả tr máy tính thì không Nó
+- `[04:19]` dồ dồ dồ dồ các bạn có một cái điều lưu
+- `[04:23]` ý này khi mà các bạn làm cái file ấy là
+- `[04:27]` cái phần mềm animate animation này này
+- `[04:29]` nó chỉ nhận nhá chỉ nhận duy nhất là một
+- `[04:32]` cái file đây m3 này Nếu giả sử các bạn
+- `[04:36]` chọn một cái file khác á m4a này hoặc là
+- `[04:39]` wav này rồi nó không nhận luôn và một số
+- `[04:42]` trường hợp nh các bạn khi các bạn dùng
+- `[04:43]` ấy rất là nhiều người rồi Nhắn tin với
+- `[04:45]` mình bảo là uy sao Em dùng cái file này
+- `[04:48]` không được lên anh đấy đấy nhá các bạn
+- `[04:50]` lưu ý nhá riêng cái phần mềm anit
+- `[04:52]` animation Nó chỉ nhận duy nhất là một
+- `[04:54]` file m3 thôi các bạn nhá OK thì đầu tiên
+- `[04:59]` các bạn có có cái file chuyển đổi rồi và
+- `[05:02]` có à có cái cái gì ta kịch bản rồi đúng
+- `[05:07]` không đây Các bạn xác định nhá tại sân
+- `[05:09]` trường đúng không cái cạnh đầu tiên là
+- `[05:11]` cạnh nhá tại sân trường đúng không Mình
+- `[05:13]` sẽ về phần mềm anit này mình sẽ ghi là
+- `[05:16]` sân trường này À quên các bạn như hình
+- `[05:19]` nền đi Hình nền này đấy Hình nền này sân
+- `[05:25]` trường hoạt hình nhá các bạn ghi từ hoạt
+- `[05:27]` hình nhá các bạn ghi là hình thầ trường
+- `[05:30]` là nó ra ảnh thần luôn các bạn ghi hoạt
+- `[05:31]` hình cho sinh động một xíu và các bạn
+- `[05:34]` lưu ý một một chút này mấy cái hình ảnh
+- `[05:37]` mà nó có chứa cái vương niệm này thì
+- `[05:40]` chúng ta không tải được nhá Khi mà các
+- `[05:42]` bạn tải thì nó sẽ mất phí đấy các bạn xa
+- `[05:44]` hạn đấy nếu bạn nào đầu tư hay là có
+- `[05:46]` tiền thì các bạn có thể tải về nhá Đây
+- `[05:49]` mình sẽ tả những cái hình ảnh nào mà nó
+- `[05:51]` không có vương
+- `[05:54]` niệm hình đền tại sân trường á Thôi lấy
+- `[05:57]` cái này đi Đồng Tiên đi một cách cực kỳ
+- `[06:00]` rất nhanh và tiết kiệm cho các bạn dữ
+- `[06:03]` liệu này thay vì các bạn tải xuống app
+- `[06:05]` lên đúng không Đây mình sẽ dùng cách này
+- `[06:06]` hay này mình sẽ Click vào chuột phải này
+- `[06:09]` Đấy chọn copy này về phần mềm animate
+- `[06:12]` này Click vào chuột phải này page đấy ok
+- `[06:16]` chưa và tiếp theo này đây mình sẽ căn
+- `[06:19]` góc chuẩn xác để cho cho nó vừa với tỉ
+- `[06:22]` lệ khung hình đấy thì các bạn này di
+- `[06:24]` chuyển nhá chuyển background này nó
+- `[06:25]` xuống đáy này đây xuống đáy nhá phía góc
+- `[06:27]` bên tay trái nhá Đấy Ồ mình kéo kéo trên
+- `[06:31]` đoạn Ờ đây trên gốc tay vài đy kéo nhá
+- `[06:34]` Đấy nhanh cực kỳ luôn còn một số bạn giả
+- `[06:37]` sử nhá các bạn phải một hình ảnh như này
+- `[06:39]` đúng không các bạn kéo như này đúng
+- `[06:40]` không đấy các bạn kéo như này đúng không
+- `[06:41]` rất là mất thời gian đúng không Đấy
+- `[06:44]` đấy thay vì thế đúng không các bạn để
+- `[06:46]` như này đúng không góc mà hình căn góc m
+- `[06:48]` hình đúng không kéo dài phát xong luôn
+- `[06:50]` đấy tiết kiệm thời gian
+- `[06:52]` Ok và mình có một cái mẹo nữa Khi mà các
+- `[06:56]` bạn thiết kế thì cái hình background này
+- `[06:58]` nó sẽ di chuyển trúng ta thă tung ấy để
+- `[07:01]` mà nó đứng in ấy thì các bạn Click vào
+- `[07:03]` chuột phải này Chọn vào phần loog này
+- `[07:05]` object này khóa đối tượng nhá Đây thả sự
+- `[07:08]` các bạn có thể di chuyển lung ta tung
+- `[07:10]` này các bạn Click vào phần 169 này nó về
+- `[07:12]` ban đầu luôn đấy Cách này rất là hay nhá
+- `[07:15]` tiếp theo này các bạn chú ý nhá thường
+- `[07:18]` thường ấy cái phần camera Thanh Tam l
+- `[07:19]` này mình không dùng tới ấy mình sẽ tắt
+- `[07:22]` nó đi cho tối ưu cái không gian làm việc
+- `[07:25]` sau này làm cái nhiều đối tượng ấy sẽ
+- `[07:28]` tránh bị rối đi đây mình mình tắt đi
+- `[07:31]` bằng cách là mình Click vào cái biểu
+- `[07:33]` tượng camera này trên nó sẽ mất đi nhá
+- `[07:35]` thường thường Cái camera này Chức năng
+- `[07:37]` của nó zoom in zoom out ấy phóng to nhân
+- `[07:39]` vật hoặc là phóng to một cái phần nào đó
+- `[07:41]` quan trọng trên cái hình đề này cái này
+- `[07:43]` thì thường thường mình làm video xong
+- `[07:44]` mình mới phóng nhá chứ Mình đang làm thì
+- `[07:46]` mình phóng thì nó hơi kỳ kì một xíu Ok
+- `[07:49]` tiếp đến thì mình sẽ thêm nhân vật vào
+- `[07:52]` đây mình sẽ chọn cái biểu tượng nhân vật
+- `[07:54]` này được chưa đây các bạn đợi một xíu
+- `[07:57]` nhá đang load hiện tại 5 gi rồi 5:00
+- `[08:01]` sáng rồi Như Mạng yêu yếu kiểm gì À được
+- `[08:04]` rồi Trời ơi cái lúc mà mình kiểu mình
+- `[08:07]` nói bỏ cuộc ấy tự nhiên đã xuất hiện ông
+- `[08:09]` trời trời ơi Sorry sorry Tôi xin lồng
+- `[08:12]` nhá Ok mình có một cái mẹo tiếp theo nhá
+- `[08:16]` Khi mà các bạn ấy khi mà chèn vào đúng
+- `[08:18]` không thì các bạn để nhân vật hiệu ứng
+- `[08:21]` Bling đi Hi hiệu ứng là hiệu ứng nháy
+- `[08:24]` mắt
+- `[08:25]` đấy hiệu ứng nháy mắt đúng không Mình
+- `[08:28]` cho nhân vật này to to một xíu nhá Đấy
+- `[08:32]` tiếp theo thì mình chèm một nhân vật nữ
+- `[08:34]` đi click này đúng không Đây thêm một
+- `[08:36]` nhân vật nữ này cũng là
+- `[08:39]` emotion mình lướt số
+- `[08:41]` nhá Đây là cái quy tắc là cái mẹo mình
+- `[08:44]` làm các bạn Để mình share các bạn thôi
+- `[08:46]` các bạn có thể dùng cái đâu emotion
+- `[08:55]` [âm nhạc]
+- `[08:57]` và nhập ta
+- `[09:02]` đây mình sẽ chọn blink đây xong tương tự
+- `[09:04]` nhá đây trước mắt là mình thêm hiệu ứng
+- `[09:08]` mình link Cho hai nhân vật này nữa đấy
+- `[09:10]` và các bạn chú ý nhá Khi mà các bạn làm
+- `[09:12]` ấy thì các bạn hãy căn chọn cái tỷ lệ
+- `[09:14]` khung hình nhá tỷ lệ nhân vật phí kh
+- `[09:17]` hình nhá
+- `[09:19]` đây như các bạn thấy này như bạn thấy
+- `[09:22]` này nhân vật này hiện tại đây nó ngược
+- `[09:23]` đúng không nó ngược Đấy nó ngược đúng
+- `[09:26]` không Thì video trước mình có hướng dẫn
+- `[09:27]` các bạn rồi cách để xo nhậ vậ này đúng
+- `[09:29]` không các bạn về Thanh tham l này bạn
+- `[09:31]` chú ý này mỗi nhân vật đây mỗi nhân vật
+- `[09:34]` này đúng không Nó tượng trưng Thanh tham
+- `[09:36]` l này Đây nhá Little Girl đúng không là
+- `[09:38]` cô gái này little boy là chàng trai này
+- `[09:40]` nhá Đây các bạn lưu ý nhá các bạn rất là
+- `[09:42]` lưu ý nhá Khi các bạn làm nhiều các bạn
+- `[09:44]` sẽ bị loạn đấy rối ấy và làm lại cực kỳ
+- `[09:47]` là mắ công luôn đây mình sẽ cho cô gái
+- `[09:51]` này chuyển động lại đúng không quay
+- `[09:52]` hướng đối diện với chàng trai thì mình
+- `[09:54]` sẽ chọn vào cái biểu tượng này hai cái
+- `[09:56]` dấu tên nó đối ngược nhau này đây các
+- `[09:58]` bạn click và đúng không chọn phần free
+- `[10:01]` này horizontally này đấy quay lại lập
+- `[10:05]` tức quay lại nhá Đây mình click lại này
+- `[10:07]` kéo gần gần một xíu ok chưa thường
+- `[10:11]` thường ấy khi mà nhân vật nói chuyện
+- `[10:13]` không Mình sẽ để là tầm khoảng 2 giây
+- `[10:15]` trở đi 2i giây trở đi Nháy mắt cho nháy
+- `[10:19]` Khoảng vài cái rồi mới nói chuyện chứ
+- `[10:21]` vào ph nói chuyện nó hơi nhanh một xíu
+- `[10:23]` nó hơi nhanh nh đây mình sẽ trở về cái b
+- `[10:25]` xem ai nói trước này
+- `[10:27]` đây học xin đứng hóc sân trường này
+- `[10:31]` Hello bạn này Hello bạn B này có chuyện
+- `[10:33]` gì vui vẻ ngồ Mình ở đây đây vậy á thì
+- `[10:38]` kịch bản đúng không có chuyện gì ngồi ở
+- `[10:40]` đây vậy đúng không Giời ạ Sorry các bạn
+- `[10:43]` mình không chú ý nhá Đây lại h hiệu ứng
+- `[10:45]` ngồi ra thì cho H ống ngồi cũng được
+- `[10:49]` không thành vấn đề thích thì mình chiều
+- `[10:51]` luôn nhá các bạn nhá thích thì mình
+- `[10:52]` chiều luôn cho anh chàng này ngồi luôn
+- `[10:55]` thì để cho anh chàng ngồi này thì mình
+- `[10:57]` có một cái ghế đúng không cái ghế đúng
+- `[10:59]` không Đây và video trước mình có giới
+- `[11:01]` thiệu bạn thì cách thêm một cái đồ họa
+- `[11:02]` đúng không Đây mình sẽ về cái trang web
+- `[11:05]` freebit.com này đây mình sẽ ghi một cái
+- `[11:09]` ghế đi ghế hoàn hình gì ghế gỗ chứ ghế
+- `[11:14]` đá hơi kì kì một xí g gỗ hoa đình ok
+- `[11:17]` chưa đây mình sẽ chọn cái ghế nào nó xịn
+- `[11:21]` xịn một xíu đi ghế này đi được chưa đấy
+- `[11:25]` các bạn đợi một xíu nh cái logo này nó
+- `[11:27]` sẽ biế mất tiếp theo thì các bạn sang
+- `[11:29]` một cái trang web thứ hai cho mình chính
+- `[11:31]` là remove này background Online này chọn
+- `[11:35]` vào cái cái trang web đầu tiên luôn mình
+- `[11:38]` sẽ kéo sang nhá và mình chữ về cái trang
+- `[11:40]` web Hình nền này chọn save image as là
+- `[11:45]` Lưu hình ảnh này lưu vào phần Download
+- `[11:47]` này và mình sang cái phần remot này
+- `[11:50]` appload Lên đây mình sẽ nhấn từ Open
+- `[11:56]` này Đấy mình nhấn từ download Ok chư đây
+- `[12:00]` mình sẽ kéo này sẽ kéo cái ghế này đúng
+- `[12:02]` không Kéo cái ghế này vào phần mềm
+- `[12:05]` này đây các bạn thể thấy các bạn chú ý
+- `[12:08]` nhá đây Các bạn chú ý nhá Cái ghế này nó
+- `[12:10]` đang trước mặt nhân vật đúng không Bây
+- `[12:12]` giờ đặt câu hỏi nhá Làm sao để ghế này
+- `[12:15]` nó sau nhân vật nhá đây Làm sao để sau
+- `[12:18]` nhân vật thì các bạn kéo nhá kéo thanh
+- `[12:20]` Smooth này nó sau hai nhân vật đây chưa
+- `[12:23]` đấy ok chưa tiếp theo này các bạn Click
+- `[12:27]` vào cái nhân vật này các bạn chú ý th
+- `[12:29]` này nhân vật này là chính là little boy
+- `[12:31]` đúng không là cậu con trai đây Hiện tại
+- `[12:34]` hiệu ứng bink đúng không hiệu ứng blink
+- `[12:35]` như lúc nãy mình nói là hiệu ứng nháy
+- `[12:37]` mắt đúng không hai nhân vật Ha mắt bây
+- `[12:38]` giờ mình sẽ thay đổi hiệu ứng này cho
+- `[12:40]` cậu bé này ngồi đi Đấy Thế thì để thay
+- `[12:44]` đổi được hiệu ứng này các bạn click hai
+- `[12:46]` lần vào phần vink này được chưa và sau
+- `[12:49]` đó các bạn chọn phần shif này phần shit
+- `[12:52]` là ngồi được chưa phần shit là ngồi nếu
+- `[12:55]` mà các bạn mà biết một chút tiếng Anh ấy
+- `[12:57]` thì các bạn học cái phần m này cực kỳ là
+- `[12:59]` nhanh biết sơ sơ thôi biết phải thử cơ
+- `[13:01]` bản thôi Đây mình sẽ chọn vào cái hiệu
+- `[13:04]` ứng ngồi
+- `[13:06]` đi sẽ chọn vào phần look up này ngồi
+- `[13:09]` nhìn đúng không Rồi đấy đấy chân thật
+- `[13:12]` chưa
+- `[13:13]` Đấy kéo vào đây cho anh chàng này
+- `[13:17]` ngồi x xem nào Đấy Ok rồi Ok rồi và mình
+- `[13:22]` bắt đầu để giây thứ hai này tiếp theo
+- `[13:24]` này mình chữ về cái kịch bản này Hello
+- `[13:28]` bạn đúng không có chuyện gì vui vẻ mà
+- `[13:30]` bạn ngồi một mình ở đây vậy Thế thì mình
+- `[13:34]` copy phần này sau đó mình copy này về
+- `[13:36]` phần giọng ai này rồi ôi sao nó nhiều
+- `[13:39]` thế này Ok mình chọn text này text là nó
+- `[13:44]` dành cho vận bản nh các bạn nhá Còn text
+- `[13:47]` file là file good đấy Hello bạn B đúng
+- `[13:49]` không Bạn Thy bạn B bạn Hoàng đi được
+- `[13:51]` chưa Hoàng đúng không cho chân thật một
+- `[13:53]` xíu đấy có chuyện gì đây ok chưa tiếp
+- `[13:58]` theo này Các bạn chọn vào Brown này chọn
+- `[14:01]` cái nơi mà chúng ta lưu file nhá sau đợ
+- `[14:03]` bị loạn nhá đâ Mình ghi là file demo đi
+- `[14:07]` demo 1 2 3 Ok
+- `[14:09]` enter các bạn chú ý nhá cái phần Google
+- `[14:12]` 2 này tiếp theo là phần fil là gì femil
+- `[14:15]` là gái còn Mail là Nam nhá là trai nhá
+- `[14:19]` đây Các bạn chú ý nhá mình sẽ để là
+- `[14:20]` femil con gái nhá Tại vì nhân vật nữ
+- `[14:23]` chuẩn bị
+- `[14:26]` nói bạn hãy đợi khi mà nghe t Phát Được
+- `[14:29]` chưa ta chưa nghe gì cả lần nữa
+- `[14:32]` xem ok rồi nhá Còn cái mẹo này cực kỳ là
+- `[14:36]` hay này giúp các bạn tiết kiệm thời gian
+- `[14:38]` luôn thời gian cực kỳ tối đa luôn nhá
+- `[14:40]` cực kỳ là hay luôn bây giờ các bạn bây
+- `[14:42]` giờ các bạn lên file đúng không Bây giờ
+- `[14:44]` các bạn đừng dùng cái file đó gì cả Từ
+- `[14:46]` từ đợi nhá bây giờ hiện tại thì các bạn
+- `[14:48]` thêm hiệu ứng nói cho cô gái đúng không
+- `[14:50]` đây Các bạn Click vào dống cộng này thêm
+- `[14:52]` hiệu ứng nói cho cô gái này Mình chọn
+- `[14:55]` vào phần tóc này phần Long tóc này được
+- `[14:58]` chưa ạ mình kéo dài này các bạn chú ý
+- `[15:02]` nhá các bạn kéo thanh timeline này kiểm
+- `[15:03]` tra này các bạn kiểm tra nhân vật này
+- `[15:05]` đúng không nó ngược chiều đúng không đấy
+- `[15:07]` thì các bạn đổi lại đấy đổi lại chiều
+- `[15:09]` cái khúc này cực kỳ là quan trọng các
+- `[15:10]` bạn chú ý này tiết kiệm thời gian cực kỳ
+- `[15:13]` là nhanh luôn đây các bạn nhá di chuyển
+- `[15:14]` nh thanh nline này đến khi này cô gái
+- `[15:16]` này mở miệng này chuẩn bị mở miệng này
+- `[15:19]` đây đúng không Ok chưa Đấy bây giờ nhá
+- `[15:22]` các bạn về file âm thanh này các bạn tìm
+- `[15:25]` cái file demo nhá Đây cái file demo mình
+- `[15:28]` đặt tên cho đúng không file demo 1 2 3
+- `[15:30]` đúng không Kéo l thảo vào đây Tự khắc nó
+- `[15:32]` căn chịnh cho mình luôn đấy ok chưa và
+- `[15:35]` các bạn đừng vội trình chiếu nhá các bạn
+- `[15:36]` kéo th này bằng cái chữ trắng trắng này
+- `[15:38]` được chưa cái thanh long vóc này bằng
+- `[15:40]` cái chữ trắng trắng này lập tức nó sẽ
+- `[15:41]` khớp với nhau đây nhá Đây nhá Đây mình
+- `[15:45]` sẽ trình chiếu luôn à quên các bạn đừng
+- `[15:48]` trình chiếu bội cái quy tắc nhá cái quy
+- `[15:51]` tắc nhá Bạn này nói ấ thì bạn kia phải
+- `[15:54]` gọi là phải tương tác ấy giả sử nhá mình
+- `[15:56]` trỉ chiếu không nhá Hello bạn Hoàng đây
+- `[15:59]` Ok đúng không Bạn này nói chuyện Ok đúng
+- `[16:01]` không Bạn này đng đơ đúng không Thì bắt
+- `[16:02]` buộc ấy các bạn kéo thanh anh chàng này
+- `[16:05]` lúc cáp ấy xài ra dài bằng cái Long tóc
+- `[16:09]` đúng không bằng nhau thì hai nhân vật
+- `[16:11]` này nó mới kiểu như nó dạng động ấy nó
+- `[16:13]` sẽ tương tác với nhau hơn đấy anh chàng
+- `[16:17]` này có thể cự động và câu kia có thể nói
+- `[16:19]` hoặc là hoặc là các bạn muốn sinh động
+- `[16:22]` luôn nhá các bạn để đến đây thôi Anh ấy
+- `[16:24]` nhìn đến đây thôi các bạn thêm một hiệu
+- `[16:25]` ứng khác đi vẫn là shit nhá các bạn chọn
+- `[16:28]` vào SH đúng không
+- `[16:30]` SH lúc đi cho nó độn độn một xíu không
+- `[16:32]` khí đấy ok các bạn kéo dài bằng nhau nhá
+- `[16:36]` quy tắc nhá bằng nhau nhá Đây là con mẹo
+- `[16:38]` ấy đây là hai cái mẹo nhá các bạn nhá
+- `[16:40]` mẹo đầu tiên là đặt cái âm thanh nó bằng
+- `[16:42]` đúng không mẹo thứ hai nhân vật kia nó
+- `[16:43]` không bị gọi là bị đơ ấy Ok chưa đây
+- `[16:46]` mình sẽ trỉ chiếu lại từ đầu các bạn
+- `[16:49]` xem Hello bạn Hoàng có chuyện gì vui vẻ
+- `[16:54]` mà bạn ngồi một mình ở đây vậy đấy khá
+- `[16:57]` là ok nhá và hiện tại thì cái cảnh đầu
+- `[17:00]` tiên đúng không Thì có 10 giây thi các
+- `[17:02]` bạn mình mình kéo dài ra b cách là dống
+- `[17:04]` cộng này kéo dài như này đúng không
+- `[17:05]` thoải mái các bạn đại kéo Gòn 1 2 phút
+- `[17:07]` thậm chí 50 phút thoải mái ok chưa Và
+- `[17:11]` khi ấy mà cái câu này nói xong thì các
+- `[17:14]` bạn bắt buộc thêm hiệu ứng luôn thêm
+- `[17:16]` hiệu ứng này cho cô luôn Thường thường
+- `[17:17]` mình sẽ để là blink đi Nháy mắt tiếp đi
+- `[17:21]` đấy Đấy được chưa tiếp theo anh chàng
+- `[17:25]` này đúng không anh chàng này thì mình
+- `[17:27]` thêm hiệu ứng nói nó trực tiếp luôn nhá
+- `[17:30]` từ Long tóc này Ok Đấy bây giờ nhá các
+- `[17:35]` bạn test nhá các bạn phải kiểm tra xem
+- `[17:37]` đá g chuyển Thanh tham laine đấy chưa cô
+- `[17:38]` gái n quay lại đúng không Cứ thêm một
+- `[17:41]` cái hiệu ứng gì là cô gái cứ quay lại
+- `[17:43]` các bạn Các bạn nhớ nhá tại vì cái
+- `[17:44]` nguyên tắc của cái phần mềm nó như thế
+- `[17:46]` rồi thì các bạn lại điều hướng nhá điều
+- `[17:48]` hướng lại có nghĩa là chỉnh lại hướng
+- `[17:50]` của nhân vật đây hai Click vào cái dấu
+- `[17:54]` mũi tên nó Nó ngực nhau ấy chọn fre này
+- `[17:56]` Horizon th này được chưa chưa ạ ok
+- `[18:00]` đấy vẫn là cái mẹo nó nhá các bạn nhớ
+- `[18:03]` nhá các bạn DIY chuyển này đến cái miệng
+- `[18:05]` con trai này đây ok chưa đấy rồi các bạn
+- `[18:09]` về về cái bản nhá các bạn copy đấy copy
+- `[18:13]` Ctrl C này Được chưa Rồi Ctrl A để buôi
+- `[18:17]` đen này ctrl V dán lên được chưa các bạn
+- `[18:19]` đổi tên nhá Chào bạn Lan đi Đấy Ok Ra
+- `[18:23]` lan đúng không Đúng
+- `[18:25]` rồi ok cò một cái đi điều lưu ý nữa là
+- `[18:30]` các bạn điều chỉnh cái cái render đúng
+- `[18:32]` không render có nghĩa là giống từ giống
+- `[18:35]` hơi hơi kỳ kì đúng không Nói chung là ở
+- `[18:37]` giới tính ấy giới tính nó sẽ đúng thô Ok
+- `[18:39]` mail này save này khi mình xế ấy nó sẽ
+- `[18:42]` đè ra nhau ấ cái file nó sẽ đè l nhau ấy
+- `[18:44]` có th nghe teng ten không Mình sẽ kéo
+- `[18:47]` vào thôi Click vào load này kéo vào thôi
+- `[18:53]` đấy Chào bạn Ok các bạn nhá các bạn lưu
+- `[18:57]` ý nhá Khi mà các bạn làm lâu ấy thì các
+- `[18:59]` bạn sẽ hiểu nguyên tắc là to là nói đúng
+- `[19:01]` không Từ talk ấy nói đúng không các bạn
+- `[19:02]` kéo dài đúng không kéo dài như này cò từ
+- `[19:05]` Bling Đúng không các bạn kéo dài như
+- `[19:06]` nhau luôn đây này chỉ một lần cho nhanh
+- `[19:08]` luôn kiẹm gì nó cũng Chào bạn Lan Đúng
+- `[19:12]` là có chuyện muốn nói với bạn đấy Tớ
+- `[19:14]` đang lo lắng về tình yêu đấy khá là Ok
+- `[19:17]` đúng không đấy kêu gì nó mất cần nửa
+- `[19:21]` phút rồi ok chưa đây còn những cái hiệu
+- `[19:24]` ứng về sau các bạn làm tương tự như thế
+- `[19:26]` thôi phần blink đúng không
+- `[19:30]` đâyy mình chú ý cái bạn đ học sinh tình
+- `[19:33]` yêu này nghe thú vị đấy Có cái gì mà nó
+- `[19:35]` lắng không còn cái cái bạn đầu tiên bạn
+- `[19:38]` đầu tiên là tình yêu Ok bây giờ đên nữ
+- `[19:40]` nói đúng không các bạn làm tương tự như
+- `[19:41]` thế thôi thì cái quy tắc này anh đ nói
+- `[19:44]` xong đúng không Thì anh này sẽ nháy mắt
+- `[19:46]` hoặc lắng
+- `[19:47]` nghe I giời ơi tự nhên nó sẽ xoay nhiều
+- `[19:51]` này lúc đầu xoay nh về cuối xoay ta Trời
+- `[19:55]` ạ Các Bạn Làm tương tự như thế thôi xem
+- `[19:57]` nà
+- `[19:59]` [âm nhạc]
+- `[20:00]` do mình mạng hay do máy ta n trời đen
+- `[20:03]` vậy Sorry các bạn nhá th các bạn phải
+- `[20:06]` đợi lâu này nhưng không sao thì những
+- `[20:09]` cái sau các bạn làm tương tự như thế
+- `[20:10]` thôi nhá Cái này nói cái kia thì nghe
+- `[20:13]` nghe bằng cách là kiểu để hiệu ứng không
+- `[20:15]` nói là kiểu nó chú ý ấy lắng nghe
+- `[20:19]` ấ mình dễ link trước đi cho cô gái này
+- `[20:23]` hiệu ứng nói đi
+- `[20:27]` ống chắc là mình phải dùng cái mẹo này
+- `[20:30]` rồi nhá Tại vì do máy mạng mình yếu ấy
+- `[20:32]` mình có cái mẹo này hay này save cái
+- `[20:34]` file này đi được chưa mình xế cái file
+- `[20:37]` này và phần Download này Ờ dự án dỡ đi
+- `[20:39]` dự án dỡ nhá đy Mẹ Các bạn thấy cái máy
+- `[20:42]` các bạn mà load cả nó nó hơi lag lag ấy
+- `[20:44]` được chưa tắt l đi đấy lưu nhá Nhớ Lưu
+- `[20:47]` nhá không lưu là là Quang đấy Chọn phần
+- `[20:52]` anit này mở Nó
+- `[20:53]` [âm nhạc]
+- `[20:56]` lên rồi Úi giời ơi mình mình trời ơi
+- `[21:02]` mình mở nhầm bạn mới rồi ôi xong các bạn
+- `[21:06]` Giời ạ Rồi
+- `[21:11]` ạ Trời ơi đ mới
+- `[21:14]` rồi mới rồi Mình đang làm bạn cũ mà nói
+- `[21:18]` đúng
+- `[21:20]` là thôi thô mình sẽ vượ lại từ đầu
+- `[21:26]` nhá buồn luôn đấ đây tự Open project này
+- `[21:30]` chọ cái file giữ ăn dỡ này Ok chỉnh lại
+- `[21:35]` thôi Đây giống như lúc nãy mình nói đúng
+- `[21:38]` không
+- `[21:40]` Đây bạn từ các bạn nên nhớ nhá cái từ
+- `[21:42]` blink này nó là nháy mắt thì nháy mắt
+- `[21:44]` xong thì nó sẽ nói tiếp đấy hiệu quả hơn
+- `[21:48]` đúng các bạn nhá đây các bạn lưu xong
+- `[21:50]` các bạn thoát ra nó vào nó khác hẳn luôn
+- `[21:51]` đúng được chưa đây giống như mình bảo ấy
+- `[21:54]` Cô gái này các bạn thêm hiệu ứng gì thì
+- `[21:56]` nó quay ngược lại thôi Đây mình sẽ điều
+- `[21:58]` chỉnh lại
+- `[21:59]` nhá chưa Và Cái dưới thì mình sẽ thêm
+- `[22:02]` hiệu ứng không emotion các bạnn emotion
+- `[22:05]` là cảm xúc đ không ph link
+- `[22:08]` vào được chưa
+- `[22:10]` [âm nhạc]
+- `[22:12]` Đấy khá là ok nhá các bạn nhá Bây giờ
+- `[22:16]` các bạn chú ý này thấy cái điều này mình
+- `[22:18]` nhấn mạnh các bạn này để cần chỉnh cái
+- `[22:20]` giọng nói với cái cái lời nó khớp với
+- `[22:22]` nhau ấy các bạn di chuyển đ thanh thl
+- `[22:24]` này đúng không các bạn di chuyển chuột
+- `[22:25]` này đến khi mà miệng cô ấy chuẩn bị mở
+- `[22:27]` miệng này Đấy đây đúng không ok chưa các
+- `[22:29]` bạn về nội dung này tình yêu gì đó đúng
+- `[22:34]` không thoát con con gì
+- `[22:37]` ta này và lại nhá làm này CH B các bạn
+- `[22:41]` kiên trì đấy Trời ơi mở nhiều phần mềm
+- `[22:44]` th này là th ra nó không không nặng đâu
+- `[22:46]` các bạn nó không không lag lắm đâu nó
+- `[22:48]` không giống như giống như Phả mấy phần
+- `[22:50]` mềm Ăn kểu nhiều dữ liệu ấy nó nặng máy
+- `[22:53]` đâu th ta là nó ok phết đấy nó không nó
+- `[22:55]` không kiểu là nặng lắm đâu Tạm tạm nó
+- `[22:57]` vừa ấy chắc là máy C hình thấp thì có
+- `[22:59]` thể làm bình thường ấy không sao đâu các
+- `[23:00]` bạn do máy mình chạy nhều Tab ấy chạy 1
+- `[23:03]` 2 3 4 5 6 gì đó nên nó hơi lag Đúng rồi
+- `[23:06]` chứ còn các bạn chạy một cái Tab không
+- `[23:09]` hay là hai ba Tab thì chắc không sao đâu
+- `[23:12]` rồi mình đợi này chắc là mình kiên trì
+- `[23:14]` hết 5:21 rồi Trời ơi xất điện thì trời
+- `[23:19]` ơi chắc là chắc là trước khi làm mình
+- `[23:21]` thắp hương đấy các bạn Sorry các bạn nhá
+- `[23:24]` mình hơi dài dòng một xíu nhưng vì tính
+- `[23:26]` chất của phản mềm thên phải đợi thôi
+- `[23:29]` Chắc là các bạn làm th này chắc bạn hiểu
+- `[23:30]` một
+- `[23:33]` phần thôi giả sự nhá Đây mình lấy ví dụ
+- `[23:37]` nhá Đây cô gái mở miệng các bạn kéo giả
+- `[23:39]` sự cái file kia nó Download đúng không
+- `[23:40]` Download xong thì các bạn kéo tương tự
+- `[23:41]` như thế thôi đấy các bạn kéo tương tự
+- `[23:44]` chờ này là chắc là mất thời gian các bạn
+- `[23:46]` quá so với các bạn mình cố làm như này
+- `[23:49]` thết đi kéo vào Thả ra tự nó căn luôn
+- `[23:51]` các bạn đây tự căn Đúng không các bạn
+- `[23:53]` kéo từ l tóc này đúng không l tóc nói
+- `[23:55]` không bằng cái Thanh trắng trắng ở trên
+- `[23:56]` này kéo giống nhá còn dưới cái lình Đúng
+- `[23:59]` không các bạn kéo bằng luôn
+- `[24:01]` đấy thì các bạn xem kịch bản đúng không
+- `[24:04]` đây Ôi xem xong kị bản lại mở đúng không
+- `[24:08]` chán thật thôi bỏ qua
+- `[24:10]` đi không bỏ qua thì nó không bỏ qua đây
+- `[24:14]` là hết cạnh một cái cạnh một ấy thì các
+- `[24:15]` bạn phát hiện ra này thì nó thừa đúng
+- `[24:17]` không thừa mớ này mớ dây này là mớ dây
+- `[24:21]` có nghĩa là thừa một vài dây đấy đây các
+- `[24:24]` bạn có thể tóm tắt nhá Thu Thu Thu ngắn
+- `[24:26]` nó lại bằng cách dấu trừ này khi mà nó
+- `[24:29]` nghe ten phát thôi Đấy Ok Đấy là s cạnh
+- `[24:32]` một các bạn nhá thì cạnh hai các bạn
+- `[24:34]` nhấn từ new sim này BL này phần dấu cộng
+- `[24:38]` này các bạn thêm có thể thêm hiệu ứng ấy
+- `[24:40]` hiệu ứng chọn hiệu ứng chọ hiệu ứng bậ k
+- `[24:43]` Ok hoặc là không thêm vứng cũng được cá
+- `[24:47]` thứ hai thì các bạn làm tương tự như thế
+- `[24:48]` thôi trong lớp học đúng không các bạn
+- `[24:49]` vào trang web này đây bước đầu tiên các
+- `[24:53]` bạn phải thêm cái background nhá các bạn
+- `[24:54]` nhá trong lớp học này mình nên trước
+- `[25:01]` chong hoạt hình hoạt hình
+- `[25:05]` [âm nhạc]
+- `[25:06]` nhá cái giọng mình nó khàn khàn quá các
+- `[25:09]` bạn ơi có gì Các bạn thông cảm
+- `[25:12]` nhá mình nhắc lại lần nữa nhá các bạn
+- `[25:14]` nhá nhắc lại lần nữa nhắc lại nhắc kiểu
+- `[25:17]` cho nhớ nh không nhắc kiểu là ý khác gì
+- `[25:19]` đâu các bạn chọn cái hình nào mà không
+- `[25:22]` dính cái mương điệm nhá Đây lưu ý nhá
+- `[25:24]` không dính Vương điệm
+- `[25:26]` nhá chọn hình này đi cho nó thoải mái
+- `[25:30]` các bạn đợi một xíu nhá cái cái chỗ mà
+- `[25:32]` free.com này nó mất đi nhá các bạn với
+- `[25:34]` copy nhá rồi về màn hình th
+- `[25:39]` page đây
+- `[25:42]` đấy ok chưa các bạn Đây đây những nhân
+- `[25:45]` vật sau thì các bạn làm tương tự như cái
+- `[25:47]` cạnh một đầu tiên thôi các bạn thêm nhân
+- `[25:49]` vật và các bạn thêm hiệu ứng thôi và
+- `[25:51]` video mình xin phép tạo dừng ở đây cảm
+- `[25:54]` ơn các bạn đã xem mình Chúc các bạn
+- `[25:56]` thành công nhá Nếu các bạn có TH mắc hay
+- `[25:58]` là gặp vấn đề gì Các bạn cứ comment hoặc
+- `[26:00]` là các bạn nhắn tin qua Facebook hoặc là
+- `[26:03]` Zalo cho mình mình hỗ trợ nhá Xin chào
+- `[26:05]` và hẹn gặp lại

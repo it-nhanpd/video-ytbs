@@ -1,0 +1,58 @@
+# KHẮC PHỤC DI CHUYỂN NHANH TRÊN PHẦN MỀM ANIMIZ
+
+- **Video:** otASwtgzDTw (2:04)
+- **URL:** https://www.youtube.com/watch?v=otASwtgzDTw
+- **Nguồn phụ đề:** YouTube tự động tiếng Việt (vi, asr), tải bằng yt-dlp; lỗi nhận dạng giọng nói còn nguyên
+
+## Transcript
+
+- `[00:00]` Hi xin chào các bạn trong video ngày hôm
+- `[00:02]` nay mình sẽ hướng dẫn các bạn khắc phục
+- `[00:04]` trường hợp các chuyển động đi nhanh trên
+- `[00:06]` phần mềm animix animation và thành quả
+- `[00:09]` sau vài phút là
+- `[00:19]` [âm nhạc]
+- `[00:21]` đây Bây giờ các bạn hãy cùng với mình
+- `[00:23]` làm luôn
+- `[00:26]` nha đến với việc đầu tiên chúng ta phải
+- `[00:29]` tối hóa lại timel hay được còn gọi là
+- `[00:32]` nơi làm việc từng hiệu ứng cái nào không
+- `[00:34]` cần thiết các bạn hãy tắt nó đi để có
+- `[00:36]` diện tích làm việc và không bị rối trong
+- `[00:38]` khi đang tiến hành hiện tại cái chức
+- `[00:40]` năng camera mình chưa cần thiết lắm Mình
+- `[00:42]` sẽ tắt nó đi tiếp đến mình sẽ thêm nhân
+- `[00:46]` vật hoạt hình vào bối cảnh các bạn hãy
+- `[00:48]` chọn nhân vật nào tùy theo bối cảnh nội
+- `[00:50]` dung của các bạn nhé mình sẽ cck chuột
+- `[00:52]` vào Motion để thêm hiệu ứng di chuyển
+- `[00:54]` cho nhân
+- `[00:56]` vật kế tiếp mình sẽ thu nhỏ màn hình lại
+- `[00:59]` bằng cách lăn chuột và để hướng di
+- `[01:01]` chuyển nhân vật là từ phía ngoài rồi đi
+- `[01:03]` vào
+- `[01:04]` [âm nhạc]
+- `[01:05]` trong mình sẽ Di chuột xuống Thanh
+- `[01:07]` timeline Kéo phần này dài
+- `[01:09]` ra các bạn hãy trở về rồi cck vào ô dấu
+- `[01:13]` cộng
+- `[01:14]` này thêm hiệu ứng di chuyển Chọn ok các
+- `[01:18]` bạn càng kéo thanh di chuyển càng dài
+- `[01:20]` thì nhân vật di chuyển càng chậm lại
+- `[01:22]` mình sẽ chọn vào ô dấu cộng Để tăng thêm
+- `[01:24]` thời
+- `[01:28]` gian
+- `[01:30]` tiếp theo các bạn trở về hiệu ứng nhân
+- `[01:32]` vật kéo dài bằng hiệu ứng di chuyển phía
+- `[01:34]` trên thì chuyển động mới đồng đều
+- `[01:37]` được mình sẽ quay về màn hình chính các
+- `[01:40]` bạn hãy chú ý đến dấu mũi tên khi chọn
+- `[01:42]` hướng đi cho nhân vật mình để nhân vật
+- `[01:44]` đi qua khu công viên này các bạn có thể
+- `[01:46]` để cô ấy di chuyển bất kỳ chỗ nào mà các
+- `[01:48]` bạn muốn và bây giờ mình sẽ trình chiếu
+- `[01:51]` cho các bạn xem nhân vật đang đi tốc độ
+- `[01:53]` bình thường các bạn có thể điều chỉnh
+- `[01:55]` tốc độ bằng cách điều chỉnh thời gian di
+- `[01:57]` chuyển là ok V mình xin phép tạm dừng ở
+- `[02:01]` đây Xin chào và hẹn gặp lại

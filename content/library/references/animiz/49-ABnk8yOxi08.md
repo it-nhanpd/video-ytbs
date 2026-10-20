@@ -1,0 +1,102 @@
+# Cách Cho Nhân Vật Animiz Nằm Ngủ Với Hiệu Ứng Sẵn Có
+
+- **Video:** ABnk8yOxi08 (3:56)
+- **URL:** https://www.youtube.com/watch?v=ABnk8yOxi08
+- **Nguồn phụ đề:** YouTube tự động tiếng Việt (vi, asr), tải bằng yt-dlp; lỗi nhận dạng giọng nói còn nguyên
+
+## Transcript
+
+- `[00:00]` Hello xin chào các bạn nhá và hôm trước
+- `[00:02]` thì có một bạn comment trên kênh YouTube
+- `[00:04]` của mình bảo là bạn ơi Có cách nào làm
+- `[00:07]` cho nhân vật nằm không thật ra thì mình
+- `[00:09]` thấy nhá đối với việc nằm ấy thì chúng
+- `[00:11]` ta phải dùng gọi là một là dừng hình
+- `[00:13]` trên anamit hai là mình sẽ sử dụng cái
+- `[00:15]` phần mềm thứ hai c thiệp vào đó chính là
+- `[00:17]` cắp Cất này camtasia Nói chung là phần
+- `[00:19]` mềm nào để chỉnh sữa cái video đó đó đây
+- `[00:22]` mình sẽ làm demo nhá mình sẽ thêm một
+- `[00:24]` cái background cho nó chân thật
+- `[00:27]` hơn background này đó Phả chọn cái
+- `[00:30]` background màu không đi màu như này đi
+- `[00:33]` đây làm chỗ này cho yên tĩnh Ok để thêm
+- `[00:37]` Nhữ cái hiệu ứng nằm đúng không Thì mình
+- `[00:39]` sẽ làm những cái bước đơn giản là chúng
+- `[00:40]` ta thêm gọi nhân vật trước này đây Chắc
+- `[00:44]` là do mạng yếu nên nó loát chậm đây mình
+- `[00:46]` sẽ thoát ra vào lại xem à được rồi đây
+- `[00:49]` mình cho cái một cậu bé đi cho nằm đi
+- `[00:52]` cậu này đi Farmer này cho hợp lý này và
+- `[00:55]` để thêm được cái hiệu ứng nằm ấy thì các
+- `[00:56]` bạn xác định cái mục nào là mục chuyển
+- `[00:59]` động cái mục nào là nói này hay là ngồi
+- `[01:01]` nói chung là các bạn xác định như thế
+- `[01:03]` đây nhá cái phần nằm đúng không thì các
+- `[01:05]` bạn chọn vào phần emotion Cảm xúc này
+- `[01:08]` đây các bạn lướt xuống cá cái mục là đây
+- `[01:11]` w này đó các bạn click đây nhá Đấy tà
+- `[01:16]` quả lào đây mình sẽ cho nhân vật này dài
+- `[01:19]` một xíu
+- `[01:20]` này đây tăng kích thước lên mình sẽ kéo
+- `[01:25]` phần w này dài l một xíu nhá mình sẽ
+- `[01:27]` trình chiếu các bạn xem này đây Hiện tại
+- `[01:30]` ấy nhân vật chưa nằm các bạn đúng không
+- `[01:31]` Đây bạn kéo này thanh đến khi mà nhân
+- `[01:33]` vật nằm thì thôi đấy nằm đây đúng không
+- `[01:36]` giả sử nhá Nếu các bạn kéo thanh quo này
+- `[01:39]` đến dài này thì anh chàng này nằm xong
+- `[01:41]` lại đứng nằm xong lại đứng này các bạn
+- `[01:43]` đận một xíu này lại đứng đúng không Giờ
+- `[01:45]` ch mình tinh tế này mình sẽ chọn đoạn
+- `[01:47]` nào ấy nằm Không ấy mình sẽ thu ngắn lại
+- `[01:50]` mình để thế này mình dừng hình như này
+- `[01:52]` nhá Đấy thì anh ấy sẽ nằm thôi còn nếu
+- `[01:56]` các bạn muốn anh ấy nằm luôn ấy th sự
+- `[01:58]` anh ấy gọi nằm yên tĩnh luôn đấy
+- `[02:00]` thì các bạn căn này đ khi nhậ đây đúng
+- `[02:02]` không đó các bạn thu thanh l này đây đó
+- `[02:06]` đây dừng yên tĩnh luôn đâ ngũ luôn Nếu
+- `[02:10]` mà các bạn muốn cho tay anh ấy Thuột vào
+- `[02:12]` ấ thì các bạn căn thôi các bạn Gióng
+- `[02:14]` Thanh th la ấ khi mà anh ấy rút tay vào
+- `[02:16]` này đây mình sẽ kéo qu lao này đây cái
+- `[02:19]` hiệu ứng qu lao
+- `[02:21]` [âm nhạc]
+- `[02:22]` nhá Đây qu lao nào Hình như là không có
+- `[02:28]` phần rụt tay các bạn thôi các bạn chịu
+- `[02:29]` khó Chắc là anh chỉ nằm như này
+- `[02:31]` thôi Đây mình sẽ để ra phần này
+- `[02:35]` đi đây như mình bảo nhá thì chúng ta
+- `[02:39]` phải có cái phần mềm can thiệp cắt cái
+- `[02:41]` đoạn trên thừa nhá Đây cái đoạn này nó
+- `[02:43]` đang đứng ở dậy ngã đúng không thì các
+- `[02:45]` bạn publish
+- `[02:47]` Này đó giờ mình sẽ lưu ra desktop đi
+- `[02:50]` mình sẽ lấy ví dụ cho các bạn luôn vào
+- `[02:52]` phần mềm cấp cắt này save này
+- `[02:55]` publish đây Nhân tiện thì mình sẽ mở
+- `[02:58]` phần mềm cấp cắt lên
+- `[03:00]` [âm nhạc]
+- `[03:02]` cắt đâu
+- `[03:03]` ta đây đây mình sẽ mở
+- `[03:08]` lên và cái file này mình vừa xuất xong
+- `[03:12]` đúng không Mình sẽ mở cái vị trí file
+- `[03:15]` lên này hỏ kéo vào cặp Cất này đây mình
+- `[03:19]` sẽ rời đế cái đoạn Ánh nằm đúng không
+- `[03:20]` Đây đoạn này đúng không Đấy mình cắt bỏ
+- `[03:23]` đi đó là đ ấy nằm luôn thật ra thì cái
+- `[03:28]` phần mềm animate này nếu mà các bạn muốn
+- `[03:30]` gọi là muốn sinh động hơn đấy thì các
+- `[03:32]` bạn phải dùng cái phần mềm thứ hai ấy
+- `[03:33]` căn thiệp vào thì nó sẽ gọi là cắt đi
+- `[03:35]` những đoạn Thử ấy đấy thêm nhạc hiệu ứng
+- `[03:38]` vào là trở nên cái video sinh động rồi
+- `[03:40]` và cảm ơn các bạn đã xem video này nhá
+- `[03:42]` mình Chúc các bạn thành công nếu các bạn
+- `[03:44]` có thắc mắc hay câu hỏi gì Các bạn cứ
+- `[03:45]` comment mình sẽ cố gắng gọi là tìm cách
+- `[03:47]` trả lời nhá Nếu mình biết rồi mình trả
+- `[03:49]` lời luôn Nếu mà cái nào không biết ấy
+- `[03:50]` mình sẽ cố gắng học hỏi và tìm tòi trả
+- `[03:52]` lời nhá Bye bye hẹn gặp lại các bạn

@@ -1,0 +1,288 @@
+# CÁCH THÊM NHÂN VẬT NGOÀI VÀO ANIMIZ ANIMATION MAKER
+
+- **Video:** xnR-2n9CM3Y (12:57)
+- **URL:** https://www.youtube.com/watch?v=xnR-2n9CM3Y
+- **Nguồn phụ đề:** YouTube tự động tiếng Việt (vi, asr), tải bằng yt-dlp; lỗi nhận dạng giọng nói còn nguyên
+
+## Transcript
+
+- `[00:00]` Hello Hello Xin chào các bạn nhá Chào
+- `[00:02]` mừng các bạn đến với kênh phương BC Hôm
+- `[00:05]` nay thì mình rất là vui và hạnh phúc Tại
+- `[00:07]` vì vừa mới kết thúc kỳ thi vừa rồi Nên
+- `[00:10]` mình cũng khá là nhiều thời gian và có
+- `[00:14]` rất là nhiều bạn nhắn tin và comment
+- `[00:16]` trên kênh của mình bảo là anh ơi Có cách
+- `[00:18]` nào để chèn thêm nhân vật vào phần mềm
+- `[00:21]` hoạt hình hay không Thật ra thì cũng khá
+- `[00:24]` là nhiều cách các bạn Hôm nay thì mình
+- `[00:26]` sẽ chia sẻ với các bạn tất cả những cái
+- `[00:29]` mẹo mà chúng ta có thể thêm hiệu ứng này
+- `[00:31]` và thêm nhân vật khác ngoài để cho cái
+- `[00:34]` video nó sinh động hơn các bạn nhá thì
+- `[00:37]` đầu tiên thì với câu hỏi đầu tiên thì
+- `[00:40]` làm sao để chúng ta thêm được cái hiệu
+- `[00:42]` ứng Ví dụ như thể là ăn uống này di
+- `[00:45]` chuyển này hoặc là nhiều cái gọi là Cự
+- `[00:47]` động theo cái mong muốn chúng ta thì các
+- `[00:49]` bạn vào phần mềm chính nhá của cái Mango
+- `[00:52]` này cái phần mềm là Mango anim này đối
+- `[00:55]` với phần mềm này khi mà các bạn thêm
+- `[00:57]` hiệu ứng di chuyển hoy là chuyển động ấy
+- `[01:00]` thì chúng ta sẽ phải trả phí đây trả phí
+- `[01:02]` cho cái phần mềm này nha Đây mình sẽ vào
+- `[01:06]` cái giao diện trực tuyến này chúng ta
+- `[01:09]` phải trả phí này 139 đô này đối với
+- `[01:12]` doanh nguyệt này đó thì đối với cái phần
+- `[01:16]` mềm này thì chúng ta có thể điều chỉnh
+- `[01:19]` gọi là cho nhân vật ăn uống di chuyển
+- `[01:23]` hay gì đó các bạn tùy chỉnh nhá Đây là
+- `[01:25]` cái bước đầu tiên là thay đổi hoặc là
+- `[01:27]` thêm chuyển động trên cái nhân nhân vật
+- `[01:30]` anit này cái Cách thứ hai thì nó hay hơn
+- `[01:33]` một xíu là đối với cái máy tính của các
+- `[01:35]` bạn là cấu hình thấp các bạn chịu khó
+- `[01:38]` nhá các bạn chịu khó là thêm nhân vật
+- `[01:40]` dạng bên ngoài là dạng gf nhá Ví dụ như
+- `[01:43]` thế là mình rất là kiểu rất là mất thời
+- `[01:46]` gian để vào Photoshop này hoặc là ai để
+- `[01:50]` vẽ một cái bức tranh gì đó ở layer
+- `[01:52]` keyframe rất là mất thời gian nếu mà làm
+- `[01:55]` thế này chắc là phải sang cái phần mềm
+- `[01:56]` thứ hai ví dụ như thầ là moho hoặc là
+- `[01:59]` phần mềm
+- `[02:00]` crazy này hay là blender đấy rất là mất
+- `[02:03]` thời gian và nó yêu cầu cấu hình cao nữa
+- `[02:05]` đó thì các bạn chịu khó nhá Nếu mà máy
+- `[02:08]` kiểu nó nó tầm trung bình thấp thấp ấy
+- `[02:10]` thì các bạn làm cái dạng gip các bạn ví
+- `[02:13]` dụ như thể là cái anim mình ấy Trong cái
+- `[02:15]` kịch bản có chim ấy thì các bạn chịu khó
+- `[02:17]` là gõ là bớ này nếu bạn nào biết tiếng
+- `[02:20]` Anh thì chịu khó ra gõ Việt sub các bạn
+- `[02:24]` chuyển tiếng kia thành tiếng Anh đấy đây
+- `[02:25]` bớt gip này các bạn thêm từ GB đằng sau
+- `[02:27]` thôi mình lấy ví dụ luôn nhá đâ bớt gíp
+- `[02:31]` này đây mấy con chim như này các bạn
+- `[02:34]` Đúng không các bạn tách nền đi các bạn
+- `[02:36]` tách nền rồi sau đó chuyển vào cái
+- `[02:39]` animate thể mình lấy ví dụ luôn là
+- `[02:41]` remove này background gft này đó các bạn
+- `[02:44]` lưu lại cái trang web này
+- `[02:46]` nhá Đây mình sẽ lướt lên này làm luôn
+- `[02:50]` các bạn nhá Đây Mình ưng cái con chim
+- `[02:53]` này thì mình sẽ l này save image phần
+- `[02:56]` Download save này rồi vào cái remove kí
+- `[03:00]` này đó nh
+- `[03:05]` [âm nhạc]
+- `[03:07]` Open các bạn đậ một xíu nhá mạng mình nó
+- `[03:11]` hơi chậm một xíu nó kểu cứu xá các bạn
+- `[03:15]` nó cây chắn sóng ấy đôi khi là mình dùng
+- `[03:19]` máy tính hay là dùng điện thoại Nó rất
+- `[03:20]` là chậm các bạn thông cảm nhá mình sẽ
+- `[03:23]` Download cái này khi down xong thì mình
+- `[03:25]` sẽ mở cái tệp này rồi kéo thả đó kéo thả
+- `[03:29]` và phần
+- `[03:33]` mềm đây như này là con chim được này các
+- `[03:36]` bạn này đây nó bay như này đó thay vì
+- `[03:38]` các bạn phải vẽ này rồi thêm chuyển động
+- `[03:40]` bên ngoài nó rất là lâu đó các bạn dùng
+- `[03:43]` tận dụng luôn cái con chim này và sau đó
+- `[03:46]` thêm hiệu ứng di chuyển vào đây mình sẽ
+- `[03:48]` thêm hiệu ứng mob vào kéo dài dài ra thử
+- `[03:52]` nhá
+- `[03:55]` đó khá là hay các bạn nhá Đây là cách
+- `[03:57]` đầu tiên đối với máy gọi là cơ bản máy
+- `[04:00]` nhẹ nhẹ nhá và cách thứ hai thì nó gọi
+- `[04:03]` là trên một cái mức gọi là
+- `[04:06]` ờ cái mức gì ta mình không biết là miêu
+- `[04:09]` tả như thế nào nữa nó trên mức cơ bản
+- `[04:11]` như này nó cũng là dạng máy tính cũng là
+- `[04:13]` cái dạng máy tính myy máy tính thông
+- `[04:15]` thường là máy tính chậm ấy thì cũng có
+- `[04:17]` thể làm được các bạn dùng cái mẹo này
+- `[04:19]` nhá Ví dụ như thể là mình gõ một cái cây
+- `[04:21]` đi Các bạn muốn con chim hoặ cái cây Nói
+- `[04:23]` chuyện đúng không cây đi cây hoạt hình
+- `[04:27]` đi Đ mình lấy ví dụ luôn nhá lạng thứ
+- `[04:29]` hai ha Này tối ưu các bạn nhá Đây mình
+- `[04:32]` sẽ chèm một cây bất kỳ cây như thế này
+- `[04:36]` mình sẽ tải xuống
+- `[04:38]` [âm nhạc]
+- `[04:41]` này mình vào cái file này
+- `[04:44]` Ớ như là cây này mình tại về Chư ta mình
+- `[04:47]` thử kéo vào animate
+- `[04:49]` xem nó không gọi là không chấp nhận cái
+- `[04:52]` file này các bạn thôi mình sẽ tìm một
+- `[04:53]` cái cây khác đi có tên là png đi đây
+- `[04:56]` mình lấy ví dụ như cái cây này đi xem
+- `[04:58]` tại về bng được không Không được
+- `[05:01]` à À đây mà Cái này nó có miệng các bạn
+- `[05:06]` các bạn lưu ý nhá Khi mà các bạn muốn
+- `[05:08]` gọi là nhân vật cây cối hoặc là cái
+- `[05:10]` phương tiện gì đó Nói chuyện ấy thì các
+- `[05:12]` bạn trừ cái mặt này ra trừ bỏ miệng mặt
+- `[05:15]` ra mình sẽ lấy ví dụ cây khác đi cây này
+- `[05:20]` đi nó vẫn cứ web này
+- `[05:24]` ta thìm một cây khác nữa xem nào
+- `[05:30]` cái này thì hơi mờ nhờ trời
+- `[05:36]` ơi các bạn thông cảm à Đây được rồi
+- `[05:40]` n Cuối cùng cũng có bng các bạn
+- `[05:47]` đó vẫn không được không ấy thì các bạn
+- `[05:51]` vào canva các bạn tải xuống trực tiếp
+- `[05:54]` được nha
+- `[06:00]` [âm nhạc]
+- `[06:01]` À đây được rồi này bng các bạn đây cuối
+- `[06:06]` cùng cũng được một cây mình kéo nhá vào
+- `[06:09]` animate này thả Tò phát Nhấn optimit này
+- `[06:13]` Xóa con chim này
+- `[06:16]` đi đâu V ta nôi cắt đây đây bây giờ nhá
+- `[06:20]` giả sự các bạn làm một câu chuyện cổ
+- `[06:22]` tích đi Các bạn muốn cho cái cây này nó
+- `[06:25]` nói chuyện đó thì chúng ta làm như thế
+- `[06:27]` nào thì các bạn Vào Google này các bạn
+- `[06:31]` gọi cho mình là
+- `[06:33]` i mắt mắt trong tiếng Anh là II Đúng
+- `[06:37]` không I I cartoon này đó các bạn gì là i
+- `[06:41]` cartoon vào lập tức thì nó hiện ra mấy
+- `[06:43]` cái mắt như này bạn
+- `[06:46]` ạ Đây mình sẽ tìm cái mắt như này bạn đợ
+- `[06:50]` một xíu nhá thì nó sẽ cự động
+- `[06:52]` đấy quên mất các bạn thêm cái từ gip cho
+- `[06:55]` mình nhá thêm từ GP thì nó mới chuyển
+- `[06:57]` động từ G
+- `[07:03]` đấy giờ mình sẽ lưu này lưu này rồi thêm
+- `[07:09]` vào
+- `[07:11]` anit mình sẽ điều chỉnh cái kích thước
+- `[07:14]` cái mắt này nhá Nếu các bạn muốn kích
+- `[07:15]` thức không thay đổi thì các bạn giữ phím
+- `[07:18]` shift
+- `[07:19]` này
+- `[07:22]` đấy bạn xem
+- `[07:26]` nhá Đây cái cây nhá Đây đấy nó di chuyển
+- `[07:30]` luôn này Đấy cái mắt nó di chuyển thôi
+- `[07:31]` còn nếu mà các bạn muốn cây nói thì các
+- `[07:33]` bạn thêm từ maous vào thay từ i
+- `[07:38]` đây
+- `[07:42]` Mouse Úi giời ơi sao mà nhiều miệng thế
+- `[07:45]` này đây mình sẽ chọn cái miệng này
+- `[07:48]` đi phần Download này đây các bước tương
+- `[07:51]` tự các bạn nhá bạn chịu khó làm theo như
+- `[07:54]` thế này kéo xong mình thạ tò
+- `[07:58]` phát bạn thông cảm n giọng mình hơi khó
+- `[08:00]` nghe kiểu nó vừa lẫn lộn miền Bắc và
+- `[08:02]` miền Trung các
+- `[08:06]` bạn
+- `[08:08]` Đây đây mình trình chiếu này cây này đây
+- `[08:11]` nó nói này này các bạn chỉ cần thêm âm
+- `[08:13]` thanh nữa là nó nói thôi Nếu mà chân
+- `[08:16]` thật hơn nữa thì các bạn thêm cái cây
+- `[08:17]` này hiệu ứng này cho nó rung rung nhá
+- `[08:19]` các bạn ấn dấu cộng này từ B bao này hơi
+- `[08:23]` nặng nhở thôi mình sẽ kéo dài cho nó đi
+- `[08:25]` chậm chậm
+- `[08:27]` này đấy khá là hay nhá Đây ky nói nha
+- `[08:31]` các bạn thêm hiệu ứng âm thanh nữa Đây
+- `[08:33]` là cái dạng trên mức trên mức cơ bản nhá
+- `[08:35]` Còn một cái dạng kiểu hơi nâng cao một
+- `[08:37]` xíu nhưng khá là hay nhá kể nó chuyên
+- `[08:39]` nghiệp hơn một xíu nữa là các bạn phải
+- `[08:42]` dùng một cái nữa là cái trang web này
+- `[08:44]` vẫn là trang web free big các bạn không
+- `[08:46]` cần phải vẽ đâu mình có cái mẹo này rất
+- `[08:49]` là hay nhá các bạn không cần phải vẽ đâu
+- `[08:52]` các bạn thấy cái ảnh nào hay hay đấy
+- `[08:54]` Mình sẽ vào một cái là phần mềm tiếp
+- `[08:57]` theo nữa là phần mềm a animate đây mình
+- `[09:00]` chở về màn hình chính cho các bạn xem
+- `[09:02]` nhá Đây xong nhiều Tab vậy đây các
+- `[09:09]` bạn tải luôn cái phần mềm nhá Adobe
+- `[09:12]` animate 2022 nhá hoặc là 2019 đến 23
+- `[09:16]` Cũng được đấy Tùy theo cái phiền bản các
+- `[09:18]` bạn mong muốn các bạn tải xong ấy thì
+- `[09:20]` các bạn Nhập nhập nhá các bạn tải phải
+- `[09:23]` cái file ai này các bạn chịu khó nhá tìm
+- `[09:25]` cái file ai trên cái web freeb này này
+- `[09:29]` đây các bạn chịu khó nh tìmm nhá Nó ghi
+- `[09:31]` từ TP này file ai
+- `[09:34]` này đây mình sẽ gõ một cái file khác đi
+- `[09:39]` là
+- `[09:40]` house svg nhá mình không biết là tìm cái
+- `[09:43]` file ai nó ra gì nhưng thường thường
+- `[09:45]` mình sẽ gọi từ svg ấy thì nó sẽ đề xuất
+- `[09:48]` ra hoặc là nó cùng cái dạng file ai đây
+- `[09:51]` đây các bạn này đây ai như này các bạn
+- `[09:54]` tải về nhá các bạn tải về xong các bạn
+- `[09:56]` vào đây các bạn import vào đây có con
+- `[09:59]` mèo này này là cái con mèo trên dạng
+- `[10:01]` freeb này Hôm nay mình chia sẻ các bạn
+- `[10:05]` nhá Còn video sau thì mình sẽ hướng dẫn
+- `[10:08]` các bạn chi tiết hơn Làm sao để làm cách
+- `[10:10]` nhanh nhất này đó đây cách nhan Cách thứ
+- `[10:14]` hai nhá Đây con mèo này nó giống dạng
+- `[10:15]` Ảnh này đây giống cái file ai như này đy
+- `[10:18]` các bạn thấy không nó khác gì một cái
+- `[10:20]` dạng kiểu như là nó bất động luôn nó
+- `[10:21]` không di chuyển gì
+- `[10:23]` luôn Bây giờ mình sẽ tách ra thôi ă
+- `[10:27]` group ra rồi đó các bạn chỉ cần tách cái
+- `[10:30]` này con mèo này ra rồi Các bạn vào
+- `[10:32]` animate này các bạn thêm chuyển động vào
+- `[10:34]` thôi Cái này được cái là nó không khó
+- `[10:36]` như thể là moho và blender các bạn nếu
+- `[10:39]` mà các bạn dùng hai kêu Úi giời ơi nó
+- `[10:41]` lâu nó phức tạp làm một bộ phim Hoàn
+- `[10:42]` hình Chắc cũng mất rất là mất thời gian
+- `[10:44]` đấy nếu mà bạn muốn làm kiểu dạng đơn
+- `[10:46]` giản Ví dụ như thể là dạy học ấy thì đối
+- `[10:49]` với anit là chắc là ok rồi còn ngoài ra
+- `[10:51]` mà các bạn muốn gọi là muốn sáng tạo hơn
+- `[10:54]` rồi muốn kiếm tiền trên YouTube làm mấy
+- `[10:56]` cái video mà hoạt hình trẻ con ấy thì
+- `[10:58]` đây lấy cái bước này đâ dùng cái phần
+- `[11:00]` mềm Adobe này các bạn làm những cái dạng
+- `[11:03]` như này và sau đó các bạn vào animate
+- `[11:05]` hoặc là edit lại thôi đó Đây là cách gọi
+- `[11:07]` là cái mức là khá khá nhá cái mức này
+- `[11:10]` được cái hay ấy là các bạn sẽ tiết kiệm
+- `[11:12]` thời gian và nữa nhá là các bạn thể dùng
+- `[11:15]` free nhá Mấy cái ảnh này thì không mất
+- `[11:16]` phí đâu à Không kiểu không bản quyền đâu
+- `[11:18]` các bạn đây là free hết các bạn chỉ cần
+- `[11:20]` tải về các bạn thêm hiệu ứng di chuyển
+- `[11:22]` thôi các bạn muốn cái nhà là xe cụ hay
+- `[11:24]` là một bất cứ gọi là con vật hay là
+- `[11:26]` người gì đó đấy các bạn thêm chuyển động
+- `[11:28]` vào thôi vào cái animate này mình chia
+- `[11:31]` sẻ một xíu nhá Đối với dạng hoạt hình
+- `[11:33]` đấy Ờ animate nó chỉ trong cái mức mà
+- `[11:35]` tầm 6 đến 70 ph thôi nó chỉ diễn Hoàn
+- `[11:38]` mức cơ bản thôi Đây mình lấy ví dụ cho
+- `[11:40]` các bạn xem những cái gọi này những cái
+- `[11:42]` nhân vật hoặc là những cái đây mình sẽ
+- `[11:45]` thạo vào đây cho các bạn xem
+- `[11:47]` này Đây đang load đây được rồi đây một
+- `[11:52]` cái người này các bạn xem này người
+- `[11:56]` này đấy cơ động nó sẽ Xoay cái mặt nhìn
+- `[11:59]` nó trong rất cute cho con này
+- `[12:03]` đi cho một
+- `[12:05]` con sên đi nhá Đây con ố sên đây Đây Nó
+- `[12:10]` cật đầu nhá cật cu đó Đây là cái dạng
+- `[12:13]` khá nhá mình nghĩ là cái dạng này cấu
+- `[12:16]` hình máy tạm tạm cái thứ hai là tiết
+- `[12:18]` kiệm thời gian cái dạng này OK nhá trong
+- `[12:19]` cái mức khá nhá Còn cái dạng mà nâ cao
+- `[12:22]` hẳn đấy thì cái này thì mình nghĩ là cần
+- `[12:25]` một cái đội ngũ một cái team gì đó ấy
+- `[12:27]` chúng ta diễn hoòa này chúng ta sẽ khâu
+- `[12:29]` kịch bản này khâu Nội dung diễn hoạt lời
+- `[12:31]` nói này Cái này là khá là phức tạp các
+- `[12:33]` bạn nhá Cái này làm dự án công ty với cả
+- `[12:35]` dự án trên youtube Thì cái này lớn đấy
+- `[12:37]` thôi hôm nay mình chia sẻ Thế thôi nhá
+- `[12:39]` Đây là những gọi là cái cách nâng cao ấy
+- `[12:42]` những video sau thì mình sẽ hướng dẫn
+- `[12:44]` các bạn cách chi tiết làm sao kểu sáng
+- `[12:47]` tạo một cái nhân vật hoặc là thêm một
+- `[12:49]` cái gì đó mới mẽ vào anim nhá Xin chào
+- `[12:51]` và hẹn gặp lại các bạn nhá

@@ -1,0 +1,155 @@
+{
+  "project": "mma-stickman",
+  "locale": "vi",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "s001",
+      "durationSec": 14,
+      "template": "MultiplaneScene",
+      "grade": "arena_cold",
+      "walkSpeed": 0,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          0
+        ],
+        "zoom": [
+          1,
+          1.15
+        ],
+        "ease": "outCubic"
+      },
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "arena"
+        },
+        {
+          "id": "arena",
+          "type": "arena",
+          "z": 1,
+          "floorY": 800,
+          "seed": 3,
+          "blur": 0
+        },
+        {
+          "id": "fighters",
+          "type": "fighters",
+          "z": 3,
+          "floorY": 800,
+          "scale": 44,
+          "fighters": [
+            {
+              "id": "ho",
+              "color": "heer1916",
+              "x": 800,
+              "facing": 1,
+              "timeline": [
+                {
+                  "move": "jab",
+                  "at": 20
+                },
+                {
+                  "move": "hook",
+                  "at": 44
+                },
+                {
+                  "move": "roundhouse",
+                  "at": 84,
+                  "speed": 0.4
+                }
+              ]
+            },
+            {
+              "id": "rua",
+              "color": "prussia1871",
+              "x": 1108,
+              "facing": -1,
+              "timeline": [
+                {
+                  "move": "hit_head",
+                  "at": 51
+                },
+                {
+                  "move": "fall_back",
+                  "at": 112
+                }
+              ]
+            }
+          ],
+          "fx": [
+            {
+              "kind": "speedLines",
+              "at": 98,
+              "dur": 12,
+              "fighter": "ho",
+              "joint": "ankle2"
+            },
+            {
+              "kind": "freeze",
+              "at": 112,
+              "frames": 3
+            },
+            {
+              "kind": "impact",
+              "at": 112,
+              "fighter": "ho",
+              "joint": "ankle2",
+              "size": 1.6
+            },
+            {
+              "kind": "flash",
+              "at": 112,
+              "dur": 4
+            },
+            {
+              "kind": "shake",
+              "at": 112,
+              "amp": 18,
+              "dur": 12
+            },
+            {
+              "kind": "impact",
+              "at": 51,
+              "fighter": "ho",
+              "joint": "wrist1",
+              "size": 0.7
+            },
+            {
+              "kind": "shake",
+              "at": 51,
+              "amp": 8,
+              "dur": 8
+            },
+            {
+              "kind": "impact",
+              "at": 25,
+              "fighter": "ho",
+              "joint": "wrist1",
+              "size": 0.5
+            },
+            {
+              "kind": "fade",
+              "at": 200,
+              "dur": 20
+            }
+          ]
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "b02.q",
+          "from": 10,
+          "to": 13.5
+        }
+      ]
+    }
+  ]
+}

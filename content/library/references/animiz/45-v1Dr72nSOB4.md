@@ -1,0 +1,130 @@
+# HƯỚNG DẪN HAI NHÂN VẬT ĐI CÙNG CHIỀU RỒI CHUYỂN HƯỚNG GIAO TIẾP
+
+- **Video:** v1Dr72nSOB4 (5:26)
+- **URL:** https://www.youtube.com/watch?v=v1Dr72nSOB4
+- **Nguồn phụ đề:** YouTube tự động tiếng Việt (vi, asr), tải bằng yt-dlp; lỗi nhận dạng giọng nói còn nguyên
+
+## Transcript
+
+- `[00:00]` Hello Xin chào bạn và hôm nay có một bạn
+- `[00:02]` bạn ấy comment trên kênh YouTube của
+- `[00:04]` mình bạn ấy bảo là anh Hướng dẫn cách
+- `[00:06]` Cho hai nhân vật đang đi cùng chiều
+- `[00:08]` chuyển sang đứng đối diện giao tiếp đi ạ
+- `[00:10]` Em làm mãi không được đây mình sẽ về
+- `[00:13]` phần mềm animate và mình chè cái
+- `[00:16]` background này làm demo lấy ví dụ nhá
+- `[00:19]` tiếp đến thì mình sẽ lăn con chuột này
+- `[00:22]` cho background nó nhỏ lại để dễ làm việc
+- `[00:24]` hơn và mình cũng Click vào chột Phải
+- `[00:28]` Chọn vào phần lock check để khóa cái
+- `[00:31]` background này phòng khi là khi mình
+- `[00:33]` chèn thêm nhân vật mình có lỡ tay mà mà
+- `[00:36]` bấm nhầm hoặc là kéo nhầm background thì
+- `[00:38]` nó rất là dễ bị loạn rồ Sau đó mình
+- `[00:42]` xuống Thanh timeline này mình tối ưu
+- `[00:44]` mình tắt cái camera Này lát sau thì mình
+- `[00:47]` mới dùng còn hiện tại thì mình không
+- `[00:50]` dùng đây mình tắt camera các bạn Click
+- `[00:52]` vào phần camera này nó tự tắt Còn nếu mà
+- `[00:55]` các bạn muốn bật thì các bạn Click vào
+- `[00:56]` phần camera nhá đây các bạn tối ưu được
+- `[00:59]` cái phần này Rồi sau đó các bạn làm bất
+- `[01:01]` cứ cái dự án nào nó rất là dễ phân biệt
+- `[01:03]` không bị
+- `[01:04]` loạn đây mình sẽ chèn thêm hai nhân vật
+- `[01:07]` đi cùng chiều với nhau đây mình di
+- `[01:09]` chuyển nhá Đây Click vào biểu tượng hình
+- `[01:12]` người đây chọn hai nhân vật học sinh đi
+- `[01:14]` chọ nó cute chọn tiếp vào phần Motion và
+- `[01:18]` phần chuyển
+- `[01:19]` động chọn luôn cái hiệu ứng là working
+- `[01:22]` này đấy oking nhá các bạn lưu ý khi mà
+- `[01:26]` các bạn chèn nhân vật thì các bạn điều
+- `[01:27]` chỉnh luôn cái kích thước nhân vật không
+- `[01:30]` là các bạn làm xong các bạn chỉnh nhân
+- `[01:31]` vật thì nó sẽ to nhỏ đoạn này to đoạn
+- `[01:34]` sau lại nhỏ nó không đồng đều đấy đây
+- `[01:37]` mình sẽ để là kích thước này nhá tiếp
+- `[01:40]` đến thì mình chèn luôn nhân vật cô gái
+- `[01:42]` kia cũng chọn
+- `[01:45]` Motion chọn working này mình điều chỉnh
+- `[01:48]` luôn cái kích thước nhân vật đấy khá là
+- `[01:53]` ok và mình có một cái lưu ý nhỏ khi mà
+- `[01:57]` các bạn làm nhiều các bạn làm quen thì
+- `[01:58]` các bạn kéo thàh working này tầm khoảng
+- `[02:01]` 5 giây thì nhân vật sẽ đi chậm lại còn
+- `[02:03]` nếu mà các bạn để khoảng 1 2 giây nó bắn
+- `[02:06]` vèo như một cái máy bay hoặc là con chim
+- `[02:07]` của các bạn các bạn kéo dài nhá Thanh C
+- `[02:10]` kin này kéo dài ra khoảng 5 giây hoặc là
+- `[02:12]` trên 5 giây thì nhân vật mới đi chậm
+- `[02:14]` được còn một cái phần mà rất là quan
+- `[02:17]` trọng các bạn Click vào phần giống cộng
+- `[02:20]` trên cái Thanh hiệu ứng working này
+- `[02:23]` Đấy chọ phần move này click Ok Rồi sau
+- `[02:29]` đó các bạn chọn vào cái mũi tên này cái
+- `[02:31]` hướng nhân vật này đây mình muốn di
+- `[02:32]` chuyển cô bé này đi tầm khoảng đây đi
+- `[02:36]` trước đúng không đi sau chứ đi sau đi
+- `[02:37]` tầm kả đây thôi tiếp theo thì cái anh
+- `[02:40]` chàng này mình click dấu cộng này Mình
+- `[02:42]` chọn phầ mve chọn ok Còn một cái điều
+- `[02:47]` lưu ý khi mà các bạn thêm hiệu ứng di
+- `[02:48]` chuyển các bạn kéo thanh mob này và
+- `[02:50]` thanh Cook King này nó bằng
+- `[02:52]` nhau nếu mà hai thanh này không bằng
+- `[02:55]` nhau thì lập tức Cái hiệu ứng di chuyển
+- `[02:57]` nó sẽ bị lệch đấy và các anh chàng này
+- `[03:01]` đây và mình sẽ kéo dài ra trước cô gái
+- `[03:05]` đến
+- `[03:06]` đây đây mình sẽ play thử cho các bạn
+- `[03:13]` xem khá là
+- `[03:16]` ok và để hai nhân vật này quay lại với
+- `[03:20]` nhau đây Các bạn chú ý nhá Cô bé này thì
+- `[03:23]` hướng đi là đúng rồi còn anh chàng này
+- `[03:25]` thì các bạn muốn quay lại như thế nào
+- `[03:26]` thì các bạn thêm một hiệu ứng thôi đúng
+- `[03:28]` không t phần K này phần hooking thì các
+- `[03:31]` bạn Gióng sang này đây little boy đúng
+- `[03:33]` không boy là chàng trai đây Các bạn chọn
+- `[03:35]` vào phần dấu
+- `[03:36]` cộng chọn và phần emotion này là cảm
+- `[03:42]` xúc mình chọn luôn cái hiệu ứng là blink
+- `[03:45]` này hiệu ứng nhan mắt mình kéo dài ra
+- `[03:48]` rồi chọn vào cái Thanh Thanh Mũi tên này
+- `[03:51]` để xoay nhân vật đây mình kéo dài bạn
+- `[03:55]` xem nhá Đấy khá là ok rồi và cô gái này
+- `[03:57]` các bạn làm tương tự thôi thêm nhệ
+- `[04:00]` blink khi mà các bạn chèn hiệu ứng thì
+- `[04:02]` các bạn không cần xoay cô gái này tại vì
+- `[04:04]` cái cô gái này bạn chèn hiệu ứng vào thì
+- `[04:06]` nó mục định là nó từ bên phải qua trái
+- `[04:10]` rồi nếu các bạn thêm hiệu ứng ấy thì các
+- `[04:13]` bạn chỉ cần điều chỉnh cái annh chàng
+- `[04:14]` trai kia thôi hiệu ứng Bling này thì cô
+- `[04:17]` gái này nó lệch đang bị lệch này bạn kéo
+- `[04:19]` dài lên này Đây mình sẽ kéo lên trên một
+- `[04:21]` xíu
+- `[04:25]` đấy khá là ok rồi Tiếp theo thì các bạn
+- `[04:28]` thêm hiệu ứng nói thôi
+- `[04:30]` nói thì mình cho cô gái trước
+- `[04:32]` nhá mình chọn phầ to
+- `[04:35]` này to smile
+- `[04:38]` này mình kéo dài ra thêm mình uống âm
+- `[04:41]` thanh vào quy tắc nói thì nhân vật trên
+- `[04:44]` nói thì nhân vật dưới lắng nghe thì mình
+- `[04:46]` kéo dài Thanh Bling này tiếp tục chàng
+- `[04:48]` trai nói thì mình sẽ cộng vào chằng trai
+- `[04:52]` chọn vàn t này chọn Long tóc đấy Khi mà
+- `[04:56]` các bạn thêm hiệu ứng cho chàng trai thì
+- `[04:58]` các bạn Click vào cái gi giống Mũi tên
+- `[05:00]` này chọn phần Flip Horizon Thy này đây
+- `[05:04]` khá là ok rồi đây mình sẽ trỉ chiếu lại
+- `[05:06]` từ đầu bạn xem
+- `[05:08]` này đây đi cùng chiều này rồi sau đó anh
+- `[05:13]` chàng này quay
+- `[05:15]` lại cô gái này nói sau đó thằng trài này
+- `[05:19]` nói ok xong rồi và video mình xin phép
+- `[05:21]` tạm dừng ở đây cảm ơn các bạn đã xem
+- `[05:23]` mình Chúc các bạn thành công nhá

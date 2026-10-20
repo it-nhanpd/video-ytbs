@@ -1,0 +1,59 @@
+# HƯỚNG DẪN SỬ DỤNG HIỆU ỨNG DI CHUYỂN TRÊN PHẦN MỀM AINIMIZ ANIMATION MAKER
+
+- **Video:** kUFlPxDK3-s (2:26)
+- **URL:** https://www.youtube.com/watch?v=kUFlPxDK3-s
+- **Nguồn phụ đề:** YouTube tự động tiếng Việt (vi, asr), tải bằng yt-dlp; lỗi nhận dạng giọng nói còn nguyên
+
+## Transcript
+
+- `[00:00]` Hello xin chào tất cả các bạn lại là
+- `[00:02]` mình đây và trong video ngày hôm nay thì
+- `[00:05]` mình sẽ hướng dẫn các bạn cái cách mà
+- `[00:07]` chúng ta có thể sử dụng được cái hiệu
+- `[00:09]` ứng di chuyển cực kỳ là đơn giản trên
+- `[00:11]` phần mềm animate animation maker nhá và
+- `[00:15]` đầu tiên thì các bạn chọn vào phần biểu
+- `[00:17]` tượng hình người đây mình sẽ Click
+- `[00:19]` vào ở đây thì có rất là nhiều các mẫu
+- `[00:23]` nhân vật các bạn có thể chọn nhá Đây
+- `[00:26]` mình sẽ kéo xuống rồi chọn anh chàng đeo
+- `[00:29]` kính này
+- `[00:31]` tiếp theo thì các bạn chọn vào phần
+- `[00:35]` Motion đối với hiệu ứng di chuyển thì có
+- `[00:38]` rất là nhiều các bạn có thể chọn vào
+- `[00:41]` phần chạy nhá Đây nhân vật sẽ
+- `[00:44]` chạy đây mình sẽ chọn vào phần hing 4 đi
+- `[00:47]` muốn anh chàng này đi chậm rải một
+- `[00:50]` chút khi mà các bạn đã chọn xong thì các
+- `[00:53]` bạn kéo nhân vật đến nơi mà các bạn muốn
+- `[00:55]` đây mình sẽ để anh chàng này đi từ bên
+- `[00:58]` ngoài vào trong
+- `[01:00]` và để có thể chỉnh sửa được thì các bạn
+- `[01:02]` hãy lăn con trỏ cho mà Hình này nhỏ một
+- `[01:06]` chút kế tiếp thì các bạn Click vào phần
+- `[01:09]` nă
+- `[01:11]` này chọn phần
+- `[01:14]` move mình sẽ click phần
+- `[01:19]` Ok khi mà các bạn click xong thì các bạn
+- `[01:22]` hãy Click vào nhân vật
+- `[01:24]` này sau đó kéo anh chàng này đây mình sẽ
+- `[01:27]` chỉnh sữa này kéo Anh Tràng Thứ hai này
+- `[01:30]` đây mình sẽ cho anh chàng đi đến cái cây
+- `[01:33]` cột này
+- `[01:35]` đây khi mà các bạn đã chỉnh sửa xong thì
+- `[01:38]` bạn chọn phần 169 thì màn hình sẽ trở về
+- `[01:41]` ban đầu đây mình sẽ vào đây thử cho bạn
+- `[01:46]` xem như các bạn đã thấy thì anh chàng
+- `[01:49]` này chuyển động hơi nhanh thì bây giờ
+- `[01:51]` mình sẽ làm cho anh chàng này chuyển
+- `[01:53]` động chậm hơn một chút các bạn Click vào
+- `[01:56]` phần mve này và kéo dài Thanh này ra đây
+- `[01:59]` mình sẽ kéo đến Thanh 6
+- `[02:01]` giây rồi tiếp đến cái phần hooking này
+- `[02:04]` các bạn cũng kéo tương tự đây mình sẽ
+- `[02:07]` kéo đến Thanh 6 giây
+- `[02:09]` luôn mình sẽ Play lại cho các bạn xem
+- `[02:15]` nha và anh chàng đã đi chậm hơn một chút
+- `[02:19]` và video mình xin phép tậm dừng ở đây
+- `[02:21]` cảm ơn các bạn đã xem mình Chúc các bạn
+- `[02:23]` là thành công nha

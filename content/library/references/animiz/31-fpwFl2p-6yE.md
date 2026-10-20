@@ -1,0 +1,61 @@
+# CÁCH THÊM HIỆU ỨNG CHUYỂN ĐỘNG XE ĐẠP CHO ANIMIZ ANIMATION MAKER
+
+- **Video:** fpwFl2p-6yE (2:41)
+- **URL:** https://www.youtube.com/watch?v=fpwFl2p-6yE
+- **Nguồn phụ đề:** YouTube tự động tiếng Việt (vi, asr), tải bằng yt-dlp; lỗi nhận dạng giọng nói còn nguyên
+
+## Transcript
+
+- `[00:00]` cách để thêm hiệu ứng chuyển động chạy
+- `[00:01]` xe đạp trên phần mềm anim animation
+- `[00:05]` maker bây giờ hay cùng mình làm luôn
+- `[00:11]` nha đầu tiên các bạn hãy truy cập vào
+- `[00:13]` trình duyệt rồi gõ từ khóa
+- `[00:19]` [âm nhạc]
+- `[00:21]` này tiếp đến các bạn chịu khó chọn vào
+- `[00:24]` phần thư mục hình ảnh nhé các bạn có thể
+- `[00:27]` thấy ở đây có rất nhiều hình chuyển động
+- `[00:30]` bây giờ các bạn hãy chọn bất cứ một mẫu
+- `[00:31]` nào yêu thích nhé Nhân tiện mình lấy anh
+- `[00:34]` chàng này lấy ví dụ làm chuyển động cho
+- `[00:36]` các bạn dễ
+- `[00:39]` hiểu giờ mình sẽ click chuột phải rồi
+- `[00:42]` lưu hình ảnh này về
+- `[00:46]` nhé mình mở lên kiểm tra xem anh ấy còn
+- `[00:50]` chạy nữa không Ối giời ơi anh ấy còn
+- `[00:53]` khỏe
+- `[00:56]` lắm bước kế tiếp các bạn Mở phần mềm
+- `[00:59]` animix animation maker lên mình sẽ thêm
+- `[01:02]` dự án mới để làm cùng các bạn cho vui
+- `[01:05]` đến khúc này các bạn lại tiếp tục truy
+- `[01:07]` cập vào trình duyệt để lấy hình nền cho
+- `[01:09]` sinh
+- `[01:11]` [âm nhạc]
+- `[01:16]` động đến đây mình sẽ tìm kiếm một hình
+- `[01:19]` nền liên quan đến công viên các bạn có
+- `[01:22]` thể tìm kiếm một số hình nền khác theo
+- `[01:23]` kịch bản đã soạn từ
+- `[01:28]` trước
+- `[01:34]` tùy theo thẩm nghĩ từng người sau một
+- `[01:36]` hồi đắn đo mình sẽ quyết định lấy hình
+- `[01:40]` này các bạn hãy lao động thôi nào Click
+- `[01:43]` vào chuột phải sao ché rồi quay trở về
+- `[01:45]` phần mềm
+- `[01:46]` almis giờ chỉ việc dán hình nền vào thôi
+- `[01:50]` bước tiếp theo các bạn điều chỉnh hình
+- `[01:52]` ảnh làm sao tương xứng với tỉ lệ khung
+- `[01:54]` hình là ok đến khúc này quan trọng các
+- `[01:57]` bạn trở về mục tải xuống rồi tìm cái
+- `[02:00]` hình chuyển động rồi kéo thả vào phần
+- `[02:04]` mềm rồi mình điều chỉnh luôn kích thước
+- `[02:07]` nhân vật làm sao cho cân đối với hình
+- `[02:08]` nền tiếp tục lăn con chuột cho dễ chỉnh
+- `[02:11]` sửa hơn khúc này đặc biệt quan trọng các
+- `[02:14]` bạn hãy chú đến các thao tác mình làm
+- `[02:16]` [âm nhạc]
+- `[02:23]` nhé các bạn kéo thanh mút càng dài thì
+- `[02:25]` nhân vật di chuyển càng
+- `[02:28]` chậm
+- `[02:34]` và đây chính là thành quả của chúng ta
+- `[02:36]` cảm ơn các bạn đã theo dõi kênh mình
+- `[02:39]` nhé

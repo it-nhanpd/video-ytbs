@@ -1,0 +1,111 @@
+# CÁCH LÀM CHUYỂN ĐỘNG CHO XE ÔTÔ TRÊN PHẦN MỀM ANIMIZ ANIMATION MAKER
+
+- **Video:** ApHM-COl-hc (5:01)
+- **URL:** https://www.youtube.com/watch?v=ApHM-COl-hc
+- **Nguồn phụ đề:** YouTube tự động tiếng Việt (vi, asr), tải bằng yt-dlp; lỗi nhận dạng giọng nói còn nguyên
+
+## Transcript
+
+- `[00:00]` Hello xin chào các bạn chào mừng các bạn
+- `[00:02]` đến với kênh phương bic và trong video
+- `[00:04]` ngày hôm nay mình sẽ hướng dẫn các bạn
+- `[00:07]` cách làm cho cái xe aô tô chuyển động
+- `[00:09]` trên phần mềm animate animation maker
+- `[00:11]` cực kỳ đơn giản nhá thì đầu tiên các bạn
+- `[00:13]` chuẩn bị một cái xe ôô này xe này thì
+- `[00:15]` mình tách nền sẵn rồi các bạn có thể
+- `[00:17]` tham khảo cái xe ôô này qua cái chôm này
+- `[00:21]` đây giờ mình tách nền rồi các bạn nhá V
+- `[00:24]` mình sẽ hướng dẫn các bạn cách lấy cái
+- `[00:26]` xe auto này và chuyển sang cái cái cái
+- `[00:30]` nền này nó không bị dính background đây
+- `[00:34]` các bạn đầu tiên các bạn lên cái trang
+- `[00:36]` Google là ch Cốc Cốc Tùy các bạn nhá Đây
+- `[00:40]` mình sẽ mình lên trang Google này các
+- `[00:43]` bạn gọ từ khóa là k k cartoon này đây
+- `[00:47]` các bạn gõ từ khóa này cho mình và sau
+- `[00:49]` đó các bạn chọn một cái xe auto bất kỳ
+- `[00:51]` mà các bạn yêu
+- `[00:52]` thích rồi Tiếp theo thì các bạn sang
+- `[00:55]` bước hai các bạn vào một cái tab mới đây
+- `[00:59]` mình sẽ trở về từ đầu cho các bạn xem
+- `[01:00]` các bạn gọ từ khóa là remove này BG đây
+- `[01:04]` cái tắt của background kip này đây các
+- `[01:07]` bạn Gõ cái từ khoán này cho mình và sau
+- `[01:09]` đó bạn chọn vào cái trang web Thứ hai
+- `[01:12]` này online keep tools Lúc đầu thì mình
+- `[01:15]` chọn cái trang web này thì thật ra thì
+- `[01:16]` nó tách liền nó tách lền sâu quá nên
+- `[01:19]` mình không gọi là Không chèn được nên
+- `[01:21]` mình bắt buộc phải sang cái web này thứ
+- `[01:22]` hai đây đây tiếp đến thì mình sẽ chọn
+- `[01:26]` vào phần import from file này bạn nhấn
+- `[01:29]` vào từ khóa này nhá Đấy sau đó mình chọn
+- `[01:32]` cái file mình đã chọn đây cái k này mình
+- `[01:35]` nhấn Open
+- `[01:37]` này đâ lập tức thì trong g nó sẽ tách
+- `[01:40]` nên nào đây các bạn đợi một xí nha nó
+- `[01:42]` tách dừn dầ cho các bạn
+- `[01:50]` xem không biết là cái cái background này
+- `[01:53]` tách được không nhưng lúc nãy mình chọn
+- `[01:55]` một cái pho khác thì nó tách
+- `[01:57]` được do mạng yếu ta
+- `[02:00]` mạ kh mà th Mình sẽ chọn một cái file
+- `[02:03]` khác đi c xem chọn cái uto này
+- `[02:06]` [âm nhạc]
+- `[02:08]` đi à Cái uto này được các bạn này chắc
+- `[02:12]` là cái này tùy các bạn Tùy theo cái hình
+- `[02:16]` kit đây mình sẽ chọn cái uto này nh các
+- `[02:18]` bạn nhá Khi mà bạn tách được rồi thì các
+- `[02:21]` bạn chọn vào save s này rồi nó từ
+- `[02:25]` Download này đây mình sẽ tải về đấy tả
+- `[02:28]` về cho các bạn xem luôn t đ một xíu
+- `[02:31]` nhá đ chuẩn bị để tãi xuống mình Click
+- `[02:35]` vào phần chờ này Đấy tại thì còn 10 giây
+- `[02:40]` nữa thì nó sẽ cho phát xống này 5 giây
+- `[02:44]` bạn ấn một xí nha bạn kim nhận lên đấy
+- `[02:47]` download lập tức Download đúng không Khi
+- `[02:49]` mà các bạn Download xong mình sẽ kéo này
+- `[02:54]` kéo cái vừa tách lên Xong vào ph mình
+- `[02:58]` đấy tương tự có hai cái
+- `[03:01]` nhá Mình sẽ chọn vào phần 169 này lập
+- `[03:04]` tức Cái đ cl trở về này đây cái auto này
+- `[03:07]` nó thừa quá vì mình chèn sẵn rồi lúc ny
+- `[03:09]` mình lấy ví dụ Các bạn xem thôi mình sẽ
+- `[03:11]` xóa lên một cái nhá và để chèn được cái
+- `[03:15]` chuyển động thì đầu tiên các bạn nhấn
+- `[03:18]` phím này Ctrl này lăn chuột này để cho
+- `[03:20]` cái background nó nhỏ một xíu này đây
+- `[03:22]` tiếp đến các bạn để cho ô tô này nhá Đây
+- `[03:25]` ô tô này đi từ ngoài
+- `[03:28]` đây
+- `[03:30]` r thêm vào cái ứng chịu động
+- `[03:37]` xình như là cái này uto các
+- `[03:39]` [âm nhạc]
+- `[03:42]` bạn mình xác định được cái này nhá Cái
+- `[03:45]` này là rồi đâ mình sẽ thng m xem không
+- `[03:50]` phải các bạn đây là background Sorry các
+- `[03:52]` bạn nhá mình sẽ chọn cái trên nhá mình
+- `[03:54]` chọn dấu cộng
+- `[03:57]` này bạn chọn dấu cộng nhá và tiếp theo
+- `[04:00]` Chọn vào phần move này phần di chuyển
+- `[04:02]` này click và phần Ok đây mình sẽ kéo này
+- `[04:06]` dài
+- `[04:09]` ra đấy ô tô lập tức đi xuống nhá và để
+- `[04:13]` điều chịnh được hướng đi thì các bạn
+- `[04:15]` Click vào cái ô tô này hai lần này đây
+- `[04:17]` hoặc là nhiều lần vào sau đó kéo ô tô
+- `[04:20]` này mình cho đi đến đến đây nhá Tôi cho
+- `[04:24]` đi qua được tôi cho đi qua đi
+- `[04:26]` đấy đâ mình sẽ Play lại từ đầu xem xem
+- `[04:30]` nó đi như thế nào đấy khá là ok các bạn
+- `[04:34]` nhá Đây mình sẽ phóng cái background to
+- `[04:36]` lên cho các bạn xem thà quả của chúng
+- `[04:40]` [âm nhạc]
+- `[04:41]` ta rất là Ok luôn các bạn thêm mấy cái
+- `[04:45]` nệu ứng âm thanh này thêm mặt trời mới
+- `[04:48]` gió gì đó trên đây nhấy đầu Hòa nhẹ các
+- `[04:51]` bạn thêm vào trang trí cho nó sinin động
+- `[04:53]` hơn đấy và video mình xin phép tạm dừng
+- `[04:56]` ở đây cảm ơn các bạn đã xem mình Chúc
+- `[04:58]` các bạn làm thành công nha y

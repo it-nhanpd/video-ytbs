@@ -1,0 +1,295 @@
+# |HƯỚNG DẪN SỬ DỤNG| PHẦN MỀM ANIMIZ ANIMATION MAKER ĐƠN GIẢN MỚI NHẤT
+
+## Title / Channel / Duration / URL
+
+- **Title:** |HƯỚNG DẪN SỬ DỤNG| PHẦN MỀM ANIMIZ ANIMATION MAKER ĐƠN GIẢN MỚI NHẤT
+- **Channel:** Phương Pic (`UCJBH9NV8trqBG1wHBZWTfsQ` — https://www.youtube.com/channel/UCJBH9NV8trqBG1wHBZWTfsQ)
+- **Duration:** 12:03 (723 seconds)
+- **Upload Date:** 2022-09-06T18:30:27-07:00 (2022-09-06 / 2022-09-07 UTC+7)
+- **URL:** https://www.youtube.com/watch?v=fRQlfI8p2A4
+- **Playlist:** SỬ DỤNG PHẦN MỀM LÀM PHIM HOẠT HÌNH ANIMIZ ANIMATION MAKER (`PLgnYZoyRk24l0aHmy4QjAeKvynw2YsEnu`)
+- **Caption Source:** YouTube Vietnamese auto-generated captions (`vi`, `asr` — Tiếng Việt (được tạo tự động))
+
+## Transcript
+
+- `[00:00]` Ngà sửa ngày xưa ở một ngôi làng nọ có
+- `[00:03]` hai anh em chủ cửa hiệu may mỗi khi
+- `[00:06]` người phụ trách bán hàng người em thấy
+- `[00:10]` một khách hàng mới đang thử quần áo
+- `[00:12]` trước tấm gương ba mặt của cửa hàng
+- `[00:15]` người em sẽ thú nhận với khách hàng rằng
+- `[00:17]` mình nghe không tốt và khi khách hàng
+- `[00:19]` nói anh ta yêu cầu họ nhắc to hơn khi
+- `[00:23]` khách chọn được bộ đồ vừa ý và hỏi giá
+- `[00:25]` người em sẽ hỏi anh trai thợ may chính ở
+- `[00:29]` phía cuối phòng này anh trai bộ com lê
+- `[00:33]` này giá bao nhiêu nhỉ Đang giờ việc và
+- `[00:36]` chỉ ngước nhìn lên người anh trai trả
+- `[00:39]` lời với một sự phóng đại cực lớn giá
+- `[00:41]` thật của bộ đồ com lê bộ com lê bằng len
+- `[00:45]` tuyệt đẹp đó có giá 42 đô là giả vở
+- `[00:48]` không nghe thấy và khum tay lên tai để
+- `[00:51]` lắng nghe em trai hỏi lại một lần nữa
+- `[00:54]` anh trai lại trả lời 42 đô la sau đó em
+- `[00:59]` trai quay lại và nói với khách hàng anh
+- `[01:02]` ấy nói 22 đô la rất nhiều người sẽ vội
+- `[01:05]` vã mua bộ đồ com le và đi nhanh ra khỏi
+- `[01:08]` cửa hàng với món hời đắt bằng tốt trước
+- `[01:10]` khi em chàng trai tội nghiệp phát hiện
+- `[01:12]` ra sự nhầm lẫn
+- `[01:15]` Hello xin chào tất cả mọi người chào
+- `[01:18]` mừng tất cả quý vị và các bạn đã tới
+- `[01:20]` kênh phương bic và ở trong video ngày
+- `[01:23]` hôm nay thì mình sẽ hướng dẫn cho các
+- `[01:25]` bạn cái cách mà chúng ta có thể sử dụng
+- `[01:28]` được phần mềm anim animation maker cực
+- `[01:31]` kỳ là đơn giản sau cái video này thì
+- `[01:34]` mình tin chắc rằng ai cũng có thể học
+- `[01:37]` được và làm được và bây giờ cùng với
+- `[01:40]` mình bắt đầu luôn nha đến với bước đầu
+- `[01:43]` tiên thì các bạn hãy chèm một cái
+- `[01:45]` background để chèn được cái background
+- `[01:47]` chúng ta làm như thế nào thì các bạn hãy
+- `[01:50]` Click vào phần biểu tượng
+- `[01:53]` background rồi Tiếp theo các bạn Click
+- `[01:56]` vào dấu
+- `[01:58]` cộng khi các bạn Click vào dấu cộng thì
+- `[02:01]` có một số cái background miễn phí ở trên
+- `[02:04]` phần mềm các bạn lể chọn ngoài ra các
+- `[02:07]` bạn thể chọn cái background mà các bạn
+- `[02:09]` đã tải sẵn trên máy về đây là một số cái
+- `[02:13]` background mình đã tải trên trang web
+- `[02:16]` Nếu các bạn thích những cái background
+- `[02:18]` này thì mình sẽ để dưới phần mô tả các
+- `[02:20]` bạn có thể down miễn phí về máy do cái
+- `[02:24]` tình huống và cái hoạt cảnh đầu tiên thì
+- `[02:26]` mình sẽ chọn cái background này nhá mình
+- `[02:29]` sẽ Click vào mở và chọn optimate now
+- `[02:34]` Ờ tiếng Anh mình thật sự là không giỏi
+- `[02:37]` lắm Nếu mà trong khi phát âm có sai sót
+- `[02:40]` hay không chuẩn thì mong các bạn thông
+- `[02:41]` cảm
+- `[02:44]` nhá Khi các bạn đã chèn xong cái
+- `[02:46]` background việc tiếp theo thì các bạn
+- `[02:48]` hãy chèn thêm cái nhân vật thì để chọn
+- `[02:51]` được nhân vật các bạn hãy Click vào biểu
+- `[02:53]` tượng hình người ở phía góc màn hình tay
+- `[02:57]` phải mình sẽ chọn
+- `[03:01]` và khi các bạn click xong đây là một số
+- `[03:04]` nhân vật miễn phí mà các bạn có thể chọn
+- `[03:07]` nha các bạn có thể chọn bất cứ cái nhân
+- `[03:10]` vật nào mà các bạn yêu thích đây theo
+- `[03:12]` như cái hoạt cảnh đầu tiên thì mình sẽ
+- `[03:14]` chọn cái anh chàng
+- `[03:17]` này khi các bạn Click vào nhân vật rồi
+- `[03:20]` thì các bạn hãy chèn thêm cái Hiệu ứng
+- `[03:22]` hiệu ứng về cái giọng nói cảm xúc hoặc
+- `[03:25]` là chuyển động đây mình sẽ cho anh chàng
+- `[03:28]` này chuyển động các bạn chọn vào
+- `[03:32]` Motion đây mình sẽ chọn vào phần working
+- `[03:36]` 4 này
+- `[03:40]` rồi khi đã tryền xong thì mình sẽ kéo
+- `[03:44]` cái vị trí anh chàng này làm sao cho nó
+- `[03:47]` hợp lệ hoặc là nó vừa với kh
+- `[03:54]` hình đây mình sẽ lấy thử cho các bạn xem
+- `[03:58]` nha
+- `[04:00]` anh chàng này chuyển động rất là ngắn
+- `[04:02]` Khi các bạn muốn anh chàng này chuyển
+- `[04:04]` động dài thì các bạn hãy kéo cái Thanh
+- `[04:07]` work King này dài ra một
+- `[04:09]` [âm nhạc]
+- `[04:13]` chút Hiện tại thì các bạn có thể thấy là
+- `[04:16]` anh chàng này đang đi tại chỗ các bạn
+- `[04:19]` muốn anh chàng này di chuyển từ bên
+- `[04:21]` ngoài vào bên trong thì các bạn Click
+- `[04:24]` vào cái dấu
+- `[04:26]` cộng các bạn chọn từ move
+- `[04:31]` và mình sẽ tích
+- `[04:33]` ok đến đây thì mình sẽ kéo cái Thanh năn
+- `[04:37]` này lùi lại một
+- `[04:40]` chút và để cái Thanh move này dài ra
+- `[04:46]` bằng Thanh
+- `[04:48]` hing rồi sau mình sẽ play thử cho các
+- `[04:52]` bạn
+- `[04:54]` xem cái anh chàng này hiện tại thì anh
+- `[04:57]` ấy đi rất là lòng vòng đi không đúng
+- `[05:00]` đường vậy các bạn muốn anh ấy đi đúng
+- `[05:02]` đường thì các bạn làm như thế nào Các
+- `[05:04]` bạn hãy lăn chuột
+- `[05:06]` này ở sau cho hình nhỏ lại Rồi sau đó
+- `[05:09]` các bạn Click vào biểu tượng nhân vật
+- `[05:12]` rồi kéo cái hình bóng anh chàng
+- `[05:14]` này đến nơi mà các bạn muốn chọn Giả sử
+- `[05:18]` là mình muốn anh chàng này đi từ trong
+- `[05:19]` bên ngoài thì mình sẽ kéo anh chàng này
+- `[05:22]` từ vị trí bắt đầu là vị trí bên
+- `[05:24]` [âm nhạc]
+- `[05:27]` ngoài đây mình sẽ play thử cho các bạn
+- `[05:30]` xem
+- `[05:31]` nha
+- `[05:32]` Ờ anh chàng này hơi đi nhanh một chút
+- `[05:35]` Nếu các bạn muốn anh chàng này đi chậm
+- `[05:37]` thì các bạn lại Click vào phần
+- `[05:40]` play mình sẽ điều chỉnh thành 0,5 giây
+- `[05:44]` và kéo cái thanh này tiếp tục dài ra một
+- `[05:49]` chút mình sẽ Play lại cho các bạn xem
+- `[05:54]` nhá đây Hiện tại anh sàng này đi chậm
+- `[05:57]` thêm một chút
+- `[05:58]` rồi
+- `[06:00]` đến với nhân vật thứ hai thì các bạn
+- `[06:02]` cũng làm tương tự các bạn Click vào cái
+- `[06:05]` biểu tượng hình
+- `[06:07]` người Các bạn chọn vào cái anh chàng này
+- `[06:11]` là anh chàng nào các bạn yêu thích mình
+- `[06:12]` vẫn chọn cái chuyển động là Motion chọn
+- `[06:16]` phần
+- `[06:19]` working đến anh chàng này thì mình sẽ
+- `[06:22]` đặt vị trí tương tự giống anh chàng kia
+- `[06:25]` để được xem hết màn hình thì các bạn kéo
+- `[06:28]` lăn chuột này nó lùi lại thì màn hình nó
+- `[06:32]` sẽ trở nên
+- `[06:37]` nhỏ mình sẽ lận lại nhá để di chuyển anh
+- `[06:41]` chàng này thì các bạn
+- `[06:43]` hãy Click vào phần nă này các bạn chọn
+- `[06:47]` move trước hoặc là chọn bing trước được
+- `[06:50]` mình sẽ chọn phần move Tại vì lúc nãy
+- `[06:53]` mình chọn gú King 4 rồi mình sẽ kéo cái
+- `[06:56]` từ m này bằng cái tràng đầu tiên hoặc là
+- `[07:01]` ngắn hơn cũng được bạn có thể điều chỉnh
+- `[07:03]` làm sao anh chàng đi sau hay đi trước
+- `[07:06]` tùy đây mình sẽ chọn cái cái nhầm mình
+- `[07:10]` sẽ chọn cái Thanh hing chứ mình kéo dài
+- `[07:12]` ra
+- `[07:17]` đây anh chàng trai này chuyển động lại
+- `[07:20]` đi xuống giống như anh chàng ban đầu thì
+- `[07:21]` các bạn hãy lăn chuột lùi lại rồi Các
+- `[07:24]` bạn Click vào anh chàng Thứ hai này rồi
+- `[07:28]` các bạn kéo anh chàng này tương tự như
+- `[07:30]` anh chàng lúc ban đầu đây mình sẽ lại
+- `[07:34]` cho các bạn xem
+- `[07:37]` nha đấy rất là ok rồi ngoài ra thì các
+- `[07:41]` bạn có thể điều chỉnh cho hai chàng này
+- `[07:44]` đi chậm một chút được bằng cách chúng ta
+- `[07:46]` Click vào phần
+- `[07:47]` play các bạn có thể chọn 0,25 chậm hơn
+- `[07:50]` một chút hoặc lại nhanh hơn 2 giây
+- `[07:54]` Ờ khi cảnh một thì mình sẽ chèn như thế
+- `[07:57]` này ngoài ra các bạn muốn muốn thu lại
+- `[08:00]` cái những cái thanh này thì các bạn
+- `[08:01]` Click vào dấu trừ cho bướt thời gian lại
+- `[08:03]` tại vì mình chọn cãnh một nó tầm khoảng
+- `[08:05]` 4 giây thì mình sẽ Click vào dố
+- `[08:09]` trừ mình sẽ click lúc nào cho nó vừa đến
+- `[08:14]` khi mà mình click mà nó vừa xong ấy thì
+- `[08:15]` nó sẽ báo là chúng tôi không thể giảm
+- `[08:19]` cái dây của
+- `[08:20]` bạn Mình sẽ chọn OK
+- `[08:23]` nhá cái việc quan trọng nhất mà chúng ta
+- `[08:28]` muốn sáng tạo đ dung trong cái phim hoản
+- `[08:30]` đình thì các bạn hãy chèn âm thanh
+- `[08:33]` thường ấy các bạn Thể chèn cái
+- `[08:35]` background trước rồi sau đó các bạn chèn
+- `[08:36]` âm thanh bây giờ mình sẽ thêm cái hiệu
+- `[08:39]` ứng âm thanh bằng cách mình chọn vào cái
+- `[08:41]` biểu tượng âm thanh mình sẽ add
+- `[08:45]` sao đến với phần âm thanh thì có hai
+- `[08:48]` cách cách đầu tiên các bạn có thể là thu
+- `[08:51]` âm trực tiếp trên điện thoại hoặc là máy
+- `[08:55]` tính sau các bạn gắn vào còn Cách thứ
+- `[08:59]` hai là các bạn có thể vào một cái trang
+- `[09:00]` web
+- `[09:01]` vb.com các bạn có thể ghi những nội dung
+- `[09:04]` sáng tạo hoặc là những câu chuyện hàng
+- `[09:06]` ngày sau đó các bạn chuyển văn bản thành
+- `[09:09]` giọng
+- `[09:10]` nói các bạn lưu ý nhá riêng cái phần mềm
+- `[09:13]` animate animation nó chỉ chứa Tìm dưới
+- `[09:17]` dạng mv3 Nhưng cái
+- `[09:19]` dạng wav này thì nó chắc chắn là nó
+- `[09:23]` không nhận được đây mình sẽ thử cho các
+- `[09:25]` bạn xem nhá Mình sẽ chọn luôn bằng v TH
+- `[09:29]` bây giờ mình sẽ play thử cho các bạn
+- `[09:32]` xem cái timeline nó hiện lên nhưng chả
+- `[09:35]` nghe giọng gì luôn các bạn
+- `[09:37]` ạ Còn nếu khi mà các bạn đã làm sai bước
+- `[09:40]` nào đó đấy các bạn muốn trở về hay là
+- `[09:43]` gọi cách khác là ô ấy thì các bạn Click
+- `[09:46]` vào cái dấu mũi tên trở về Hoặc là các
+- `[09:48]` bạn Thể Nhấn vào kết hộp tổ phím là Ctrl
+- `[09:53]` Z quay lại với phần âm thanh thì các bạn
+- `[09:56]` vẫn chọn là phần add Sa Mình sẽ chọn cái
+- `[09:59]` dạng mới và mình sẽ mở cho các bạn xem
+- `[10:04]` đến đây thì mình chọn no này trans and
+- `[10:08]` add đến với phần này thì mình sẽ kéo
+- `[10:11]` bằng với
+- `[10:13]` timeline mình sẽ play thử cho các bạn
+- `[10:15]` xem nhá ngày xưng ngày xưa ở một ngôi
+- `[10:18]` lạn nọ có hai anh em là chủ cử hiệu may
+- `[10:22]` mỗi khi người em chech bán hàng cực kỳ
+- `[10:24]` chất lượng nha cảnh một là mình sẽ làm
+- `[10:26]` đến đây Còn nếu các bạn muốn thu ngắn
+- `[10:29]` cái timeline này này thì các bạn hãy
+- `[10:31]` chỉnh sửa vào cái âm thanh này bằng cách
+- `[10:34]` các bạn Click vào chuột phải các bạn
+- `[10:37]` chọn vào phần âm thanh các bạn Click vào
+- `[10:39]` chột phải chọn edit sao đến đây thì các
+- `[10:43]` bạn có thể lực bỏ đi cái âm thanh nào
+- `[10:45]` các bạn không muốn đây mình sẽ play thử
+- `[10:47]` các bạn xem ngày xửa ngày xưa ở một ngôi
+- `[10:50]` lạng nọ có hai anh em là chủ cửa hiệu
+- `[10:53]` may Mình sẽ chọn từ đầu đến đây còn
+- `[10:56]` những phần sau mình bỏ đi thì các bạn
+- `[10:58]` chọn phần cut out này và sau đó các bạn
+- `[11:01]` kéo cái Thanh có cái mũi tên màu cam cam
+- `[11:04]` này bạn kéo đến đây tiếp theo các bạn
+- `[11:07]` Click vào
+- `[11:09]` ok giờ âm thanh đã được xử lý xong rồi
+- `[11:12]` Bây giờ mình sẽ trỉnh chiếu lại cho các
+- `[11:14]` bạn xem n ngày sửa ngày xưa ở một ngôi
+- `[11:18]` lạng nọ có hai anh em là chủ cửa hiệu
+- `[11:20]` may quá chất lượng luôn các bạn ạ Và để
+- `[11:24]` thu lại cái timeline này cho nó bằng đến
+- `[11:27]` đây thì các bạn làm tương tự xống như
+- `[11:29]` lúc này bạn Click vào dấu trừ đây mình
+- `[11:32]` sẽ click dấu trừ đế khi nào nó hết rút
+- `[11:36]` quận hết thời gian thì thôi Đây mình sẽ
+- `[11:39]` chọn
+- `[11:41]` Ok vậy Đây chính là thành quả chúng ta
+- `[11:44]` và cảm ơn các bạn đã xem video nếu các
+- `[11:47]` bạn thấy kênh này hay và hu ích thì các
+- `[11:49]` bạn nhớ đừng quên Đăng ký Kênh và ủng hộ
+- `[11:52]` mình và ngoài ra nếu các bạn muốn Tài
+- `[11:55]` phần mềm animate animation maker thì
+- `[11:57]` mình để dưới phần tải nhá các bạn có thể
+- `[11:59]` download
+- `[12:01]` về
+
+## Software Features Demonstrated (Based on Transcript/Captions)
+
+1. **Chèn phông nền (Background) (`[01:43]` – `[02:44]`):**
+   - Click vào biểu tượng **Background** rồi bấm vào dấu cộng (`+`).
+   - Chọn các background miễn phí có sẵn trong phần mềm hoặc tải background có sẵn từ máy tính lên (nhấn **Mở** và chọn **Optimize now** — trong caption tự động ghi là *"optimate now"*).
+2. **Thêm nhân vật (Characters/Roles) và gán chuyển động hành động (`[02:46]` – `[04:13]`):**
+   - Click vào biểu tượng hình người ở góc bên phải màn hình để mở thư viện nhân vật miễn phí có sẵn.
+   - Chọn nhân vật phù hợp với hoạt cảnh, sau đó chọn hiệu ứng cho nhân vật (giọng nói, cảm xúc, hoặc chuyển động — **Motion**, ví dụ chọn hành động đi bộ **Walking 4** — trong caption ghi là *"working 4"*).
+   - Kéo chỉnh vị trí nhân vật cho vừa khung hình và kéo dài thanh hành động trên timeline để nhân vật chuyển động lâu hơn.
+3. **Di chuyển vị trí nhân vật trên khung hình (Move) và thu nhỏ màn hình để chỉnh đường đi (`[04:13]` – `[05:31]`):**
+   - Khi nhân vật chỉ bước đi tại chỗ, bấm vào dấu cộng (`+`) trên timeline của nhân vật, chọn hiệu ứng **Move** và nhấn **OK**.
+   - Kéo lùi thanh `None` (caption ghi *"Thanh năn"*) và kéo dài thanh **Move** cho bằng với thanh hành động đi bộ.
+   - Lăn con lăn chuột để thu nhỏ khung nhìn màn hình, click vào biểu tượng nhân vật rồi kéo phần hình bóng của nhân vật về vị trí bắt đầu (ví dụ từ bên ngoài đi vào bên trong) để nhân vật đi đúng đường thay vì đi lòng vòng.
+4. **Điều chỉnh tốc độ hành động của nhân vật (`[05:32]` – `[05:58]`, `[07:41]` – `[07:53]`):**
+   - Click vào phần **Play** của hành động để chỉnh tốc độ nhanh/chậm của chu kỳ chuyển động (ví dụ chỉnh thành `0,5 giây`, `0,25` để chậm hơn hoặc `2 giây` nhanh hơn) kết hợp kéo dài thanh thời gian trên timeline.
+5. **Thêm nhân vật thứ hai và phối hợp di chuyển song song (`[06:00]` – `[07:40]`):**
+   - Chọn thêm nhân vật thứ hai từ biểu tượng hình người, áp dụng hiệu ứng **Motion** (**Walking**) và **Move**, căn chỉnh độ dài thanh trên timeline bằng hoặc ngắn/dài hơn nhân vật thứ nhất, và lăn chuột thu nhỏ màn hình để kéo vị trí xuất phát đi cùng nhân vật đầu tiên.
+6. **Rút gọn thời lượng cảnh trên Timeline bằng dấu trừ (`-`) (`[07:54]` – `[08:23]`, `[11:24]` – `[11:41]`):**
+   - Click vào biểu tượng dấu trừ (`-`) để bớt thời gian thừa của cảnh trên timeline cho đến khi vừa khít với các thanh hiệu ứng (khi giảm hết mức, phần mềm hiện thông báo không thể giảm thêm thời gian nữa thì bấm **OK**).
+7. **Chèn âm thanh / lồng tiếng (Add Sound) và lưu ý định dạng MP3 vs. WAV (`[08:28]` – `[10:26]`):**
+   - Click vào biểu tượng âm thanh và chọn **Add Sound** (caption ghi *"add sao"*).
+   - Có 2 cách chuẩn bị âm thanh: thu âm trực tiếp trên điện thoại/máy tính rồi đưa vào, hoặc chuyển văn bản thành giọng nói trên trang web (caption ghi *"vb.com"*).
+   - Phần mềm chỉ nhận âm thanh định dạng **MP3** (caption ghi *"mv3"*); nếu chọn định dạng **WAV**, thanh âm thanh vẫn hiện trên timeline nhưng khi Play sẽ không nghe thấy tiếng.
+   - Khi chèn file MP3, chọn **No** -> **Transcode and Add** (caption ghi *"trans and add"*) rồi kéo thanh âm thanh bằng với timeline.
+8. **Hoàn tác thao tác sai (Undo / Ctrl + Z) (`[09:37]` – `[09:53]`):**
+   - Click vào dấu mũi tên trở về trên giao diện hoặc nhấn tổ hợp phím `Ctrl + Z` để quay lại bước trước đó.
+9. **Cắt bỏ đoạn âm thanh thừa trực tiếp trong phần mềm (Edit Sound / Cut Out) (`[10:26]` – `[11:20]`):**
+   - Click chuột phải vào thanh âm thanh trên timeline, chọn **Edit Sound** (caption ghi *"edit sao"*).
+   - Nghe thử để xác định điểm cắt, chọn **Cut Out**, kéo thanh có mũi tên màu cam để lược bỏ phần âm thanh không mong muốn phía sau rồi nhấn **OK**.

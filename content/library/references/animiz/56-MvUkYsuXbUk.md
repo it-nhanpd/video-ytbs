@@ -1,0 +1,298 @@
+# NÂNG CAO KỸ NĂNG LÀM PHIM HOẠT HÌNH ANIMIZ
+
+- **Video:** MvUkYsuXbUk (13:54)
+- **URL:** https://www.youtube.com/watch?v=MvUkYsuXbUk
+- **Nguồn phụ đề:** YouTube tự động tiếng Việt (vi, asr), tải bằng yt-dlp; lỗi nhận dạng giọng nói còn nguyên
+
+## Transcript
+
+- `[00:00]` [âm nhạc]
+- `[00:01]` Hello xin chào các bạn nhé Chào mừng các
+- `[00:04]` bạn đến với kênh phươ bic và trong video
+- `[00:07]` ngày hôm nay thì mình sẽ hướng dẫn các
+- `[00:09]` bạn cách làm à cái từ hướng dẫn thì nó
+- `[00:11]` hơi cao quá Hôm nay thì mình sẽ chia sẻ
+- `[00:14]` với các bạn một số cái cách để chúng ta
+- `[00:16]` có thể nâng cao kỹ năng khi các bạn làm
+- `[00:18]` phim hoạt hình trên anim đầu tiên đối
+- `[00:21]` với cái dạng Thông thường chúng ta hay
+- `[00:23]` làm là chúng ta chèm một cái background
+- `[00:25]` này rồi để nhân vật nói chuyện rồi đi
+- `[00:28]` đứng đấy đây dùng này rất là cơ bản trên
+- `[00:31]` phần mềm các bạn nhá Còn đối với dạng mà
+- `[00:33]` nâng cao hơn một xíu nhá nâng cao so so
+- `[00:36]` với cơ bản thì chúng ta có thể điều
+- `[00:38]` chỉnh được cuốn sách này là nhân vật có
+- `[00:41]` thể ngồi trong cái ghế này hoặc là cái
+- `[00:43]` đồng hồ hoặc là cái bảng nó di chuyển
+- `[00:46]` được đây mình sẽ cho các bạn xem cái
+- `[00:47]` video mẫu đây
+- `[00:51]` đó và các bạn thường là thắc mắc là làm
+- `[00:55]` cái này có khó không thật ra cái này
+- `[00:57]` không khó các bạn nó vẫn là thao tác củ
+- `[01:00]` thôi Chẳng qua là nó nhiều hơn vài bước
+- `[01:02]` và cấu hình máy cơ bản hay là máy bình
+- `[01:05]` thường thì xài Nói chung là thoải mái
+- `[01:08]` nhưng với một điều kiện là các bạn dùng
+- `[01:10]` cho mình cái power boy từ bản 2019 trở
+- `[01:14]` lên hoặc là bản 365 nhá Nếu bạn nào chưa
+- `[01:17]` có thì inport cho mình mình sẽ hỗ trợ
+- `[01:19]` cài đây mình sẽ vào vấn đề chính nhá đây
+- `[01:22]` còn cái cảnh thứ ba đây giới thiệu nốt
+- `[01:24]` đây Cái này rất là hay nhá Giả sử các
+- `[01:26]` bạn muốn làm cho thầy giáo này Ngồi đây
+- `[01:28]` giảng học sinh này này đây số liệu Nói
+- `[01:31]` chung là truyền đạt cái gì đó đây Tùy
+- `[01:33]` theo cái kịch bản các bạn nhá thì để làm
+- `[01:35]` được cái này Đầu tiên thì mình sẽ lấy
+- `[01:36]` một cái cảnh mới đi đây một cái
+- `[01:38]` background gọi là một cạnh mới chống
+- `[01:39]` không như này các bạn vẫn vào cái trang
+- `[01:42]` web fre remix.com như những cái video
+- `[01:45]` trước mình chia sẻ đó mỗi tội nhá Khi mà
+- `[01:49]` các bạn tìm kiếm cái background các bạn
+- `[01:51]` để cho mình cái đuôi là svg này giả sự
+- `[01:54]` mình tìm cái lớp học là svg tại sao lại
+- `[01:56]` thế Tại vì cái đuôi svg ấy nó tách từng
+- `[01:59]` layer các bạn chỉ vào sắp xếp thôi là nó
+- `[02:01]` sẽ logic đó đây mình sẽ chọn một cái
+- `[02:05]` background có svg nhá các bạn lưu ý nhá
+- `[02:08]` Khi bạn tìm background ấy chú ý vào cái
+- `[02:10]` đuôi file này giả sử nhá mình chọn cái
+- `[02:12]` background này cái mục file này đó nó có
+- `[02:16]` svg thì cái file này có thể tách được
+- `[02:20]` đầu tiên là cái file này nhá tiếp đến
+- `[02:23]` thì mình sẽ tìm background nào nhìn cho
+- `[02:25]` nó đẹp hơn một xíu các bạn background
+- `[02:26]` này nó đơn giản quá đây cái background
+- `[02:29]` này giống dạng này cái này là nhìn phát
+- `[02:31]` biết luôn chả svr gì đâu đấy thì cái
+- `[02:34]` background khác đi Sorry nhá Tớ tắt cái
+- `[02:36]` quảng cáo kia
+- `[02:38]` đi bây giờ đây giống nh dạng này này đây
+- `[02:43]` mình sẽ lấy ví dụ nhá tùy theo kịch bản
+- `[02:45]` bạn các bạn tìm cái file mà có đuôi svg
+- `[02:47]` này các bạn chọn vào phần
+- `[02:50]` Download Click vào cái dấu cái dấu mũi
+- `[02:53]` tên đi xuống này đó chọn vào
+- `[02:57]` SG đây nó tải sống luôn nó không tốn
+- `[03:00]` nhiều dữ liệu các bạn nó chưa đầy một MB
+- `[03:02]` luôn tiếp đến thì các bạn vào power boy
+- `[03:05]` mình vào lại từ đầu cho các bạn nhá dễ
+- `[03:07]` hình dung chứ Bây giờ mình làm nữa rồi
+- `[03:08]` để các bạn làm thế cũng tội mình làm bao
+- `[03:11]` boy này à mình vào ba boy chứ Trời ơi nó
+- `[03:15]` nhiều quá cái
+- `[03:17]` giọng Sorry các bạn nhá giọng mình kiểu
+- `[03:19]` nó hơi khó
+- `[03:20]` nghe kiểu nó vừa miền Bắc miền
+- `[03:24]` chung thôi Mình vào vấn đề chính thôi
+- `[03:27]` nói nhiều quá là các bạn bảo mình quyền
+- `[03:28]` mất đây cái file mình vừa tải xong mình
+- `[03:31]` kéo thả đây kéo thả tỏ phát mình giữ
+- `[03:34]` phím shift này đấy Kéo rộng
+- `[03:39]` ra tiếp đến các bạn C click chuột phải
+- `[03:44]` chọn vào một cái group này ă group nó
+- `[03:47]` chọn
+- `[03:48]` giết đấy nếu mà các bạn vẫn thấy chưa
+- `[03:53]` tách ra chưa tách ra thì các bạn vẫn
+- `[03:55]` tiếp tục chọn vào chuột phải vào mục
+- `[03:59]` group này oup đấy Bây giờ nó tách rồi
+- `[04:02]` này Tách cái bàn này đồng hồ này bóng
+- `[04:05]` đồng hồ này thôi Cái này Xóa đi nhá Bóng
+- `[04:08]` xóa đi nếu mà các bạn cần thì các bạn cứ
+- `[04:10]` lưu mình sẽ để ra ngoài hết
+- `[04:14]` nhá Nếu mà các bạn thao TC sai Các bạn
+- `[04:18]` cứ redu với andu nhá Xóa này
+- `[04:22]` đi Đây là cái nền của cái bảng này
+- `[04:30]` Đây là cái tũ này Đây nó chia rất là hay
+- `[04:34]` các bạn nhá nào không cần các bạn cứ xóa
+- `[04:36]` đi
+- `[04:37]` đó Cái ghế này hiện tại vẫn chưa tách
+- `[04:40]` đúng không Bây giờ các bạn click chuột
+- `[04:42]` phải tiếp này chọn group này oup đó
+- `[04:45]` chúng ta sẽ tách được như này còn nếu mà
+- `[04:47]` các bạn muốn tách tiếp đấy các bạn vẫn
+- `[04:49]` tiếp tục là group này un group đó đấy
+- `[04:52]` ghế Ra ghế bản ra bàn đấy thoải mái luôn
+- `[04:54]` các bạn tha mà gọi là edit chỉnh sữa
+- `[04:58]` thoải mái đó tiếp đến tiếp đến nhá các
+- `[05:01]` bạn lưu cho mình lưu lại nhá giả sự nhá
+- `[05:05]` Nếu mà các bạn lưu này ấ thì nó chạy
+- `[05:07]` được một cái thôi các bạn phải group nó
+- `[05:09]` lại ví dụ như TH là mình muốn hai cái
+- `[05:11]` này group với nhau các bạn chọn shift
+- `[05:13]` này rồi click CHT chuột trái rồi chọn
+- `[05:17]` Ctrl g hoặc là click chuột phải này
+- `[05:21]` group nó lại
+- `[05:23]` đây bây giờ Lưu nhá chọn chuột phải này
+- `[05:28]` SH
+- `[05:29]` tr à có một cái lưu ý nữa là khi mà các
+- `[05:34]` bạn lưu ấ các bạn chịu khó đặt tên
+- `[05:36]` file Tại vì khi mà các bạn vào animate
+- `[05:40]` làm nhiều các bạn dễ bị loạn đây cho các
+- `[05:42]` bạn xem đây cái cảnh thứ hai đây mình
+- `[05:44]` phải đặt tên file này bảng 11 này tụ
+- `[05:47]` sách này ghế sofa đồng hồ little boy này
+- `[05:49]` bàn này cuốn sách quả cầu này đấy các
+- `[05:51]` bạn chịu khó đặt tế file ấy khi mà các
+- `[05:53]` bạn thêm hiệu ứng á nó rất là nhanh các
+- `[05:55]` bạn không bị loạn đây mình sẽ vào bo boy
+- `[05:58]` nhá h xin lỗi các bạn nhá mình nói hơi
+- `[06:00]` nhiều nên cái giọng mình cái cổ mình nó
+- `[06:02]` hơi
+- `[06:03]` khàn Sorry các bạn đây mình sẽ lưu nhá
+- `[06:08]` CS picture này rồi Đây là cái gì đây Đây
+- `[06:12]` là cái sàn sàn nhà
+- `[06:15]` đi đó đây là bảng này cps picture
+- `[06:21]` Download này bảng học đi Tại vì trước đó
+- `[06:26]` Mình lưu một cái bảng rồi sợ trùng file
+- `[06:28]` quá đây Các bạn cứ Lưu Thế thôi
+- `[06:30]` các bạn lưu những cái đối tượng như này
+- `[06:33]` khi mà lưu xong ấy các bạn vào anit đây
+- `[06:36]` vào anit này các bạn chọn vào cái mục mà
+- `[06:39]` các bạn vừa mới lưu xong này đây Mình
+- `[06:41]` lưu một mớ đây khá là
+- `[06:43]` nhiều các bạn chỉ kéo thả vào thôi mình
+- `[06:47]` sẽ để như này nhá một là các bạn kéo như
+- `[06:50]` này bạn Đợi mình xíu nh đây các bạn kéo
+- `[06:52]` như này cứ kéo thả tọp vào thôi Đây cứ
+- `[06:56]` kéo như này
+- `[06:58]` [âm nhạc]
+- `[07:03]` cũng hơi nhiều phết nhỉ Giờ chị gọi là
+- `[07:07]` công sắp xếp rồi này nọ Thôi để dễ dàng
+- `[07:11]` chỉnh sữ hơn thì các bạn chịu khó lăn
+- `[07:13]` con chuột lăn con chuột nhá Đây bước này
+- `[07:17]` khá là hay này đây Hiện tại là nó sắp
+- `[07:21]` xếp tùm la tùm lum ra trên dưới nó nó
+- `[07:24]` không gọi là không theo thứ tự các bạn
+- `[07:26]` nhá đầu tiên thì background ấy thì các
+- `[07:27]` bạn ưu tiên là cho nó sau cùng đúng
+- `[07:30]` không đây Các bạn xác ờ các bạn xác minh
+- `[07:32]` là cái hình nền lớp học đúng không các
+- `[07:34]` bạn giữ chuột trái đây vào đoạn mà
+- `[07:39]` picture 13 này đấy thì cái background
+- `[07:42]` này nó sẽ là ở phía
+- `[07:47]` sau đây mình lấy ví dụ nôa là các bạn để
+- `[07:50]` hình nền Nó ở phía dưới cùng ấy thì nó
+- `[07:53]` sẽ xuất hiện đầu tiên tương tự như cái
+- `[07:55]` kia thì xuất hiện sau
+- `[08:01]` cái này cái gì đây Hình như mình chèn
+- `[08:03]` hai cái hình đề rồi mình xóa một cái
+- `[08:06]` nhá các bạn cứ kéo rồi Điều chỉnh kích
+- `[08:09]` thước thôi à Còn một cái mẹo nữa nếu mà
+- `[08:13]` các bạn quên sắp xếp như nào ấy các bạn
+- `[08:14]` vào cái đây cái hình cũ này bạn xem nó
+- `[08:18]` sắp xếp như thế nào mình sắp xếp theo
+- `[08:19]` rồi điều Trịnh kích
+- `[08:22]` thước rồi đặt vị trí
+- `[08:26]` này đồng hồ
+- `[08:30]` lám này thì hơi kỳ công thôi Được cái là
+- `[08:32]` nó logic Và Nó kiểu nó hợp lý th các bạn
+- `[08:36]` mình thêm cái bàn nhá chứ Đệ này nó
+- `[08:40]` thiếu thiếu gì bàn này ghế
+- `[08:44]` [âm nhạc]
+- `[08:47]` này các bạn giữ phím shift thì cái kích
+- `[08:50]` thước ấy nó sẽ không thay đổi Còn nếu
+- `[08:52]` bạn không sử dụng phím ship ấy các bạn
+- `[08:54]` điều chỉnh như này thì nó sẽ bị méo
+- `[08:56]` nhá chúng ta cũng không nhất thiết
+- `[09:00]` dự phím ship đâu tùy theo gọi là cái
+- `[09:03]` trường hợp khác nhau đây cái bản này nó
+- `[09:06]` đang ở phía trước cái sách này đúng
+- `[09:08]` không
+- `[09:10]` đấy thì các bạn kéo cái cuốn sách này nó
+- `[09:15]` ở phía trước cái bàn này kéo này các bạn
+- `[09:17]` xác định nhá Đây là cái lưu ý mình bảo
+- `[09:20]` các bạn đặt tên file ấy nó là dễ dàng
+- `[09:22]` khi bạn kéo lên kéo xuống ấy nó xác định
+- `[09:24]` được cái đối tượng nào ấy nếu mà các bạn
+- `[09:26]` không đặt t file ấy cácc bạn mò dòm cả
+- `[09:29]` ngày họ cầu này nó đứng trước cái bàn
+- `[09:32]` đúng không giữ chột trái này kéo lên này
+- `[09:35]` [âm nhạc]
+- `[09:40]` đấy Còn cái ghế nữa thôi khá là hay các
+- `[09:44]` bạn
+- `[09:45]` nhá đây chúng ta được cái background như
+- `[09:48]` th này rồi với cả được một số đồ họa như
+- `[09:51]` này tiếp đến thì mình sẽ chèn thêm nhân
+- `[09:52]` vật Nhấn vào biểu tượng nhân vật này chọ
+- `[09:56]` thầy giáo đi chọn phần shit là ngồi chọn
+- `[10:00]` lúc cáp là
+- `[10:02]` nhìn mình sẽ phóng to thầy nhá thầy đang
+- `[10:06]` ngồi trên bàn Ảo Mau quá đây mình sẽ kéo
+- `[10:09]` thầy xuống ngồi ở sau bàn nhé ngồi trên
+- `[10:13]` bàn hơi kỳ
+- `[10:14]` nhỉ Đấy hợp lý liền Cái đồng hồ này nó
+- `[10:18]` đang ở phía Cao đúng không cho nó lên
+- `[10:20]` [âm nhạc]
+- `[10:23]` đi cả cho nó nhỏ đú rồi nếu các bạn làm
+- `[10:27]` sai ấ thì các bạn một là Ctrl Z2 là các
+- `[10:30]` bạn nhấn vào phần này nó sẽ gọi là undo
+- `[10:32]` hoặ redo lại cái đồng hồ này nó nó vững
+- `[10:35]` quá thôi cắt đi nhá Đấy có thấy giáo
+- `[10:43]` không Mình sẽ kéo thêm cái hiệu ứng thầy
+- `[10:46]` giáo cho dài
+- `[10:48]` ra đấy thầy giáo nhìn lên bảng xong này
+- `[10:51]` rồi Các em hãy giải bài toán đi rồi sau
+- `[10:55]` đó úi giời rồi cho thầy nói nữa hợp lý
+- `[11:01]` liền đấy Bây giờ ai giãi được bài toán
+- `[11:04]` này thầy sẽ cho lớp đi về sớm luôn
+- `[11:09]` đó cho cái bàn này lên lên xí nh tiếp
+- `[11:13]` đến thì các bạn chèn hiệu ứng thôi bạn
+- `[11:16]` sắp xếp được xong thì các bạn chèn hiệu
+- `[11:17]` ứng nhá giữ cái cuốn sách này đúng không
+- `[11:19]` các bạn muốn chèn hiệu ứng đây cái từ
+- `[11:23]` năn này là không có gì c nếu mà các bạn
+- `[11:26]` muốn thêm hiệu ứng xuất hiện đấy thì các
+- `[11:28]` bạn click hai lần vào th năn này chuột
+- `[11:30]` trái nhá Đây mình sẽ cho cuốn sách nó
+- `[11:32]` xuất hiện như
+- `[11:34]` này 3D đi Úi giời
+- `[11:40]` thôi ống khác đi 3D nhìn nó màu mè quá
+- `[11:45]` đây cuốn sách xuất hiện này cho quả cầu
+- `[11:48]` này rung lắc đúng không thì các bạn
+- `[11:49]` Click vào quả cầu này bạn chọn vào phần
+- `[11:52]` năn này hai lần đấy chuột trái này bạn
+- `[11:55]` sang cái mục spot đi đây cái mục spot
+- `[11:58]` này cũng hay này ngon những hiệu a Đây
+- `[12:01]` cái này này hợp lý
+- `[12:04]` liền Giả sử nhá giả sự nhá Có cái này
+- `[12:08]` hay này nếu mà các bạn cho cái hiệu ứng
+- `[12:10]` mà tầm khoảng 2 ba giây xuất hiện ấy thì
+- `[12:12]` các bạn kéo thanh away này dài
+- `[12:15]` ra các bạn chọn vào dấ cộng này chọn
+- `[12:19]` sport
+- `[12:22]` này các bạn kéo hiệu ứng tầm khoảng 2 3
+- `[12:24]` giây này không nhất thiết là trong đầu
+- `[12:27]` video nó có hi ứng đâu mà trong gọi là
+- `[12:30]` trong video trong giữa video hoặc là
+- `[12:32]` cuối video thì nó vẫn thêm hiệu ứng được
+- `[12:35]` các bạn để cái Thanh hiệu ứng càng dài
+- `[12:37]` thì cái hiệu ứng nó càng
+- `[12:40]` chậm đấy khá là hay các bạn
+- `[12:44]` nhá cái cuốn sách này thì sau mình sẽ
+- `[12:47]` cho một hiệu ứng mới nữa đi cuốn sách
+- `[12:50]` cháy cháy
+- `[12:52]` này lm này tha hồ sáng tạo các
+- `[12:56]` bạn Đây đây là những cái cách mà chúng
+- `[12:59]` ta có thể làm cho nó sáng tạo cái bộ
+- `[13:01]` phim màn hình
+- `[13:03]` [âm nhạc]
+- `[13:04]` thôi và video mình xin phép tạm dừng ở
+- `[13:07]` đây cảm ơn các bạn đã xem mình Chúc các
+- `[13:10]` bạn thành công nhé nếu mà các bạn có
+- `[13:13]` thắc mắc gì ấy thì các bạn cứ nhắn tin
+- `[13:16]` cho mình hoặc là comment trên Việ mình
+- `[13:18]` đó còn nếu mà bạn nào mà muốn gọi là học
+- `[13:22]` cái học animate ấy thì mình vẫn dạy kèm
+- `[13:25]` nhá Còn cái kiến thức của mình dạy trong
+- `[13:28]` lớp học ấy ấy nó cũng như cái video mình
+- `[13:30]` đăng trên YouTube ấy mỗi tội là mình
+- `[13:32]` kiểu mình contact ấy có là tương tác
+- `[13:35]` trực tiếp thì nó sẽ hiệu quả
+- `[13:37]` hơn thì kiến thức cũng như nhau thôi
+- `[13:40]` Chẳng qua là được tiếp cận với cả mình
+- `[13:42]` hỗ trợ là trực tiếp luôn thôi Chúc các
+- `[13:46]` bạn thành công nhá Xin chào và hẹn gặp
+- `[13:48]` lại
