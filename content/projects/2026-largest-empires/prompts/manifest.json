@@ -1,0 +1,96 @@
+{
+  "assets": [
+    {
+      "assetId": "mascot_explorer_neutral",
+      "inbox": "mascot-explorer-neutral",
+      "target": "projects/2026-largest-empires/assets/mascot_neutral.png",
+      "scene": "s009",
+      "layer": "mascot_neutral",
+      "process": {
+        "crop": {
+          "left": 140,
+          "top": 120,
+          "width": 760,
+          "height": 780
+        },
+        "keyOut": true,
+        "keyTolerance": 30,
+        "minHolePx": 600,
+        "trim": true,
+        "fit": {
+          "width": 800,
+          "height": 800
+        }
+      }
+    },
+    {
+      "assetId": "mascot_explorer_surprised",
+      "inbox": "mascot-explorer-surprised",
+      "target": "projects/2026-largest-empires/assets/mascot_surprised.png",
+      "scene": "s009",
+      "layer": "mascot_surprised",
+      "process": {
+        "crop": {
+          "left": 140,
+          "top": 120,
+          "width": 760,
+          "height": 780
+        },
+        "keyOut": true,
+        "keyTolerance": 30,
+        "minHolePx": 600,
+        "trim": true,
+        "fit": {
+          "width": 800,
+          "height": 800
+        }
+      }
+    },
+    {
+      "assetId": "mascot_explorer_thinking",
+      "inbox": "mascot-explorer-thinking",
+      "target": "projects/2026-largest-empires/assets/mascot_thinking.png",
+      "scene": "s009",
+      "layer": "mascot_thinking",
+      "process": {
+        "crop": {
+          "left": 140,
+          "top": 120,
+          "width": 760,
+          "height": 780
+        },
+        "keyOut": true,
+        "keyTolerance": 30,
+        "minHolePx": 600,
+        "trim": true,
+        "fit": {
+          "width": 800,
+          "height": 800
+        }
+      }
+    },
+    {
+      "assetId": "mascot_explorer_pointing",
+      "inbox": "mascot-explorer-pointing",
+      "target": "projects/2026-largest-empires/assets/mascot_pointing.png",
+      "scene": "s009",
+      "layer": "mascot_pointing",
+      "process": {
+        "crop": {
+          "left": 140,
+          "top": 120,
+          "width": 760,
+          "height": 780
+        },
+        "keyOut": true,
+        "keyTolerance": 30,
+        "minHolePx": 600,
+        "trim": true,
+        "fit": {
+          "width": 800,
+          "height": 800
+        }
+      }
+    }
+  ]
+}

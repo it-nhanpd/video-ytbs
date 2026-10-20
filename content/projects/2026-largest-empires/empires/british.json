@@ -1,0 +1,57 @@
+{
+  "id": "british",
+  "sceneId": "s011",
+  "rank": 1,
+  "durationSec": 55,
+  "note": "Lô 1. Lời dẫn và nguồn ở script/scenes/s011.md. Marks dùng kinh độ đã dịch (+360 cho Tây bán cầu).",
+  "view": {"lon": 150, "lat": 10, "zoom": 0.5},
+  "labels": [
+    {"text": "Canada", "lon": 260, "lat": 60},
+    {"text": "Anh", "lon": -3, "lat": 57},
+    {"text": "Ấn Độ", "lon": 79, "lat": 22},
+    {"text": "Nam Phi", "lon": 25, "lat": -30}
+  ],
+  "views": [
+    {"atSec": 0, "lon": 150, "lat": 10, "zoom": 0.5, "ease": "linear"},
+    {"atSec": 12, "lon": 150, "lat": 10, "zoom": 0.53, "ease": "inOutCubic"},
+    {"atSec": 29, "lon": 150, "lat": 10, "zoom": 0.5, "ease": "inOutCubic"},
+    {"atSec": 55, "lon": 150, "lat": 10, "zoom": 0.53, "ease": "linear"}
+  ],
+  "empires": [
+    {"id": "british", "data": "british.json", "color": "british", "fadeSec": 2, "opacity": 0.82,
+      "stages": [{"atSec": 0, "key": "y1763"}, {"atSec": 12, "key": "y1815"}, {"atSec": 17, "key": "y1860"}, {"atSec": 21, "key": "y1918"}]}
+  ],
+  "credit": {"from": 0.6, "to": 12, "title": "Hạng 1: Đế quốc Anh", "sub": "Ranh giới: Cliopatria (CC BY 4.0), đã giản lược · Nền: Natural Earth"},
+  "beats": [
+    {"id": "b1", "from": 0, "to": 7, "facts": ["S-A1"],
+      "narration": "Ngày mười tháng hai năm 1763, Pháp ký nhượng Canada cho Anh. Đó là bước ngoặt đầu tiên.",
+      "chip": {"title": "1763", "sub": "Hiệp ước Paris · Canada về Anh"},
+      "mascot": {"expr": "surprised", "side": "right"},
+      "marks": [{"lon": 288.8, "lat": 46.8, "radius": 0.03}]},
+    {"id": "b2", "from": 7, "to": 12, "facts": ["T78", "T97"],
+      "narration": "Hạng nhất: Đế quốc Anh, khoảng ba mươi bốn đến ba mươi lăm triệu ki lô mét vuông.",
+      "chip": {"title": "Hạng 1 · Đế quốc Anh", "sub": "34–35,5 triệu km² (Taagepera)"},
+      "mascot": {"expr": "neutral", "side": "right"}},
+    {"id": "b3", "from": 12, "to": 21, "facts": ["Cliopatria"],
+      "narration": "Năm 1815 đế chế còn ba phẩy bốn triệu. Đến năm 1860, hơn mười triệu.",
+      "chip": {"title": "1815 → 1860", "sub": "3,4 → 10,6 triệu km² (Cliopatria)"},
+      "mascot": {"expr": "pointing", "side": "left"}},
+    {"id": "b4", "labels": [{"text": "Tanganyika", "lon": 43, "lat": -3}, {"text": "Tây Nam Phi", "lon": 10, "lat": -18}], "from": 21, "to": 29, "facts": ["S-A2", "T97"],
+      "narration": "Sau Thế chiến thứ nhất, Hiệp ước Versailles năm 1919 buộc Đức từ bỏ thuộc địa hải ngoại. Đế chế nhận thêm Tanganyika và Tây Nam Phi.",
+      "chip": {"title": "1919", "sub": "Versailles, Điều 119"},
+      "mascot": {"expr": "neutral", "side": "right"},
+      "marks": [{"lon": 39.3, "lat": -6.8, "radius": 0.025, "from": 22}, {"lon": 17.1, "lat": -22.6, "radius": 0.025, "from": 22}]},
+    {"id": "b5", "from": 29, "to": 36, "facts": ["T97", "Cliopatria"],
+      "narration": "Đỉnh cao khoảng năm 1920: ba mươi lăm triệu theo Taagepera, gần ba mươi bảy triệu theo Cliopatria.",
+      "chip": {"title": "Đỉnh cao ~1920", "sub": "35,5 (Taagepera) · 36,8 (Cliopatria)"},
+      "mascot": {"expr": "neutral", "side": "right"}},
+    {"id": "b6", "from": 36, "to": 46, "facts": ["T97"],
+      "narration": "Con số này tùy cách tính. Taagepera lấy từ Encyclopaedia Britannica năm 1952, cộng thêm Ai Cập, trừ vùng Nam Cực.",
+      "chip": {"title": "Cộng Ai Cập · trừ Nam Cực", "sub": "Taagepera 1997, Phụ lục 3B"},
+      "mascot": {"expr": "thinking", "side": "right"}},
+    {"id": "b7", "from": 46, "to": 55, "facts": [],
+      "narration": "Đó là đế chế lớn nhất lịch sử, theo cách tính của chúng ta. Bạn có đoán đúng thứ hạng không?",
+      "chip": {"title": "Hạng 1"},
+      "mascot": {"expr": "pointing", "side": "left"}}
+  ]
+}

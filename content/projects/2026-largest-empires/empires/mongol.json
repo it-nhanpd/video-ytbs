@@ -1,0 +1,58 @@
+{
+  "id": "mongol",
+  "sceneId": "s010",
+  "rank": 2,
+  "durationSec": 55,
+  "note": "Lô 1. Lời dẫn và nguồn ở script/scenes/s010.md. B7 dẫn sang hạng 1 (Anh).",
+  "view": {"lon": 88, "lat": 42, "zoom": 1.3},
+  "labels": [
+    {"text": "Mông Cổ", "lon": 105, "lat": 47},
+    {"text": "Trung Quốc", "lon": 108, "lat": 33},
+    {"text": "Iran", "lon": 57, "lat": 30},
+    {"text": "Nga", "lon": 65, "lat": 60},
+    {"text": "Ấn Độ", "lon": 78, "lat": 22}
+  ],
+  "views": [
+    {"atSec": 0, "lon": 88, "lat": 42, "zoom": 1.3, "ease": "linear"},
+    {"atSec": 14, "lon": 88, "lat": 42, "zoom": 1.25, "ease": "inOutCubic"},
+    {"atSec": 30, "lon": 88, "lat": 42, "zoom": 1.2, "ease": "inOutCubic"},
+    {"atSec": 55, "lon": 88, "lat": 42, "zoom": 1.2, "ease": "linear"}
+  ],
+  "empires": [
+    {"id": "mongol", "data": "mongol.json", "color": "mongol", "fadeSec": 2, "opacity": 0.82,
+      "stages": [{"atSec": 0, "key": "y1206"}, {"atSec": 14, "key": "y1220"}, {"atSec": 22, "key": "y1250"}, {"atSec": 30, "key": "y1260"}, {"atSec": 35, "key": "y1279"}]}
+  ],
+  "credit": {"from": 0.6, "to": 12, "title": "Hạng 2: Đế quốc Mông Cổ", "sub": "Ranh giới: Cliopatria (CC BY 4.0), đã giản lược · Nền: Natural Earth"},
+  "beats": [
+    {"id": "b1", "from": 0, "to": 6, "facts": [],
+      "narration": "Đây là đáp án: Đế quốc Mông Cổ, hạng hai.",
+      "chip": {"title": "Hạng 2 · Đế quốc Mông Cổ"},
+      "mascot": {"expr": "pointing", "side": "left"}},
+    {"id": "b2", "from": 6, "to": 14, "facts": ["F31"],
+      "narration": "Năm 1206, các thủ lĩnh tôn Temüjin làm Chinggis Khan, và các bộ tộc Mông Cổ hợp lại.",
+      "chip": {"title": "1206", "sub": "2,5 triệu km² (Cliopatria)"},
+      "mascot": {"expr": "neutral", "side": "right"},
+      "marks": [{"lon": 112, "lat": 48.5, "radius": 0.025, "from": 7}]},
+    {"id": "b3", "from": 14, "to": 22, "facts": ["F32"],
+      "narration": "Chỉ khoảng năm 1220, đế quốc đã gấp ba, vì Khwarazm bị xóa sổ.",
+      "chip": {"title": "~1220", "sub": "8,5 triệu km² (Cliopatria)"},
+      "mascot": {"expr": "neutral", "side": "right"}},
+    {"id": "b4", "labels": [{"text": "Baghdad", "lon": 41, "lat": 29.5}], "from": 22, "to": 30, "facts": ["ElHibri"],
+      "narration": "Năm 1258, quân Mông Cổ cướp phá Baghdad, thủ đô của Caliphate Abbasid.",
+      "chip": {"title": "1258", "sub": "Cướp phá Baghdad"},
+      "mascot": {"expr": "thinking", "side": "right"},
+      "marks": [{"lon": 44.4, "lat": 33.3, "radius": 0.025, "from": 23}]},
+    {"id": "b5", "from": 30, "to": 38, "facts": ["Cliopatria"],
+      "narration": "Đến năm 1260, Cliopatria vẽ đế quốc hai mươi lăm phẩy tám triệu; đến năm 1279, hai mươi bảy phẩy bốn.",
+      "chip": {"title": "1260 → 1279", "sub": "25,8 → 27,4 triệu km² (Cliopatria)"},
+      "mascot": {"expr": "neutral", "side": "right"}},
+    {"id": "b6", "from": 38, "to": 48, "facts": ["T97"],
+      "narration": "Nhưng Taagepera cho khoảng hai mươi bốn triệu, vào khoảng năm 1309. Bản đồ Haack ghi hai mươi bảy phẩy năm. Mỗi nguồn một phép đo.",
+      "chip": {"title": "24 · 27,5 · 27,4", "sub": "Taagepera · Haack · Cliopatria"},
+      "mascot": {"expr": "thinking", "side": "right"}},
+    {"id": "b7", "from": 48, "to": 55, "facts": [],
+      "narration": "Hạng nhất còn lớn hơn. Bạn đoán được chưa?",
+      "chip": {"title": "Hạng 1: ?"},
+      "mascot": {"expr": "pointing", "side": "left"}}
+  ]
+}

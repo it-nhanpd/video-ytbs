@@ -1,0 +1,1711 @@
+{
+  "project": "2026-largest-empires",
+  "locale": "vi",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "s009",
+      "durationSec": 55,
+      "template": "MultiplaneScene",
+      "grade": "map_clean",
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          0
+        ],
+        "zoom": [
+          1,
+          1
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "map",
+          "type": "map",
+          "z": 3,
+          "baseSrc": "projects/2026-largest-empires/assets/map/world.json",
+          "empires": [
+            {
+              "id": "russia",
+              "src": "projects/2026-largest-empires/assets/map/russia.json",
+              "color": "russia",
+              "fadeSec": 2,
+              "opacity": 0.82,
+              "stages": [
+                {
+                  "atSec": 0,
+                  "key": "y1865"
+                },
+                {
+                  "atSec": 14,
+                  "key": "y1721"
+                },
+                {
+                  "atSec": 23,
+                  "key": "y1860"
+                },
+                {
+                  "atSec": 27,
+                  "key": "y1865"
+                },
+                {
+                  "atSec": 37,
+                  "key": "y1868"
+                }
+              ]
+            },
+            {
+              "id": "mongol",
+              "src": "projects/2026-largest-empires/assets/map/mongol.json",
+              "color": "mongol",
+              "fadeSec": 1,
+              "opacity": 0.5,
+              "stages": [
+                {
+                  "atSec": 49,
+                  "key": "y1279"
+                }
+              ]
+            }
+          ],
+          "views": [
+            {
+              "atSec": 0,
+              "lon": 125,
+              "lat": 58,
+              "zoom": 0.98,
+              "ease": "linear"
+            },
+            {
+              "atSec": 6.8,
+              "lon": 125,
+              "lat": 58,
+              "zoom": 1.04,
+              "ease": "inOutCubic"
+            },
+            {
+              "atSec": 12,
+              "lon": 125,
+              "lat": 58,
+              "zoom": 1.04,
+              "ease": "linear"
+            },
+            {
+              "atSec": 21,
+              "lon": 125,
+              "lat": 58,
+              "zoom": 0.98,
+              "ease": "inOutCubic"
+            },
+            {
+              "atSec": 28,
+              "lon": 125,
+              "lat": 58,
+              "zoom": 0.98,
+              "ease": "linear"
+            },
+            {
+              "atSec": 35,
+              "lon": 125,
+              "lat": 58,
+              "zoom": 1.04,
+              "ease": "inOutCubic"
+            },
+            {
+              "atSec": 47,
+              "lon": 125,
+              "lat": 58,
+              "zoom": 1.04,
+              "ease": "linear"
+            },
+            {
+              "atSec": 50,
+              "lon": 115,
+              "lat": 52,
+              "zoom": 1.1,
+              "ease": "inOutCubic"
+            },
+            {
+              "atSec": 55,
+              "lon": 115,
+              "lat": 52,
+              "zoom": 1.1,
+              "ease": "linear"
+            }
+          ],
+          "overlays": [
+            {
+              "src": "projects/2026-largest-empires/assets/refs/ref-alaska-treaty.jpg",
+              "aspect": 1.317,
+              "widthFrac": 0.14,
+              "fixed": {
+                "x": 0.55,
+                "y": 0.76
+              },
+              "frame": true,
+              "rotateDeg": -3,
+              "atSec": 0.5,
+              "toSec": 7
+            },
+            {
+              "src": "projects/2026-largest-empires/assets/refs/peter-crop.jpg",
+              "aspect": 1.567,
+              "widthFrac": 0.1,
+              "geo": {
+                "lon": 30.3,
+                "lat": 59.9
+              },
+              "dx": 0.03,
+              "dy": 0.14,
+              "frame": true,
+              "rotateDeg": 3,
+              "atSec": 16,
+              "toSec": 21
+            },
+            {
+              "src": "projects/2026-largest-empires/assets/refs/sitka-crop.jpg",
+              "aspect": 0.457,
+              "widthFrac": 0.24,
+              "geo": {
+                "lon": 224.7,
+                "lat": 57.05
+              },
+              "dx": -0.2,
+              "dy": 0.13,
+              "frame": true,
+              "rotateDeg": -2,
+              "atSec": 41.3,
+              "toSec": 47
+            }
+          ],
+          "marks": [
+            {
+              "lon": 205,
+              "lat": 64,
+              "atSec": 0.8,
+              "toSec": 7,
+              "radiusFrac": 0.035
+            },
+            {
+              "lon": 30.3,
+              "lat": 59.9,
+              "atSec": 13,
+              "toSec": 21,
+              "radiusFrac": 0.025
+            },
+            {
+              "lon": 69.2,
+              "lat": 41.3,
+              "atSec": 22,
+              "toSec": 28,
+              "radiusFrac": 0.025
+            },
+            {
+              "lon": 205,
+              "lat": 64,
+              "atSec": 36,
+              "toSec": 41,
+              "radiusFrac": 0.035
+            },
+            {
+              "lon": 224.7,
+              "lat": 57.05,
+              "atSec": 41.3,
+              "toSec": 47,
+              "radiusFrac": 0.02
+            }
+          ]
+        },
+        {
+          "id": "mascot_surprised",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_surprised.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            0,
+            7
+          ],
+          "assetId": "mascot_explorer_surprised"
+        },
+        {
+          "id": "mascot_neutral",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_neutral.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            7,
+            12
+          ],
+          "assetId": "mascot_explorer_neutral"
+        },
+        {
+          "id": "mascot_pointing",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_pointing.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            12,
+            21
+          ],
+          "assetId": "mascot_explorer_pointing"
+        },
+        {
+          "id": "mascot_neutral_b4",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_neutral.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            21,
+            35
+          ]
+        },
+        {
+          "id": "mascot_thinking",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_thinking.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            35,
+            41
+          ],
+          "assetId": "mascot_explorer_thinking"
+        },
+        {
+          "id": "mascot_neutral_b7",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_neutral.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            41,
+            47
+          ]
+        },
+        {
+          "id": "mascot_pointing_b8",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_pointing.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            47,
+            55
+          ]
+        }
+      ],
+      "text": [
+        {
+          "type": "chip",
+          "key": "s009.c1",
+          "subKey": "s009.c1.sub",
+          "from": 0.4,
+          "to": 6.6
+        },
+        {
+          "type": "chip",
+          "key": "s009.c2",
+          "subKey": "s009.c2.sub",
+          "from": 7.4,
+          "to": 11.6
+        },
+        {
+          "type": "chip",
+          "key": "s009.c3",
+          "subKey": "s009.c3.sub",
+          "from": 12.4,
+          "to": 20.6
+        },
+        {
+          "type": "chip",
+          "key": "s009.c4",
+          "subKey": "s009.c4.sub",
+          "from": 21.4,
+          "to": 27.6
+        },
+        {
+          "type": "chip",
+          "key": "s009.c5",
+          "subKey": "s009.c5.sub",
+          "from": 28.4,
+          "to": 34.6
+        },
+        {
+          "type": "chip",
+          "key": "s009.c6",
+          "subKey": "s009.c6.sub",
+          "from": 35.4,
+          "to": 40.6
+        },
+        {
+          "type": "chip",
+          "key": "s009.c7",
+          "subKey": "s009.c7.sub",
+          "from": 41.4,
+          "to": 46.6
+        },
+        {
+          "type": "chip",
+          "key": "s009.c8",
+          "from": 47.4,
+          "to": 54.6
+        },
+        {
+          "type": "credit",
+          "key": "s009.credit",
+          "subKey": "s009.credit.sub",
+          "from": 0.6,
+          "to": 12
+        }
+      ],
+      "audio": {
+        "sfx": [
+          "coin"
+        ],
+        "note": "Chưa có giọng đọc ở bản thử; B1 SFX đồng xu."
+      }
+    },
+    {
+      "id": "s011",
+      "durationSec": 55,
+      "template": "MultiplaneScene",
+      "grade": "map_clean",
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          0
+        ],
+        "zoom": [
+          1,
+          1
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "map",
+          "type": "map",
+          "z": 3,
+          "baseSrc": "projects/2026-largest-empires/assets/map/world.json",
+          "empires": [
+            {
+              "id": "british",
+              "src": "projects/2026-largest-empires/assets/map/british.json",
+              "color": "british",
+              "fadeSec": 2,
+              "opacity": 0.82,
+              "stages": [
+                {
+                  "atSec": 0,
+                  "key": "y1763"
+                },
+                {
+                  "atSec": 12,
+                  "key": "y1815"
+                },
+                {
+                  "atSec": 17,
+                  "key": "y1860"
+                },
+                {
+                  "atSec": 21,
+                  "key": "y1918"
+                }
+              ]
+            }
+          ],
+          "views": [
+            {
+              "atSec": 0,
+              "lon": 150,
+              "lat": 10,
+              "zoom": 0.5,
+              "ease": "linear"
+            },
+            {
+              "atSec": 12,
+              "lon": 150,
+              "lat": 10,
+              "zoom": 0.53,
+              "ease": "inOutCubic"
+            },
+            {
+              "atSec": 29,
+              "lon": 150,
+              "lat": 10,
+              "zoom": 0.5,
+              "ease": "inOutCubic"
+            },
+            {
+              "atSec": 55,
+              "lon": 150,
+              "lat": 10,
+              "zoom": 0.53,
+              "ease": "linear"
+            }
+          ],
+          "overlays": [],
+          "marks": [
+            {
+              "lon": 288.8,
+              "lat": 46.8,
+              "atSec": 0.8,
+              "toSec": 7,
+              "radiusFrac": 0.03
+            },
+            {
+              "lon": 39.3,
+              "lat": -6.8,
+              "atSec": 22,
+              "toSec": 29,
+              "radiusFrac": 0.025
+            },
+            {
+              "lon": 17.1,
+              "lat": -22.6,
+              "atSec": 22,
+              "toSec": 29,
+              "radiusFrac": 0.025
+            }
+          ],
+          "labels": [
+            {
+              "key": "s011.l1",
+              "lon": 262,
+              "lat": 48,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s011.l2",
+              "lon": 303,
+              "lat": -14,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s011.l3",
+              "lon": 16,
+              "lat": 53,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s011.l4",
+              "lon": 20,
+              "lat": 4,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s011.l5",
+              "lon": 112,
+              "lat": 67,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s011.l6",
+              "lon": 134,
+              "lat": -26,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s011.l7",
+              "lon": 205,
+              "lat": 6,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s011.l8",
+              "lon": 78,
+              "lat": -22,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s011.l9",
+              "lon": 322,
+              "lat": 44,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s011.l10",
+              "lon": 260,
+              "lat": 60,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s011.l11",
+              "lon": -3,
+              "lat": 57,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s011.l12",
+              "lon": 79,
+              "lat": 22,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s011.l13",
+              "lon": 25,
+              "lat": -30,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s011.l14",
+              "lon": 43,
+              "lat": -3,
+              "atSec": 21.5,
+              "toSec": 29,
+              "kind": "place"
+            },
+            {
+              "key": "s011.l15",
+              "lon": 10,
+              "lat": -18,
+              "atSec": 21.5,
+              "toSec": 29,
+              "kind": "place"
+            }
+          ]
+        },
+        {
+          "id": "mascot_surprised",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_surprised.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            0,
+            7
+          ]
+        },
+        {
+          "id": "mascot_neutral",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_neutral.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            7,
+            12
+          ]
+        },
+        {
+          "id": "mascot_pointing",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_pointing.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            12,
+            21
+          ]
+        },
+        {
+          "id": "mascot_neutral_b4",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_neutral.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            21,
+            36
+          ]
+        },
+        {
+          "id": "mascot_thinking",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_thinking.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            36,
+            46
+          ]
+        },
+        {
+          "id": "mascot_pointing_b7",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_pointing.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            46,
+            55
+          ]
+        }
+      ],
+      "text": [
+        {
+          "type": "chip",
+          "key": "s011.c1",
+          "subKey": "s011.c1.sub",
+          "from": 0.4,
+          "to": 6.6
+        },
+        {
+          "type": "chip",
+          "key": "s011.c2",
+          "subKey": "s011.c2.sub",
+          "from": 7.4,
+          "to": 11.6
+        },
+        {
+          "type": "chip",
+          "key": "s011.c3",
+          "subKey": "s011.c3.sub",
+          "from": 12.4,
+          "to": 20.6
+        },
+        {
+          "type": "chip",
+          "key": "s011.c4",
+          "subKey": "s011.c4.sub",
+          "from": 21.4,
+          "to": 28.6
+        },
+        {
+          "type": "chip",
+          "key": "s011.c5",
+          "subKey": "s011.c5.sub",
+          "from": 29.4,
+          "to": 35.6
+        },
+        {
+          "type": "chip",
+          "key": "s011.c6",
+          "subKey": "s011.c6.sub",
+          "from": 36.4,
+          "to": 45.6
+        },
+        {
+          "type": "chip",
+          "key": "s011.c7",
+          "from": 46.4,
+          "to": 54.6
+        },
+        {
+          "type": "credit",
+          "key": "s011.credit",
+          "subKey": "s011.credit.sub",
+          "from": 0.6,
+          "to": 12
+        }
+      ]
+    },
+    {
+      "id": "s006",
+      "durationSec": 55,
+      "template": "MultiplaneScene",
+      "grade": "map_clean",
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          0
+        ],
+        "zoom": [
+          1,
+          1
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "map",
+          "type": "map",
+          "z": 3,
+          "baseSrc": "projects/2026-largest-empires/assets/map/world.json",
+          "empires": [
+            {
+              "id": "spanish",
+              "src": "projects/2026-largest-empires/assets/map/spanish.json",
+              "color": "spanish",
+              "fadeSec": 2,
+              "opacity": 0.82,
+              "stages": [
+                {
+                  "atSec": 12,
+                  "key": "y1516"
+                },
+                {
+                  "atSec": 18,
+                  "key": "y1540"
+                },
+                {
+                  "atSec": 21,
+                  "key": "y1783"
+                },
+                {
+                  "atSec": 30,
+                  "key": "y1800"
+                }
+              ]
+            }
+          ],
+          "views": [
+            {
+              "atSec": 0,
+              "lon": 165,
+              "lat": 8,
+              "zoom": 0.5,
+              "ease": "linear"
+            },
+            {
+              "atSec": 12,
+              "lon": 165,
+              "lat": 8,
+              "zoom": 0.53,
+              "ease": "inOutCubic"
+            },
+            {
+              "atSec": 30,
+              "lon": 165,
+              "lat": 8,
+              "zoom": 0.5,
+              "ease": "inOutCubic"
+            },
+            {
+              "atSec": 55,
+              "lon": 165,
+              "lat": 8,
+              "zoom": 0.53,
+              "ease": "linear"
+            }
+          ],
+          "overlays": [],
+          "marks": [
+            {
+              "lon": 336.5,
+              "lat": 15,
+              "atSec": 0.8,
+              "toSec": 7,
+              "radiusFrac": 0.025
+            },
+            {
+              "lon": 314,
+              "lat": 12,
+              "atSec": 1,
+              "toSec": 7,
+              "radiusFrac": 0.03
+            },
+            {
+              "lon": 269.9,
+              "lat": 30,
+              "atSec": 22,
+              "toSec": 30,
+              "radiusFrac": 0.025
+            },
+            {
+              "lon": 278.7,
+              "lat": 29.9,
+              "atSec": 26,
+              "toSec": 30,
+              "radiusFrac": 0.02
+            }
+          ],
+          "labels": [
+            {
+              "key": "s006.l1",
+              "lon": 262,
+              "lat": 48,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s006.l2",
+              "lon": 303,
+              "lat": -14,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s006.l3",
+              "lon": 16,
+              "lat": 53,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s006.l4",
+              "lon": 20,
+              "lat": 4,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s006.l5",
+              "lon": 112,
+              "lat": 67,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s006.l6",
+              "lon": 134,
+              "lat": -26,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s006.l7",
+              "lon": 205,
+              "lat": 6,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s006.l8",
+              "lon": 78,
+              "lat": -22,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s006.l9",
+              "lon": 322,
+              "lat": 44,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s006.l10",
+              "lon": 255,
+              "lat": 17,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s006.l11",
+              "lon": 285,
+              "lat": -10,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s006.l12",
+              "lon": 122,
+              "lat": 13,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s006.l13",
+              "lon": -5,
+              "lat": 42,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s006.l14",
+              "lon": 262,
+              "lat": 42,
+              "atSec": 21.5,
+              "toSec": 30,
+              "kind": "place"
+            },
+            {
+              "key": "s006.l15",
+              "lon": 291,
+              "lat": 33,
+              "atSec": 21.5,
+              "toSec": 30,
+              "kind": "place"
+            }
+          ]
+        },
+        {
+          "id": "mascot_surprised",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_surprised.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            0,
+            7
+          ]
+        },
+        {
+          "id": "mascot_neutral",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_neutral.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            7,
+            12
+          ]
+        },
+        {
+          "id": "mascot_pointing",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_pointing.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            12,
+            21
+          ]
+        },
+        {
+          "id": "mascot_neutral_b4",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_neutral.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            21,
+            38
+          ]
+        },
+        {
+          "id": "mascot_thinking",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_thinking.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            38,
+            47
+          ]
+        },
+        {
+          "id": "mascot_pointing_b7",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_pointing.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            47,
+            55
+          ]
+        }
+      ],
+      "text": [
+        {
+          "type": "chip",
+          "key": "s006.c1",
+          "subKey": "s006.c1.sub",
+          "from": 0.4,
+          "to": 6.6
+        },
+        {
+          "type": "chip",
+          "key": "s006.c2",
+          "subKey": "s006.c2.sub",
+          "from": 7.4,
+          "to": 11.6
+        },
+        {
+          "type": "chip",
+          "key": "s006.c3",
+          "subKey": "s006.c3.sub",
+          "from": 12.4,
+          "to": 20.6
+        },
+        {
+          "type": "chip",
+          "key": "s006.c4",
+          "subKey": "s006.c4.sub",
+          "from": 21.4,
+          "to": 29.6
+        },
+        {
+          "type": "chip",
+          "key": "s006.c5",
+          "subKey": "s006.c5.sub",
+          "from": 30.4,
+          "to": 37.6
+        },
+        {
+          "type": "chip",
+          "key": "s006.c6",
+          "subKey": "s006.c6.sub",
+          "from": 38.4,
+          "to": 46.6
+        },
+        {
+          "type": "chip",
+          "key": "s006.c7",
+          "from": 47.4,
+          "to": 54.6
+        },
+        {
+          "type": "credit",
+          "key": "s006.credit",
+          "subKey": "s006.credit.sub",
+          "from": 0.6,
+          "to": 12
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "durationSec": 55,
+      "template": "MultiplaneScene",
+      "grade": "map_clean",
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          0
+        ],
+        "zoom": [
+          1,
+          1
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "map",
+          "type": "map",
+          "z": 3,
+          "baseSrc": "projects/2026-largest-empires/assets/map/world.json",
+          "empires": [
+            {
+              "id": "mongol",
+              "src": "projects/2026-largest-empires/assets/map/mongol.json",
+              "color": "mongol",
+              "fadeSec": 2,
+              "opacity": 0.82,
+              "stages": [
+                {
+                  "atSec": 0,
+                  "key": "y1206"
+                },
+                {
+                  "atSec": 14,
+                  "key": "y1220"
+                },
+                {
+                  "atSec": 22,
+                  "key": "y1250"
+                },
+                {
+                  "atSec": 30,
+                  "key": "y1260"
+                },
+                {
+                  "atSec": 35,
+                  "key": "y1279"
+                }
+              ]
+            }
+          ],
+          "views": [
+            {
+              "atSec": 0,
+              "lon": 88,
+              "lat": 42,
+              "zoom": 1.3,
+              "ease": "linear"
+            },
+            {
+              "atSec": 14,
+              "lon": 88,
+              "lat": 42,
+              "zoom": 1.25,
+              "ease": "inOutCubic"
+            },
+            {
+              "atSec": 30,
+              "lon": 88,
+              "lat": 42,
+              "zoom": 1.2,
+              "ease": "inOutCubic"
+            },
+            {
+              "atSec": 55,
+              "lon": 88,
+              "lat": 42,
+              "zoom": 1.2,
+              "ease": "linear"
+            }
+          ],
+          "overlays": [],
+          "marks": [
+            {
+              "lon": 112,
+              "lat": 48.5,
+              "atSec": 7,
+              "toSec": 14,
+              "radiusFrac": 0.025
+            },
+            {
+              "lon": 44.4,
+              "lat": 33.3,
+              "atSec": 23,
+              "toSec": 30,
+              "radiusFrac": 0.025
+            }
+          ],
+          "labels": [
+            {
+              "key": "s010.l1",
+              "lon": 262,
+              "lat": 48,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s010.l2",
+              "lon": 303,
+              "lat": -14,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s010.l3",
+              "lon": 16,
+              "lat": 53,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s010.l4",
+              "lon": 20,
+              "lat": 4,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s010.l5",
+              "lon": 112,
+              "lat": 67,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s010.l6",
+              "lon": 134,
+              "lat": -26,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s010.l7",
+              "lon": 205,
+              "lat": 6,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s010.l8",
+              "lon": 78,
+              "lat": -22,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s010.l9",
+              "lon": 322,
+              "lat": 44,
+              "atSec": 0,
+              "toSec": 9999,
+              "kind": "region"
+            },
+            {
+              "key": "s010.l10",
+              "lon": 105,
+              "lat": 47,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s010.l11",
+              "lon": 108,
+              "lat": 33,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s010.l12",
+              "lon": 57,
+              "lat": 30,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s010.l13",
+              "lon": 65,
+              "lat": 60,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s010.l14",
+              "lon": 78,
+              "lat": 22,
+              "atSec": 0.5,
+              "toSec": 9999,
+              "kind": "place"
+            },
+            {
+              "key": "s010.l15",
+              "lon": 41,
+              "lat": 29.5,
+              "atSec": 22.5,
+              "toSec": 30,
+              "kind": "place"
+            }
+          ]
+        },
+        {
+          "id": "mascot_pointing",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_pointing.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            0,
+            6
+          ]
+        },
+        {
+          "id": "mascot_neutral",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_neutral.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            6,
+            22
+          ]
+        },
+        {
+          "id": "mascot_thinking",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_thinking.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            22,
+            30
+          ]
+        },
+        {
+          "id": "mascot_neutral_b5",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_neutral.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            30,
+            38
+          ]
+        },
+        {
+          "id": "mascot_thinking_b6",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_thinking.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.91,
+            0.91
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            38,
+            48
+          ]
+        },
+        {
+          "id": "mascot_pointing_b7",
+          "type": "image",
+          "z": 4,
+          "src": "projects/2026-largest-empires/assets/mascot_pointing.png",
+          "status": "final",
+          "width": 0.1,
+          "x": [
+            0.09,
+            0.09
+          ],
+          "y": [
+            0.8,
+            0.8
+          ],
+          "ease": "linear",
+          "aspect": 1,
+          "showSec": [
+            48,
+            55
+          ]
+        }
+      ],
+      "text": [
+        {
+          "type": "chip",
+          "key": "s010.c1",
+          "from": 0.4,
+          "to": 5.6
+        },
+        {
+          "type": "chip",
+          "key": "s010.c2",
+          "subKey": "s010.c2.sub",
+          "from": 6.4,
+          "to": 13.6
+        },
+        {
+          "type": "chip",
+          "key": "s010.c3",
+          "subKey": "s010.c3.sub",
+          "from": 14.4,
+          "to": 21.6
+        },
+        {
+          "type": "chip",
+          "key": "s010.c4",
+          "subKey": "s010.c4.sub",
+          "from": 22.4,
+          "to": 29.6
+        },
+        {
+          "type": "chip",
+          "key": "s010.c5",
+          "subKey": "s010.c5.sub",
+          "from": 30.4,
+          "to": 37.6
+        },
+        {
+          "type": "chip",
+          "key": "s010.c6",
+          "subKey": "s010.c6.sub",
+          "from": 38.4,
+          "to": 47.6
+        },
+        {
+          "type": "chip",
+          "key": "s010.c7",
+          "from": 48.4,
+          "to": 54.6
+        },
+        {
+          "type": "credit",
+          "key": "s010.credit",
+          "subKey": "s010.credit.sub",
+          "from": 0.6,
+          "to": 12
+        }
+      ]
+    }
+  ]
+}

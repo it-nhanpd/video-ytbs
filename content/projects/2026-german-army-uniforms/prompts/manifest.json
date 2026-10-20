@@ -2,272 +2,945 @@
   "assets": [
     {
       "assetId": "de_prussia_infantry_1871",
-      "inbox": "de_prussia_infantry_1871",
+      "inbox": [
+        "de_prussia_infantry_1871_sheetA",
+        "de_prussia_infantry_1871_sheetB",
+        "de_prussia_infantry_1871_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_prussia_infantry_1871.png",
       "scene": "s001",
       "layer": "soldier_1871",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
       }
     },
     {
       "assetId": "de_heer_infantry_1916",
-      "inbox": "de_heer_infantry_1916",
+      "inbox": [
+        "de_heer_infantry_1916_sheetA",
+        "de_heer_infantry_1916_sheetB",
+        "de_heer_infantry_1916_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_heer_infantry_1916.png",
       "scene": "s001",
       "layer": "soldier_1916",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_hook_europe_mist",
+      "inbox": "bg_hook_europe_mist",
+      "target": "projects/2026-german-army-uniforms/assets/bg_hook_europe_mist.png",
+      "scene": "s001",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_prussia_infantry_1871",
-      "inbox": "de_prussia_infantry_1871",
+      "inbox": [
+        "de_prussia_infantry_1871_sheetA",
+        "de_prussia_infantry_1871_sheetB",
+        "de_prussia_infantry_1871_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_prussia_infantry_1871.png",
       "scene": "s002",
       "layer": "soldier_1871",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_europe_dawn_1871",
+      "inbox": "bg_europe_dawn_1871",
+      "target": "projects/2026-german-army-uniforms/assets/bg_europe_dawn_1871.png",
+      "scene": "s002",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_prussia_infantry_1871",
-      "inbox": "de_prussia_infantry_1871",
+      "inbox": [
+        "de_prussia_infantry_1871_sheetA",
+        "de_prussia_infantry_1871_sheetB",
+        "de_prussia_infantry_1871_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_prussia_infantry_1871.png",
       "scene": "s003",
       "layer": "soldier_1871",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_europe_dawn_1871",
+      "inbox": "bg_europe_dawn_1871",
+      "target": "projects/2026-german-army-uniforms/assets/bg_europe_dawn_1871.png",
+      "scene": "s003",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_schutztruppe_soldier_1896",
-      "inbox": "de_schutztruppe_soldier_1896",
+      "inbox": [
+        "de_schutztruppe_soldier_1896_sheetA",
+        "de_schutztruppe_soldier_1896_sheetB",
+        "de_schutztruppe_soldier_1896_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_schutztruppe_soldier_1896.png",
       "scene": "s004",
       "layer": "schutztruppe_1896",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_swa_savanna_1896",
+      "inbox": "bg_swa_savanna_1896",
+      "target": "projects/2026-german-army-uniforms/assets/bg_swa_savanna_1896.png",
+      "scene": "s004",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_askari_infantry_1914",
-      "inbox": "de_askari_infantry_1914",
+      "inbox": [
+        "de_askari_infantry_1914_sheetA",
+        "de_askari_infantry_1914_sheetB",
+        "de_askari_infantry_1914_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_askari_infantry_1914.png",
       "scene": "s005",
       "layer": "askari_1914",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_eastafrica_acacia_1914",
+      "inbox": "bg_eastafrica_acacia_1914",
+      "target": "projects/2026-german-army-uniforms/assets/bg_eastafrica_acacia_1914.png",
+      "scene": "s005",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_heer_ersatz_1915",
-      "inbox": "de_heer_ersatz_1915",
+      "inbox": [
+        "de_heer_ersatz_1915_sheetA",
+        "de_heer_ersatz_1915_sheetB",
+        "de_heer_ersatz_1915_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_heer_ersatz_1915.png",
       "scene": "s006",
       "layer": "soldier_1915",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_wwi_mud_1915",
+      "inbox": "bg_wwi_mud_1915",
+      "target": "projects/2026-german-army-uniforms/assets/bg_wwi_mud_1915.png",
+      "scene": "s006",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_heer_infantry_1916",
-      "inbox": "de_heer_infantry_1916",
+      "inbox": [
+        "de_heer_infantry_1916_sheetA",
+        "de_heer_infantry_1916_sheetB",
+        "de_heer_infantry_1916_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_heer_infantry_1916.png",
       "scene": "s007",
       "layer": "soldier_1916",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_wwi_trench_1916",
+      "inbox": "bg_wwi_trench_1916",
+      "target": "projects/2026-german-army-uniforms/assets/bg_wwi_trench_1916.png",
+      "scene": "s007",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_reichswehr_infantry_1921",
-      "inbox": "de_reichswehr_infantry_1921",
+      "inbox": [
+        "de_reichswehr_infantry_1921_sheetA",
+        "de_reichswehr_infantry_1921_sheetB",
+        "de_reichswehr_infantry_1921_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_reichswehr_infantry_1921.png",
       "scene": "s008",
       "layer": "soldier_1921",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_weimar_street_1921",
+      "inbox": "bg_weimar_street_1921",
+      "target": "projects/2026-german-army-uniforms/assets/bg_weimar_street_1921.png",
+      "scene": "s008",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_reichswehr_transition_1934",
-      "inbox": "de_reichswehr_transition_1934",
+      "inbox": [
+        "de_reichswehr_transition_1934_sheetA",
+        "de_reichswehr_transition_1934_sheetB",
+        "de_reichswehr_transition_1934_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_reichswehr_transition_1934.png",
       "scene": "s009",
       "layer": "soldier_1934",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
       }
     },
     {
-      "assetId": "de_wehrmacht_infantry_1936",
-      "inbox": "de_wehrmacht_infantry_1936",
-      "target": "projects/2026-german-army-uniforms/assets/de_wehrmacht_infantry_1936.png",
-      "scene": "s010",
-      "layer": "soldier_1936",
+      "assetId": "bg_pine_forest_1934",
+      "inbox": "bg_pine_forest_1934",
+      "target": "projects/2026-german-army-uniforms/assets/bg_pine_forest_1934.png",
+      "scene": "s009",
+      "layer": "bg",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
-        "keyOut": true,
-        "keyTolerance": 35,
-        "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_wehrmacht_infantry_1944",
-      "inbox": "de_wehrmacht_infantry_1944",
-      "target": "projects/2026-german-army-uniforms/assets/de_wehrmacht_infantry_1944.png",
-      "scene": "s010",
-      "layer": "soldier_1944",
-      "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
-        "keyOut": true,
-        "keyTolerance": 35,
-        "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
-      }
-    },
-    {
-      "assetId": "de_wehrmacht_infantry_1944",
-      "inbox": "de_wehrmacht_infantry_1944",
+      "inbox": [
+        "de_wehrmacht_infantry_1944_sheetA",
+        "de_wehrmacht_infantry_1944_sheetB",
+        "de_wehrmacht_infantry_1944_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_wehrmacht_infantry_1944.png",
       "scene": "s011",
       "layer": "soldier_1944",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_winter_fog_1944",
+      "inbox": "bg_winter_fog_1944",
+      "target": "projects/2026-german-army-uniforms/assets/bg_winter_fog_1944.png",
+      "scene": "s011",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_bundeswehr_soldier_1956",
-      "inbox": "de_bundeswehr_soldier_1956",
+      "inbox": [
+        "de_bundeswehr_soldier_1956_sheetA",
+        "de_bundeswehr_soldier_1956_sheetB",
+        "de_bundeswehr_soldier_1956_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_bundeswehr_soldier_1956.png",
       "scene": "s012",
       "layer": "bw_1956",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
       }
     },
     {
       "assetId": "de_nva_soldier_1956",
-      "inbox": "de_nva_soldier_1956",
+      "inbox": [
+        "de_nva_soldier_1956_sheetA",
+        "de_nva_soldier_1956_sheetB",
+        "de_nva_soldier_1956_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_nva_soldier_1956.png",
       "scene": "s012",
       "layer": "nva_1956",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_border_1956",
+      "inbox": "bg_border_1956",
+      "target": "projects/2026-german-army-uniforms/assets/bg_border_1956.png",
+      "scene": "s012",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_bundeswehr_flecktarn_1991",
-      "inbox": "de_bundeswehr_flecktarn_1991",
+      "inbox": [
+        "de_bundeswehr_flecktarn_1991_sheetA",
+        "de_bundeswehr_flecktarn_1991_sheetB",
+        "de_bundeswehr_flecktarn_1991_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_bundeswehr_flecktarn_1991.png",
       "scene": "s013",
       "layer": "bw_flecktarn_1991",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
       }
     },
     {
       "assetId": "de_bundeswehr_tropentarn_2002",
-      "inbox": "de_bundeswehr_tropentarn_2002",
+      "inbox": [
+        "de_bundeswehr_tropentarn_2002_sheetA",
+        "de_bundeswehr_tropentarn_2002_sheetB",
+        "de_bundeswehr_tropentarn_2002_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_bundeswehr_tropentarn_2002.png",
       "scene": "s013",
       "layer": "bw_tropentarn_2002",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
-        "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_dry_hills_1991_2002",
+      "inbox": "bg_dry_hills_1991_2002",
+      "target": "projects/2026-german-army-uniforms/assets/bg_dry_hills_1991_2002.png",
+      "scene": "s013",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
       }
     },
     {
       "assetId": "de_bundeswehr_kbssk_2026",
-      "inbox": "de_bundeswehr_kbssk_2026",
+      "inbox": [
+        "de_bundeswehr_kbssk_2026_sheetA",
+        "de_bundeswehr_kbssk_2026_sheetB",
+        "de_bundeswehr_kbssk_2026_sheetC"
+      ],
       "target": "projects/2026-german-army-uniforms/assets/de_bundeswehr_kbssk_2026.png",
       "scene": "s014",
       "layer": "bw_kbssk_2026",
       "process": {
-        "crop": { "left": 450, "top": 10, "width": 500, "height": 748 },
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1376,
+          "height": 768
+        },
         "keyOut": true,
         "keyTolerance": 35,
         "minHolePx": 800,
+        "splitFrames": {
+          "count": 4,
+          "minGapPx": 20,
+          "frameFit": {
+            "width": 500,
+            "height": 800
+          }
+        }
+      }
+    },
+    {
+      "assetId": "bg_forest_morning_2026",
+      "inbox": "bg_forest_morning_2026",
+      "target": "projects/2026-german-army-uniforms/assets/bg_forest_morning_2026.png",
+      "scene": "s014",
+      "layer": "bg",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        },
+        "replacesLayers": [
+          "sky",
+          "treeline_far",
+          "fog",
+          "treeline_near"
+        ]
+      }
+    },
+    {
+      "assetId": "rig_wehrmacht_1936",
+      "inbox": "rig_wehrmacht_1936_parts",
+      "target": "projects/2026-german-army-uniforms/assets/rig_wehrmacht_1936.png",
+      "scene": "s010",
+      "layer": "soldier",
+      "process": {
+        "keyOut": true,
+        "splitParts": {
+          "pieces": [
+            "head",
+            "torso",
+            "spareArm",
+            "arm",
+            "thigh",
+            "shin",
+            "spareBoot"
+          ],
+          "minGapPx": 15,
+          "erase": [
+            {
+              "left": 1235,
+              "top": 652,
+              "width": 110,
+              "height": 90
+            }
+          ],
+          "overrides": {
+            "torso": {
+              "pivot": [
+                0.55,
+                0.85
+              ]
+            },
+            "head": {
+              "pivot": [
+                0.5,
+                0.93
+              ],
+              "attach": [
+                0.62,
+                0.03
+              ]
+            },
+            "arm": {
+              "pivot": [
+                0.5,
+                0.07
+              ],
+              "attach": [
+                0.45,
+                0.2
+              ]
+            },
+            "thigh": {
+              "pivot": [
+                0.5,
+                0.06
+              ],
+              "attach": [
+                0.55,
+                0.85
+              ]
+            }
+          },
+          "elbowCut": 0.42,
+          "elbowOverlap": 0.04
+        }
+      }
+    },
+    {
+      "assetId": "rig_wehrmacht_1944",
+      "inbox": "rig_wehrmacht_1944_parts",
+      "target": "projects/2026-german-army-uniforms/assets/rig_wehrmacht_1944.png",
+      "scene": "s010",
+      "layer": "soldier_1944_src",
+      "process": {
+        "keyOut": true,
+        "splitParts": {
+          "pieces": [
+            "head",
+            "torso",
+            "spareArm",
+            "arm",
+            "thigh",
+            "shin",
+            "spareBoot"
+          ],
+          "minGapPx": 15,
+          "erase": [
+            {
+              "left": 0,
+              "top": 635,
+              "width": 1376,
+              "height": 133
+            }
+          ],
+          "overrides": {
+            "torso": {
+              "pivot": [
+                0.55,
+                0.85
+              ]
+            },
+            "head": {
+              "pivot": [
+                0.5,
+                0.93
+              ],
+              "attach": [
+                0.62,
+                0.03
+              ]
+            },
+            "arm": {
+              "pivot": [
+                0.5,
+                0.07
+              ],
+              "attach": [
+                0.45,
+                0.2
+              ]
+            },
+            "thigh": {
+              "pivot": [
+                0.5,
+                0.06
+              ],
+              "attach": [
+                0.55,
+                0.85
+              ]
+            }
+          },
+          "elbowCut": 0.42,
+          "elbowOverlap": 0.04
+        }
+      }
+    },
+    {
+      "assetId": "weapon_rifle_generic",
+      "inbox": "prop_rifle_generic",
+      "target": "projects/2026-german-army-uniforms/assets/prop_rifle_generic.png",
+      "scene": "s010",
+      "layer": "rifle_src",
+      "process": {
+        "keyOut": true,
         "trim": true,
-        "fit": { "width": 2000, "height": 800 }
+        "fit": {
+          "width": 900,
+          "height": 300
+        }
+      }
+    },
+    {
+      "assetId": "bg_s010_far",
+      "inbox": "bg_s010_far",
+      "target": "projects/2026-german-army-uniforms/assets/bg_s010_far.png",
+      "scene": "s010",
+      "layer": "bg_far",
+      "process": {
+        "seamBlend": 0.1,
+        "aspectFromImage": true
+      }
+    },
+    {
+      "assetId": "bg_s010_mid",
+      "inbox": "bg_s010_mid",
+      "target": "projects/2026-german-army-uniforms/assets/bg_s010_mid.png",
+      "scene": "s010",
+      "layer": "bg_mid",
+      "process": {
+        "keyOut": true,
+        "keyColor": [
+          237,
+          215,
+          172
+        ],
+        "keyTolerance": 22,
+        "minHolePx": 99999999,
+        "seamBlend": 0.1,
+        "aspectFromImage": true
+      }
+    },
+    {
+      "assetId": "fg_s010_grass",
+      "inbox": "bg_s010_fg",
+      "target": "projects/2026-german-army-uniforms/assets/fg_s010_grass.png",
+      "scene": "s010",
+      "layer": "fg_grass",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 32,
+        "trim": true,
+        "seamBlend": 0.08,
+        "aspectFromImage": true
+      }
+    },
+    {
+      "assetId": "fg_s010_sweep",
+      "inbox": "bg_s010_sweep",
+      "target": "projects/2026-german-army-uniforms/assets/fg_s010_sweep.png",
+      "scene": "s010",
+      "layer": "fg_sweep",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 26,
+        "aspectFromImage": true,
+        "keyColor": [
+          120,
+          120,
+          120
+        ]
       }
     }
   ]

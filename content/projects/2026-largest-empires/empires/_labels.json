@@ -1,0 +1,11 @@
+[
+  {"text": "Bắc Mỹ", "lon": 262, "lat": 48},
+  {"text": "Nam Mỹ", "lon": 303, "lat": -14},
+  {"text": "Châu Âu", "lon": 16, "lat": 53},
+  {"text": "Châu Phi", "lon": 20, "lat": 4},
+  {"text": "Châu Á", "lon": 112, "lat": 67},
+  {"text": "Úc", "lon": 134, "lat": -26},
+  {"text": "Thái Bình Dương", "lon": 205, "lat": 6},
+  {"text": "Ấn Độ Dương", "lon": 78, "lat": -22},
+  {"text": "Đại Tây Dương", "lon": 322, "lat": 44}
+]

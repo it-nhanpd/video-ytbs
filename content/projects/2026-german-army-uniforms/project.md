@@ -62,5 +62,11 @@
 ## Giấy phép nhạc/SFX/tư liệu
 - Chi tiết giấy phép ảnh tham khảo nằm ở `research/images/metadata.csv` (lưu ý `ch01`, `ch02_bundesarchiv`, `ch03`, `ch07` mang giấy phép CC BY-SA; hình trong video được vẽ mới hoàn toàn bằng Nano Banana theo style `comic-cel-painterly`).
 
+## Quyết định đã duyệt
+- 2026-10-17: người dùng duyệt giao việc tạo ảnh (và việc khối lượng lớn) cho agy CLI để tiết kiệm token; đổi nguyên tắc cũ "hệ thống không gọi AI ảnh". Chi tiết: `.claude/rules/agy-delegation.md`. Pilot kỹ thuật đạt (ảnh thử, chưa phải asset dự án); người dùng duyệt dùng `--dangerously-skip-permissions` với ràng buộc cấm lệnh xóa/nguy hiểm.
+
 ## Bài học
 (điền ở bước 9)
+
+## Pilot
+- Pilot đã duyệt 2026-10-17 (nhân vật 1871 đi 12 tư thế, nền s002). Cải thiện lần sau: xem .claude/progress/2026-german-army-uniforms.md.

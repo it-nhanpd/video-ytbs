@@ -1,0 +1,289 @@
+                                                                                                  East-West Orientation of Historical Empires
+                                                                                                  and Modern States
+
+                                                                                                                                                  Peter Turchin
+                                                                                                                                                  Jonathan M. Adams
+                                                                                                                                                  Thomas D. Hall
+
+                                                                                                  introduction
+
+                                                                                                  In a chapter entitled "Spacious Skies and Tilted Axes" Jared Diamond (1997)
+                                                                                                     argues that crops and domestic animals are spread more easily along lines of
+                                                                                                  latitude (along an East-West axis) rather than along lines of longitude (along a
+                                                                                                  North-South axis). Diamond suggests that East-West spread is easier because
+                                                                                                  similar climates and soil types tend to be arranged in east-west oriented bands.
+                                                                                                  This geographic pattern is fundamental to natural vegetation types and wild
+                                                                                                  animal distributions, and is best illustrated by a map of the global distribution
+                                                                                                  of biomes (Figure 1). A biome is a major type of ecological community such as
+                                                                                                  the grassland, desert, or temperate seasonal forest (Ricklefs 2001).
+
+                                                                                                      Although Diamond focused primarily on the spread of crop cultivars and
+                                                                                                  domesticated animals, the same principle should influence the military/politi-
+                                                                                                  cal, demographic, and cultural dynamics of societies. An obvious example which
+                                                                                                  seems to fit this pattern is the Mongol empire under Chinggis Khan and his
+
+                                                                                                  Peter Turchin                                   Jonathan M. Adams
+                                                                                                  Department of Ecology and Evolutionary Biology  Biological Sciences Department
+                                                                                                  University of Connecticut                       Boyden Hall
+                                                                                                  75 N. Eagleville Road, U-43                     195 University Avenue
+                                                                                                  Storrs, CT 06269-3043                           Rutgers University
+                                                                                                  Peter.Turchin@uconn.edu                         Newark, NJ 07102
+                                                                                                                                                  jonadams@andromeda.rutgers.edu
+                                                                                                  Thomas D. Hall
+abstract:                                                                                         Department of Sociology and Anthropology
+                                                                                                  DePauw University
+    Jared Diamond (1997) hypothesized that        Our analysis of the 62 largest empires in his-  106 Asbury Hall
+if environment is important in limiting the       tory supports this conjecture: there is a sta-  Greencastle, IN 46135
+spread of cultures, cultural units would also     tistically significant tendency to expand more  thall@depauw.edu
+tend to extend more broadly along lines of        east-west than north-south. Modern states
+latitude than along lines of longitude. We test   also show this trend, although the results are  journal of world-systems research, xii, , december , ­
+this hypothesis by studying the range shapes      not statistically significant.
+of (a) historical empires and (b) modern states.                                                  http://www.jwsr.org/
+
+                                                                                                  issn 1076­156x
+
+                                                                                                  © 2006 Peter Turchin, Jonathan M. Adams, & Thomas D. Hall  
+220  Turchin, Adams, & Hall                                                            East-West Orientation of Historical Empires and Modern States 
+
+Figure 1 ­ Distribution of World Biomes (Ricklefs 2001)                                it equally easy (or equally hard) to expand in any direction because the climatic
+                                                                                       differences in any direction will be minor. A major exception here might be
+immediate successors; the largest historical empire in terms of contiguous terri-      those states which encompass highly varied terrain.
+tory. The core of the Mongolian Empire was the Eurasian Steppe that stretches
+for many thousands of kilometers from the Khingan Mountains in the east to                 Finally, we note that the latitudinal effect should be much stronger for land-
+the Carpathians in the west (McNeill 1964). The Mongols were steppe war-               based, contiguous empires than for sea-borne empires. Thus, we would expect
+riors, and they were able to extend rapidly their influence over this whole region     stronger latitudinal effect for historical empires than for modern empires. Also
+(Barfield 1994). The regions inhabited by settled agriculturalists adjacent to the     as we note below we omit modern colonial empires from the analysis. However
+steppe were incorporated more slowly and to a lesser degree than the steppe.           we revisit this issue in the conclusion.
+For example, the Russian principalities of the forest zone were not occupied
+by the steppe-dwellers, and were instead subjected to tribute. As a result, the        analysis of the shapes of historical empires
+Mongol Empire, based on the steppe, was much wider in the latitudinal rather
+than longitudinal direction.                                                               Territorial expansion by states is, of course, a complex process, influenced
+                                                                                       by many factors other than the environment. The question of interest here is
+    The ease of conquest was not the only factor promoting the latitudinal             whether this ecological factor has a detectable effect on the projection of mili-
+spread of large empires. Societies inhabiting similar ecological zones tend to         tary/political power, or if its influence is lost in the "noise" of complex interac-
+be more similar to each other than societies located in very different zones.          tions. To answer this question we compiled a list of all large historical empires
+Techniques developed for integrating and controlling a certain type of society         with peak territories exceeding 1 Mm² (= 1,000,000 km²), and measured the
+should, therefore, be easier to extend latitudinally. There is also a scale aspect to  distances from their eastern to western extremes, as well as from the northern
+this "ecological factor." It will be detectable primarily at large geographic scales.  to southern extremes.¹
+Small states or empires, as long as they stay within the same biome, should find
+                                                                                           Many of the historical empires in our analysis rose and fell starting from the
+                                                                                       same territory, for instance the different Chinese dynasties. However, this does
+                                                                                       not invalidate the analysis because each dynastic empire had the opportunity
+                                                                                       to expand either north-south or east-west (omitting repeat empires from the
+                                                                                       analysis produced substantially the same result).
+
+                                                                                            ¹. Our list of large historical states was based on the compilation by Taagepera
+                                                                                       (a, b, , ), which has been systematized and posted on the web by
+                                                                                       Chase-Dunn and coworkers http://irows.ucr.edu/. We checked the Taagepera list with
+                                                                                       all major historical atlases in the library of the University of Connecticut and found
+                                                                                       eight additional empires that fit our criteria (Axum, Hsi-Hsia, Kara-Khitai, Srivijaya,
+                                                                                       Maurian, Kushan, Gupta, and Maratha). For historical empires, we used states that
+                                                                                       peaked before . We excluded the maritime empires of the European Great Powers,
+                                                                                       because these empires were not contiguous (widely distributed collections of terri-
+                                                                                       tories). One difficulty in constructing the list was presented by the repeated rise of
+                                                                                       empires in the same location, such as in China. We adopted the middle road of count-
+                                                                                       ing each major dynasty (Han, Tang, Ming, etc.) as a separate empire, but did not distin-
+                                                                                       guish between cycles within any one dynasty (e.g., Early versus Late Han). Analysis of
+                                                                                       a reduced dataset, which included only the largest empire for each geographic location,
+                                                                                       yielded qualitatively the same result. This lends support to our argument that succes-
+                                                                                       sive dynasties had significantly independent opportunities to expand in any direction.
+                                                                                       See Table  for the list of empires.
+222                                       Turchin, Adams, & Hall      East-West Orientation of Historical Empires and Modern States 
+
+Table 1 ­ The Large Historical States Used in the Analysis            Table 1 (Continued)
+
+Date                        World Region  Area              Latitude   Date                     World Region    Area    Latitude
+(peak) Empire Name                        (Mm2 )             Index    (peak) Empire Name                        (Mm2 )   Index
+
+-1300  Egypt (New Kingdom)  Africa         1.00             -1.292    1480 Lithuania-Poland     Europe           1.10   0.079
+  350  Axum                 Africa         1.25              0.241    1683 Ottoman              Europe           5.20   0.320
+  969  Fatimid              Africa         4.10              0.782    1895 Russia               Europe          22.80    0.303
+ 1120  Almoravid            Africa         1.00              0.561    1200 Srivijaya            Southeast Asia   1.20    0.272
+ 1200  Almohad              Africa         2.00              0.864    1290 Khmer                Southeast Asia   1.00   -0.665
+ 1380  Mali                 Africa         1.10              0.512    -250 Mauryan              South Asia       5.00    0.191
+ 1400  Mameluk              Africa         2.10             -0.225     200 Kushan               South Asia       2.00    0.095
+ 1527  Inca                 America        2.00             -1.139     400 Gupta                South Asia       3.50   -0.031
+ -176  Hsiung-Nu (Hunnu)    Central Asia   9.00              0.818     648 Harsha (Kanyakubia)  South Asia       1.00    0.668
+  405  Juan-Juan            Central Asia   2.80              0.740    1312 Delhi                South Asia       3.20   -0.082
+  557  Turks                Central Asia   6.00              1.026    1690 Mughal               South Asia       4.00    0.435
+  800  Uigur                Central Asia   3.10              0.213    1760 Maratha              South Asia       2.50   -0.280
+  800  Tufan (Tibet)        Central Asia   4.60              0.605    -670 Assyria              Southwest Asia   1.40    1.845
+  850  Khazar               Central Asia   3.00              0.139    -585 Media                Southwest Asia   2.80    0.141
+ 1100  Hsi-Hsia             Central Asia   1.00              0.655    -500 Achaemenid Persia    Southwest Asia   5.50    0.200
+ 1210  Khorezm              Central Asia   2.30              0.054    -323 Alexander's          Southwest Asia   5.20    0.478
+ 1210  Kara-Khitai          Central Asia   1.50              0.362    -301 Seleucid             Southwest Asia   3.90    0.882
+ 1270  Mongol               Central Asia  24.00              0.737                              Southwest Asia   2.80    1.374
+ 1310  Golden Horde         Central Asia   6.00              0.153        0 Parthia             Southwest Asia   3.50    0.292
+ 1350  Chagatai             Central Asia   3.50              0.383     550 Sassanian Persia     Southwest Asia  11.10    0.730
+ 1405  Timur's              Central Asia   4.40              0.426     750 Caliphate            Southwest Asia   2.85   -0.194
+       Shang                East Asia      1.25              0.050     928 Samanid              Southwest Asia   1.60    0.142
+-1122  China-Early Han      East Asia      6.00              0.661     980 Buyid (Buwahid)      Southwest Asia   3.40    0.689
+  -50  Liang                East Asia      1.30              0.137    1029 Ghaznavid            Southwest Asia   3.90    0.409
+  579  China-Tang           East Asia      5.40              0.375    1080 Seljuk               Southwest Asia   2.00   -0.300
+  715  Liao (Kitan)         East Asia      2.60              0.606    1190 Ayyubids             Southwest Asia   3.75    0.664
+  947  China-Sung           East Asia      3.10             -0.164    1310 Il-Khan
+  980  Jurchen (Chin)       East Asia      2.30             -0.147
+       China-Ming           East Asia      6.50             -0.138        Our measure of the tendency to expand in the latitudinal direction is the
+1126   China-Manchu         East Asia     14.70              0.246    log-transformed ratio of the east-west distance to north-south distance.²
+1450   Rome                 Europe         5.00              0.204
+1790   Huns (Atilla's)      Europe         4.00              1.003         ². Log-transformation of the ratio of distances was necessary to make the dis-
+  117  East Roman           Europe         2.70              0.516    tribution of the index normal, because the ratio cannot be less than zero. Logically,
+  441  Frankish             Europe         1.20              0.092    the metric chosen to quantify the East-West versus North-South spread should give
+  555  Kiev                 Europe         2.10             -0.132    the same magnitude to ratios of : and : (but with the opposite sign), and log-
+  814  Byzantine            Europe         1.35              0.806    transformation accomplishes this. Positive values of the log-transformed ratio, thus,
+1000                                                                  indicate east-west orientation, and negative values north-south orientation.
+1025
+224                                                    Turchin, Adams, & Hall      East-West Orientation of Historical Empires and Modern States 
+
+Figure 2 ­ Frequency Distribution of the Latitude Index in the Sample              empire. The Islamic Caliphate is a variation on the same pattern, except that the
+            of Large Empires                                                       "native biome" of the Arabs was the subtropical desert, rather than the temper-
+                                                                                   ate grassland/desert of the Mongols. The next largest state in history after the
+           18                                                                      Mongols, the Russian empire (peak area of 22.8 Mm² in 1895), originated in the
+                                                                                   transitional zone between the steppe and the forest (ecologists call such tran-
+           16                                                                      sitional zones ecotones). When the Muscovite state began to expand in the six-
+                                                                                   teenth century, it spread fastest precisely within the same ecotone--eastward
+           14                                                                      along the boundary between the Eurasian steppe and northern taiga. Eastward
+                                                                                   expansion was extremely rapid, so that the Pacific was reached by the mid-sev-
+           12                                                                      enteenth century. In contrast, the southern advance into the steppes and deserts
+                                                                                   of Central Asia took a much longer time, and they were conquered only by the
+           10                                                                      late nineteenth century. In addition to ecological considerations the presence of
+                                                                                   strong pastoral confederacies abetted this slowing (Khodarkovsky 2002). But
+Frequency  8                                                                       this is also indirectly ecological since these confederacies, many remnants of the
+                                                                                   Mongol Empire, depended on a steppe environment to make their living.
+           6
+                                                                                       Another example of the same dynamic is the early expansion of Rome. The
+           4                                                                       territory of the Roman Empire in the first century b.c.e. coincides almost pre-
+                                                                                   cisely with the woodland/shrubland biome (also known as the Mediterranean
+           2 Egypt Inca    Khmer                                                   zone). Subsequent expansion took the Romans into the forests of northern
+                                                                                   Europe. However, severe reverses, such as the battle of Teutoburg Forest in
+           0                                                                       9 c.e., in which 20,000 legionnaires were obliterated by the tribal Germans
+                                                                                   (Wells 2003), persuaded the Romans to abandon plans of further conquest. The
+               -1.5  -1.0  -0.5   0.0             0.5  1.0  1.5        2.0         general rule, thus, seems to be that expansion is easiest and most lasting when
+                                                                                   occurring within the same ecological zone.
+                                  Latitude Index
+                                                                                       Expansion into other biomes is possible, but more difficult, slow, and
+    The frequency distribution of the latitudinal index in our sample of 62 his-   requires greater state resources. China is probably the best illustration of this
+toric empires is strongly skewed to the right (Figure 2), and the mean index       principle. The native biome for China is the temperate seasonal forest,³ and
+is significantly greater than zero (t = 4.83, P < 0.001). The great majority of    this was precisely the area that was first unified by each of a long succession
+empires, nearly 80, have a positive latitudinal index--that is, they are wider     of Chinese empires. The strength of the Chinese state, however, allowed it to
+in the east-west compared to the north-south direction. There are only three       expand into alien biomes. At their peaks the Chinese empires intruded into the
+empires that have a strong north-south orientation, and these are the proverbial   steppe (Inner Mongolia, Chinese Turkestan), the alpine biome (Tibet), and the
+exceptions that prove the rule. The New Kingdom of Egypt had at its core the       tropical rain forest (Vietnam).
+valley of a major river running south-north, the Nile. The Inca empire is located
+on the west coast of South America where ecological zones are longitudinal (see         ³. It may seem strange to call the Chinese home biome a "forest," because in pres-
+Figure 1) along the Andean mountain chain. We do note, however, that Andean        ent-day China, of course, very few forests are left. Remember, however, that the biome
+empires, especially the Inca, did transcend ecological zones from the altiplano    names reflect the types of ecological communities that would be present before sub-
+to the coast, but these are over very short distances. Indeed, many empires, if    stantial human impact. The names are simply a short-hand reference to particular com-
+examined more locally, would also exhibit short range biome diversity. Finally,    binations of the climate and soil types. The same principle applies to the "subtropical
+the Khmer empire was located entirely within the wet tropical forest biome.        desert." Some examples of this biome (e.g. Sahara) extend well beyond the subtropics
+Thus, even though these three cases do not conform to the rule of latitudinal      in the strictly geographic sense of the word.
+spread, they obey a more general rule of expansion within an ecological zone.
+
+    All of the largest empires (with territory over 10 Mm²) were oriented in
+the east-west direction. We have already discussed the case of the Mongol
+226  Turchin, Adams, & Hall                                                          East-West Orientation of Historical Empires and Modern States 
+                                                                                     and Hall 2003; Hall and Turchin 2007). Diamond's original insight, which
+analysis of the shapes of modern political states                                    motivated our study, is one example. Another is the recent demonstration that
+                                                                                     cultural variability exhibits a latitudinal gradient (Pagel and Mace 2004). Our
+    Is the influence of ecology detectable in the shapes of modern states? At first  results also have interesting implications for the study of historical dynamics
+glance, no. The average latitude index for the 29 modern states whose territory      (Turchin 2003).
+exceeds 1 Mm² is positive, but not significantly different from 0. However, if we
+exclude South American countries, where biomes extend in the longitudinal                Researchers working within the world-system paradigm have noted that the
+direction, the statistical test indicates that the pattern is detectable even today  rise and fall of populations, cities, and empires is characterized by a broad-scale
+(t = 2.66, P = 0.014). The tendency to east-west orientation in modern coun-         synchronicity (Chase-Dunn and Hall 1997, Chase-Dunn et al. 2000; Chase-
+tries, nevertheless, is much weaker than for historical empires. There are mul-      Dunn, Hall, and Turchin 2007). For example, there is a substantial correla-
+tiple reasons for this. First, most modern colonial states were sea-borne and not    tion between the dynamics of Western Europe and China. On the other hand,
+land based. Second, modern transportation technology made and continues to           South Asian dynamics are completely uncorrelated with the rest of Eurasia.
+make long-distance travel much cheaper (Ciccantell and Bunker 1998; Bunker           Our finding that the propagation of "signals" within military-political networks
+and Ciccantell 2005a, 2005b). Third there has been a propensity among colonial       is facilitated in the latitudinal, but not longitudinal, directions suggests another
+states to claim territory that is either not inhabited by the home populations,      possible explanation for this pattern.
+or little used, or being held in reserve for future use. A striking example of this
+tendency is Canada, whose population is squeezed into a narrow band running              Finally, these results support the arguments originally advanced by
+east-west along its southern border with the us, but which nevertheless claims       Wallerstein (1974, 2004) and elaborated by Chase-Dunn and Hall (1997).
+extensive territories in the Arctic. Because of the addition of these lands, which   Contra Frank and Gills (1993), there was significant break in world-system
+are very sparsely populated, the latitudinal index of Canada is slightly negative.   logic with rise of modern capitalism. It is here evidenced in an attenuation of
+Algeria and Lybia provide other examples of the same tendency--their popula-         the latitudinal, or ecological, effects on shapes of states and empires with the
+tions are largely confined to the east-west band along the Mediterranean lit-        rise of industrial capitalism. The logic of capitalist accumulation of capital
+toral, but their latitudinal indices are essentially zero, because they claim huge   emphasizes ecological diversity over contiguity, shored up by radical decreases
+territories to the south, in the Saharan desert.                                     in transportation costs and regimes. It remains fascinating, yet problematic,
+                                                                                     that even in modern states there is still some residual ecological effect. This is a
+    Fourth, and probably the most important in world-system terms, with              topic that warrants further, and more nuanced, research than the broad-brush
+advent of industrial technology and the rise of modern capitalism, states inten-     analysis presented here.
+tionally sought new resources (Bunker and Ciccantell 2005a, 2005b). Where
+those resources were ecologically based, increased biological and ecological              . The phrase "capitalist accumulation of capital," which comes from Chase-Dunn
+diversity became a disiderata if not an explicit goal. This marked a significant     and Hall (), serves to distinguish capitalist modes of accumulation from tributary
+change in world-system logic as argued by Chase-Dunn and Hall (1997).                or kin modes of accumulation. Our point is that the logic of capitalist accumulation
+                                                                                     emphasizes ecological diversity much more than any other mode of accumulation, thus
+conclusions                                                                          overcoming much of the latitude effect.
+
+    Our results indicate that the physical and biological environment has a
+detectable effect on the shapes of historic states and to a lesser extent on modern
+states. It appears that projection of military/political power is easier within
+the same ecological zone (biome). This, however, does not support "ecological
+determinism." Although ecology is important, its influence on state expansion
+patterns is transmitted by social mechanisms which can either abate, or some-
+times overturn these ecological effects. Despite the complexities of the human
+world, certain techniques and ideas from ecological sciences have proven to be
+fruitful in suggesting novel approaches to the study of social systems (Turchin
+228         Turchin, Adams, & Hall                                                    East-West Orientation of Historical Empires and Modern States 
+
+references                                                                            _________. . "Size and Duration of Empires: Growth Decline Curves,  b.c. to
+                                                                                            a.d." Social Science History :­.
+Barfield, Thomas J. . "The Devil's Horsemen." pp. ­ in Studying War:
+     Anthropological Perspectives, edited by Stephen P. Reyna and R. E. Downs.        _________. . "Expansion and Contraction Patterns of Large Polities: Context for
+     Langhorn, PA: Gordon and Breach.                                                      Russia." International Studies Quarterly :­.
+
+Bunker, Stephen G. and Paul S. Ciccantell. a. "Space, Matter, and Technology          Turchin, Peter. . Historical Dynamics: Why States Rise and Fall. Princeton:
+     in Globalization of the Past and Future. pp. ­ in The Historical Evolution            Princeton University Press.
+     of World-Systems, edited by Christopher Chase-Dunn and E. N. Anderson. New
+     York and London: Palgrave.                                                       Turchin, Peter, and Thomas D. Hall. . "Spatial Synchrony Among and Within
+                                                                                           World-Systems: Insights from Theoretical Ecology." Journal of World-Systems
+Bunker, Stephen G. and Paul S. Ciccantell. b. Globalization and the Race for               Research ():­. http://www.jwsr.org
+     Resources. Baltimore: Johns Hopkins University Press.
+                                                                                      Wallerstein, Immanuel. . The Modern World-System: Capitalist Agriculture and
+Chase-Dunn, Christopher, Susan Manning, and Thomas D. Hall. . "Rise and                    the Origins of European World-Economy in the Sixteenth Century. New York:
+     Fall: East-West Synchronicity and Indic Exceptionalism Reexamined." Social            Academic Press.
+     Science History :­.
+                                                                                      _________. . World-Systems Analysis: An Introduction. Durham, NC: Duke
+Chase-Dunn, Christopher K., and Thomas D. Hall. . Rise and Demise:                         University Press.
+     Comparing World-Systems. Westview Press, Boulder, CO.
+                                                                                      Wells, Peter S. . The Battle that Stopped Rome: Emperor Augustus, Arminius, and
+Chase-Dunn Christopher, Thomas Hall, & Peter Turchin. . "World-Systems in                  the Slaughter of Legions in the Teutoburg Forest. New York: W. W. Norton.
+     the Biogeosphere: Urbanization, State Formation, and Climate Change Since
+     the Iron Age." pp.­ in The World System and the Earth System: Global
+     Socioenvironmental Change and Sustainability Since the Neolithic, edited by Alf
+     Hornborg and Carole L. Crumley. Walnut Creek, CA: Left Coast Books.
+
+Ciccantell, Paul S. and Stepehn G. Bunker, eds. . Space and Transport in the
+     World-System. Westport, CT: Greenwood Press.
+
+Diamond, Jared. . Guns, Germs, and Steel: The Fates of Human Societies. New
+     York: W. W. Norton.
+
+Frank, Andre Gunder and Barry K. Gills, eds. . The World System: Five Hundred
+     Years or Five Thousand? London: Routledge.
+
+Hall, Thomas & Peter Turchin. . "Lessons from Population Ecology for World-
+     Systems Analyses of Long-Distance Synchrony." pp. ­ in The World System
+     and the Earth System: Global Socioenvironmental Change and Sustainability Since
+     the Neolithic, edited by Alf Hornborg and Carole L. Crumley. Walnut Creek,
+     CA: Left Coast Books.
+
+Khodarkovsky, Michael. . Russia's Steppe Frontier: The Making of a Colonial
+     Empire, ­. Bloomington, IN: Indiana University Press.
+
+McNeill, William. H. . Europe's Steppe Frontier. Chicago: University of Chicago
+     Press.
+
+Pagel, Mark and Ruth Mace. . "The Cultural Wealth of Nations." Nature
+     :­.
+
+Ricklefs, Robert E. . The Economy of Nature, th edition. New York: W. H.
+     Freeman.
+
+Taagepera , Rein. a. "Size and Duration of Empires: Systematics of Size." Social
+     Science Research :­.
+
+_________. b. "Size and Duration of Empires: Growth-decline Curves,  to
+      b.c." Social Science Research :­.
+

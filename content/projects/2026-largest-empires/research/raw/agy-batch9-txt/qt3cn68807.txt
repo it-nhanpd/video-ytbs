@@ -1,0 +1,1905 @@
+UC Irvine
+
+UC Irvine Previously Published Works
+
+Title
+Expansion and Contraction Patterns of Large Polities: Context for Russia
+
+Permalink
+https://escholarship.org/uc/item/3cn68807
+
+Journal
+International Studies Quarterly, 41(3)
+
+ISSN
+0020-8833
+
+Author
+Taagepera, Rein
+
+Publication Date
+1997-09-01
+
+DOI
+10.1111/0020-8833.00053
+
+Copyright Information
+This work is made available under the terms of a Creative Commons Attribution License,
+availalbe at https://creativecommons.org/licenses/by/4.0/
+
+Peer reviewed
+
+eScholarship.org  Powered by the California Digital Library
+                                            University of California
+International Studies Quarterly (1997) 41, 475­504
+
+   Expansion and Contraction Patterns of
+      Large Polities: Context for Russia
+
+                                            REIN TAAGEPERA
+
+                University of California, Irvine, and Tartu University, Estonia
+
+            Over 5,000 years of history, the effective number of separate political
+            entities has decreased from close to a million to 24, if going by geographi-
+            cal area, and from about a thousand to 15, if going by population. These
+            changes have followed interconnected exponential patterns which ex-
+            trapolate to a single world polity around year 4000. Within this long-term
+            trend, three sudden increases in polity sizes occur: around 3000 BC, 600
+            BC, and AD 1600. This study tests the exponential model against area and
+            population data for five millennia. It also gives tables and graphs of area
+            versus time for all major polities since AD 600. The median duration of
+            large polities at more than half the peak size has been 130 years, and it
+            has not changed over 5,000 years. Polities that expand slower tend to last
+            slightly longer. The prospects of the Moscow-centered state are discussed
+            in the light of these findings.
+
+After the breakup of the Soviet empire the future of this region is one of the most
+important issues of the decade, overshadowed only by the interrelated complex of
+population explosion, ozone depletion, and global warming. What was proclaimed
+a Union was exposed as the Soviet Disunion, as soon as the totalitarian restraints
+were relaxed and people dared to speak up. What will it lead to? Will the Moscow-
+centered state break up even further or restabilize within its present borders or
+recover lost territory?
+
+   Light on this issue can be cast at various levels. Detailed knowledge about the
+incumbent Kremlin powerholders, the dilemmas of Russian economy, and the
+nature of the various nations within the former empire is useful but does not suffice.
+History enters, and so do geopolitical factors and general psychological considera-
+tions of how masses and decision makers behave in crisis. Finally, the long-term
+global patterns should be taken into account. What do we know about large polities
+in general, their expansion, organization, and modes of contraction? What has
+Eisenstadt's (1963) pioneering study of bureaucratic empires to say about the
+superbureaucratic Soviet empire and its successors? Or the more recent studies
+on empires by Doyle (1986) and the group around Duverger (1980)? Or Paul
+Kennedy's monumental work (1987) on the interaction of Great Powers during
+the last 500 years?
+
+   A most condensed overview of human history has been given by William McNeill,
+in The Human Condition (1980), presenting human masses in a fragile equilibrium
+
+    Author's note: An early version of this study was presented at the International Studies Association convention,
+Anaheim, 1986. The author wishes to thank Andrew Pargellis for some Mideastern data and the reviewers and editors
+of ISQ for their extremely valuable suggestions.
+©1997 International Studies Association.
+Published by Blackwell Publishers, 350 Main Street, Malden, MA 02148, USA, and 108 Cowley Road, Oxford OX4 1JF, UK.
+476  Expansion and Contraction Patterns
+
+or even symbiosis with microparasites (diseases) and macroparasites (nonproductive
+ruling groups). Population size and geographical location appear as major factors
+for diffusion of disease as well as technological and social inventions, and the latter
+make it possible to organize ever wider territories. This consolidation can occur
+voluntarily or be imposed by force, and often there is a mix of economic interest
+and military coercion. Among those who emphasize commercial and economic
+aspects of empire formation and preservation, one finds Friedman (1977), Jones
+(1982), and Chase-Dunn (1985). War and military logistics have been stressed by
+researchers ranging from Naroll (1967) to Eckhardt (1990). Whatever the mix of
+causes, it is also important to measure and model the broad patterns of the
+outcomes, and this is what this study is about.
+
+   A model of increasing political concentration of the world will be presented
+and tested. For testing, previously published data are complemented by new data
+on areas of large polities, from AD 600 on. After analysis of some broad patterns
+for the last 5,000 years, implications for contemporary Russia are discussed,
+keeping in mind the limitations of this approach, like those of various others.
+After all, no approach clearly predicted the fragmentation of the Soviet Union,
+much less its date.
+
+   To display long-term global trends is not the same as to show all the conditions
+causing any particular polity to expand or contract. This full range of conditions is
+not part of the analysis here. The geopolitical literature dealing with logistical
+overextension and relative resource advantages applies more to the level of particu-
+lar states and is thus directly relevant to the future prospects of the Russian
+Federation. The present global level of analysis can cast only indirect light on the
+future of any particular polity.
+
+                            The Model, Method, and Assumptions
+
+Over the last 5,000 years the political world has become more concentrated in terms
+of geographical area. The largest polities of 3000 BC (in Egypt and Mesopotamia)
+were tiny compared to the present ones. The largest polities of 2,000 years ago (Han,
+Rome) were already much larger but still smaller than the present largest polities
+(Russian Federation, Canada, the United States, China). When one considers the
+relative share of the world population, the picture is less clear, but the trend toward
+greater concentration still prevails. Technological advances have made it possible
+to coordinate ever-larger numbers of people over ever-larger distances. Hence the
+number of separate political entities has tended to decrease, albeit with large
+fluctuations.
+
+   To model this broad trend toward larger and fewer polities, one might well start
+with an exponential model. This model expresses a constant relative (percent) rate
+of increase or decrease and hence is the simplest growth model possible.1 In the
+absence of theoretical reasons to claim a systematic increase or decrease in the rate
+at which concentration changes over time, a constant rate is also the only a priori
+assumption one can make. I'll test the hypothesis that the simple exponential model
+applies to some measures of change in the concentration of the political world. If
+the model succeeds in expressing the average trend, then the fluctuations around
+
+    1 The constant relative rate of change in a quantity A over time (t) is expressed by the differential equation dA/dt =
+kA, where k is the rate constant. Integration leads to the exponential relation between A and t: A = Aoek(t-to), where e is
+the basis of natural logarithms and Ao is the value of A at time to (which can be chosen arbitrarily). The exponential
+curve becomes a straight line when graphed on semilog paper, and this is a simple way to test whether a data set follows
+an exponential pattern.
+REIN TAAGEPERA  477
+
+the average may give us insights about the nature of various periods in history. If
+the model fails, we may obtain clues for how to modify it.
+
+   What exactly are we to measure? One must specify what one means by "polity"
+and which of its characteristics are relevant and measurable. It is hard to find a
+short substantive definition that would be valid over five millennia of evolution
+in social relations. One may tentatively characterize polity as an "independent"
+or "sovereign" entity, usually connected to an area and its population, over which
+it has exclusive rights of legitimate force, but this definition has many shortcom-
+ings.2 Over 5,000 years, the notions of borders and territorial control, citizens
+and subjects, and the general nature and scope of political authority have
+changed almost beyond recognition, so that one might argue that a definition
+that fits all periods is not possible.
+
+   Yet the color patches in historical atlases indicate a widespread belief that some
+territories can be assigned to some political entities, from 3000 BC on, and this
+notion has been extended to the populations of these areas in atlases of population
+history (e.g., McEvedy and Jones, 1978). There is fair agreement among the atlases
+on the identity and extent of the attributions, reflecting some consensus among the
+historians more generally. An imperfect but operational definition for the present
+purposes might be that polities are indicated by the different colored patches in
+historical atlases. This is less flippant than it may sound. We often have a consensus
+on recognizing features (e.g., human faces) that we cannot easily define.3
+
+   Area and population are among the basic determinants of a polity and its power.
+A large and populous polity may or may not be powerful, but a very small polity
+with few people rarely is. Apart from area and people, the power of a polity depends
+on factors such as resources, economic productivity, technological level and inno-
+vation, geopolitical location, military strength, seapower, efficiency of organization,
+and leadership. Which of them can we measure in a way suitable to express
+concentration?
+
+   Measures of concentration imply the existence of a measurable total amount of
+something in a system, distributed among the system's components. Area and
+population are of this nature. Geopolitical location, organizational efficiency, and
+leadership are not, because their world total seems impossible to define even in
+principle. Resources, technology, and seapower represent intermediary cases where
+a total may be definable, although difficult in practice. The world total and
+distribution of GNP is determinable for the present but becomes quite speculative
+for the distant past.
+
+   The present study tackles only the easiest part, the area and the population. They
+certainly do not tell the entire story. Neglecting important factors increases the risk
+
+    2 This definition applies best in the early 1900s, when all dry land territory outside Antarctica was claimed by some
+recognized member of the international system, and supranational organizations had not begun to blur the notions of
+independence and sovereignty. In times before the Westphalian Treaty "sovereignty" was not clearly defined. In feudal
+societies, in particular, no single exclusionary control over a territory existed.
+
+    3 We should continue to look for an analytical definition implicit in such a consensus, but meanwhile, we should not
+stop measurement just because there is some fuzziness in the meaning of what we measure. Indeed, such imperfect
+measurements may help to refine a definition. The color patch definition limits my ability to bias the results by adjusting
+data to suit the model. In the relatively few cases where I depend on written sources, they still have to cross-check with
+the areas shown in atlases.
+
+  What about the many areas in the maps for older periods where no polity is indicated? They may express our ignorance
+about their political organization, or the existence of many small or diffuse entities, or nonexistence of political structure
+in those areas. I proceed from the admittedly debatable assumption that humans always were political animals subject
+to some authority and territorial tendencies. Thus the areas not explicitly attributed to polities on historical maps are
+treated as belonging to smaller polities, possibly as small as a family unit subject to no outside authority and exploiting
+a more or less well defined piece of the terrain. The impact of such vagueness on the measurement results must be
+discussed--see footnote 5.
+478  Expansion and Contraction Patterns
+
+of ending up with inconclusive results. If, despite omitting all the other factors, the
+study of area and population produces some expected patterns, then the model
+must be fairly robust.4
+
+   Concentration of a system can be expressed in two equivalent formats. One is a
+concentration index that ranges from near-zero, when the property in question is
+extremely dispersed, to 1, when all is in the hands of a single owner. A most
+widespread index is that of Herfindahl-Hirschman (HH): HH =  Ai2/A2, where
+Ai is the size of the i-th component and A is the total size. The other format uses an
+"effective number of components," which ranges from one, when one owner owns
+everything, to very large, when no component is large compared to the total. In the
+study of party systems the Laakso-Taagepera effective number (N) has become the
+most widely used measure (Lijphart, 1994:70). It is simply the inverse of HH: N =
+A2/ Ai2. Given that N is easier to visualize than HH, it will be used in this study.
+
+   The basic approach in both HH and N is self-weighting, in the sense that each
+component size is multiplied by itself. In principle all components must be meas-
+ured to determine N, but actually little error is introduced when only the largest
+components are entered.5 This is extremely important for the present measurement
+of areas and populations of polities: small polities (on which information is often
+lacking) can be ignored. Concentration depends heavily on the size of the largest
+components.
+
+   Bounding the interaction system is a serious problem that I cannot solve satisfac-
+torily within this article. Should we consider the globe or its various separate regions?
+At the present, the entire globe interacts politically and technologically with a short
+lag time, but this was not the case even a thousand years ago. To some extent, it is
+a matter of degree in speed of interaction among the various regions. The invention
+of light cavalry had a crucial impact on the size of polities in the Middle East around
+600 BC; it reached China only 400 years later (when Ch'in used this innovation to
+conquer its rivals)--but reach it did, eventually. Admittedly, the Americas and
+Australia seem to have been cut off from interaction for many thousands of years.
+But excluding them from the main system until recently adds more methodological
+problems than it solves.
+
+   Therefore, this study uses the entire dry land area outside Antarctica as a
+comparison base throughout the five millennia. If the simplifying decision to treat
+the entire dry land area as a single system is widely off the mark, it should show up
+in a reduced fit to the model. To the extent the exponential model works, the
+assumption of a single system is vindicated.6
+
+    4 One must, of course, be on guard against artefactual patterns. Some robustness can be expected because changes
+in power, however produced, tend to translate into area changes (and hence population changes). Thus sea power often
+translates into overseas colonies. Internal disorganization may produce loss of outlying areas. But counter-examples
+also abound. Thus the weakening Ottoman empire lost rich and populous land in the Balkans, but made up in formal
+extension by expanding deeper into the Sahara.
+
+    5 Suppose a system consists of four components of sizes 45, 29, 21, and 5, respectively. In this case HH = .333 and
+N = 3.00. The former is an abstract number, while the latter says that in some ways the system is equivalent to a system
+of three equal components. The information content of HH and N is exactly the same, since N = 1/HH. Like any single
+index, both lose information compared to a listing of the constellation itself. Thus N = 3.00 could also originate from
+34-33-33 or 53-17-9-9-8-3-1 (Taagepera and Shugart, 1989:259). If in the latter example only 53 and 17 are known
+(plus the total), N comes out as 2.82, if the remainder (30) is assumed to be divided 15-15. N comes out as 3.23, if the
+remainder is assumed to be divided into infinitesimally small parts. The average of these two extreme estimates is
+3.02--rather close to the actual 3.00.
+
+    6 Over millennia even Australia received impulses (witness the existence of human population), and the common
+ancestral impulse brought state formation (beyond chiefdom) in Peru and Central America only 4,000 years later than
+in Egypt--a small fraction of the time Homo sapiens have existed. On that time scale the entire human population has
+always formed a single interacting system, albeit with a long lag time. Why exclude Antarctica but not Kalahari or the
+REIN TAAGEPERA  479
+
+   I am now in a position to specify the major model to be tested: the worldwide
+effective number of polities in terms of their land area (NA) is expected to decrease
+exponentially over time. The same is expected to be the case for the effective number
+of polities based on population (NP), although the measurement error might be
+greater. Most important, the two are interconnected in a specific way, to be
+explained next.
+
+   Indeed, the model is more stringent than just two separate exponential curves.
+If the world should ever be reduced to one single state in terms of area, it would
+have to be a single state in terms of population as well. Hence both patterns not
+only must be exponential, but also must extrapolate to N = 1 at the same time. At
+all other times, NP is expected to be lower than NA, because large polities tend to
+include locations with the densest populations.7 Hence they tend to include a larger
+share of the world population than of the world dry land area. The expected
+relationship can be narrowed down even further by the following reasoning.
+
+   If large polities tend to form where people are, rather than in empty spaces, then
+the upper limit on NP is NA. In other words, population is not more dispersed than
+area. The lower limit on NP is always 1; this would be approached if the world had
+only one small but fertile valley (a "super-Nile") which formed a single polity and
+enclosed most of humankind, while the rest of the world consisted of extremely
+sparsely inhabited hunting grounds. In sum, we expect 1 < NP < NA. In the absence
+of any further information, one would expect NP to be near the mean of the
+boundary values. When the higher boundary can be larger than the lower one by
+several orders of magnitude, the geometrical mean is to be used, leading to NP =
+NA­.5. This relation automatically satisfies the previous requirement: when NA = 1,
+then also NP = 1.
+
+   In conclusion, the complete theoretical model reads as follows:
+
+                                          NA = No2 e2k(t-to);
+                                                                                                          (1)
+
+                                            NP = No ek(t-to),
+
+where No is the effective number of components in terms of population at the time
+designated as to. The rate constant for the area equation is predicted to be double
+the rate constant for the population equation.
+
+                                            Previous Work
+
+The method of measuring areas on historical maps was pioneered by Hart (1945),
+who graphed the record sizes reached by landborne empires. Marano (1973) used
+the area of the largest empire at any given time to estimate the arrival of world
+government. Taagepera (1978a) dealt with the systematics of geographical size (but
+not of population) of all major polities and published detailed expansion-contrac-
+tion curves for the period up to AD 600 (Taagepera, 1978b, 1979). Some results are
+presented next. In the following, the unit of area used is square megameter (Mm2).
+Given that 1 Mm = 1000 km, we have 1 Mm2 = 106 km2 = 0.39 million square
+
+interior of Greenland? It is the only case where an entire continent has remained not only uninhabited but also unvisited
+until recently, and which even now has not been divided up the usual way among the various polities. In the future one
+may have to include not only Antarctica but also the Moon.
+
+    7 Even if large polities initially form in areas of relatively low population density (Muslim, Mongol) they soon tend
+to conquer neighboring high-density areas (Fertile Crescent, China). Large purely nomadic polities are rare. The Yuen
+Yuen (Jou-jan) in 390­552 may come the closest, and even there the sedentary population should not be underestimated.
+480  Expansion and Contraction Patterns
+
+miles. The total dry land area of the Earth is 133 Mm2, excluding Antarctica. I'll
+use the negative sign for years BC, and the positive sign for AD.
+
+   1. Over the last 5,000 years the sizes of the largest polities have tended to increase.
+This expansion can be fitted with a simple logistic equation, the total dry land area
+being the ceiling. This ceiling is approached so slowly that one would not expect a
+stable empire of almost worldwide proportions to materialize within the next 1,000
+years.
+
+   2. Within this steady increase, one can detect three major spurts. There is no
+evidence of polities larger than .01 Mm2 (about 4,000 square miles--the maximum
+area of a single Egyptian nomes) much before ­3000 (i.e., 3000 BC). Around ­3000
+the formation of Lower and Upper Egypt rather suddenly tenfolded this area, and
+their unification brought the total to .25 Mm2. During the subsequent 2,500 years
+the largest polity most often was centered in Egypt. Throughout this first historical
+phase, the largest polity occupied 0.3 to 1 percent of the dry land area (except for
+a breakdown around ­2100). Around -600, the size of the largest polity again
+increased suddenly and from then on never dropped to less than 2 percent of the
+dry land area. During this second phase (-600 to +1600) the record-breaking sizes
+gradually increased from 5 to 20 percent of dry land area. The largest polity most
+often was centered in Iran or China or (since +600) their Mesopotamian and
+Mongol borderlands. Around +1600, another sharp increase in size occurred (to
+15 and even 25 percent of dry land area). At the beginning of this third phase, the
+centers of large polities shifted to Europe. The question remains whether the largest
+polities will from now on always stay larger than they used to be prior to 1600.
+
+   3. Most large polities are short-lived, and no detectable change in their duration
+at close to maximum size has taken place over five millennia. Duration time (D) is
+defined as duration at more than one half of the polity's stable maximum size. By
+this criterion, only about twenty-five large polities have lasted for more than two
+centuries, and only two of the present ones belong to this club: China (since its new
+beginnings under the Manchu dynasty) and Russia (since its beginnings as
+Muscovy).
+
+   4. Polities that expand faster also tend to contract sooner. Rise time (R) is defined
+as the time it takes for a polity to expand from 20 to 80 percent of its maximum
+stable size. The D/R ratio varies from 0.5 to 15, with a median of about 3. The longest
+rise time by this definition is observed in the case of Russia (240 years).
+
+   This earlier work (Taagepera, 1978b, 1979) presented detailed graphs for major
+polities, but only up to the year +600. The present study supplies such graphs for
+the most recent 1,400 years. The underlying data are tabulated in the Appendix.
+Regularities in expansion of polity size are revised in the light of more complete
+data, using some new methodological approaches.8 In particular, the aforemen-
+tioned notion of effective number of components is introduced. In addition to
+geographical size, population is considered, but in a separate section.
+
+    8 The methods of measurement and the related operational definitions are used as described by Taagepera (1979),
+unless otherwise noted. Successive polities under different political regimes but with basically the same territory are
+counted as a single continuum, if the time gap between them is less than 30 percent of the first component's duration.
+By this count, the Ming empire is distinct from its Mongol-Yuan predecessor, but there is continuity from the Manchu
+dynasty to the present China and from Muscovy to the present Russian Federation.
+REIN TAAGEPERA  481
+
+         Expansion-Contraction Curves of Large-Polity Areas Since +600
+
+For convenience of graphing, I divide the time span examined into three periods,
+each starting with the expansion of a record-breaking polity (in terms of geographi-
+cal size) and ending with appreciably smaller ones. These periods will be designated
+according to the polities that ushered them in: the Muslim, the Mongol, and the
+Russo-British eras. In the same sense, one could talk of a previous Egyptian era
+(from ­3000 to ­600) and an Irano-Chinese era (from ­600 to +600). Only the
+changes around ­600 and +1600 have deeper significance, which will be addressed
+in the next section. The cutoffs at +600 and +1200 are introduced for convenience
+of discussion of a long time span.
+
+   The Muslim era (600­1200), shown in Figure 1, was ushered in by the Islamic
+Caliphate, which covered almost twice the area of the previous largest durable polity,
+Han China: 11 Mm2 as against 6. (The Hsiung Nu Hunnish empire reached 9 Mm2
+around ­180 but stayed at that level only for some twenty years.) The rest of the
+period is largely the story of challengers and successor states of the Caliphate, in
+Western Asia and the Mediterranean basin. In Europe north of Byzantium, all
+empires except Kiev remained relatively small. East Asia evolved separately, with
+the T'ang empire introducing the period, followed by the Sung-Jurchen continuum.
+During the entire period, the little-known Tibet-centered Tufan remained a major
+empire in terms of size and duration. Around the year 800, it actually was the world's
+largest polity, and it also had a large population in the Ganges valley.
+
+   All graphs in Figure 1 use the same scale so as to facilitate visual comparison. The
+grouping into four subgraphs is for graphing convenience only; there is no impli-
+cation that the four geographical areas shown formed self-contained or tightly
+interacting regions.
+
+   The Mongol era (1200­1600), shown in Figure 2, began with Genghis Khan's
+Mongol empire which reached more than double the area of the Caliphate: 24 Mm2
+versus 11. The Mongol empire destroyed and incorporated nearly all existing major
+polities in the world, whereas similar activities by the Caliphate largely bypassed the
+polities in East Asia. On the other hand, while the political impact of the Caliphate
+was felt for 600 years (up to 1200 and even further), the political impact of the
+Mongol empire largely faded within 300 years (although the consequences of its
+existence remained, such as reorientation of trade routes and speeding up the
+diffusion of key technologies and of the bubonic plague). The Kazan Tatar continu-
+ation of the Golden Horde, the last traceable successor state of the Mongol empire,
+lasted until 1552. In Central Asia, claims for legitimacy continued in the 1400s to
+be based on Genghis Khan's lineage--or stewardship for Genghis Khan's descen-
+dants, in the case of Timur Khan.9 Timur's own heirs created the Mogul empire in
+India which lasted beyond 1700.
+
+   By 1500 the new European-centered empires were on the rise, although they
+remained small until 1600. Overall, a cutoff at 1600 is not unreasonable. The scales
+for all empires in Figure 2 are the same, but they differ from those in Figure 1. The
+
+    9 The craving for historical legitimacy is a puzzling phenomenon. The Muslim insistence on Mohamed's blood
+lineage (e.g., in today's "royaume chérifien" of Morocco) is understandable because of religion. The medieval German
+insistence on the "Holy Roman empire of the German Nation" could be explained by the long duration of the real
+Roman empire as the major Christian state. But the legitimizing function of Genghis Khan suggests that more primitive
+instincts may be at play. This conqueror himself had no legitimacy besides force of arms, had little to do with any religion,
+and his empire fell apart within one century. Why would later conquerors claim legitimacy based on Genghis Khan's
+raw military conquest rather than their own? A feature common to the Caliphate, the Mongol empire, and also Rome
+(from the Eurocentric viewpoint) was their record-breaking size. For those who believe that might is right, a record-
+breaking size may psychologically be the ultimate legitimacy.
+482  Expansion and Contraction Patterns
+
+       FIG. 1. The Muslim era: expansion-contraction curves of areas of polities, years 600­1200.
+
+four subgroupings (which also are different from those in Figure 1) are for graphing
+convenience only.
+
+   The Russo-British era (from 1600 on), shown in Figure 3, has Russia as the largest
+polity most of the time. However, Russia never surpassed the Mongol empire in
+size, while Britain did--and by a considerable margin (35 Mm2 versus 24). Prior
+to the one century of British predominance, the Spanish empire was for two
+centuries almost as large as the Russian. I do not count post-WWII East-Central
+Europe and Mongolia as parts of the Russian empire, because these states
+REIN TAAGEPERA  483
+
+      FIG. 2. The Mongol era: expansion-contraction curves of areas of polities, years 1200­1600.
+
+remained formally distinct members of the international community (unlike Khiva
+and Bukhara in tsarist Russia or the Indian principalities in British India).
+
+   The multicentrism of this period differs from the single preeminence of the
+Caliphate and the Mongol empire during their entire existence. The Russo-Brit-
+ish era might as well be called more broadly the European era. The breakup of
+Eurocentric empires has produced many successor states outside Europe, some
+of which are among the largest polities that ever existed: Canada, USA, Brazil,
+Australia, each close to 10 Mm2 or about 7 percent of the world dry land area,
+484  Expansion and Contraction Patterns
+
+   FIG. 3. The Russo-British era: expansion-contraction curves of areas of polities, years 1600­1995.
+
+though of varying population and power. In contrast, the largest polities that
+followed the breakup of the Caliphate and the Mongol empire did not surpass 6
+Mm2, the record established by the prior Han empire. Several of the present largest
+successor states are Anglophone, and in this sense the Russo-British era still
+continues.
+
+   This completes the data compilation. It is now time for analysis of long-term
+historical trends.
+REIN TAAGEPERA  485
+
+                          Area-Based Effective Number of Polities
+
+Political power in the world was 5,000 years ago dispersed among very numerous
+separate entities. By now, the number of such entities has been reduced to about
+200. Many of these are of negligible size, compared to the largest, and hence an
+"effective" number (NA) is used here, as explained earlier. It undercounts the
+smallest components. The constant A in NA = A2/ Ai2 is the total dry land area of
+the Earth (133 Mm2, excluding Antarctica). As of 1995, NA was 24. This figure does
+not mean that the twenty-four largest polities matter to an equal degree while others
+do not matter at all; it is a more abstract indicator of fragmentation.
+
+   Figure 4 shows the pattern of change in NA. The effective number of polities is
+graphed on logarithmic scale. The overall trend and the three distinct phases
+observed in previous work are well in evidence.
+
+   Phase 1. In Egypt and Mesopotamia supra-village aggregation into multicom-
+munity chiefdoms may have begun by ­5000 (Carneiro, 1978), leading in Egypt to
+some forty-two "nomes." City cultures led to the first state formations beyond
+chiefdoms probably no earlier than ­3500 and no later than ­3200 (cf. Service,
+1975:207ff, 227ff). Prior to this development, the effective number of separate
+political entities in the world may have been as high as 1 million.10 At the latest by
+
+                                  FIG. 4. Effective number of polities, based on area.
+
+    10 This is an extremely rough estimate of fragmentation. The world population around ­3200 may have been around
+14 million. This is the upper limit on NA. One may envisage individual hunters, families, tribes and villages exerting
+some control over areas averaging some 100 km2, that is, an area 10 times 10 kilometers that may be traversed in 2
+hours walking. The world dry land would fit 1.3 million such average units, with an average of ten persons each. The
+effective number tends to be lower than the actual number. I estimate the possible lower limit as being about 10 times
+lower, around NA = 100,000. This would imply coordinated hunting and gathering groups of about 100 members,
+loosely controlling 1,000 km2 each, which seems excessive.
+
+  Carneiro (1978) estimates that the number of political units was under 200,000 around ­9000 and then increased
+(along with the world population) up to a peak of 600,000 around ­1000; the corresponding effective number would
+be somewhat lower. Getting ahead of my argument, note that a lower estimate for NA before known state formation
+would improve the agreement with the model: it would decrease the slope of the NA line in Figure 5 and hence bring
+the crossing point of the two lines closer to the predicted 1. Thus a high NA prior to urbanization and state formation
+and also a late date for the latter (as shown in Figures 4 and 5) test the model the most severely.
+486  Expansion and Contraction Patterns
+
+­3000 occupational differentiation that went with city formation made larger
+territorial units possible and started Phase 1.
+
+   The first known supra-chiefdom states were Upper and Lower Egypt, with a
+combined population of about 1 million and controlling initially about 0.1 percent
+of the world dry land area. The Egyptian state formation reduced the effective
+number of separate political units.11 During the following 2,400 years, this number
+slowly came down to 10,000 at times of empire-building in the Near East, India,
+and China. Periods of empire breakdown increased the effective number again, at
+times beyond 100,000. Qualitatively, the picture agrees with that given by the earlier
+graphing of the area of the largest empire (Taagepera, 1978a). Phase 1 corresponds
+to the era of Egyptian domination.
+
+   Phase 2. A sudden and permanent increase in concentration of territory oc-
+curred between ­650 and ­500. Prior to that time, the effective number of compo-
+nents never fell below 8,000, even during imperial peak periods; in contrast, it later
+never rose above 1,300, even during periods of major breakdown of empires.
+Correspondingly, the maximum size of the single largest polity prior to ­650 never
+surpassed 1.1 Mm2, while it later never fell below 2.3 Mm2.
+
+   The transition reflected a breakthrough in the art of bureaucratic "government
+at a distance" (McNeill, 1980:25): delegating appreciable power to provincial
+governors while still preventing them from becoming independent princes. Achae-
+menid Persia achieved it partly by speeding up communications through use of relay
+stations. A few centuries later, China assigned provincial authority to three special-
+ized functionaries who served as watchdogs on each other. Frequent rotation was
+another technique.
+
+   The skills needed to build bureaucratic command structures spread and were
+refined. During the next 2,000 years (­500 to +1600) the largest polities continued
+to become larger during their peak periods, from Achaemenid Persia (5.5 Mm2) to
+Genghis Khan (24 Mm2). Accordingly, the effective number of polities was reduced
+from around 600 to 30. However, during periods of breakdown, the effective
+number of polities kept jumping back to close to 1,000. In the late 1100s, the world's
+largest empire, Jurchen, reached merely 2.3 Mm2--one-half of the area of the
+Achaemenid empire seventeen centuries earlier. It was followed by Genghis Khan's
+huge empire, but the latter's technology and political organization skills do not seem
+to differ qualitatively from those of the Achaemenids. Phase 2 includes the eras of
+Irano-Chinese, Muslim, and Mongol predominance.
+
+   Phase 3. A third phase in expansion of empire sizes probably started somewhere
+between 1600 and 1800, propelled by modern technologies, especially the uses of
+electromagnetism. The magnetic compass needle expanded the maritime horizons,
+and the telegraph ushered in the age of near-instant communications that could
+hold together huge empires. Since 1800, the effective number of polities has
+constantly remained below 30, a value first reached during the short-lived Mongol
+empire. At the peak size of the British empire (35 Mm2, in 1925), NA reached an
+all-time low of 9.
+
+   By 1990, the effective number had moved up again, to 19, and the Soviet breakup
+lifted it to 24. The latter increase does not mean adding five specific successor states
+
+    11 At this stage, it is hard to visualize the meaning of an effective number, given a mix of very numerous tiny
+components (of 100 km2 or less) and two comparatively huge ones (almost 100,000 km2) which are still small on the
+world scale. In such cases, consider N just a measure of dispersion or fragmentation, the inverse of concentration. For
+properties of the effective number of components, see Taagepera and Shugart (1989:77­91).
+REIN TAAGEPERA                  487
+
+to a list. Rather, the reduced area of the Moscow-centered state increases the relative
+salience of various other polities throughout the world.
+
+   Phase 3 corresponds basically to the era of Russo-British predominance. The
+existence of such a third distinct phase in polity sizes is not yet quite certain. From
+the Mongol empire in 1300 to the British empire in 1925, the relative decrease in
+NA is no more marked than it was from the Caliphate to the Mongol empire. In
+other words, there is no clear separation between the second and third phases,
+unlike the visible shift between the first and second, in terms of record-breaking
+polity sizes. However, a difference between the second and third phases appears in
+the limited extent of increases in NA during periods of empire breakdown. Major
+decolonization since the 1940s has put only a small upward kink in the curve in
+Figure 4.
+
+   Potential for further fragmentation also looks limited. If the Russian Federation
+lost all its non-Russian republics, if Quebec left Canada, if Tibet re-achieved
+independence, and Kashmir and the Sikh region left India, NA would still remain
+below 30. For the world to become again as fragmented as it was in 1500, the United
+States, Australia, Brazil, Anglophone Canada, Russophone parts of Russia, and the
+ethnically Han parts of China would all have to break up into several pieces. Given
+that these areas are geographically compact and linguistically fairly homogenous,
+such a simultaneous breakup seems unlikely. Breakup of smaller polities would have
+little impact on worldwide concentration. Meanwhile, new peaceful consolidation
+forces are visible, as in Western Europe. Thus several of the largest polities of the
+next century are likely to remain larger than any pre-1600 empire was, apart from
+the Mongol realm and the Caliphate.
+
+   In sum, what distinguishes Phase 3 from Phase 2 is not the size of an occasional
+record-breaking empire but the large array of fairly large and fairly stable states.
+Among the fifteen largest polities that ever existed, six exist now: Russia, Canada,
+China, USA, Brazil, and Australia.
+
+   The Continuum Approach. Observation of distinct phases in worldwide concen-
+tration should not detract attention from the remarkable continuity of the overall
+process, which is expressed by the best-fit exponential equation
+
+NA = 1300 e­.0019t, [r2 = .90]  (2)
+
+where e is the basis of natural logarithms and t is time in years AD. The line
+corresponding to this equation is shown in Figure 4. The dashed parallel lines
+indicate that all actual values are within a factor of 10 of equation (2). This part of
+the exponential model is confirmed to a fair degree.
+
+   Extrapolation based on this equation suggests that the effective number of polities
+would be reduced to 1 around the year 3800; there would be a 50 percent probability
+of the world being one single polity at that time. The lower envelope line reaches 1
+around +2600, suggesting that it is highly unlikely that a world state would
+materialize even briefly within the next six centuries. A completely bipolar world
+(with two equal-sized polities) could briefly occur by +2200 but has a 50 percent
+chance only by +3400.
+
+   This extrapolation is in fair agreement with Marano (1973), who assumed
+exponential increase in the area of the largest empire and projected it to fill the dry
+land area by +3500. Both projections put a world government off into a much more
+remote future than envisaged by Naroll (1967), who saw a 50 percent probability by
++2200, or by Carneiro (1978), who projected the number of political units to
+decrease to 1 around +2300.
+
+   One of Naroll's (1967) starting assumptions was: "Henceforth, there will always
+be at least one state on Earth as large as the Soviet Union is today. For the foreseeable
+488  Expansion and Contraction Patterns
+
+future, there seems no reason to expect the Soviet Union itself to shrink in size, or
+break up into fragments." The same might have been said about the British empire
+seventy years earlier. Despite his penetrating study of all historical empires, Naroll
+overestimated the cohesion of the largest empire of his own time. We should be
+careful not to assume that what is, is bound to remain.12
+
+   Needless to say, extrapolation is not prediction. All extrapolations are highly
+speculative as long as they are not supported by a rational model. We should go
+beyond qualitative reasoning such as McNeill's (1980) and express quantitatively
+the mechanisms that produce the observed exponential trend; this remains to be
+done. Meanwhile, no better approach than the present one seems available. When
+guessing at when "history will end," the best we can do is look at all the history we've
+got and extrapolate, very skeptically.
+
+                      Population-Based Effective Number of Polities
+
+The previous procedure can be repeated with populations of polities instead of
+areas, subject to the quality of historical population data. Considerable data have
+been made available by McEvedy and Jones (1978), and I very much depend on
+their work. In conjunction with knowledge about the territories controlled, the
+populations of polities can be estimated, but this being a second-order estimate, the
+possible error range widens.
+
+   For calculation of the population-based effective number (NP) one replaces areas
+by populations and keeps in mind that in this case the world total also keeps
+changing over time. The long-term pattern is shown in Figure 5, together with the
+area-based one. Because of uncertainties in estimating the population of the world
+and of each polity at all times, the population-based curve is less detailed than the
+area-based.
+
+   In conformity with the model, we always have NP < NA, meaning that population
+is less fragmented than area. The average pattern for NP can be fitted with an
+exponential equation:
+
+     NP = 31 e­.0008t. [r2 = .68]        (3)
+
+   The fluctuations are larger than in the case of geographical area, but the
+
+exponential model still can be considered confirmed. Also in line with the model,
+NP is close to the square root of NA, which is 36 e.00095t on the basis of equation (2).
+The best-fit lines for NA and NP cross around N = 2 rather than the required N =
+1. This is quite close, given that we extrapolate from values of NA and NP that start
+
+from around one million and one thousand, respectively. Lines close to the best-fit
+lines in Figure 5 are obtained with NA = 1300 e­.0018t and NP = 36 e­.0009t, which
+satisfy NP = NA.5 exactly and extrapolate to NP = NA = 1 at t = 3982. With this,
+
+    12 In a direction opposite to Naroll (1967) and Carneiro (1978), good reasons can be offered to doubt that the size
+of polities could continue to increase at all in the future. In the past, big jumps in the areas of the largest polities often
+occurred when they acquired nominal control over sparsely populated areas, starting with Sargon's over the desert
+between Mesopotamia and Syria. Much of the Mongol expansion involved steppe. The British empire was unprece-
+dentedly large because of its control over areas like Australian desert and Canadian tundra. Australia and Canada remain
+among the largest polities for the same reason, without corresponding geopolitical power. The same applies to Brazil
+(although its potential power may be underestimated). Russia's large area is due to essentially uninhabitable polar
+regions that add little to its power. Given that all such marginal areas have been divided up (short of Antarctica and the
+Moon), no future earthbound polity can achieve a new record size by the time-honored device of absorbing wastelands.
+Any further record expansion will have to come from someone else's hide, either by conquest or by voluntary fusion--or
+semivoluntary, subject to economic imperatives. I am not at all convinced that history has come to an end, so that the
+present level of concentration will continue. How states produce and maintain geopolitical limits upon each other is an
+important topic I will not discuss here.
+REIN TAAGEPERA  489
+
+                     FIG. 5. Effective number of polities, based on area and on population.
+
+the predictions of the combined model can be considered confirmed to a satisfactory
+degree.
+
+   It remains to consider some details of the population graph. Extrapolation from
+equation (3) yields a 50­50 probability for a single-empire world around the year
+4300--a date comparable to that obtained with NA (3800). The sudden change
+around ­600, observed for NA, is visible in the NP curve as well, but the sudden
+change in NA around +1600 is not in evidence for NP. The effective number of
+polities in terms of population decreased up to year +100, but since then it has been
+essentially stationary. The lowest values of NP (about 5) were reached already
+around year +100, and again after 1800. Since 1900, NP has gradually increased
+to 15 in 1995. For the first time in world history we have approached a situation
+where area concentration catches up with population concentration. What is
+behind this stability of NP?
+
+   If the second-largest component is clearly smaller than the first, then the value
+of N is largely determined by the largest component. This has often been the case
+for record-breaking polities. Prior to ­2000, the valleys in the N curves reflect mainly
+the consolidation of Egypt. From ­500 on, China has been by far the most populous
+component, whenever its core lands did form a single polity. This was so even when
+China was not the world's largest polity in area. The mistaken impression seems to
+be widespread that contemporary China represents an expanding population which
+"already" forms nearly one quarter of the world population (21 percent, in 1995).
+Actually, China's present share is the lowest in at least 1,300 years. Most of the time
+since -400, the territory of the present PRC has contained more than a quarter of
+humankind. At times it has represented more than a third: 35 percent in +200 and
+as much as 37 percent in 1800 (based on estimates in McEvedy and Jones,
+1978:197).13
+
+    13 If historical demographical data were more precise one could plot population graphs analogous to the area graphs
+in Figures 1 to 3. In this format the predominance of the Muslim and European empires would fade compared to the
+steady population concentration in China. For example, in 800 the T'ang empire had about 50 million people (out of
+a world total of 220 million) while the much larger Islamic Caliphate had only about 34 million.
+490  Expansion and Contraction Patterns
+
+   Since the 1800s, the population of the rest of the world has increased faster than
+China's, increasing the worldwide fragmentation. More generally, the river valleys
+
+where early polities formed are by now choked with people, and growth is fastest in
+previously less populated locations, which keeps NP relatively high. At the same
+time, the extremely sparsely populated areas such as northern Siberia, which
+previously remained outside the organized polities, are now formally incorporated,
+and this reduces NV. Thus the gap between NV and NP is narrowed down.14
+
+                                         Duration of Polities
+
+Before proceeding to evaluate the outlook for Russia, the possible systematics of
+duration should be briefly considered, although it is not connected to the exponen-
+tial model. This section is purely empirical. It is evident from Figures 1 to 3 that
+polities can last a few years or many centuries. Rise and duration times were
+determined for all polities in Figures 1 to 3 for which the data were adequate,
+following the procedure outlined in the section on previous work and fully described
+in Taagepera (1979). Results reported for earlier times (Taagepera, 1978b, 1979)
+were added. Recall that duration time (D) is defined as duration at more than 50
+percent of the polity's stable maximum size, and rise time (R) is defined as the time
+it takes for a polity to expand from 20 to 80 percent of its maximum stable size.15
+
+   The median duration for seventy-eight major polities that have run their full
+course is 130 years, and there is no trend toward increase or decrease. Only sixteen
+polities have lasted 300 years or more. Apart from the poorly documented Elam
+(east of the mouth of Euphrates), which possibly lasted 1,100 years (starting in
+­1600), the most durable have been the Parthian-Sassanid continuum in Iran (700
+years, starting in ­60), Tufan in Tibet (580 years, starting in +660), and the Old
+and New Empires of Egypt (both about 500 years). In modern times, the most
+durable is the Ottoman empire (390 years, starting in 1525). Russia has already
+lasted for 330 years at half its maximum size (starting in 1665). Durability does not
+seem to be tied to size.
+
+   It has been long suspected that rapid expansion is destabilizing in many a field
+(Olson, 1963). In Figure 6, duration times of polities are graphed against the rise
+times, whenever the rise time could be measured.16 Figure 6 confirms that polities
+that expand slower tend to last longer. However, the correlation is weak, and the
+average trend is closer to D = 25R.5 than to the previously surmised D = 3R
+(Taagepera, 1979). The longest expansions (from 20 percent to 80 percent of
+eventual maximum) are featured by Russia (235 years, after 1555) and Han (160
+years, after ­60), followed by Maghada-Maurya, Rome, Lithuania-Poland, Spain,
+and the Manchu empire (all at 140 years).
+
+    14 The concentrations in terms of areas and populations differ, and neither reflects fully the power relations. Neither
+the present second-largest country (Canada) nor the second most populous one (India) rank second in terms of GNP
+or military strength. For modern countries, one can also calculate the concentration in terms of their GNPs. Thus, in
+1975 we had NGNP = 10, which was lower than either NA (21) or NP (14). Wealth was more concentrated than either
+area or population. For past polities GNP estimates become highly speculative.
+
+    15 Why not consider the "total" time of expansion? In the case of a pattern close to simple logistic, the total expansion
+time (from zero to maximum) cannot be defined. To have measurable and comparable R, one must specify starting and
+ending levels between zero and maximum. In engineering, 10 and 90 percent are often chosen, but large random
+fluctuations in the early and late parts of polity expansion forced me to go to 20 and 80 percent. Similarly, duration at
+"top level" can be defined only as duration above a certain percentage of maximum. Duration at more than 50 percent
+of maximum has been called "half-width" in engineering.
+
+    16 For countries like Canada, which gradually emerged from existing polities, the rise time cannot be defined. For
+some others, like the polities of ancient Egypt, data are not sufficiently precise. Long rise times for the Frankish kingdom
+and France are artefacts of very irregular growth patterns. At the other end of the scale, most rise times of twenty years
+and less are questionable in two respects: the rise time may have been underestimated in some cases, and several other
+cases are close to being continuations or spin-offs of earlier polities under a new management.
+REIN TAAGEPERA  491
+
+                         FIG. 6. Relationship between rise and duration times of polities.
+
+                                      Implications for Russia
+
+A look at the figures presented may help us visualize where we come from, in terms
+of geographical extent of political organization, where we stand now, and maybe
+even where we are heading. The future of the Moscow-centered state is the most
+topical issue in this respect. It should be stressed that this study is not about political
+regimes but about polities within the same borders, regardless of who rules
+them--Darius or Alexander, Nikolai II or Lenin. The Soviet regime has collapsed,
+but three quarters of the area it ruled (with one half of the population) has remained
+in one piece. To what extent will the pieces fly even further asunder or rejoin, under
+a different label and leadership? At the one extreme, the CIS label may enable Russia
+to recover most of the former Soviet territory. At the other, even the predominantly
+Russian Siberia may feel the pull of Pacific prosperity and detach itself from
+Muscovy.
+
+   Given that the Russian Federation is presently the largest polity in the world (but
+not the most populous), its area changes are most directly interconnected with the
+general trends in Figure 4 (but not the population trends in Figure 5). Figure 4
+indicates that the secular trend is toward more concentration, yet the trend of the
+most recent fifty years has been the reverse. The recent dismantling of empires
+comes after a period of extreme empire-building during the nineteenth century.
+Earlier history has repeatedly seen a pendulum movement from overconcentration
+to overfragmentation, compared to the average secular trend. If so, then NA might
+climb up markedly, implying breakups of several of the present largest polities.
+Russia would be high on the list, given its large size, an ethnic minorities population
+of 27 million, and divergent economic interests of the various regions.17
+
+    17 In particular, Vladivostok is slightly more distant from Moscow than the Thirteen Colonies were from London,
+and it has traditionally been exploited while being kept on a short leash. Economic advantages of joining the Pacific
+Rim might override language commonality with Moscow. A separate Russian-speaking state in the Far East may trigger
+a chain reaction among various non-Russian and Russian regions. In 1995, a maffia-connected local administrator,
+492              Expansion and Contraction Patterns
+
+   However, Figure 4 also presents instances where overconcentration was not
+followed by relative overfragmentation but by rather small fluctuations that main-
+tained a fairly low fragmentation, compared to the secular average. The period from
+­500 to +100 offers two such examples. Thus there are also precedents for the world
+restabilizing at a fairly low level of fragmentation. What we really observe in Figure
+4 is typical random fluctuation around an average trend. It would be reckless to
+imagine regular and hence predictable cycles in these random zigzags. On the
+majestic scale of secular increase in concentration, even the largest individual
+empire by itself is but an accident. It's like one day's weather within a regular climatic
+pattern.
+
+   Figure 6 yields further mixed insights. Having already lasted 330 years at half of
+its maximum size (starting in 1665), the Moscow-centered state is much beyond the
+observed median duration of 130 years. Very few past polities have lasted into their
+third century. By this criterion Russia enters a perilous phase. Russia's record-break-
+ing rise time (R = 235 years) improves its chances marginally. In conjunction with
+the empirical average equation D = 25R.5 the large R would offer Russia a duration
+of some 385 years, starting from 1665--that is, up to year 2050. Again, Russia seems
+to enter a perilous phase, but keep in mind that one half of the large polities have
+lasted longer than 25R.5. So could Russia. However, given that duration time is
+defined as duration at one half of the stable maximum size, Russia could meanwhile
+continue to contract appreciably at the margins, following the pattern of its geo-
+graphic predecessor, the Golden Horde.
+
+   When all these mixed signals are taken into consideration, further slow contrac-
+tion seems the likeliest course for Russia. A new increase in Russia's area, though
+possible, is less likely. Polities that lose momentum rarely recover it.
+
+                                        Appendix
+           Data on Expansion and Contraction of Large Polities
+
+Most areas are measured on historical maps--see sources at the end of the Appen-
+
+dix. For some polities (especially in the 1800s and the 1900s) written descriptions
+are fitted to known present areas. All areas are in megameters squared (Mm2).
+
+Polities are presented in the order of their appearance in Figures 1 to 3 of the main
+
+text. Data are tabulated in the following columns:
+
+Date Area        Source Notes
+
+1A. East and South Asia 600­1200
+
+Western Turk -- tabulated in T79.
+
+T'ang-Chin-Sung
+
+610  3.1         He,W             Sui unification of China since 589
+                 W                T'ang dynasty since 618; He: 3.0 Mm2
+650  3.6         He,W             +/­.5 W. Turkestan conquered
+                 W,He             +/­.8 Turkestan lost, Balkash region added
+660  4.9         W,He             +/­.5 Turkestan retaken from Tufan
+                 W,He             +/­.3
+670  3.9         W,He             +/­.5 Balkash region lost; conflict with Arabs
+                 W,He             +/­.5
+692  4.9
+
+715  5.4
+
+751  4.6
+
+766  3.6
+
+Evgeni Nazdratenko, exerted ruthless political and economic control over the Vladivostok region, with tacit support in
+Moscow. It remains to be seen whether he will boost the region's separateness or whether revulsion against his tyranny
+will make people look for tighter control from the metropolis.
+                              REIN TAAGEPERA                               493
+
+790        3.1     W,He       Turkestan lost to Tufan
+                   W,He       +/­.3 E. Turkestan recovered
+860        4.1     Pr         Peasant revolution
+                   Pr         Szechuan and Chekiang independent
+885        2.6?    Pr         Takeover by Later Liang
+                   Pr         Later T'ang and Sha-T'o Turkic rule
+895        1.5?    Pr         Chin dynasty; North ceded to Kitan/Liao
+                   Pr         Kitan/Liao conquest of Peijing
+907           .8?  He,Pr      N. Sung recovery between Yangtse and Hoangho
+                   He,Pr      S. China and Annam conquered
+923        1.3?    He,Pr,W    Jurchen capture of Sung capital: S.Sung period
+                   W          Losses to Jurchen
+936           .8?  Pr         Mongol conquest from 1273 on
+
+947           .5?
+
+958           .8
+
+980        3.1
+
+1127       2.1
+
+1204       1.8
+
+1279          .0
+
+Kanyakubia (Kanaudj, Harsha)
+
+606           .05  Se,Du      State formation in N. India
+                              Harsha's coronation
+612           .3?             Peak size reached?
+                              Harsha's death; rapid fragmentation follows
+625        1.0
+
+648        1.0     KH,EB
+
+Tufan
+
+620        2.8     W          State formation in Tibet
+                   W,He       Turkestan taken from T'ang
+670        3.6     W,He       Turkestan lost
+                   W,He       +/­.3 Expansion N. and E. since 780
+692        2.4     W,He       +/­.3 Expansion to Ganges?
+                   W,He       India, Turkestan lost
+790        4.0     He         +/­.3 W,KH: collapse by 900?
+                   He
+800        4.6     He         Mongol conquest
+
+860        2.8
+
+1140       2.6
+
+1234       1.4
+
+1290          .0
+
+Uigur
+
+630        ?       Pr         Revolt against W. Turks
+                   He,Pr      Claims to Chinese throne
+762        ?       He         Mongolia, parts of Turkestan
+                   He         Pushed west by Kirghiz
+800        3.1
+
+840           .0
+
+Khmer
+
+800           .65  He,KH,W    Foundation
+                   He,W       +/­.1
+1140          .8   He,W
+                   He         French conquest
+1290       1.0     He
+
+1415          .4
+
+1760          .25
+
+1880          .0
+
+Pratihara
+
+836           .3?  D
+
+860        1.0?    D,W
+
+910           .3?  D
+
+Liao (Kitan)
+
+744        ?       Pr         First conflicts of Kitan with Chin
+                   Pr         Control of W. Mongolia, Manchuria, Korea
+910        1.3?    He,Pr      +/­.5 Conquest of Peijing, Tungus region
+
+947        2.6
+494                 Expansion and Contraction Patterns
+
+1125      .0    He,Pr      Defeated by Jurchen
+                He,W       W. Liao founded in Balkash region
+1130      1.0   He,W
+
+1218      .0
+
+Jurchen (Chin)
+
+1110      .0    Pr         Tungus revolt against Liao
+                           Liao defeated
+1125      1.3   Pr         Sung capital taken
+                           Mongol conquest from 1210 on
+1126      2.3   W
+
+1234      .0    Pr
+
+1B. Europe north of Mediterranean 600­1200
+
+Avar -- tabulated in T79.
+
+Frankish
+
+482       .1    KH         Unification by Chlodwig in Belgium
+
+486       .25   KH         Conquest of Ile-de-France
+
+507       .5    KH         Conquest of Aquitania, Alemania
+
+511       [.5]  KH         Partition, loose federation
+
+539       [.7]  KH         Conquest of Rhone valley, Bavaria
+
+558       .7    KH         Recentralization until 561
+
+620       .6    KH         Recentralization until 639
+
+687       .4    KH         Recentralization by Carolingians; Aquitania lost
+
+740       .7    KH         Alemania, Aquitania recovered; partition
+
+                           741­747
+
+768       .75   KH         Charlemagne's rule begins
+
+814       1.2   KH         Charlemagne's death
+
+843       .35   KH         Permanent partition; largest component:
+
+                           W. Frankish
+
+870       .4    KH         W. Frankish
+
+880       .4    KH         Effective splintering
+
+987       .0    KH         Formal dissolution into duchies
+
+Lotharingia and E. Frankish kingdom remained at .4 or less, and also faded by 900.
+
+Khazar
+
+679       .0    KH         State formation
+                           +/­.25. Peak period?
+900       1.0   KH         Kiev takes Sarkel
+                           Kiev takes Itil, Khazar capital
+965       .8    KH
+
+969       .0    KH
+
+Kiev
+
+858       .0    KH         Varangians reach Kiev; state formation in
+                             Ukraine
+882       1.3   KH
+                           +/­.5 Novgorod subjected
+1000      2.1   KH         +/­.3 Peak size
+                           +/­.2 Fragmentation
+1054      .5    KH         +/­.5 Recovery until 1132
+                           Decline
+1113      1.0   KH
+
+1150      .3?   KH
+
+German "Roman" Empire
+
+Due to feudal organization the realm controlled by the emperor is hard to define,
+much less measure. It is estimated to peak around 1050 at about 1.0 Mm2; after
+
+1250 it is negligible compared to the Mongol empire.
+                               REIN TAAGEPERA                      495
+
+France
+
+The same applies to France, where the king's effective realm was reduced to almost
+nothing around 1100 and may have reached at most 0.4 Mm2 around 1250.
+
+1C. Mediterranean 600­1200
+
+Visigoth and Byzantine -- tabulated in T79.
+
+Cordoba
+
+756      .5        KH          Secession from Caliphate
+                               Entire Iberia held
+1000     .6        KH          Fragmentation begins in 1010
+
+1031     .1?       KH
+
+Fatimid-Ayyubid-Mameluk
+
+893      .0        F           Fatimid movement begins in Tunesia
+
+909      1.8       F,E         Egypt conquered
+                               + or ­.5
+914      1.9       E           + or ­.1
+                               + or ­.1 Zirid independence
+921      2.8       F
+                               Takeover by Ayyubids (Saladin)
+930      1.8       F           + or ­.1 Saladin dies
+
+969      4.1       E           Mameluk takeover
+                               Mongols repulsed in 1260
+972      2.1       F,E,R       Ottoman conquest around 1520
+
+1000     1.4       F,Hz
+
+1050     1.0       F,E
+
+1070     .5        Hz
+
+1150     .85       R
+
+1171     .65       E
+
+1174     1.45      E
+
+1193     1.5       E,R
+
+1200     1.7       Hz
+
+1250     1.65      E
+
+1252     1.8       E
+
+1300     2.1       Hz
+
+1400     1.6       Hz,E
+
+1500     1.2       Hz,E
+
+Almoravid-Almohad
+
+1050     .0        F           Almoravid expansion begins
+                               Almohad takeover begins in 1147
+1150     2.3       F
+                               Collapse
+1163     1.5       F
+
+1269     .0        KH
+
+1D. Western Asia 600­1200
+
+Sassanid -- tabulated in T79.
+
+Islamic Caliphate
+
+622      .05       E           Hejira: Medina
+                   E           + or ­.05
+625      .21       E           +/­.1 Conquest of Arabia
+                   E,Pu        +/­.5 Mohamed's death
+628      .4        E           Advance into Syria
+                   E           Mesopotamia, Egypt
+632      2.1       Pu          W. Iran, Tripolitania, Armenia
+                   E,R         Omayyid dynasty begins
+634      2.8       E           E. Iran, Maghreb
+
+644      4.1
+
+655      6.4
+
+661      6.7
+
+700      9.0
+496                 Expansion and Contraction Patterns
+
+720 11.1         E,Pu  Transoxania, Indus, Spain
+                 E,Pu  Abbassid dynasty begins. R: 10.1
+750 11.1         KH    Cordoba secedes
+                 E     Baghdad founded in 762
+756 10.3         E,R   N. Africa secedes
+                 E     Formal suzerainty over 9.5
+787 10.6         E     Formal suzerainty over 8.3
+                 E     Formal suzerainty over 6.2
+800        8.3   KH    Caliphs lose political control
+
+847        4.6
+
+885        1.8
+
+900        1.0
+
+945        .0
+
+Tahirid
+
+800? 1.0?        KH    Emergence as separate state
+
+875        .5?   KH    Separation of Samanids
+
+960?       .0?   KH    Takeover by Ghaznavids
+
+Samanid
+
+819        [.8]  KH    Emergence as viceroy for Tahirids
+                 E,KH  Independence
+875        .95   E
+                 E     Demise
+900        1.95  E
+                 E
+908        2.7   E
+                 E
+928        2.85  KH
+
+944        2.35
+
+962        2.05
+
+994        .95
+
+999        .0
+
+Bujid (Buwahid)
+
+932        .0    KH    Emergence
+                 KH    Takeover from Caliphs
+945        1.3?  R     Reassertion of Iranian culture
+                 R
+980        1.6   R,KH  Collapse
+
+1030       .65
+
+1055       .0
+
+Ghaznavid
+
+962        .15   E     First Turkic dynasty in Iran
+
+994        1.1   E
+
+1006       1.4   E
+
+1018       2.1   E,R   + or ­.3
+
+1025       2.65  E
+
+1029       3.4   E,R
+
+1037       2.25  E     Losses to Seljuks
+
+1055       1.75  E
+
+1090       1.0   R
+
+1151       .9    E
+
+1186       .0    KH    Destruction by Ghor (in India)
+
+Seljuk
+
+970        .08   E
+
+1016       .10   E
+
+1037       1.8   E
+
+1040       2.6   E,W   + or ­.5
+
+1055       3.1   E
+
+1080       3.9   E,R   + or ­.3 Anatolia conquered
+
+1136       3.1   E
+                                  REIN TAAGEPERA                        497
+
+1138     1.1        E             Khwarizm effectively independent
+                                  Collapse begins
+1150     .7         E
+
+1194     .5         E,R
+
+Khwarizm (Chorezm)
+
+1138     1.2        E             Vice-royalty effectively independent
+                                  Formal independence
+1200     1.25       Hz
+                                  R: 4.0
+1210     2.3        E             Mongol conquest
+
+1215     2.8        E
+
+1218     3.6        E
+
+1220     2.1        E
+
+1240     .0         KH
+
+2A. Africa and America 1200­1600
+
+Mali
+
+1250     .1?        L             Independence of Malinki from Soso
+                                  Eastern conquests; peak size
+1380     1.1        F,L           Timbuktu lost in 1433
+
+1500     .4         L
+
+Inca     .005? E
+1250
+1438     .05        E
+1463
+1471     .2         E
+1493
+1527     .45        E
+1535
+         1.9        E
+
+         2.0        E
+
+         .0         E             Spanish conquest from 1532 on
+
+Aztec    .015 E
+1440
+1468     .08        E
+1481
+1502     .10        E
+1520
+         .17        E
+
+         .22        E             Spanish conquest
+
+Songhai
+
+1550     .8         F             Peak size?
+
+2B. Europe north of Mediterranean 1200­1600
+
+Lithuania-Poland
+
+1263     .1         C             Lithuania unified
+                                  Expansion to Belarus
+1345     .3         C             NW Ukraine
+                                  Lithuanian-Polish Union
+1380     .7         C
+                                  First partition
+1425     .8         C             Second and third partition
+
+1520     1.0        M
+
+1580     1.05       M
+
+1650     1.1        M
+
+1670     .9         M
+
+1770     .8         M
+
+1772     .65        M
+
+1795     .0
+498               Expansion and Contraction Patterns
+
+Golden Horde
+
+1310  6.0     He,Hk              +/­.3 Formal independence; autonomy within
+                                   Mongol empire since 1260
+1350  5.4     Pr
+              Pr                 E. Ukraine lost to Lithuania
+1380  3.5     Pr                 First major defeat by Moscow
+              Pr                 Conquest by Timur
+1400  .0      Pr                 Restoration
+                                 Power shift to Kazan around 1440; losses
+1410  2.5?
+                                   in the south
+1500  1.3?                       Muscovy conquers Kazan
+
+1552  .0
+
+Muscovy-Russia-USSR (numerous sources -- detailed graphs in T68 and T88)
+
+1300  .02     C                  Muscovy begins to expand
+
+1359  .05     C
+
+1360  .19     M
+
+1425  .43     C
+
+1474  .52     C
+
+1478  1.24    M                  Novgorod conquered
+
+1487  1.57    M
+
+1505  2.5     M                  All Russian lands, Karelia, Komi
+
+1584  5.1     M                  Kazan; Tatar and Finno-Ugric lands
+
+                                 on the Volga
+
+1650  9.7                        Siberia up to Enisei
+
+1689 14.0     C,M                E. Siberia, NE Ukraine
+
+1725 15.0     C,M                Baltic coast
+
+1796 15.5     M,C                Kamchatka, Chukchi, W. Ukraine and Belarus
+
+1825 18.4     M                  Finland, E. Poland, Transcaucasia
+
+1840 19.4     C                  Kazakstan, Alaska
+
+1870 20.5     C,M                Amur, Sakhalin seized; Alaska sold
+
+1895 22.8     C,M                Central Asia; peak size
+
+1906 22.5     EB                 S. Sakhalin lost to Japan
+
+1921 21.6                        Poland, Finland, Baltic states independent
+
+1935 21.8                        Tyva annexed
+
+1945 22.3                        W. Ukraine and Belarus, Baltic states annexed
+
+                                 S. Sakhalin retaken
+
+1991 17.1                        Soviet "union republics" independent
+
+2C. Mediterranean 1200­1600
+
+Ottoman (detailed graph in T68)
+
+1307  .025 M                     State formation E. of Constantinople
+
+1359  .07     M                  Coast of Marmara Sea conquered
+
+1382  .30     M                  Macedonia, Bulgaria
+
+1451  .69     M                  Valachia, SW and NE Anatolia
+
+1481  1.22    M                  Constantinople, Moldavia, Bosnia, Greece,
+
+                                 Crimea, SE Anatolia
+
+1521  3.4     M,EB               Syria, Egypt, Algier, Hejaz, Yemen
+
+1571  4.7     M,EB               Hungary, Tripoli, Mesopotamia, Tunesia
+
+1683  5.2     M                  Transcaucasia, W. Iran; Yemen lost; peak size
+
+1730  4.5     M                  Hungary, Azerbaijan, W. Iran lost
+
+1817  4.25    M                  Crimea, Georgia lost
+
+1829  5.2     M                  Sudan conquered; Romania lost
+
+1850  5.2     M                  Greece, Algeria lost; penetration of Fezzan
+                             REIN TAAGEPERA  499
+
+1885      4.45      M        Bosnia, Bulgaria, Sudan, Egypt, Tunesia lost;
+                               Nejd, Yemen, S. Fezzan won
+1913      2.55      M
+                             Tripoli, Fezzan, Albania, Macedonia lost
+1921         .78             Arabia, Syria, Mesopotamia lost; Turkish
+
+Spain                          Republic
+
+1482         .35    E        Haiti
+                             Naples, Cuba
+1500         .5              S. and Central American coast
+                             Advance inland
+1512         .8              Peak size
+                             Latin America independent
+1640      7.1
+                             Philippines lost
+1780 13.7                    Sahara conquered
+                             Sahara lost
+1810 13.7
+                             +/­.7 Estimate for largest Mongol state
+1830         .9              Unification of Mongolia
+                             N. China, Tarim basin conquered
+1895         .95             Central Asia, Iran
+                             +/­1.5 Genghis Khan's death
+1900         .55             Russia
+                             Mesopotamia
+1915         .80             +/­.5 Hk:27.5 S. China
+                             +/­.3 Tibet conquered; Kublai's death
+1975         .505            +/­1.0 Last formal reunification
+                             +/­.7 Break-up; largest successor state:
+2D. Asia 1200­1600
+                               Yüan in China and Mongolia
+Mongol-Yüan                  +/­1.5 Revolt in China begins
+                             +/­1.5 China lost; Tibet unclear
+1200      1.0       W        +/­1.0 Collapse in Mongolia?
+                    W
+1206      4         He       Hindu sultanate
+                    He       Muslim invasion and takeover
+1215      5         W,He,Hk  Formal independence from Ghor
+                    He,W     Ranging from Indus to Ganges delta
+1222 11             He       Gujerat conquered
+                    He,W     Expansion south to Godawari River
+1227 13.5           He,W     Entire Dekkan conquered
+                    He,W     Bengal and S. Dekkan lost
+1250 18.5           He,W     N. Dekkan lost
+                             Fragmentation
+1260 20
+                             +/­1.0 Formal independence;
+1280 22                        autonomous since 1260
+
+1294 23.5                    Transoxania lost
+                             Transoxania retaken
+1309 24                      Transoxania lost to Timur
+
+1310 11
+
+1351 10             Eb
+                    Eb
+1368      5
+                    Du
+1400      1         Se
+                    Se,Du
+Delhi               Se,Du
+                    Se,Du
+1040         .2?    Se,Du
+                    Se,Du
+1190         .35    Se,Du
+                    W
+1206         .8     Se,W
+
+1228      1.6       He,Hk
+
+1300      1.7
+
+1310      2.7
+
+1312      3.2
+
+1340      2.8
+
+1350      1.8
+
+1398         .8?
+
+Chagatai
+
+1310      3.5
+
+1320      2.5?      Pr
+
+1350      3.5?      Pr
+
+1369      2.5?      Pr
+500                 Expansion and Contraction Patterns
+
+1390     .0     Pr       Submission to Timur
+
+Il-Khan                  Autonomy within Mongol empire
+                         Independence
+1250 [3.4]      He       Contraction from 1330 on
+
+1310     3.75   He
+
+1370     .0     He
+
+Ming      .0    Eb       Revolt against Mongols begins
+1351     3.1    W,He     Ming control of China
+1368     3.9    W,He     Annan, Yunan conquered
+1400     6.5    W        Annan lost; gains in Kansu and Mongolia
+1450     3.9    W,He     Losses in the north
+1513     3.6    Eb       +/­.3 Manchu attacks begin
+1616     2.3    Eb       +/­.8 Manchu conquest of N. China
+1644            Eb       Manchu conquest of SW China
+1690      .0
+                He,W     Start of formation
+Timur     .0    He       Peak size; Timur's death
+1363     4.4    He
+1405     2.7             End of Timurids
+1415
+1500      .0    D,Du     Babar takes Kabul
+                D        Start of Mogul empire formation in India
+Mogul     .03?  Se,Du    Mogul restoration
+1519      .8?   Se,Du    Gondwana, Rasputana, Gujerat, Bengal
+1525      .8    Se,Du    Kashmir, Sind, N. Dekkan, Beluchistan
+1560     1.7    D,Du     S. Dekkan
+1580     3.4    Se,D,Du  Rajputana independent
+1600     4.0    D,Du     Near-complete loss of control
+1690     2.5?
+1710      .2?
+1770      .0
+1798
+
+3A. Non-Eurocentric polities 1600­1996
+
+Manchu-PRC
+
+1600     .3     KH       Unification of Manchu core
+                KH       Control of Manchuria
+1620     2.0    KH       Inner Mongolia, Korea
+                KH       N. China
+1635     3.4    KH       Central China, Kansu
+                KH       S. China
+1645     4.9    KH       Outer Mongolia
+                KH       Tibet
+1650     6.5    KH       E. Turkestan
+                KH       Burma
+1660     7.2    He,KH    +/­.3 Nepal, Annam
+                He,KH
+1700     8.8    KH,He    +/­.5 Amur, Balkash regions lost to Russia
+                KH       E. Turkestan independent
+1725 10.6       KH       E. Turkestan subjected again
+                KH,He    Burma, Nepal, Tonking, Korea lost
+1760 13.2       He,KH    +/­.3 Russia penetrates Manchuria
+                KH       Rep. of China; Mongolia, Tibet independent
+1770 13.7
+
+1790 14.7
+
+1840 14.2
+
+1860 13.4
+
+1865 12.4
+
+1877 13.4
+
+1890 11.9
+
+1900 11.4
+
+1912     7.7
+                                    REIN TAAGEPERA                                501
+
+1920       2.5?  KH                 Fragmentation; Japanese conquest begins
+                                    PRC; unification of China
+1949       8.5   KH                 Conquest of Tibet
+
+1950       9.7   KH
+
+USA (detailed graph in T68)
+
+1690       .11   M                  +/­.02 Estimate for the 13 Colonies
+                                    Up to Proclamation Line; up to Johnson's Line:
+1763       .65   M
+                                      1.55
+1790       2.31
+                                    Louisiana purchase
+1803       4.46                     Florida
+                                    Texas, Oregon, Mexican "cession"
+1820       4.64                     Gadsden "purchase"
+                                    Alaska
+1848       7.75                     Philippines, Hawaii, Puerto Rico
+                                    Philippines independent
+1853       7.83
+
+1867       9.36
+
+1899       9.67
+
+1945       9.37
+
+Argentina
+
+1816       1.4?  LK                 Independence from Spain; about one half
+                                      of the present area effectively controlled
+1880       2.78                       by settlers
+
+                                    Full control of present territory
+
+Brazil
+
+1822       5.0?  LK                 Independence from Portugal; about one half
+                                      of the present area effectively controlled by
+1900       8.51                       settlers
+
+                                    Full control of present territory
+
+Australia
+
+1945       7.68                     Counted independent when joining the UN
+
+Canada
+
+1945       9.98                     Counted independent when joining the UN
+
+India
+
+1947       3.19                     Independent from Britain
+
+3B. Eurocentric polities 1600­1996
+
+Russia, Spain, Ottoman, Poland: see Table 2B,C.
+
+France
+
+1530       .45   Hm,EB              Metropolitan France before expansion overseas
+                                    Conquests in Canada
+1610       1.0                      Louisiana, India
+                                    Colonies in India, Canada lost
+1670       3.4                      Louisiana expansion
+                                    Louisiana sold
+1763       .7                       Control in parts of Europe
+                                    Return to old borders
+1800       2.1                      Algerian coast
+                                    Gabon
+1803       .7                       Inland Algeria
+
+1813       2.1
+
+1815       .7
+
+1830       .8
+
+1840       1.1
+
+1850       1.5
+502                    Expansion and Contraction Patterns
+
+1880      3.1                     W. Africa, Sahara, Vietnam
+                                  Central Africa, Indochina
+1895      8.7                     Morocco, Sahara
+                                  Cameroons, Togo from Germany
+1915 10.8                         Syria, Lebanon independent
+                                  Indochina lost
+1920 11.5                         Retreat from Africa
+                                  Present borders
+1946 11.3
+
+1955 10.6
+
+1960      3.1
+
+1962         .7
+
+Britain
+
+1600         .3    EB    British isles
+
+1650         .6          Newfoundland; conquest of India begins
+
+1714      2.0            American colonies, Nova Scotia, Hudson Bay
+
+1750      3.9            Advance in India, Canada
+
+1800      8.0            Half of India, Canada, Australia
+
+1837 14                  Most of Canada, Australia
+
+1850 23                  All of Canada, Australia, India; most of Pakistan
+
+1880 24.5                Nigeria
+
+1910 31.8                Egypt, Sudan, S. Africa
+
+1920 35.5                SW Africa, Tanganyika; peak size from EB
+
+                         1952:4:175, with Egypt added and
+
+                         Antarctican zones subtracted
+
+1936 34.5                Egypt independent
+
+1950      9.5            Dominions, Burma, India, Pakistan
+
+                         independent; SWA
+
+1960      5              Sudan, Nigeria, etc. independent
+
+1970      1              Decolonization near-complete
+
+1980         .3          UK plus small islands
+
+Portugal
+
+1200         .08   E
+                   E
+1470         .10   E
+                   E
+1500         .13?        Overseas expansion begins
+                   LK,E  Posts on coasts of Brazil, Africa, India
+1580         .6?         Spanish conquest
+                   LK,E  Restoration; colonies on Brazilian, African,
+1581         .0    LK,E
+                           Indian coasts
+1640         .8?   EB    Penetration inland
+                         Effective control over coastal half of Brazil and
+1780      4.0?
+                           coastal quarter of Angola and Mozambique
+1820      5.5            Brazil independent
+                         Inland Angola and Mozambique
+1822       .5            Colonies lost
+1900      2.1
+1975
+           .089
+
+                                                Sources for Appendix
+
+C = Chew (1967)
+D = Davies (1949)
+Du = Dunbar (1937)
+Eb = Eberhardt (1950)
+EB = Encyclopedia Britannica, various editions, especially 1952
+E = Engel (1953­1962)
+F = Fage (1958)
+Hk = Haack (1973)
+REIN TAAGEPERA                         503
+
+Hm = Hammond, Inc. (1968)
+Hz = Hazard (1954)
+He = Herrmann (1966)
+KH = Kinder and Hilgemann (1964/1966)
+L = Levtzion (1973)
+M = Muir (1961)
+P = Palmer (1957)
+Pr = Prawdin (1961)
+Pu = Putzger (1961)
+R = Roolvink (1957)
+Se = Sellmann (1954)
+Sh = Shepherd (1956)
+W = Stier et al. (1956 and 1963)
+T68 = Taagepera (1968)
+T79 = Taagepera (1979)
+T88 = Taagepera (1988)
+
+                                               References
+
+CARNEIRO, R. L. (1978) "Political Expansion as an Expression of the Principle of Competitive Exclusion."
+      In Origins of the State: The Anthropology of Political Evolution, edited by R. Cohen and E. R. Service,
+      pp. 205­223. Philadelphia: Institute for the Study of Human Issues.
+
+CHASE-DUNN, C. (1985) "Historical Development of the International Political Economy." In An Interna-
+      tional Political Economy, edited by W. L. Hollist and F. L. Tullis, pp. 53­67. Boulder, CO: Westview
+      Press.
+
+CHEW, A. F. (1967) An Atlas of Russian History. New Haven, CT: Yale University Press.
+DAVIES, C. C. (1949) An Historical Atlas of the Indian Peninsula. Oxford: Oxford University Press.
+DOYLE, M. W. (1986) Empires. Ithaca, NY: Cornell University Press.
+DUNBAR, G. (1937) Geschichte Indiens. München: Oldenbourg.
+DUVERGER, M., ED. (1980) Le concept d'empire. Paris: Presses Universitaires de France.
+EBERHARDT, W. (1950) A History of China. London: Routledge and Kegan Paul.
+ECKHARDT, W. (1990) Civilizations, Empires, and Wars. Journal of Peace Research 27:9­24.
+EISENSTADT, S. N. (1963) The Political Systems of Empires. New York: Free Press.
+Encyclopedia Britannica, various editions, especially 1952.
+ENGEL, J., ED. (1953­1962) Grosser historischer Weltatlas. Vol. I (1953) up to AD 565; Vol. II (1958) 600­1527;
+
+      Vol. III (1962) from 1477 on. München: Bayerische Schulbuch-Verlag.
+FAGE, J. D. (1958) An Atlas of African History. London: Arnold.
+FRIEDMAN, D. (1977) A Theory of the Size and Shape of Nations. Journal of Political Economy 85:59­77.
+HAACK (1973) Atlas zur Geschichte. Gotha: VEB Hermann Haack.
+HAMMOND, INC. (1968) Hammond Historical Atlas. Maplewood, NJ: Hammond.
+HART, H. (1945) Logistic Social Trends. American Journal of Sociology 50:337­352.
+HAZARD, H. W. (1954) Atlas of Islamic History, 3rd ed. Princeton, NJ: Princeton University Press.
+HERRMANN, A. (1966) An Historical Atlas of China. Chicago: Aldine.
+JONES, E. L. (1982) Economic History at the Species Level. History of European Ideas 3:95­105.
+KENNEDY, P. (1987) The Rise and Fall of the Great Powers. New York: Random House.
+KINDER, H., AND W. HILGEMANN (1964/1966) dtv-Atlas zur Weltgeschichte. Vol. I (1964) up to 1789; Vol. II
+
+      (1966) from 1789 on. München: Deutscher Taschenbuch Verlag. English version (1974): The Anchor
+      Atlas of World History. Garden City, NY: Doubleday.
+LEVTZION, N. (1973) Ancient Ghana and Mali. London: Methuen.
+LIJPHART, A. (1994) Electoral Systems and Party Systems. Oxford: Oxford University Press.
+MARANO, L. A. (1973) A Macrohistoric Trend Toward World Government. Behavior Science Notes 8:35­40.
+MCEVEDY, C., AND R. JONES (1978) Atlas of World Population History. New York: Penguin Books.
+MCNEILL, W. H. (1980) The Human Condition: An Ecological and Historical View. Princeton, NJ: Princeton
+      University Press.
+MUIR, R (1961) Muir's Atlas of Ancient and Classical History. New York: Barnes and Noble.
+NAROLL, R. (1967) Imperial Cycles and World Order. Peace Research Papers 7:83­101.
+OLSON, M., JR. (1963) Rapid Growth as a Destabilizing Force. Journal of Economic History 23:529­552.
+504  Expansion and Contraction Patterns
+
+PALMER, R. R. (1957) Atlas of World History. New York: Rand McNally.
+PRAWDIN, M. (1961) The Mongol Empire: Its Rise and Legacy. London: Allen and Unwin.
+PUTZGER, F. W. (1961) Historischer Weltatlas. Bielefeld: Velhagen and Klasing.
+ROOLVINK, R. (1957) Historical Atlas of the Muslim Peoples. Cambridge, MA: Harvard University Press.
+SELLMANN, R. R. (1954) An Outline Atlas of Eastern History. London: Arnold.
+SERVICE, E. R. (1975) Origins of the State and Civilization. New York: W. W. Norton.
+SHEPHERD, W. R. (1956) Shepherd's Historical Atlas. New York: Barnes and Noble.
+STIER, H. E., et al. (1956 and 1963) Westermann's Atlas der Weltgeschichte. Berlin: Westermann.
+TAAGEPERA, R. (1968) Growth Curves of Empires. General Systems 13:171­175.
+TAAGEPERA, R. (1978a) Size and Duration of Empires: Systematics of Size. Social Science Research
+
+      7:108­127.
+TAAGEPERA, R. (1978b) Size and Duration of Empires: Growth-Decline Curves, 3000 to 600 B.C. Social
+
+      Science Research 7:180­196.
+TAAGEPERA, R. (1979) Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D. Social
+
+      Science History 3:115­138.
+TAAGEPERA, R. (1988) "An Overview of the Growth of the Russian Empire." In Russian Colonial Expansion
+
+      to 1917, edited by M. Rywkin, pp. 1­7. London: Mansell.
+TAAGEPERA, R., AND M. S. SHUGART (1989) Seats and Votes: The Effects and Determinants of Electoral Systems.
+
+      New Haven, CT: Yale University Press.
+

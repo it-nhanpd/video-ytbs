@@ -1,0 +1,57 @@
+{
+  "id": "spanish",
+  "sceneId": "s006",
+  "rank": 6,
+  "durationSec": 55,
+  "note": "Lô 1. Lời dẫn và nguồn ở script/scenes/s006.md. Hiệp ước Tordesillas: dùng hai vòng chỉ thay cho đường kẻ (chưa có layer đường).",
+  "view": {"lon": 165, "lat": 8, "zoom": 0.5},
+  "labels": [
+    {"text": "Mexico", "lon": 255, "lat": 17},
+    {"text": "Peru", "lon": 285, "lat": -10},
+    {"text": "Philippines", "lon": 122, "lat": 13},
+    {"text": "Tây Ban Nha", "lon": -5, "lat": 42}
+  ],
+  "views": [
+    {"atSec": 0, "lon": 165, "lat": 8, "zoom": 0.5, "ease": "linear"},
+    {"atSec": 12, "lon": 165, "lat": 8, "zoom": 0.53, "ease": "inOutCubic"},
+    {"atSec": 30, "lon": 165, "lat": 8, "zoom": 0.5, "ease": "inOutCubic"},
+    {"atSec": 55, "lon": 165, "lat": 8, "zoom": 0.53, "ease": "linear"}
+  ],
+  "empires": [
+    {"id": "spanish", "data": "spanish.json", "color": "spanish", "fadeSec": 2, "opacity": 0.82,
+      "stages": [{"atSec": 12, "key": "y1516"}, {"atSec": 18, "key": "y1540"}, {"atSec": 21, "key": "y1783"}, {"atSec": 30, "key": "y1800"}]}
+  ],
+  "credit": {"from": 0.6, "to": 12, "title": "Hạng 6: Đế quốc Tây Ban Nha", "sub": "Ranh giới: Cliopatria (CC BY 4.0), đã giản lược · Nền: Natural Earth"},
+  "beats": [
+    {"id": "b1", "from": 0, "to": 7, "facts": ["Avalon-Tordesillas"],
+      "narration": "Năm 1494, hai nước chia thế giới bằng một đường kẻ, cách quần đảo Cape Verde ba trăm bảy mươi dặm về phía tây.",
+      "chip": {"title": "7/6/1494", "sub": "Hiệp ước Tordesillas"},
+      "mascot": {"expr": "surprised", "side": "left"},
+      "marks": [{"lon": 336.5, "lat": 15, "radius": 0.025}, {"lon": 314, "lat": 12, "radius": 0.03, "from": 1}]},
+    {"id": "b2", "from": 7, "to": 12, "facts": ["T97", "T78"],
+      "narration": "Hạng sáu: Đế quốc Tây Ban Nha, khoảng mười ba phẩy bảy đến mười bốn triệu ki lô mét vuông.",
+      "chip": {"title": "Hạng 6 · Đế quốc Tây Ban Nha", "sub": "13,7–14 triệu km² (Taagepera)"},
+      "mascot": {"expr": "neutral", "side": "left"}},
+    {"id": "b3", "from": 12, "to": 21, "facts": ["Cliopatria"],
+      "narration": "Từ năm 1516, khi đế quốc bắt đầu, Cliopatria tính chỉ gần một triệu. Đến năm 1540, gần năm triệu.",
+      "chip": {"title": "1516 → 1540", "sub": "0,9 → 4,9 triệu km² (Cliopatria)"},
+      "mascot": {"expr": "pointing", "side": "left"}},
+    {"id": "b4", "labels": [{"text": "Louisiana", "lon": 262, "lat": 42}, {"text": "Florida", "lon": 291, "lat": 33}], "from": 21, "to": 30, "facts": ["HistorianLouisiana", "HistorianFlorida"],
+      "narration": "Năm 1762, Tây Ban Nha có Louisiana, tám trăm hai mươi tám nghìn dặm vuông. Năm 1783, họ lấy lại cả hai xứ Florida.",
+      "chip": {"title": "1762 Louisiana · 1783 Florida", "sub": "Theo Bộ Ngoại giao Mỹ"},
+      "mascot": {"expr": "neutral", "side": "left"},
+      "marks": [{"lon": 269.9, "lat": 30, "radius": 0.025, "from": 22}, {"lon": 278.7, "lat": 29.9, "radius": 0.02, "from": 26}]},
+    {"id": "b5", "from": 30, "to": 38, "facts": ["Cliopatria"],
+      "narration": "Cliopatria cho đỉnh cao khoảng mười một phẩy tám triệu, từ năm 1794 đến 1807.",
+      "chip": {"title": "Đỉnh cao ~1800", "sub": "11,7–11,8 triệu km² (Cliopatria)"},
+      "mascot": {"expr": "neutral", "side": "left"}},
+    {"id": "b6", "from": 38, "to": 47, "facts": ["T97"],
+      "narration": "Taagepera cho mười ba phẩy bảy triệu, vào khoảng 1780 đến 1810. Hai phép đo, một đế quốc.",
+      "chip": {"title": "13,7 (Taagepera) · 11,8 (Cliopatria)", "sub": "Hai phép đo, một đế quốc"},
+      "mascot": {"expr": "thinking", "side": "left"}},
+    {"id": "b7", "from": 47, "to": 55, "facts": [],
+      "narration": "Hạng năm lớn hơn một chút. Bạn đoán được không?",
+      "chip": {"title": "Hạng 5: ?"},
+      "mascot": {"expr": "pointing", "side": "left"}}
+  ]
+}

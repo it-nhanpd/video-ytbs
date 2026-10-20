@@ -1,0 +1,1151 @@
+UC Irvine
+
+UC Irvine Previously Published Works
+
+Title
+Size and duration of empires: Systematics of size
+
+Permalink
+https://escholarship.org/uc/item/8vx325vq
+
+Journal
+Social Science Research, 7(2)
+
+ISSN
+0049-089X
+
+Author
+Taagepera, R
+
+Publication Date
+1978
+
+DOI
+10.1016/0049-089X(78)90007-8
+
+Peer reviewed
+
+eScholarship.org  Powered by the California Digital Library
+                                            University of California
+SOCIAL SCIENCE RESEARCH 7, 10thl27( 1978)
+
+    Size and Duration of Empires: Systematics of Size
+
+                                      REIN TAACEPERA
+
+                                           University of California, Irvine
+
+         Areas of the world's three largest empires or states at any given time are listed
+      at lOO- or 50-year intervals, from 3000 B.C. on. Area measurement definitions and
+      techniques are described. Major empire size has tended to increase, approaching
+      the world's dry earth area in an approximately logistic way. This pattern suggests
+      that a world state is still many centuries away. Sudden increases in empire size
+      have occurred around 2800 B.C. due to emergence of cities, around 600 B.C. due
+      to a power delegation breakthrough, and around 1600 A.D. due to a communica-
+      tion speed revolution. A graph of the world's largest empire areas throughout
+      times offers somewhat novel perspectives on world history, making one realize
+      the Western bias of many "world history" texts. Areas of 20 largest states that
+      ever existed are listed. Subsequent papers will deal with historical periods in more
+      detail.
+
+                                    BASIC QUESTIONS
+   "Roman empire was the largest empire of its time." -"The United
+Nations is trying to become a world government." -"Hopefully we will
+soon have a single world state," -" Imagine Iran dreaming of becoming a
+superpower just because it has oil." - "Will the Soviet Union survive
+until 1984?" Such statements and questions are often heard. Our thinking
+about past, present, and future national and international affairs is full of
+considerations of size, growth trends, and duration of relatively sovereign
+political entities, be they called empires. states, or nations. Consciously
+and subconsciously such considerations affect popular opinion and gov-
+ernment decision making.
+   Yet historical impressions of size are often wrong, and extrapolations of
+future trends are based on fuzzy visualizations. Rome was surpassed in
+
+  This work has been made possible by a Faculty Fellowship and a sabbatical leave by the
+University of California, Irvine for periods during which most of the data were collected,
+and by the Political Science Institute of the University of Helsinki whose hospitality during
+the sabbatical leave enabled me to carry out the final analysis. Encouragement and useful
+comments by Professors G. E. von Bonsdorff (Helsinki) and 0. Borg (Tampere), and many
+other Finnish and American colleagues is acknowledged. Address reprint request to Profes-
+sor Rein Taagepera, School of Social Sciences, University of California, Irvine, CA 92717.
+
+                                                    108
+0049-089X/78/0072-0108$02.00/0
+
+Copyright @ 1978 by Academic Press. Inc.
+All rights of reproduction in any form reserved.
+SIZE AND DURATION  OF EMPIRES  109
+
+area (and probably in population) by China during most of its duration.
+When looking back at the history of the last 25 centuries, it looks almost
+abnormal that Iran presently is not the center of a major world empire-
+
+since most of the time it has been the core of one of the world's three
+largest empires. If the Soviet Union disintegrated by 1984, that would
+
+make the growth-decline pattern of the Moscow-centered empire very
+different from the pattern followed by most of the preceding empires. And
+a world state in the close future would represent an unlikely quantum jump
+
+in the size of empires which up to now has edged upwards rather gradually
+over 5000 years. These are some suggestions arising from the systematic
+study of empire size and duration of which this paper is the first part.
+
+   Human history has seen a trend toward ever larger empires and other
+sovereign states. With an area of 0. I million square miles, ancient Egypt
+was the major empire of the world 5000 years ago; nowadays most United
+Nations members have comparable or larger areas. About 2500 years ago,
+
+Persia was the first empire ever to control 2 million square miles-a size
+greatly surpassed by half a dozen contemporary states (USSR, Canada,
+China, USA, Brazil, Australia). During the last 800 years, three empires
+(Mongol, British, Russian) came to reach more than 8 million square
+miles. Hart ( 1931, 1945) was the first to suggest that the area of successive
+record-breaking landborne empires may increase in time in agreement
+with a logistic (drawn-out S-shaped) curve. If so, does the agglomeration
+trend make a world empire or confederation likely in centuries to come?
+While such extrapolations must be treated with caution, we cannot escape
+
+the question altogether. There are people who do speculate about the
+likelihood of the world state and who base their attitudes and actions
+regarding the United Nations and international co-operation on this likeli-
+hood. Irrespective of whether this perspective attracts or repulses them,
+their data base has been impressionistic because no studies have been
+carried out, except for Friedman's (1976) study of the economic determi-
+
+nants of the size of nations. A more precise knowledge of past world
+trends would improve the quality of the guesswork.
+
+   Hart's record-breaking empires (of which none exist presently) are
+bound to become ever larger, by the very definition of a "record." But
+
+what about the non-record-breaking empires which have dominated
+throughout most history? In retrospect, the Mongol and British empires
+occupied large areas but only brief time spans. Besides their peak area,
+we should also consider the stability of states.
+
+   Few empires or states in human history have lasted for a thousand
+years. Empires have tended to collapse or shrink after only a few cen-
+turies or even years at near-maximum size, to be replaced by new entities
+with a different name, ethno-cultural identity and geographical focus. Is
+there a trend toward longer or shorter durations? Are small states more or
+less durable than large empires? On statistical basis, how many of the
+110  REIN TAAGEPERA
+
+present states can be expected to be around 100 years from now? No
+systematic studies seem to have been carried out. Some empires grow to
+huge size during a single century or even a decade (Napoleon's, Hitler's),
+only to crumble as quickly. Some others have grown over several cen-
+turies, and have then lasted at a relatively stable size for many other
+centuries (Roman, Han Chinese). Is there some connection between the
+speed of growth and the speed of decay, as suggested by Olsons (1963)
+and Taagepera (1972)? If so, could the duration of the present states be
+roughly projected from their past growth data? Obviously, it would only
+be a questionable probabilistic answer. But since some people do ask
+questions such as "Will the Soviet Union survive until 1984?" (Amalrik,
+1970) and many more have been willing to read such discourses, we could
+not do worse by using systematic background information based on dura-
+tion of past empires and on the growth performance of the empire under
+consideration.
+
+   The growth of several relatively isolated empires (Roman, Ottoman,
+Russian, the U.`S.) has followed the simple logistic pattern remarkably
+welh (Taagepera, 1968). This pattern involves a slow start, a speed-up of
+expansion, and finally a slow approach to a stable maximum size. The
+same symmetrical pattern is followed by bacterial colonies grown under
+steady conditions, while growth of individual vertebrates already is more
+complex. To what extent can the observations be generalized to other
+empires, states, and federations? Could one, for instance, extrapolate the
+future expansion of the European Community on the basis of its previous
+growth and the logistic model?
+
+                             OUTLINE OF THE PROJECT
+
+  The objective of this study project is to generate and analyze data that
+may help to answer questions such as have been presented. The primary
+task is to compile numerical information on the extent of empires and
+states at various times. In most cases this is done by measuring areas on
+historical maps. The numerical data are then plotted for each state sepa-
+rately, area versus time, to yield a visualization of the growth-decay
+patterns. In order to compare various empires, major characteristics of
+the growth-decay curves have to be defined and measured: the maximum
+stable size, duration of growth, duration at stable size, etc. These second
+level data can then be used for world-wide and history-deep comparisons
+between various empires and states.
+
+   A few words should be said about what this project is not concerned
+with, at least not directly. It does not consider the internal structure of
+empires. For this aspect the reader can consult, e.g., Eisenstadt's (1963)
+and Ruloff s (1976) studies of bureaucratic empires, Sorokin's (1937)
+study of social dynamics, and also the volumes on building states and
+nations edited by Eisenstadt and Rokkan (1973). My study does not even
+                SIZE AND DURATION OF EMPIRES                    111
+
+deal with the growth and decline of an empire's power but merely of its
+geographical extension. Since power is a central concern of political
+
+science (in conjunction with ability to steer that power, as stressed by
+Deutsch, 1966), neglecting it may seem to make this project pointless.
+Real estate controlled by empires may be valuable or worthless. It may be
+densely populated by skilled people or practically uninhabited. Why not
+start by measuring population instead of area, assign some efficiency
+indicator values to people and to leaders, and thus compute power? The
+answer is that much better information is available on area than on
+population of empires, not to mention the impressionistic nature of assign-
+ing power ratings. The dilemma between conceptual importance and
+
+measurability is shown in Table 1. In face of this dilemma, I prefer to
+analyze genuine data related to a concept of limited importance (area)
+rather than use impressionistic pseudo-data related to a crucial concept
+(power). In general, though, area reflects the power of an empire to some
+extent: A large but powerless empire would soon cease to be large.
+
+   At this point the opposite objection may be presented, namely that even
+
+areas of historical empires cannot be determined exactly and unambigu-
+ously, since the degree of control over a given area may change gradually
+and intangibly. The answer is that no science based on measurement can
+be exact (cf. Taagepera, 1976a). Measurement always involves an error
+margin. Calling physics an "exact science" is a misnomer that has sur-
+vived only because all physicists know what it stands for, namely, quan-
+titative science striving for as precise measurements as the state of the art
+
+allows. In our study, a 10% error on all areas reported should be ex-
+pected. In cases of wider disagreement between different sources or
+different ways of looking at the situation, the range will be expressly
+indicated. Such error does not invalidate the results obtained, provided
+that the range of its possible impact is kept in mind and reported.
+
+  We will encounter other difficulties in defining certain terms. To begin
+with: How do we recognize that one empire or state has terminated and
+another one begun, in the case of a continuing civilization such as China?
+
+Is the Soviet Union the same empire as tsarist Russia or a new one? How
+about Rome and Byzantium? Did Alexander create an empire or merely
+
+                          TABLE 1
+                Why Study Empire Areas?
+
+Characteristic    Political  Precision of       Feasible level
+Area            importance    definition       of measurement
+
+Population      Very         Fair             Can measure
+Power
+                indirect                      Largely guessing
+                                              Pure guessing
+                Indirect     Fair
+
+                Direct       Poor
+112  REIN TAAGEPERA
+
+seize control of the existing Persian one? If two states fuse, such as
+Lithuania and Poland around 1500, which one should we consider ab-
+sorbed by the other? Even the apparently simple notion of maximum
+stable size is not easy to define operationally: When Romans occupied
+
+Westphalia for 40 years, should we count this area as part of the stable size
+of the empire or consider it as a temporary unstable occupation? I will offer
+my definitions. Often they are not self-evident. There will be arbitrary
+quantitative thresholds beyond which a phenomenon is considered to have
+entered a new qualitative phase. I will not argue about the philosophical
+"correctness" of these definitions, although, of course, they have been
+
+reworked until they expressed the features which are thought to be qualita-
+tively important. Beyond that, the main demand is that the definitions be
+operational: self-consistent and such that results based on them can be
+
+reproduced by anybody.
+   This is a large project, and it will take several papers to make the
+
+processed data and results available to scholars and statesmen in a us-
+able form. Rather than start with methodology-a very important but also
+the most boring aspect-the present first paper will present a broad
+overview of the largest empires existing at any time throughout human
+history. We will thus investigate only a small part of the basic questions
+asked in the introduction. We will have to define what we mean by an
+empire and its size. But we will avoid for the moment the thorny questions
+about how to define the duration, or stable size, or continuing identity of
+an empire. The methodology will later be presented gradually as the need
+
+rises.
+   The second paper in the series will deal with growth-decline curves of
+
+individual empires, from 3000 to 600 B.C., and will present detailed data
+tables and sources. A similar chronological sequence will be followed in
+several subsequent papers. The series is expected to conclude with
+
+further broadly analytic papers such as this first one. A geographical
+rather than chronological delineation would be preferable in order to trace
+continuity and change within the same geographical theater, such as the
+Middle East or Western Europe. Apart from pre-Columbian America,
+however, interactions between all world regions were found to be so
+extensive that no satisfactory separation line could be drawn between,
+say, the Middle East and the Far East or Europe or Africa.
+
+                  DEFINING AND MEASURING EMPIRE SIZE
+
+  The specific objective of this paper is to determine how the size of
+major empires of the world has varied throughout history. Several terms
+in this statement need clarification.
+SIZE AND DURATION OF EMPIRES  113
+
+   By "empire" I mean any large sovereign political entity whose compo-
+
+nents are not sovereign, irrespective of this entity's internal structure or
+official designation. Since the emphasis is on the very largest of such
+entities, one does not have to worry about a size cut-off below which the
+term "empire" would seem to be misplaced.
+
+   By empire size I always mean the dry-land area controlled by the
+empire. This area is by no means clearly defined. Empires often take
+control of new territories through a gradual process leading from tributary
+status to province status. In such cases the earliest date of uninterrupted
+tributary status is taken as the date of conquest, although the assimilation
+process may be slow and never be completed. Empires often decay
+through gradual feudalization in the course of which provinces impercep-
+
+tibly gain effective sovereignty while still paying homage to the now
+powerless emperor. In such case the date of territory loss is taken as the
+date at which reassertion of ever increasing autonomy first becomes
+noticeable. There are also vague spheres of influence outside the official
+borders; these are neglected in our study. Official borders may not even
+exist when an empire gradually fades into the nothingness of an uninhab-
+ited desert or forest. In these cases the average consensus of historical
+atlases is accepted. Indeed, such consensus is accepted in all doubtful
+
+cases. In case of wide disagreements, the average as well as the extreme
+estimates are reported.
+
+   There are times in history when the sovereign units are well-nigh
+impossible to delineate due to complex vassal-suzerain relations. Personal
+unions due to marriage of rulers or to inheritance further confuse the
+situation. Should France under the early Capetiens be considered a single
+
+state or a collection of separate counties and duchies? From the viewpoint
+of momentary power constellation the duchies were practically indepen-
+dent. Their rulers could undertake conquests of their own (e.g., Normans
+in England), and their new territories did not always fall under the formal
+
+suzerainity of the King of France. Yet such a power was brittle. A single
+military defeat or the extinction of the male line could abruptly end it. In
+the long run the tenuous suzerainty of the King often prevailed: The
+France as it consolidated itself by 1600 was largely the same ten-itory that
+was assigned to the West Frankish kingdom in 843.
+
+   Our approach in such cases is to give the benefit of doubt to the larger
+or more durable entity. This means neglecting "times of trouble" between
+periods of consolidation within essentially the same borders.
+
+   Actual area measurement was usually carried out on maps in historical
+
+atlases. In most cases a planimeter was used-this is an engineering
+instrument which measures the area within an irregular contour while the
+tip of the planimeter arm follows this contour. In other cases a more
+primitive but equally effective "square-counting" technique was used
+114  REIN TAAGEPERA
+
+(see Taagepera, 1968 for details). In both cases proper conversions from
+map area to real area have to be carried out, using map scales. Historical
+maps sometimes neglect giving the map scale which then has to be
+reestablished by measuring distances between prominent geographical
+landmarks. Areas of modern empires often could be obtained directly
+
+from handbooks. On the other hand, for many an ancient empire the
+sequence of conquests and losses had to be laboriously established from
+encyclopedias and history texts before a historical map of area changes
+could be drawn.
+
+   Among the historical atlases used, it was found that the three-volume
+Grosser Historische Weltatlas edited by Engel (1953- 1970) was the most
+versatile and inclusive. But a large number of others supplied invaluable
+data to complement and check on Engel: Shepherd (1956), Muir (1961,
+1963), Hammond (1968), Vries (1965), Putzger (1961), Palmer (1957), Stier
+(1963), Leonhardt (195 l), Kinder and Hilgemann (1964), and Gustafson
+
+(1974) on world-wide history, and Chew (1967), Herrmann (1966), Davies
+( 1949), Sellman ( 1954), Fage ( I958), and Roolrink (1957) on individual
+regions or countries.
+
+   More-or-less complete growth-decline curves were plotted in this way
+for more than 100 historical empires and states, not to mention the
+contemporary ones. Four examples of such area versus time curves
+(Rome, Ottoman Turkey, Muscovy-Soviet Union, and the United States)
+are shown by Taagepera (I 968). Detailed data, sources, and analysis will
+be given in subsequent papers.
+
+   As an area unit of convenient size, megameters squared (Mm2) were
+chosen. Since 1 Mm = 1000 km, we have 1 Mm2 = lo6 km2 = 386,000
+
+square miles.
+   For the present purpose curves for all empires were plotted superim-
+
+posed, on the same area and time scales. By taking the highest of the
+curves at any time, we obtain the "world's largest empire curve" where
+the largest empire's identity changes frequently. This curve is shown in
+Fig. 1 where the area scale is logarithmic so that equal percentage growth
+corresponds to equal vertical distances. If a regular scale were used, all
+ancient empires would be dwarfed by the size of the modern ones, and no
+details could be seen. On our "semilogarithmic" plot exponential growth
+would appear as a straight line. Does the world's largest empire curve
+follow such a pattern? This is hard to tell because random fluctuations are
+wide.
+
+   In order to reduce these fluctuations the combined area of the three
+largest empires at any time is also plotted in Fig. I. A major empire often
+grows at the expense of another so that the sum of areas does not vary.
+The three-empires curve in Fig. 1 is, indeed, smoother than the single
+largest empire curve. Numerical data corresponding to these curves are
+                SIZE AND DURATION OF EMPIRES
+
+100 -           EARTH DRY LAND AREA-
+
+                                                    0.1
+
+0.13000   2000  1000 BIc1 -- 0                1000  2000
+
+                YEARS                 A.D.
+
+FIG. 1. Size of empires versus time: the continuum approach. Lower curve represents
+
+the area of the single largest empire. Middle curve is the sum of areas of three largest
+
+empires.
+
+shown in Table 2 where the areas of the world's largest three empires are
+listed at lOO-year intervals from 2500 to 1500 B.C., at 50-year intervals
+from 1500 B.C. to 1900 A.D., and at 25-year intervals thereafter.
+
+   There are at least three levels at which the data in Fig. 1 and Table 2
+could be analyzed: persistent continuous trends prevailing throughout
+human history; historical phases; and observations on individual empires
+and regions. All these levels will be discussed next.
+
+             HOW LARGE EMPIRES HAVE BECOME LARGER:
+                              A CONTINUUM APPROACH
+
+   Is there any persistent trend to be seen in Fig. I? One could assert that
+this is the case: Both the single largest empire and the three-empires
+curves tend to rise throughout history. For the last 1000 years, even
+during the periods of relative fragmentation (such as around 1100 or 1500
+A.D.), the curves have been markedly higher than the peak values were
+prior to 1000 B.C. Could the growth be roughly exponential? This would
+correspond to a straight line in Fig. 1.
+
+   We should first ask which parts of the curves we should give most
+weight. The automatic reflex would be to find the best-fitting straight line,
+thus giving equal weight to the peaks and the valleys of the curve. But
+                                               TABLE 2
+        Areas of the World's Three Largest Empires Throughout History (in Mm3
+
+Years   Largest empire"   Second largest      Third largest
+                              empire"            empire"
+
+B.C.    -. I Upper Egypt  -.05 Lower Egypt    .OO Sumer (M)
+        -.25 Egypt, Old   -.Ol Sumer               -
+  3000                    -.03 Sumer               -
+  2800    .4 Egypt
+  2500
+
+2400 .4 Egypt, Old        -.05 Lagash (M)     (.OS?)Harappa (Ind)?
+2300 .6 Akadia (M)         .2 Egypt, Old      (. 1 ?)Harappa
+2200 .2 Akadia                                (. I?) Harappa
+                            .I Egypt
+2100 (. I 5?b) Harappa?     `1 Egypt           .03 Sumer
+2000 .2 Egypt. Middle     (.2?) Harappa?       .I Sumer
+
+1900 .5 Egypt, Middle     ( .2?) Harappa?      (.l) Hsia (C)
+1800 .5 Egypt              .45 Hsia           (.3?) Harappa?
+1700 .4 Hsia               .25 Egypt, Middle
+1600 .65 Hykso (A)         .4 Shang (C)         .2 Babylon (M)
+                           .4 Shang             .2 Babylon
+1500 .65 Egypt, New                             .2 Mitanni (M)
+
+1450 1.0 Egypt, New       .5 Shang            .3 Mitanni
+1400 .9 Egypt             .55 Shang           .3 Mitanni
+13.50 .75 Egypt           .65 Shang           .2 Hittite
+1300 I.0 Egypt            .7 Shang            .4 Hittite
+                          .85 Egypt, New      .45 Hittite
+1250 .9 Shang             .75 Egypt           .4 Hittite
+1200 1.0 Shang            .65 Egypt           .2 Elam (M)
+1150 I.1 Shang            .55 Chou (C)        .I5 Assyria (M)
+1100 .6 Egypt, New                            . I Hittite
+                          .5 Chou             .I5 Babylon
+1050 .5 Egypt             .4 Egypt, New
+1000 .45 Chou
+
+950 .4 Chou               .3 Egypt, New       .I5 Babylon
+900 .35 Chou                                  .I5 Babylon
+850 .45 Assyria           .2 Egypt            .I5 Babylon
+800 .5 Assyria            .3 Chou
+750 .4 Assyria                                .2 Urartu (M)
+700 .9 Assyria            .25 Chou            .I5 Chou
+650 I .O Assyria'         .2 Phrygia (A)      .45 Medea (I)
+600 3.0 Medea             .5 Egypt, Late
+550 2.5 Achaimenid (I)    .65 Medea (I)       .5 Egypt, Late
+500 5.5 Achaimenid        .55 Egypt, Late     .4 Lydia
+                          .65 Egypt
+                          .I5 Ch'u (C)?       .5 Lydia. Babylon
+                                              .I5 Carthage (Af)
+
+450 5.2 Achaimenid        -.3 Ch'u?            .3 Maghada (Ind)
+
+400 3.5 Achaimenid        -.8 Maghada          .3 Ch'u?
+                                               .5 Ch'u
+350 4.0 Achaimenid        -I .O Maghada       I .O Ptolemee (Af)
+300 4.0 Seleucid (Hd       2.5 Maurya (Ind)
+250 3.5 Maurya             2.8 Seleucid        .9 Ptolemee
+                           2.5 Maurya         I .8 Bactria (I)
+200 2.5 Han(C)            2.3 Han             2.0 Bactria
+150 5.7 Hsiung-Nu (CA)     2.3 Parthia (I)    2.0 Hsiung-Nu
+100 4.0 Han                2.5 Parthia        2.0 Rome (E)
+                           3.5 Rome           2.8 Parthia
+ 50 6.2 Han
+  0 6.2 Han
+
+  (' Location code for empire core: A = Anatolia. Af = Africa. Am = America, C = China,
+CA = Central Asia, E = Europe, I = Iran (and Western Himalaya), Ind = India (and
+Indochina), M = Mesopotamia.
+
+                                                    116
+Years Largest empire"   TABLE 2 (Conrinued)                                Third largest
+                                                                              empirea
+A.D.                          Second largest
+                                  empire"
+  50 5.5 Han
+ 100 6.5 Han            4.0                                     2.5 Parthia
+ I50 5.7 Han            4.4 Rome                                2.3 Parthia
+ 200 4.5 Han            4.4 Rome                                2.5 Parthia
+ 250 4.4 Rome           4.4 Rome                                2.5 Parthia
+ 300 4.4 Rome                                                   1.3 Kushan (Ind)
+ 350 4.4 Rome            3.0 Sassanid (I)                       3.5 Sassanid
+ 400 3.5 Sassanid       4.0 Chin (C)                            2.8 E. Chin (C)
+ 450 4.0 Huns            3.5 Sassanid                           2.8 E. Chin
+ 500 3.5 Sassanid        3.0 Huns (E)                           2.8 Toba (C)
+                                                                1.9 Byzantium (E)
+ 550 5.2 Tu Chueh (CA)   3.5 Sassanid
+ 600 3.0 Tu Chueh
+ 650 5.2 Muslim (M)     ~2.5 Toba
+ 700 9.0 Muslim
+ 750 II Muslim          3.4 Sassanid                            2.3 Toba
+ 800 8.3 Muslim         2.5 Sassanid
+ 850 4.7 Tibet          3.6 T'ang (C)                           2.3 Byzantium
+ 900 2.8 Tibet          5.2 T'ang                               2.8 Tibet (CA)
+ 950 2.5 Tibet          5.2 T'ang                               2.3 Tibet
+1000 3.0 Sung (C)       4.5 Tibet                               2.3 Tibet
+                        4.5 Muslim
+I050 3.0 Seljuk (A)     2.0 Samanid (I)                         3.0 Uighur (CA), T'ang
+II00 4.0 Seljuk         2.5 Liao (CA)                           3.0 T'ang
+II50 2.5 Tibet          2.5 Liao                                I.5 Kiev (E)
+1200 2.3 Juchen
+1250 I8 Mongol                                                  2.3 Samanid
+1300 24 Mongol                                                  2.5 Tibet
+1350 II Yuan (C)
+1400 4.0 Timur (I)      3.0 Sung                                2.5 Tibet, Liao
+1450 6.5 Ming
+1500 4.7 Ming           3.0 Sung                                2.5 Tibet
+
+1550 4.3 Ottoman (A)    2.3 Almoravid (Af)                      2.3 Juchen (C)
+1600 6.0 Russia
+1650 9.5 Russia         2.0 Sung                                I.8 Tibet
+1700 I2 Russia
+1750 I4 Russia          2.0 Sung                                I.3 Delhi (Ind)
+1800 I7 Russia
+1850 23 British (E)     I.5 Delhi                               I.0 Mali (Af), Khmer (Ind)
+1900 30 British
+1925 34 British         5.5 Golden Horde (CA) 2.8 Delhi
+1950 22.5 USSR
+1975 22.5 USSR          4.0 Ming (C)                            3.5 Golden Horde
+
+                        2.5 Golden Horde                        2.3 Shahrukh (I)
+
+                        2.0 Inca (Am)                           1.8 Russia (E)
+
+                         4.0 Russia                              3.5 Ming
+                                                                 4.5 Ottoman
+                         5.2 Spain
+                         7.8 Spain                               6.5 Manchu (C)
+                                                                 9.0 Manchu
+                        10 Spain
+                        12.5 Spain                              10.5 Manchu
+                        15 Manchu                               13.5 Spain
+                                                                13.5 Manchu
+                        21 Russia
+                        22 Russia                               I4 France (E)
+                        21 USSR (E)                             1.5 France
+                                                                IO Canada (Am)
+                        I4 France
+                        IO Canada                                9.7 China
+
+* "?"lndicates cultural areas of questionable        political  cohesion.
+c Assyria peaked at I.4 Mm2 in 660 B.C.
+d Alexander 323 B.C.: 5.2 Mm*.
+
+                                                II7
+118  REIN TAAGEPERA
+
+their qualitative meaning is quite different. Peaks may indicate the limits
+of the social organization potential at the given time while valleys may
+represent more or less random levels below that limit. This is not to
+suggest that humankind should strive for maximum possible power con-
+centration. On the contrary, empire building may prove to be a major
+
+foolishness of the species. All that is implied here is that peak levels in our
+curves may have a simpler and more regular structure than the valley
+bottom levels. If this were so, then it would make more sense to consider
+the upper "envelope curve" (i.e., the curve joining the peaks) rather than
+the average of peaks and valleys.
+
+   An exponential fit (straight line in Fig. I) to the peaks, from 3000 B.C.
+to 100 A.D., would clearly yield excessively high projections for later
+
+times. Indeed, by 2200 A.D. it would project to more than 100% of the
+total dry land area of the Earth. This disagreement should be expected.
+No exponential growth can continue forever. A ceiling is eventually
+approached which cannot be pierced. Unless we consider colonization of
+outer space a realistic possibility, the Earth dry land (133 Mm*. without
+
+Antarctica) is our absolute limit. This limit is shown in Fig. 1, and in
+recognition of its importance the area scale at the right shows areas as
+percentages of the total area available. Growth approaches such ceilings
+usually in a gradual way, since the ceiling's presence is felt in terms of a
+decrease in further available space (or whichever other factor limiting the
+growth). Originally exponential growth later often tends to approximate a
+
+simple logistic form (a "drawn-out S" shape). Individual relatively iso-
+lated empires tend to follow this form (Taagepera, 1968). On
+semilogarithmic plot such as Fig. I logistic curves appear as initially
+straight lines (exponential phase) which gradually bend downwards and
+approach the ceiling without ever reaching it.
+
+   A logistic envelope fit to the peaks of the three-empires curve is also
+shown in Fig. 1. The corresponding equation is
+
+     s= 133                        (1)
+                  1 + ~Oe-0.0012t
+
+where size (S) is in Mm2 and time (t) is in years A.D. Note that the ceiling
+(total dry land area, 133 Mm2) has been taken as a given restriction in this
+fit. The logistic fit is somewhat better than the exponential one. This
+envelope curve may reflect the gradually increasing ability of the human
+political structures to organize ever wider reaches, due to development of
+physical and social technology. If this were so, several interesting and
+possibly useful suggestions arise regarding the recent past and the im-
+mediate future. In view of the apparent novelty and the relative simplicity
+of the picture in Fig. 1, these suggestions are expressed here as potentially
+fruitful hypotheses to be cross-checked using other methods. But they
+SIZE AND DURATION  OF EMPIRES  119
+
+should not be mistaken for firm assertions. These suggestions are based
+on the unprovable (and undisprovable) belief that certain long-range
+mechanisms (such as development of technology) are acting throughout
+human history. They further assume that the logistic envelope fit in Fig. 1
+is an adequate reflection of such long-range trends. Under these assump-
+tions the following `observations can be made.
+
+   (1) The peak of the three-empires curve around 1700- 1900 was unusu-
+ally high, perhaps due to the extraordinary advantage that commercial
+and industrial revolutions gave to European powers (especially Britain,
+Russia, Spain, and France). Even the recent decolonization has not
+brought the three-empires curve down much below the expected upper
+envelope level.
+
+   (2) In this light, consolidation of new larger entities in the close future is
+somewhat less likely than further breakup of the present largest states (in
+particular the Soviet Union, Canada, and China). The contemporary
+decolonization-type unrest in those entities (e.g., the continuing Ukrain-
+ian and Baltic national underground, separatist gains in Quebec, and the
+Tibetan guerrilla of 1960) might appear in this respect to be more than
+rearguard action. However, it will be seen in subsequent papers that the
+individual growth decline curves for Russia, Canada, and China suggest,
+on the contrary, continuing stability, as far as area is concerned.
+
+   (3) The logistic envelope curve is by now approaching the ceiling quite
+slowly. According to Eq. (1) the three largest empires (or federations)
+would englobe only 75% of the whole dry land by 3000 A.D. The time of a
+single world state (be it an empire imposed through conquest or a federa-
+tion evolving from the United Nations) would seem to be even further
+away.
+
+   Once more-these are data-suggested possibilities rather than firm as-
+sertions. We will now investigate a different framework for analyzing the
+same data, and results will be of a different type.
+
+        A HISTORICAL PHASES APPROACH TO EMPIRE SIZES
+
+   Instead of a continuous growth in maximum size, one could also vis-
+ualize the data as a sequence of discontinuous phases during which
+empire size did not increase appreciably. Figure 2 shows the previous
+empirical data plotted in the same way as previously. But the new analytic
+categories superimposed to the data now stress certain discontinuities.
+We can distinguish the following phases.
+
+  Phase 0. Prior to 2850 B.C. It seems that no political entities larger than
+0.1 Mm2 existed during that phase.
+
+  Phase 1. 2850 to 700 B.C. The single largest empire during that phase
+always maintained a size of at least 0.15 Mm2 but never went beyond 1.3
+Mm2. The combined area of the three largest empires varied between 0.3
+120           REIN TAAGEPERA
+                 EARTH DRY LAND AREA/
+   100
+
+              /     I  I               I  I                            0.1
+                                                                   2000
+3000    2000  loo0                0               1000
+                    B,C, -             A.D.
+                       YEARS
+
+        FIG. 2. Size of empires versus time: The phases approach.
+
+and 2 Mm2. The range from the smallest single empire to the largest
+three-empires area is shown by frame labeled "Phase 1" in Fig. 2. After a
+transition period of two centuries, the next phase started with markedly
+larger areas.
+
+  Phase 2. 500 B.C. to 1600 A.D. The minimum area of the single largest
+empire during that period was 2.3 Mm2, above the maximum of the
+previous phase for the combined area of three largest empires. The
+maximum empire size reached 24 Mm2. For the combined area of three
+largest empires the range was from 5 to 28 Mm2. Within Phases 1 and 2
+new records of area were repeatedly established, but the interphase
+increase (700 to 500 B.C.) is one of the most marked ones.
+
+  The contrast between the two phases is especially striking when one
+considers the bottom parts of the curves (the aspect neglected in the
+continuum approach). During Phase 1 the world's largest empire's area
+keeps falling underneath the level of 0.5 Mm2, up to the very end of the
+phase. During Phase 2 the bottom suddenly is raised from 0.5 to about 2.5
+Mm*. Again, this bottom level is reached repeatedly, practically from the
+beginning to the end of the phase. Most area values appear repeatedly on
+both curves, due to wide fluctuations during the phases. But the area
+value of 2.2 Mm2 occurs only once on either curve-during the interphase
+SIZE AND DURATION OF EMPIRES  121
+
+transition period. This is the only such single occurrence on the graphs
+(apart from the poorly known Phase 0). As such, it definitely distinguishes
+
+between the two phases.
+  Phase 3. From 1600 A.D. on. This phase has lasted for such a short time
+
+that one cannot be certain of its existence: Maybe it is just a continuation
+of Phase 2. Both curves reach new peaks during that period, but this has
+occurred before, within Phase 2. The largest present empires can decline,
+
+leading to new low points on the curve. However, it was pointed out
+earlier that during Phase 2 disintegration periods the largest empire area
+repeatedly fell as low as 2.5 Mm2, even toward the very end of the phase.
+
+Similarly the three-empire curve kept falling back to the 5 Mm2 level. Is it
+likely to occur again in the future? The world now has eight states larger
+than 2.5 Mm2 (USSR, Canada, China, USA, Brazil, Australia, India,
+
+Argentina). It is unlikely that all of them would break apart at the same
+time. Therefore, it seems that the bottom level of the curves has again
+been lifted since 1600, possibly in a major way, thus justifying the intro-
+duction of a Phase 3.
+
+   This analysis would suggest a limited number of crucial organizational
+inventions or breakthroughs during human history, instead of a gradual
+development. The start of Phase I may correspond to occupational differ-
+entiation and the use of the city as a center and tool for centralized
+
+leadership. Within the city-countryside symbiosis either of the two com-
+ponents may predominate. According to Franfort (195 I), in Mesopotamia
+the city was the object of prime loyalty and structured the countryside
+around it, while in Egypt the city was an easily shiftable market center,
+and the king was primarily the king of the country. Either way the rule
+was centralized because no methods had been devised to delegate power
+in a withdrawable way. Governors who were not tightly supervised
+tended to become independent princes. Since communication takes time,
+the geographical range of centralized decision-making is limited. The
+
+maximum empire size during Phase I (1.3 Mm*) corresponds to a mean
+range of control of about 650 km (assuming approximately circular coun-
+tries). The maximum speed of messages (by horse, without systematic
+relays) would have been 100 km per day at most. Thus the central control
+tended to fade when the communication time with the capital exceeded a
+week.
+
+   The start of Phase 2 may have resulted from a breakthrough in the art of
+delegating power in a withdrawable way, primarily through bureaucratic
+hierarchy of roles filled by people, rather than through purely personal
+relationships. The successful introduction of satrapies may have been the
+secret weapon which suddenly enabled the Medes and the Persians to
+build an empire of 5 Mm2 in a world that up to that time had seen no
+empire surpass 1.3 Mm2. According to Eisenstadt's (1963) criteria Persia
+122  REIN TAAGEPERA
+
+was not yet a bureaucratic empire but a prebureaucratic one while ancient
+Egypt was bureaucratized. Yet the boost in size suggests some basic
+advances. An area of 5 Mm2 corresponds to a mean action range of about
+
+1300 km. Part of the increase was due to higher communication speeds
+through use of relay stations which represented a major organizational
+achievement. But Persia must also have developed organizational means to
+extend the range of control not only in terms of kilometers but also in terms
+
+of travel days. The next thousand years saw apparently little change in
+long-distance organization ability.
+
+   The start of Phase 3 may have been triggered by the European
+commercial-industrial revolution. The main new factor may have been an
+increasingly rapid pace of technological development. When this pace is
+slow, the technology gap between the conqueror and the conquered is
+small, because conquest tends to proceed slowly, leaving time for diffusion
+
+of technology. The pace of technology development has increased
+throughout human history at an ever accelerating rate (cf. Taagepera,
+1976b). A critical speed may be reached at a certain point where the
+technology difference enables the technologically most advanced popula-
+tions to conquer their neighbors so rapidly that technology diffusion
+cannot keep abreast with conquest. The further such conquest proceeds
+
+from the centers of technological innovation, the larger the technological
+disparities become between conquerors and the conquered people, so that
+conquest becomes easier. The expansion of European empires overseas
+may have been triggered by such a conquest-diffusion speed reversal,
+while long-distance communication speed did not increase appreciably
+until the telegraph was invented. But the basis of the European conquest
+of the world was unstable: It was not so much based on the organizational
+ability of the Europeans than on the relative technological weakness of
+
+the others. This expansion into relative vacuum was bound to reverse
+itself as the diffusion of technology continued, enabling the conquered to
+meet the conquerors on a more equal technological basis. Thus the Euro-
+pean colonial empires have disintegrated, often after an unstable com-
+monwealth stage, with the exception of the Russian empire.
+
+   Meanwhile a new bottom level to empire size may, however, have been
+supplied by the telegraph (and later radio) which cut worldwide communi-
+
+cation time down from months to hours, and with the airplane which had
+an almost as spectacular effect on transport speeds. Today's large and
+even small powers (witness Israel's action in Uganda and Cuba's in
+Angola) can strike anywhere in the world in fewer days than it took the
+pharaoh to send a message to his border guards.
+
+   The tentative conclusion is that there have been three major phases in
+human empire building, each based on a breakthrough of a different
+nature. Phase 1 was a result of beginning urbanization. Phase 2 was made
+SIZE AND DURATION  OF EMPIRES  123
+
+possible by delegation of power and bureaucratization. Phase 3 was
+triggered by a temporary imbalance in technological development but it is
+kept going by drastic shortening of communication and transport times.
+
+   The historical phases approach may seem to be in conflict with the
+continuum approach discussed previously, but it is not. The overall
+curves of technological development are often observed to be the upper
+envelope curves for subcurves representing the development of specific
+techniques. Thus the curve for maximum speed achieved by humans
+consists of a sequence of logistic subcurves for horseback, steam engine,
+automobile, airplane, and rocket techniques. As one specific technology
+reaches its full potential, another one appears. The envelope curve for
+such specific logistic curves tends itself to be logistic, with an eventual
+maximum at the speed of light which is the theoretical maximum speed.
+Within our continuum approach the historical phases may represent the
+leveling-off periods of such subcurves.
+
+       OBSERVATIONS ON INDIVIDUAL EMPIRES AND REGIONS
+
+   Besides trying to distinguish continuous trends or phases, Fig. 1 could
+also be perused just to see how it agrees with our previous ways of looking
+at history. It may come as a shock, for instance, that Rome hardly appears
+on the world's largest empire curve: It only makes it for about 200 years,
+after the disintegration of the Chinese Han empire. The inadequacy of
+area as a measure of an empire's power or impact may be one reason. But
+could it also be that our Europocentric world view has boosted Rome's
+importance excessively?
+
+   The list of the world's largest empires includes some of which I had
+never heard before this project: Tu-Chueh Turks, Tu-Fan Tibetans, and
+Juchen Manchu. If these can be discounted as sparsely populated desert
+realms on which little information is available, the same could not be said
+of some runners-up such as Bactria or Kushan. Checking on a few
+contemporary high school and college history textbooks suggests that is
+not purely my own fault, nor can my students be completely blamed for
+being completely unaware of even such momentous political and cultural
+landmarks as Asoka's India, Sassanid Persia, or Baghdad Caliphate. Our
+history education seems to be somewhat biased geographically.
+
+   We cannot even justify our bias by claiming that more attention is given
+to those cultures which are the roots of our own Western civilization,
+because we arbitrarily ignore some of our roots. The treatment of the
+Middle East is especially striking. Its most ancient history is well repre-
+sented in our history texts: Egypt, Babylon, and Assyria figure promi-
+nently, and even the Hyksos are mentioned. But after the rise of the
+Greek civilization our textbooks implicitly suggest that the culture that
+started in Egypt, Anatolia, and Mesopotamia completely shifted to
+Greece, leaving behind a cultural vacuum. Achaimenid Persia marginally
+124                       REIN TAAGEPERA
+
+enters our "world history" but only as far as it attacks Greece or is briefly
+
+taken over by an adventurer originating from the European marches of the
+
+empire. The modest peak of Alexander's empire compared to the total
+
+Medean-Persian one in Fig. I, both in duration and in maximum height,
+
+should give us pause. The area, population, resources, and culture re-
+
+mained basically the same. Yet we choose to glorify one of the rulers
+
+more than all others combined. It is as if a historian with narrowly
+
+Germanic bias treated all of the Roman empire as a mere introductory
+
+footnote to some Germanic soldier-emperor of the Roman decay period.
+
+Our textbooks even tend to leave the impression that Alexander's realm
+
+was much larger than the preceding Persian empire, especially in view of
+
+his "conquest of India" (which plays on the confusion of the Indus River
+
+region with the Indian Peninsula). A look at Fig. 1 shows that Alexander
+
+never reached the peak size of the Persian empire. (A comparison with
+
+only the decay phase of the Persian empire would manifestly be unfair.)
+
+A further rabbit jump in the location of our roots occurs after the
+
+creation of Rome. Now civilization seems to depart from Greece, too.
+
+Even when the political and cultural center of the empire shifts to Con-
+
+stantinople, our attention remains riveted on the declining Western part.
+
+The continuing Greek civilization receives a last casual mention when the
+
+Byzantine refugees trigger the Renaissance. The term Renaissance itself
+
+is instructive. It is as if the scientific-technological-cultural  phoenix flew
+
+from the Middle East to Greece, then to Rome, and then died, only to
+
+arise from the same Italian ashes a thousand years later. But the phoenix
+
+did not die-it returned to Byzantium, spread out all over the Arab world,
+
+picked up a few feathers from India and China, and then returned to Italy.
+
+The "Dark Ages" were pretty bright east of Europe. It seems that our
+
+historical thought has not been concerned equally with all the numerous
+
+roots of our civilization, but has stressed the importance of a single main
+
+root. Within the maze of our cultural ancestors, it has tried to elucidate a
+
+clear patrilinear succession. And even then, when the line shifted back
+
+toward the East, it was declared illegitimate, in favor of a claim of virgin
+
+Renaissance.
+
+Nothing in the preceding discussion denies our major linguistic depen-
+
+dence on Latin and Greek, which has served as a vehicle for literary and
+
+philosophical influence. But this is no reason to ignore the rest of the
+
+Western culture's roots.
+
+The preceding discussion may seem to be out of order, in view of the
+
+general topic of this paper. However, those ideas were suggested by an
+
+inspection of Fig. I. Although this figure is restricted to a very narrow
+
+concept, its depth in time apparently enables us to see history in a
+
+somewhat new light.
+
+Which regions have been most prone to produce large empires? Over
+
+the total 5000 years investigated, the world's largest empire has been
+SIZE AND DURATION  OF EMPIRES  125
+
+centered in Egypt for 1300 years, in China for 1000 years, in Anatolia or
+Mesopotamia for 900 years, in Europe for 600 years, in Iran for 500 years,
+in Central Asia for 500 years, and in India for 100 years. Thus the location
+has been in the present Muslim world (Egypt, Anatolia, Mesopotamia,
+Iran) for 2700 out of 5000 years, and in or close to the present China
+(China and Central Asia) for 1700. However, emphasis has varied as
+history unfolded itself. It is convenient to consider separately the three
+phases delineated earlier.
+
+   Phase 1 (including Phase 0 since 3000 B.C.) could be said to be the
+Egyptian phase: out of its total 2300 years, Egypt was the world's largest
+state for at least 1300 years. Anatolia-Mesopotamia and China share the
+rest about equally. Egypt does not reappear among large empires thereaf-
+ter.
+
+   Phase 2 (2300 years, including the transition period from 700 to 500
+B.C.), is quite evenly divided between Iran, Central Asia, China, and
+Anatolia-Mesopotamia, with 400 to 600 years for each. Each of these four
+regions keep reappearing throughout the duration of the period. In addi-
+tion, India and Europe briefly appear in the top list.
+
+   Phase 3 (400 years up to now) has been a European and specifically
+Russian phase. Russia has been the world's largest empire for about 300
+years, and Britain for about 100 years.
+
+   Thus China and Mesopotamia-Anatolia are well represented throughout
+the two phases now completed. Iran and Central Asia have appeared up to
+now only in Phase 2, Egypt in Phase 1, and Europe nearly only in Phase 3.
+
+   If instead of the single largest empire we analyzed the list of the three
+largest ones, the differences between regions tend to blur because none of
+the regions mentioned can easily accommodate more than one large
+empire (although exceptions do occur), so that three different regions
+almost always are bound to be part of the list. The main conclusions still
+are the same, except that China now predominates (with 3200 years on the
+list) over Egypt (2200 years) and Anatolia-Mesopotamia (2600 years);
+Iran, Central Asia, Europe, and India follow with 1500 to 1100 years each.
+
+   Finally, Table 3 shows a list of the 20 largest empires and states that
+ever existed. The predominance of modern times is clear: There are six
+states in the list (USSR, Canada, China, USA, Brazil, and Australia)
+which still exist at or close to their peak size. There are three other
+empires (British, Spanish, French) of which the rump state still exists.
+
+                                       CONCLUSIONS
+
+   In this first part of a series the general objectives of the project have
+been described. The notion of empire size has been defined operationally,
+and a table of the world's largest empires throughout history has been
+given. A fairly steady increase in size throughout times is observed and
+summed up in a logistic equation. Yet size increases during the last few
+126                        REIN TAAGEPERA
+
+                                      TABLE 3
+           The 20 Largest Empires or States That Ever Existed"
+
+                      Name (and   Maximum size Approximate
+
+     Rank             location)   (Mm*)         peak date
+
+     I     British (E)                     34   1920
+
+     2     Mongol (CA)                     24   1309
+
+     3     Muscovy-USSR (E)                23   1905
+
+     4     French (E)                      I5   1920
+
+     5     Manchu (C)                      15   1800
+
+     6     Spanish (E)                     14   1800
+
+     7     Baghdad Caliphate (M)           11   750
+
+     8     Yuan (C)                        II   1320
+
+     9     Canada (Am)                     10   I970
+
+     10    China                           9.6  1970
+
+     11    United States (Am)              9.4  1940
+
+     12    Hsiung Nu Huns (CA)             9    180 B.C.
+
+     13    Brazil (Am)                     8.5  1970
+
+     14    Australia                       7.7  1960
+
+     15    Han (C)                         6.5  100
+
+     16    Ming (C)                        6.5  1450
+
+     17    Tu Chueh Turks (CA)             6    580
+
+     18    Golden Horde (CA)               6    1310
+
+     19    Achaimenid (I)                  5.5  500 B.C.
+
+     20    T'ang (C)                       5.2  700
+
+a See Table 2 for empire core location code. Dates are A.D. unless otherwise indicated.
+
+centuries seem to have come too rapidly, leading to a compensatory
+
+period of empire break-up which may still continue. Within the size
+increase trends three separate phases have been distinguished and tenta-
+tively ascribed, respectively, to the formation of cities, to the creation of
+bureaucratic power delegation, and to the industrial-communicational
+revolution. The present Muslim world has been the location of the world's
+largest empire during more than half of human history. The predominance
+of little-known non-European empires in our tables and figures raises the
+question of possibly excessive Europocentrism in our world-view and
+history education. Figure 1 may be useful to history students as a means
+of putting some aspects of human history into a more balanced perspec-
+tive. In view of the scope embraced, it is expected that the lists presented
+contain errors, especially errors of omission. Any corrections would be
+appreciated so that they could be incorporated into later papers which
+deal with limited time periods. The overall conclusions of this paper are
+not likely to be reversed by such errors.
+
+                                        REFERENCES
+
+Amalrik. A. (1970), Will the USSR Survive Until 1984? Harper and Row, New York.
+Chew, A. F. (1967). An Atlas of Russian History, Yale University Press, New York.
+Davies. C. C. ( 1949). An Historical Atlas of the Indian Peninsula, Oxford University Press.
+Deutsch, K. W. (1966), The Nerves of Government, Free Press, New York,
+SIZE AND DURATION OF EMPIRES  127
+
+Eisenstadt, S. N. (1%3), The Political System of Empires, Free Press, New York.
+Eisenstadt, S. N., and Rokkan, S. (Eds.). (1973). Building States and Nations I, II, Sage,
+
+     Beverly Hills, California.
+Engel, J. (Ed.). (1953-1970), Grosser Historische Weltatlas, Bayerische Schulbuch-Verlag.
+
+     Munchen.
+Fage, J. D. (1958), An Atlas of African History, Arnold, London.
+Franfort, H. (1951), The Birth of Civilization in the Near East, Indiana University Press,
+
+     Bloomington.
+Friedman, D. (1976), A Theory of the Size and Shape of Nations, University of Pennsylvania
+
+     School of Public and Urban Policy, manuscript.
+Gustafson, J. (1974), Historian Kartasto, Soderstrom, Porvoo, Finland.
+Hammond, Inc. (1%8), Hammond Historical Atlas, Maplewood, New Jersey.
+Hart, H. (1931), The Technique of Social Progress, Holt, New York, p. 449.
+Hart, H. (1945), "Logistic social trends," American Journal of Sociology 50, 337-352.
+Herrmann, A. (1%6), An Historical Atlas of China, Aldine, Chicago.
+Kinder, H., and Hilgemann, W. (1964) dtv-Atlas zur Weltgeschichte, 2 Volumes, Deutscher
+
+     Taschenbuch Verlag, Munchen.
+Leonhardt, K. (1951), Atlas zur Weltgeschichte, Lehnnittelverlag. Offenburg.
+Muir, R. (]%I), Atlas of Ancient and Classical History, Barnes and Noble, New York.
+Muir, R. (1963), Historical Atlas, Barnes and Noble, New York.
+Olsons, M., Jr. (1963), "Rapid growth as a destabilizing force," Journal of Economic
+
+     History 23, 529-552.
+Palmer, R. R. (1957), Atlas of World History, Rand McNally, New York.
+Putzger, F. W. (]%I), Historischer Weltatlas, Velhagen and Klasing, Bielefeld.
+Roolvink, R. (1957), Historical Atlas of the Muslim Peoples, Harvard University Press,
+
+     Cambridge.
+Ruloff, D. (1976), Historical bureaucratic empires, Peace Science Society (International),
+
+      13th European Conference, Geneva.
+Sellman, R. R. (1954), An Outline Atlas of Eastern History, Arnold, London.
+Shepherd, W. R. (1956), Shepherd's Historical Atlas, Barnes and Noble, New York.
+Sorokin, P. A. (1937), Social and Cultural Dynamics, 3 Volumes, Allen and Unwin, London.
+Stier, H. E., ef al. (1963), Westermann's Atlas zur Weltgeschichte, Westermann, Berlin.
+Taagepera, R. (1968), "Growth curves of empires," General Systems 13, 171-175.
+Taagepera, R. (1972), "A model for growth and decay of biological and social systems,"
+
+     Social Sciences Working Paper, Study of Man Series, University of California, Irvine.
+Taagepera, R. (1976a), "A physics-inspired introduction to political science," Teaching
+
+     Political Science 3, 161-177.
+Taagepera, R. (1976b), "Crisis around 2005 A.D.? A technology-population interaction
+
+     model," General Systems 21, 137-138.
+Vries, S. de, et al. (1965). An Atlas of World History. Nelson, London.
+

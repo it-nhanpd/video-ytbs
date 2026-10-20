@@ -57,7 +57,8 @@ Chỉ tạo khung, chưa viết nội dung. Chạy npm run validate để kiểm
 - **Đầu vào:** URL tham chiếu (nên có transcript hoặc bạn dán bảng frame).
 - **Việc agent làm:** phân tích **cấu trúc**, không sao chép: hook 30 giây đầu, nhịp (số cảnh/phút, độ dài cảnh trung bình), tỉ lệ loại cảnh (nhân vật, bản đồ, tư liệu, text), kiểu chuyển động camera, phong cách đồ họa/bản đồ/chữ, âm thanh, điểm giữ chân (câu hỏi mở, đảo chiều, mốc thời gian). Rồi đề xuất **3 điểm khác biệt** để video mình không giống bản gốc.
 - **Đầu ra:** `research/01-reference-analysis.md` gồm: tóm tắt, bảng nhịp, bảng cảnh mẫu, "điều nên học / điều không được copy", 3 điểm khác biệt, rủi ro (nhạy cảm, bản quyền).
-- **Cổng duyệt:** bạn chọn hướng khác biệt.
+- **Style lock (bắt buộc, cuối Bước 1):** mọi điều rút ra về hướng nhìn, hướng đi, tỉ lệ nhân vật/khung, chuyển động, nền, chú thích, bảng màu phải thành **style bible** `content/library/styles/<tên>.md` (mẫu: `uniform-showcase.md`, có danh sách cấm đo được) và ảnh tham chiếu style trong `styles/refs/`. Không có style bible thì không sang Bước 3.
+- **Cổng duyệt:** bạn chọn hướng khác biệt và duyệt style bible.
 
 ```
 PROMPT 1
@@ -95,11 +96,13 @@ Không dán nguyên văn câu chữ từ nguồn hay từ video tham chiếu.
 - **Việc agent làm:**
   1. Chia kịch bản thành **bảng cảnh** `script/shotlist.md`: mã cảnh, đoạn lời, thời lượng, loại (multiplane / bản đồ / tư liệu / text), mô tả hình, camera, grade, tiền cảnh/hậu cảnh, âm thanh gợi ý.
   2. **Tra `content/library/INDEX.md` trước.** Asset đã có thì dùng lại; chỉ tạo mới phần thiếu.
-  3. Với asset thiếu: dùng skill `prompt-pack` để ghi `prompts/<scene>.md` + `prompts/manifest.json`. Prompt **phải** có khối ràng buộc kỹ thuật (nền xám #808080 phẳng, lề ≥12%, góc dưới phải trống, không bóng, một chủ thể, không phần nào xám trùng nền, không vẽ phần chuyển động bằng code, nhìn ngang đầu hướng trái).
+  3. Với asset thiếu: dùng skill `prompt-pack` để ghi `prompts/<scene>.md` + `prompts/manifest.json`. Prompt **phải** dán đúng block theo loại chủ thể trong skill `prompt-pack` (nhân vật người: hướng PHẢI, đang đi, base body, khung theo tỉ lệ người; phương tiện: 5:2, 90°; nền: block nền riêng) và block style của style bible. **Không áp luật vật thể cứng (5:2, hướng trái, flipX) cho nhân vật người.**
   4. Vũ khí/phương tiện/quân phục phải đúng thời kỳ: ghi rõ ảnh tham chiếu thật cần đính kèm.
-  5. Cảnh cần chuyển động nhân vật: prompt pose gốc + prompt image-to-video riêng (2–4 giây).
+  5. Chuyển động nhân vật: sprite sheet bước đi 12 tư thế (3 ảnh × 4, 12fps, mượt cao) từ ảnh anchor đã duyệt; cử động đặc biệt dùng prompt image-to-video riêng (2–4 giây). Không bỏ chuyển động để đơn giản hóa khi chưa được bạn duyệt.
+  6. **Prompt nền (environment plate)** cho mỗi bối cảnh, không chỉ nhân vật.
+  7. **Pilot trước loạt:** chỉ làm 1 nhân vật + 1 nền + 1 cảnh dựng thử; chạy skill `style-guard`; chờ bạn duyệt "pilot đã duyệt" rồi mới làm phần còn lại.
 - **Đầu ra:** `script/shotlist.md`, `prompts/*.md`, `prompts/manifest.json`, danh sách "asset dùng lại / asset cần tạo".
-- **Cổng duyệt:** bạn xem shotlist và prompt; chỉnh trước khi đi tạo ảnh.
+- **Cổng duyệt:** bạn xem shotlist và prompt; chỉnh trước khi đi tạo ảnh. Sau pilot, bạn duyệt style rồi mới làm loạt.
 
 ```
 PROMPT 3
@@ -112,7 +115,7 @@ Kết thúc bằng bảng: asset | dùng lại hay tạo mới | file prompt.
 ## Bước 4 — Bạn tạo ảnh, agent ingest
 
 - **Bạn làm:** tạo ảnh bằng Nano Banana theo prompt pack, QA bằng checklist, thả vào `inbox/` (tên file = `<assetId>`, đuôi jpg/png/webp đều được).
-- **Agent làm:** xem ảnh thật, **đo lại `crop` và `anchors`** trong manifest (mỗi ảnh một khác), chạy `npm run ingest -- <project>`, `npm run validate`, render một still và kiểm tra: viền bẩn, lỗ xám, cánh quạt lệch trục. Sai thì chỉnh manifest, ingest lại.
+- **Agent làm:** chạy skill `style-guard` cho từng ảnh (không đạt thì dừng, báo lỗi, sửa prompt), rồi xem ảnh thật, **đo lại `crop` và `anchors`** trong manifest (mỗi ảnh một khác), chạy `npm run ingest -- <project>`, `npm run validate`, render một still và kiểm tra: viền bẩn, lỗ xám, cánh quạt lệch trục. Sai thì chỉnh manifest, ingest lại.
 - **Đầu ra:** `assets/*.png`, `scenes.json` cập nhật `src/status`.
 - **Cổng duyệt:** bạn xem still từng asset.
 
@@ -206,6 +209,9 @@ Ghi bài học (điều gì lỗi, prompt nào hiệu quả, thời gian mỗi b
 - Tra content/library/INDEX.md trước khi đề xuất asset mới.
 - scenes.json không chứa chữ hiển thị, chỉ key i18n.
 - Hệ thống không gọi AI tạo ảnh/video; chỉ viết prompt để tôi tự tạo.
+- Đọc content/library/styles (style bible) và .claude/rules/style-lock.md, workflow-gates.md trước khi viết shotlist/prompt. Không tự đổi style.
+- Không làm khi chưa duyệt: phân tích, nêu đặc tả, chờ tôi xác nhận. Pilot (1 nhân vật + 1 nền + 1 cảnh) trước khi làm loạt.
+- Chỉ báo "đã xuất/đã kiểm" khi file tồn tại; nêu đường dẫn.
 - Chạy npm run typecheck && npm run validate trước khi báo xong bước dựng.
 - Chủ đề nhạy cảm (chiến tranh, thảm sát): góc nhìn giáo dục, tiết chế hình ảnh, nêu rõ phần tranh cãi.
 ```
@@ -217,7 +223,7 @@ Ghi bài học (điều gì lỗi, prompt nào hiệu quả, thời gian mỗi b
 | 0 | dự án mẫu `2026-test-huey` | skill `video-brief` |
 | 1–2 | không cần code | skill `script-writer`, `fact-checker` |
 | 3 | skill `prompt-pack`, library, `INDEX.md` | skill `shot-planner` |
-| 4 | `ingest`, `validate` | tự động đo crop/anchors |
+| 4 | `ingest`, `validate`, skill `style-guard` | tự động đo crop/anchors; tách sprite sheet bước đi (`frames`) |
 | 5 | engine multiplane, i18n | template bản đồ, tư liệu, text lớn |
 | 6 | — | voice, timing, mix |
 | 7 | `render`, `still` | skill `render-qa`, ghép nhiều cảnh |
