@@ -310,7 +310,12 @@ export const Scene = z.object({
   }),
   layers: z.array(Layer),
   text: z.array(TextItem).default([]),
-  audio: z.object({sfx: z.array(z.string()), note: z.string().optional()}).optional(),
+  audio: z.object({
+    sfx: z.array(z.string()).default([]),
+    note: z.string().optional(),
+    narrationSrc: z.string().optional(),
+    narrationVolume: z.number().min(0).max(1).default(1),
+  }).optional(),
 });
 
 export const Project = z.object({

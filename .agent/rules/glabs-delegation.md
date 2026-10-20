@@ -1,10 +1,10 @@
 # Quy tắc dùng G-Labs Studio (Webhook API) để tạo ảnh
 
-Người dùng đã chạy server webhook, đặt `GLABS_API_KEY` trong `.env` và dùng gói Max (2026-10-17). Claude được gọi G-Labs qua `tools/glabs.mjs`. Đây là kênh thứ ba, ngoài agy và tạo tay bằng Nano Banana.
+Người dùng đã chạy server webhook, đặt `GLABS_API_KEY` trong `.env` và dùng gói Max (2026-10-17). Claude được gọi G-Labs qua `tools/glabs.mjs`. **Từ 2026-10-21, đây là kênh duy nhất agent được dùng để tạo/chỉnh ảnh hoặc video; cấm chuyển sang agy.** Ảnh người dùng tự cung cấp vẫn có thể đi qua `style-guard` và `ingest`.
 
 - **Chỉ qua `tools/glabs.mjs`.** Không tự viết lệnh `curl` tới API, không đọc/in/ghi khóa API. Khóa chỉ nằm trong `.env` (đã gitignore) hoặc biến môi trường.
 - **Trước mỗi đợt:** nêu số ảnh, model, thư mục đích, rồi chờ người dùng xác nhận. Việc hàng loạt (> 3 ảnh) phải kèm checklist `style-guard` và chỉ làm sau khi pilot được duyệt (`workflow-gates.md`).
-- **Model:** ảnh 2D dùng `nano_banana_2_lite` (mặc định) hoặc `nano_banana_2` nếu lite kém; **không dùng `nano_banana_pro`** trừ khi người dùng yêu cầu (tốn hạn mức, 2D không cần).
+- **Model (cập nhật 2026-10-21):** dùng `nano_banana_2.1` cho ảnh cần bám style, nhân vật/phương tiện, nền tách lớp hoặc chi tiết lịch sử; chỉ dùng `nano_banana_2_lite` cho ảnh cơ bản. `nano_banana_2` là model cũ, không chọn cho lượt mới. **Không dùng `nano_banana_pro`** trừ khi người dùng yêu cầu.
 - **Prompt:** vẫn theo `style-lock.md` (dán nguyên block style, không từ nhạy cảm kể cả dạng phủ định) và `prompt-pack`.
 - **Đích ghi:** chỉ `content/projects/<p>/inbox/`. Công cụ không ghi đè file có sẵn trừ khi `--force`; không dùng `--force` khi chưa nhìn ảnh cũ.
 - **Ảnh về → `style-guard` đạt → `ingest`.** Không đạt thì tạo lại, ghi vào `qa/`. Không "tạm chấp nhận".

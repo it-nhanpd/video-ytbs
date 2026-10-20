@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Sequence, interpolate, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Audio, Sequence, interpolate, staticFile, useCurrentFrame} from 'remotion';
 import type {LocaleT, ProjectT} from '../schema';
 import {MultiplaneScene} from './MultiplaneScene';
 
@@ -40,6 +40,9 @@ export const ProjectFull: React.FC<ProjectFullProps> = ({project, locale}) => {
           <FadeIn enabled={i > 0}>
             <MultiplaneScene scene={scene} locale={locale} />
           </FadeIn>
+          {scene.audio?.narrationSrc ? (
+            <Audio src={staticFile(scene.audio.narrationSrc)} volume={scene.audio.narrationVolume} />
+          ) : null}
         </Sequence>
       ))}
     </AbsoluteFill>

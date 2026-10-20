@@ -1,6 +1,6 @@
 // Gọi G-Labs Studio (Webhook API, chạy trên máy này) để tạo ảnh vào inbox/ của dự án.
 // Dùng: node tools/glabs.mjs --prompt-file <file.txt> [--n 1] [--ref <ảnh>]... --name <tên-không-đuôi> --out <thư-mục>
-//        [--aspect 16:9] [--model nano_banana_2_lite|nano_banana_2|nano_banana_pro] [--force]
+//        [--aspect 16:9] [--model nano_banana_2.1|nano_banana_2_lite|nano_banana_2|nano_banana_pro] [--force]
 //   - File prompt: mỗi prompt một đoạn, cách nhau một dòng trắng (cùng định dạng prompts/g-labs/*.txt); --n chọn đoạn (1 = đầu).
 //   - --ref lặp được (tối đa 10); đường dẫn thật trên máy này, G-Labs đọc tại chỗ.
 //   - Khóa API đọc từ biến môi trường GLABS_API_KEY hoặc file .env ở gốc repo (không in ra, không ghi vào repo).
@@ -20,7 +20,7 @@ const promptFile = opt('prompt-file');
 const name = opt('name');
 const out = opt('out');
 if (!promptFile || !name || !out) {
-  console.error('Dùng: node tools/glabs.mjs --prompt-file <file.txt> [--n 1] [--ref <ảnh>]... --name <tên> --out <thư-mục> [--aspect 16:9] [--model nano_banana_2_lite|nano_banana_2|nano_banana_pro] [--force]');
+  console.error('Dùng: node tools/glabs.mjs --prompt-file <file.txt> [--n 1] [--ref <ảnh>]... --name <tên> --out <thư-mục> [--aspect 16:9] [--model nano_banana_2.1|nano_banana_2_lite|nano_banana_2|nano_banana_pro] [--force]');
   process.exit(1);
 }
 
@@ -58,7 +58,7 @@ if (!health || health.status !== 'ok') {
 }
 
 const headers = {'X-API-Key': key, 'Content-Type': 'application/json'};
-const body = {prompt, model: opt('model', 'nano_banana_2_lite'), aspect_ratio: opt('aspect', '16:9'), reference_images: refs};
+const body = {prompt, model: opt('model', 'nano_banana_2.1'), aspect_ratio: opt('aspect', '16:9'), reference_images: refs};
 const sub = await fetch(`${base}/api/image/generate`, {method: 'POST', headers, body: JSON.stringify(body)});
 const subJson = await sub.json().catch(() => ({}));
 if (sub.status !== 202) {
