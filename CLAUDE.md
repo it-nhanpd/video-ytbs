@@ -19,11 +19,11 @@ Usage: `npm run render -- test-huey-s001 content/projects/2026-test-huey/renders
 
 ## Principles
 
-- **The system never calls an image/video AI.** The `prompt-pack` skill only writes prompts; the user generates images with Nano Banana and drops them in `content/projects/<p>/inbox/`.
+- **Claude never calls an image/video AI directly.** The `prompt-pack` skill writes prompts; image generation is delegated to the `agy` CLI (see `.claude/rules/agy-delegation.md`, user-approved 2026-10-17) or **G-Labs Studio via `tools/glabs.mjs`** (webhook API, user-approved 2026-10-17, see `.claude/rules/glabs-delegation.md`), or done by the user with Nano Banana. Either way images land in `content/projects/<p>/inbox/`.
 - **Check `content/library/INDEX.md` first** and reuse existing characters/props/vehicles before creating new assets.
 - **`scenes.json` holds no literal on-screen text**, only i18n keys resolved from `locales/<locale>.json`. Fonts must include a Vietnamese subset.
-- Characters have black ink outlines, backgrounds are painterly with none. Character motion comes from action image → image-to-video (no SVG rigs); rotor blades, particles, fog and grade are done in code.
-- Image layers are laid out at a fixed 5:2 aspect (`aspect = 0.4` in `components/ImageAsset.tsx`).
+- Characters have black ink outlines, backgrounds are painterly with none. Character walking = **rig of separated parts** (one "parts sheet" image per character, split by `splitParts`, walk cycle generated in code by `engine/src/walkCycle.ts`); special gestures = action image → image-to-video done outside; rotor blades, particles, fog, smoke and grade are done in code. The 12-pose sprite-sheet (`splitFrames`) approach is legacy (colors/scales drifted between independently generated sheets). To reproduce the motion of a reference video exactly, use the `runner` layer (`components/RunnerAsset.tsx`, measured per-drawing track JSON; tools in `tools/run20-track/`, see its README).
+- Image layers default to 5:2 (`aspect` 0.4 in `components/ImageAsset.tsx`) for vehicles. Human characters use the `rig` layer type (`components/RigAsset.tsx`: parts + pivots + parent/child, forward kinematics, feet always grounded); `walkSpeed` on the scene scrolls tiled backgrounds. Sandbox/regression project: `content/projects/_rig-demo` (`node tools/synth-rig.mjs` makes box-shaped parts; composition `rig-demo-walk`).
 
 ## Architecture
 
@@ -35,8 +35,24 @@ A data-driven video system built on Remotion. Each video is a **project** descri
 - `engine/src/schema.ts` is the source of truth for the project format (zod). `Project → scenes[] → layers[]`; `Layer` is a discriminated union on `type`: `sky | silhouette | fog | haze | image`. Scene has `focusZ`, an interpolated `camera` (`x`/`zoom` as `[from, to]` ranges with an ease name) and `text` items (`lowerThird`) whose `key` resolves in the locale JSON. Types are inferred from the schemas (`ProjectT`, `SceneT`, `LayerT`).
 - Layer depth model: every layer has a `z`. `utils.parallaxFactor(z, focusZ)` scales camera translate/zoom per layer, and `components/Layer.tsx` derives blur (depth of field) from `|z - focusZ| * blurPerZ` unless `blur` is set. `utils.overScene` interpolates `[from, to]` ranges across the whole scene duration.
 - `engine/src/theme.ts` holds all colors/grades (`ochre_dusk`, `misty_green`) and fonts; components must not hardcode colors. A scene's `grade` is a key into `grades`.
+- **Template `vox`** (collage true crime, `engine/src/vox/`): một video = `content/projects/<p>/vox.json` (mỗi shot = 1 câu lời dẫn `say` + 1 hình `v.kind`: stamp, map, cutouts, doc, stats…), chữ ở `locales/vi.json`. Giọng: `node tools/vox-tts.mjs <p>` (edge-tts, ghi `assets/audio/<id>.mp3` + `timing.json`, thời lượng shot lấy từ đây). Bản đồ Mỹ: `node tools/us-map-extract.mjs`. Composition `<p>-full` và `<p>-vox-<shotId>`. Style: `content/library/styles/truecrime-collage.md`.
+- **Composition registration is manual** in `engine/src/Root.tsx`: a new project's `scenes.json`/`vox.json` + `locales/vi.json` (+ `assets/audio/timing.json` for vox) must be imported and added to the `projects` / `voxProjects` arrays. Scene projects yield `<project>-full` (`templates/ProjectFull.tsx`) and `<project>-<sceneId>` (`templates/MultiplaneScene.tsx`); vox yields `<project>[-<variant>]-full` and `...-vox-<shotId>`. All JSON is parsed by zod at load, so a schema error breaks the whole Studio. `engine/src/stick/` (poses/moves) serves the stickman project.
+- `npm run render` already passes `--concurrency=2`. Project-specific plans live in each project's `project.md`/`PLAYBOOK.md`; `.claude/progress/` holds handoff notes (mirrored in `.agent/`).
 - Image layers carry `assetId` + `status: 'placeholder' | 'final'`. The intended flow: prompts in `prompts/manifest.json` → generated images dropped into `inbox/` → `ingest` swaps `src` for the matching `assetId` and flips status to `final`.
 
 ## Claude config
 
 `.claude/` contains a `bash-helper` agent (Haiku), a `simple-bash` skill, and `rules/bash-simple.md` for generating simple, read-only shell commands. The Bash tool runs Git Bash on Windows: use POSIX syntax and `/d/videos-system/...` paths.
+
+## Rules bắt buộc (đọc trước khi làm ảnh/prompt/shotlist)
+
+- **Dự án mới: chọn họ style trước, không trộn.** Ghi `Style-family: investigation | history` vào `project.md`, nạp skill `video-style-investigation` (tra án, collage giấy, tài liệu gốc) **hoặc** `video-style-history` (lịch sử, bản đồ giấy + cel), cộng `content/library/styles/pacing-and-footage.md` (tốc độ đọc/nhịp, footage). Chủ đề lai hai họ: hỏi người dùng. Lẫn họ từng gây thất bại.
+- Clip video G-Labs (`tools/glabs-video.mjs`) **chỉ cho cảnh khó**, pilot 1 clip, có trần số clip trong `project.md`; phần lớn chuyển động làm bằng code (xem `glabs-delegation.md`).
+
+- `.claude/rules/style-lock.md`: khóa style (style bible `content/library/styles/uniform-showcase.md`, danh sách cấm, không `flipX` cho nhân vật có phù hiệu bất đối xứng).
+- `.claude/rules/workflow-gates.md`: không làm khi chưa duyệt, pilot trước loạt, báo cáo trung thực.
+- `.claude/rules/one-source.md`: `.claude/` là nguồn gốc, đồng bộ sang `.agent/`.
+- `.claude/rules/reenactment-first.md`: mọi video ưu tiên dựng lại cảnh (nhân vật + hành động), số liệu chỉ là chữ phụ đè lên cảnh.
+- Skill `script-craft` viết thẻ cảnh (hook, open loop, nhịp, nguồn Fxx, tự phản biện) cho từng cảnh; làm từng cảnh một, mỗi cảnh có cổng duyệt (`workflow-gates.md` mục 7). Ảnh 2D qua G-Labs dùng `nano_banana_2_lite`/`nano_banana_2`, không dùng Pro.
+- Skill `style-capture` ghi lại style từ video tham chiếu; công thức lớp nền/tiền cảnh ở `content/library/styles/layer-recipe.md` (nền phẳng có viền, nhiều lớp, cỏ che chân).
+- Skill `style-guard` chấm mọi ảnh trước khi `ingest`; skill `prompt-pack` tách ràng buộc theo loại chủ thể (nhân vật người / phương tiện / nền).

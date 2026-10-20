@@ -14,6 +14,7 @@ Hệ thống không tự tạo ảnh/video AI. Mọi ảnh do bạn tạo bằng
 slug:            {{2026-ten-du-an}}
 topic:           {{chủ đề, vd: trận X / nhân vật Y / hiện tượng Z}}
 niche:           {{ngách: lịch sử quân sự | tiểu sử | giải thích | ...}}
+style-family:    {{investigation | history}}   (BẮT BUỘC chọn đúng một; xem Bước 0. Không trộn.)
 locale:          {{vi}}            (thêm locale khác = thêm locales/<xx>.json, không sửa scenes.json)
 thời lượng:      {{8–12 phút}}
 khán giả:        {{ai xem, họ đã biết gì}}
@@ -43,12 +44,14 @@ nguồn ưu tiên:   {{sách, tài liệu lưu trữ, bài báo học thuật, b
 
 - **Đầu vào:** khối THÔNG SỐ.
 - **Việc agent làm:** tạo `content/projects/<slug>/{project.md, scenes.json (rỗng), locales/<locale>.json, inbox/, assets/, prompts/, renders/, script/, research/}`. Ghi THÔNG SỐ vào `project.md`.
-- **Đầu ra:** cây thư mục + `project.md`.
-- **Cổng duyệt:** bạn xác nhận thông số.
+- **Chọn họ style (bắt buộc, trước mọi thứ khác):** `style-family: investigation` (tra án: vụ án, chứng cứ, che giấu) hoặc `history` (lịch sử: chiến tranh, đế chế, nhân vật, bản đồ + cảnh dựng). Nạp skill tương ứng (`video-style-investigation` hoặc `video-style-history`) **và** `content/library/styles/pacing-and-footage.md`; ghi `Style-family`, style bible, template vào `project.md`. Chủ đề lai: hỏi bạn chọn một, không trộn. Thiếu trường này thì không sang Bước 1.
+- **Đầu ra:** cây thư mục + `project.md` (có `Style-family`, trần số clip G-Labs nếu dùng clip).
+- **Cổng duyệt:** bạn xác nhận thông số và họ style.
 
 ```
 PROMPT 0
 Tạo dự án mới theo content/projects/2026-test-huey làm mẫu. Thông số: <dán khối THÔNG SỐ>.
+Nạp skill video-style-<investigation|history> theo style-family và content/library/styles/pacing-and-footage.md. Nếu chủ đề lai hai họ, dừng và hỏi tôi.
 Chỉ tạo khung, chưa viết nội dung. Chạy npm run validate để kiểm tra.
 ```
 
@@ -57,7 +60,8 @@ Chỉ tạo khung, chưa viết nội dung. Chạy npm run validate để kiểm
 - **Đầu vào:** URL tham chiếu (nên có transcript hoặc bạn dán bảng frame).
 - **Việc agent làm:** phân tích **cấu trúc**, không sao chép: hook 30 giây đầu, nhịp (số cảnh/phút, độ dài cảnh trung bình), tỉ lệ loại cảnh (nhân vật, bản đồ, tư liệu, text), kiểu chuyển động camera, phong cách đồ họa/bản đồ/chữ, âm thanh, điểm giữ chân (câu hỏi mở, đảo chiều, mốc thời gian). Rồi đề xuất **3 điểm khác biệt** để video mình không giống bản gốc.
 - **Đầu ra:** `research/01-reference-analysis.md` gồm: tóm tắt, bảng nhịp, bảng cảnh mẫu, "điều nên học / điều không được copy", 3 điểm khác biệt, rủi ro (nhạy cảm, bản quyền).
-- **Cổng duyệt:** bạn chọn hướng khác biệt.
+- **Style lock (bắt buộc, cuối Bước 1):** mọi điều rút ra về hướng nhìn, hướng đi, tỉ lệ nhân vật/khung, chuyển động, nền, chú thích, bảng màu phải thành **style bible** `content/library/styles/<tên>.md` (mẫu: `uniform-showcase.md`, có danh sách cấm đo được) và ảnh tham chiếu style trong `styles/refs/`. Không có style bible thì không sang Bước 3.
+- **Cổng duyệt:** bạn chọn hướng khác biệt và duyệt style bible.
 
 ```
 PROMPT 1
@@ -95,11 +99,13 @@ Không dán nguyên văn câu chữ từ nguồn hay từ video tham chiếu.
 - **Việc agent làm:**
   1. Chia kịch bản thành **bảng cảnh** `script/shotlist.md`: mã cảnh, đoạn lời, thời lượng, loại (multiplane / bản đồ / tư liệu / text), mô tả hình, camera, grade, tiền cảnh/hậu cảnh, âm thanh gợi ý.
   2. **Tra `content/library/INDEX.md` trước.** Asset đã có thì dùng lại; chỉ tạo mới phần thiếu.
-  3. Với asset thiếu: dùng skill `prompt-pack` để ghi `prompts/<scene>.md` + `prompts/manifest.json`. Prompt **phải** có khối ràng buộc kỹ thuật (nền xám #808080 phẳng, lề ≥12%, góc dưới phải trống, không bóng, một chủ thể, không phần nào xám trùng nền, không vẽ phần chuyển động bằng code, nhìn ngang đầu hướng trái).
+  3. Với asset thiếu: dùng skill `prompt-pack` để ghi `prompts/<scene>.md` + `prompts/manifest.json`. Prompt **phải** dán đúng block theo loại chủ thể trong skill `prompt-pack` (nhân vật người: hướng PHẢI, đang đi, base body, khung theo tỉ lệ người; phương tiện: 5:2, 90°; nền: block nền riêng) và block style của style bible. **Không áp luật vật thể cứng (5:2, hướng trái, flipX) cho nhân vật người.**
   4. Vũ khí/phương tiện/quân phục phải đúng thời kỳ: ghi rõ ảnh tham chiếu thật cần đính kèm.
-  5. Cảnh cần chuyển động nhân vật: prompt pose gốc + prompt image-to-video riêng (2–4 giây).
+  5. Chuyển động nhân vật: sprite sheet bước đi 12 tư thế (3 ảnh × 4, 12fps, mượt cao) từ ảnh anchor đã duyệt; cử động đặc biệt dùng prompt image-to-video riêng (2–4 giây). Không bỏ chuyển động để đơn giản hóa khi chưa được bạn duyệt.
+  6. **Prompt nền (environment plate)** cho mỗi bối cảnh, không chỉ nhân vật.
+  7. **Pilot trước loạt:** chỉ làm 1 nhân vật + 1 nền + 1 cảnh dựng thử; chạy skill `style-guard`; chờ bạn duyệt "pilot đã duyệt" rồi mới làm phần còn lại.
 - **Đầu ra:** `script/shotlist.md`, `prompts/*.md`, `prompts/manifest.json`, danh sách "asset dùng lại / asset cần tạo".
-- **Cổng duyệt:** bạn xem shotlist và prompt; chỉnh trước khi đi tạo ảnh.
+- **Cổng duyệt:** bạn xem shotlist và prompt; chỉnh trước khi đi tạo ảnh. Sau pilot, bạn duyệt style rồi mới làm loạt.
 
 ```
 PROMPT 3
@@ -109,10 +115,19 @@ và manifest.json (có khối ràng buộc kỹ thuật). Mỗi prompt kèm ản
 Kết thúc bằng bảng: asset | dùng lại hay tạo mới | file prompt.
 ```
 
+## Vòng làm từng cảnh (thay cho làm loạt toàn video)
+Mỗi cảnh một vòng, có cổng duyệt; không làm hai cảnh song song (`.claude/rules/workflow-gates.md` mục 7).
+1. **G1: thẻ cảnh.** Skill `script-craft` viết `script/scenes/sNNN.md` (ý định, open loop, nhịp, lời dẫn + bản TTS, nguồn Fxx, asset cần, tự phản biện). Người dùng nhận xét/duyệt.
+2. **G2: asset.** Đối chiếu `library/INDEX.md`; nêu số ảnh thiếu (bảng bộ phận nhân vật, nền) và model (`nano_banana_2_lite` hoặc `nano_banana_2`). Người dùng xác nhận.
+3. Tạo ảnh qua `tools/glabs.mjs` (hoặc người dùng tạo tay) → `style-guard` → `ingest`.
+4. Dựng cảnh trong `scenes.json`; cập nhật shotlist cảnh đó theo style bible mới.
+5. **G3: xem.** Claude render still các nhịp chính; người dùng tự render/xem clip và nhận xét.
+6. Sửa theo nhận xét; ghi "đã duyệt" vào `.claude/progress/`; cập nhật `script/vi.md` và `audio/vi-tts.md` cho cảnh đó.
+
 ## Bước 4 — Bạn tạo ảnh, agent ingest
 
 - **Bạn làm:** tạo ảnh bằng Nano Banana theo prompt pack, QA bằng checklist, thả vào `inbox/` (tên file = `<assetId>`, đuôi jpg/png/webp đều được).
-- **Agent làm:** xem ảnh thật, **đo lại `crop` và `anchors`** trong manifest (mỗi ảnh một khác), chạy `npm run ingest -- <project>`, `npm run validate`, render một still và kiểm tra: viền bẩn, lỗ xám, cánh quạt lệch trục. Sai thì chỉnh manifest, ingest lại.
+- **Agent làm:** chạy skill `style-guard` cho từng ảnh (không đạt thì dừng, báo lỗi, sửa prompt), rồi xem ảnh thật, **đo lại `crop` và `anchors`** trong manifest (mỗi ảnh một khác), chạy `npm run ingest -- <project>`, `npm run validate`, render một still và kiểm tra: viền bẩn, lỗ xám, cánh quạt lệch trục. Sai thì chỉnh manifest, ingest lại.
 - **Đầu ra:** `assets/*.png`, `scenes.json` cập nhật `src/status`.
 - **Cổng duyệt:** bạn xem still từng asset.
 
@@ -205,7 +220,11 @@ Ghi bài học (điều gì lỗi, prompt nào hiệu quả, thời gian mỗi b
 - Không sao chép câu chữ/hình ảnh/nhận diện của video tham chiếu hay nguồn.
 - Tra content/library/INDEX.md trước khi đề xuất asset mới.
 - scenes.json không chứa chữ hiển thị, chỉ key i18n.
-- Hệ thống không gọi AI tạo ảnh/video; chỉ viết prompt để tôi tự tạo.
+- Chọn style-family (investigation | history) và nạp skill video-style-* tương ứng trước khi làm; không trộn hai họ.
+- Ảnh/clip AI chỉ qua kênh đã duyệt (G-Labs qua tools/glabs.mjs và tools/glabs-video.mjs, agy, hoặc tôi tự tạo). Clip chỉ cho cảnh khó, pilot 1 clip trước, có trần số clip.
+- Đọc content/library/styles (style bible) và .claude/rules/style-lock.md, workflow-gates.md trước khi viết shotlist/prompt. Không tự đổi style.
+- Không làm khi chưa duyệt: phân tích, nêu đặc tả, chờ tôi xác nhận. Pilot (1 nhân vật + 1 nền + 1 cảnh) trước khi làm loạt.
+- Chỉ báo "đã xuất/đã kiểm" khi file tồn tại; nêu đường dẫn.
 - Chạy npm run typecheck && npm run validate trước khi báo xong bước dựng.
 - Chủ đề nhạy cảm (chiến tranh, thảm sát): góc nhìn giáo dục, tiết chế hình ảnh, nêu rõ phần tranh cãi.
 ```
@@ -217,7 +236,7 @@ Ghi bài học (điều gì lỗi, prompt nào hiệu quả, thời gian mỗi b
 | 0 | dự án mẫu `2026-test-huey` | skill `video-brief` |
 | 1–2 | không cần code | skill `script-writer`, `fact-checker` |
 | 3 | skill `prompt-pack`, library, `INDEX.md` | skill `shot-planner` |
-| 4 | `ingest`, `validate` | tự động đo crop/anchors |
+| 4 | `ingest`, `validate`, skill `style-guard` | tự động đo crop/anchors; tách sprite sheet bước đi (`frames`) |
 | 5 | engine multiplane, i18n | template bản đồ, tư liệu, text lớn |
 | 6 | — | voice, timing, mix |
 | 7 | `render`, `still` | skill `render-qa`, ghép nhiều cảnh |

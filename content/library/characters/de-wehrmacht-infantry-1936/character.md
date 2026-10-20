@@ -4,7 +4,7 @@
 ```
 German Heer infantryman of 1936-1939 in pre-war regulation field uniform, full-body strict 90-degree side profile view facing LEFT, standard adult male base body proportion,
 wearing a dark olive-slate Model 1935 steel helmet (Stahlhelm M35) with rolled edge,
-wearing the tailored 1936 pattern field tunic (Feldbluse) in rich greenish field-grey wool with a contrasting dark bottle-green collar and shoulder straps, four patch pockets with vertical box pleats and scalloped flaps, small simplified geometric wing silhouette above right pocket (no swastika),
+wearing the tailored 1936 pattern field tunic (Feldbluse) in rich greenish field-grey wool with a contrasting dark bottle-green collar and shoulder straps, four patch pockets with vertical box pleats and scalloped flaps, small simplified geometric wing silhouette above right pocket,
 slate-olive wool trousers tucked into tall calf-high black leather marching jackboots (Marschstiefel), black leather belt with Y-straps and breadbag, unarmed,
 no part of the uniform uses neutral gray #808080 (trousers and tunic use deep olive-green and dark slate-olive tones),
 wide landscape composition (5:2 aspect ratio) with full figure inside frame,

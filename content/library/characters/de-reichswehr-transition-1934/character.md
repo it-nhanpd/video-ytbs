@@ -4,7 +4,7 @@
 ```
 German Army (Reichswehr to Wehrmacht transition) infantryman in 1934-1935, full-body strict 90-degree side profile view facing LEFT, standard adult male base body proportion,
 wearing the newly introduced compact Model 1935 steel helmet (Stahlhelm M35) with shorter visor and neck guard, rolled rim, smooth stamped air vent hole (no protruding WWI lugs), and a small black-white-red tricolor shield decal on the side,
-wearing a greenish field-grey wool tunic with dark bottle-green collar, four pleated pockets, and a small simplified geometric horizontal wing-bar emblem above the right breast pocket (strictly stylized geometric silhouette only, NO swastika),
+wearing a greenish field-grey wool tunic with dark bottle-green collar, four pleated pockets, and a small simplified geometric horizontal wing-bar emblem above the right breast pocket (plain stylized geometric silhouette only),
 greenish-grey trousers and black leather marching jackboots (Marschstiefel), black leather belt and equipment straps, unarmed,
 all tones kept in dark olive-green and charcoal, completely distinct from the #808080 background,
 wide landscape composition (5:2 aspect ratio) with full figure inside frame,

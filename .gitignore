@@ -36,3 +36,8 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# Khung trích từ video tham chiếu bên thứ ba (chỉ tham chiếu style nội bộ)
+content/library/styles/refs/ref-video/
+_refs/run20/
+_archive/

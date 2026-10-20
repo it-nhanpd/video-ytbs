@@ -20,8 +20,16 @@ Bảng tra nhanh. Dự án mới **tìm ở đây trước**, chỉ tạo asset 
 | de-bundeswehr-tropentarn-2002 | character | de | 1993-2014 | bundeswehr, tropentarn, wuestentarn, isaf, side-view | draft (placeholder SVG) | [character.md](characters/de-bundeswehr-tropentarn-2002/character.md) | german-army-uniforms/s013 |
 | de-bundeswehr-kbssk-2026 | character | de | 2022-2026 | bundeswehr, 2026, kbssk, multitarn, mobast, idz, side-view | draft (placeholder SVG) | [character.md](characters/de-bundeswehr-kbssk-2026/character.md) | german-army-uniforms/s014 |
 
+| mascot-explorer | character | none | n/a | mascot, explorer, chibi, cartoon, front-view | draft (4 ảnh JPG trong inbox của largest-empires, chưa ingest) | [character.md](characters/mascot-explorer/character.md) | largest-empires (pilot) |
+| us-army-medina-1968 | character | us | 1968 | vietnam, my-lai, officer, cel-stylized, real-person-illustration | đạt (ảnh tham chiếu trong my-lai/assets/chars) | [character.md](characters/us-army-medina-1968/character.md) | truecrime-my-lai/s003c (pilot) |
+| us-army-photographer-1968 | character | us | 1968 | vietnam, my-lai, photographer, cel-stylized, real-person-illustration | đạt | [character.md](characters/us-army-photographer-1968/character.md) | truecrime-my-lai/s001h, s006f, s007f |
+| us-army-calley-1968 | character | us | 1968-1971 | vietnam, my-lai, officer, trial, cel-stylized, real-person-illustration | đạt | [character.md](characters/us-army-calley-1968/character.md) | truecrime-my-lai/s004, s005, s007, s009 |
+| us-army-thompson-1968 | character | us | 1968 | vietnam, my-lai, pilot, cel-stylized, real-person-illustration | đạt | [character.md](characters/us-army-thompson-1968/character.md) | truecrime-my-lai/s005 |
+| us-veteran-ridenhour-1969 | character | us | 1969 | my-lai, veteran, letter, cel-stylized, real-person-illustration | đạt | [character.md](characters/us-veteran-ridenhour-1969/character.md) | truecrime-my-lai/s007, s010 |
+
 ## Style
 - [comic-cel-painterly](styles/comic-cel-painterly.md): nhân vật có nét, nền painterly
+- [empire-map](styles/empire-map.md): bản đồ code + ảnh tư liệu ghim + mascot nhỏ (KHÓA, 2026-10-17)
 
 ## Quy ước tên
 - Nhân vật: `<faction>-<unit>-<role>-<year>` (vd `vn-pavn-soldier-1968`)

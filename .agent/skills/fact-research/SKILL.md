@@ -14,11 +14,11 @@ Quy trình này rút ra từ chương 1 của `2026-german-army-uniforms` (xem `
 
 ## Vòng lặp cho mỗi chương
 1. **Lập danh sách câu hỏi** của chương (ai/khi nào/ở đâu/vật gì/số liệu/mâu thuẫn). Đưa các khẳng định Vn thuộc chương vào.
-2. **Tìm nguồn theo thứ tự ưu tiên:**
-   1. Văn bản sơ cấp/luật/quy định (A): Wikisource, Reichsgesetzblatt, kho lưu trữ, sắc lệnh.
-   2. Hồ sơ hiện vật bảo tàng, luận án, bài báo học thuật (B): DHM/LeMO, museum-digital, Deutsche Digitale Bibliothek, Qucosa, bảo tàng quân sự quốc gia.
-   3. Bách khoa/tổng hợp (C): Wikipedia, chỉ để định hướng và lấy tên sách dẫn.
-   4. Đại lý, diễn đàn sưu tầm, blog (D): chỉ để tìm hướng, **không dùng làm bằng chứng**.
+2. **Tìm nguồn theo `.claude/rules/source-policy.md` (luật nguồn, đọc trước):**
+   1. A: sử liệu gốc, hiệp ước, luật, kho lưu trữ quốc gia, bản dịch học thuật của biên niên sử.
+   2. B: sách và bài tạp chí học thuật có bình duyệt; hồ sơ hiện vật bảo tàng có chú giải chuyên gia.
+   3. B2: bách khoa thư học thuật có tác giả ký tên (Britannica, Iranica, *Encyclopedia of Russian History*…). G: cơ quan nhà nước, bảo tàng, thư viện quốc gia.
+   4. **Cấm làm căn cứ:** Wikipedia và wiki, World History Encyclopedia, blog (kể cả của sử gia), trang tổng quan không tác giả, đại lý/diễn đàn. Chỉ để **tìm tên sách/bài gốc** rồi đi theo trích dẫn.
 3. **Đọc thật.** Mở từng trang bằng WebFetch (hoặc tải PDF về và trích bằng `pdftotext`). Ghi cột "Đã đọc" trung thực:
    - *đọc toàn trang* / *đọc một phần* / *chỉ thấy tóm tắt tìm kiếm* / *không đọc được*.
    - Tóm tắt của công cụ tìm kiếm **không phải** là đã đọc.
@@ -50,6 +50,9 @@ Quy trình này rút ra từ chương 1 của `2026-german-army-uniforms` (xem `
 - Wikisource là nơi tìm văn bản luật sơ cấp, nhưng là bản chép: ghi "chờ đối chiếu bản scan".
 - WebFetch có thể chỉ trả một phần (ghi rõ 100.000 ký tự đầu): ghi "đọc một phần".
 - Luận án/sách học thuật có thể không chứa thứ bạn cần (vd. luận án chính trị không có bảng màu quân phục): nói thẳng.
+
+## Danh mục tham khảo cho mô tả video
+Người xem đọc phần mô tả để tìm hiểu thêm, nên mỗi nguồn dùng trong cảnh phải đủ: tác giả/cơ quan, tựa, nhà xuất bản/nơi đăng, năm, URL hoặc DOI, trang/mục, ngày truy cập. Ghi vào mục "9. Tài liệu tham khảo" của thẻ cảnh `script/scenes/sNNN.md` (đánh số, kèm mốc thời gian lời dẫn) và xuất tổng hợp ở `research/06-references.md`. Nguồn thiếu mục nào thì chưa vào danh mục. Công cụ tóm tắt trang không đủ để xác nhận trích nguyên văn: tải PDF và `pdftotext` + `grep` (xem `source-policy.md`).
 
 ## Đầu ra mỗi chương
 - Cập nhật `02-sources.md`, `03-facts.md`, `04-open-questions.md`.
