@@ -99,6 +99,932 @@
           "to": 7
         }
       ]
+    },
+    {
+      "id": "s002",
+      "durationSec": 55,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 2.5,
+      "camera": {
+        "x": [
+          0,
+          -30
+        ],
+        "zoom": [
+          1,
+          1.04
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "tidal_flat",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_omaha_tidal_flat",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "tactical_map",
+          "type": "image",
+          "z": 1.2,
+          "assetId": "map_omaha_tactical_master",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.8,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "hedgehog",
+          "type": "image",
+          "z": 2.2,
+          "assetId": "prop_czech_hedgehog",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.35,
+          "x": [
+            0.35,
+            0.35
+          ],
+          "y": [
+            0.65,
+            0.65
+          ],
+          "aspect": 1
+        },
+        {
+          "id": "soldier",
+          "type": "image",
+          "z": 2.5,
+          "assetId": "us_infantry_omaha_1944_base",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/us_infantry_omaha_1944_base.png",
+          "width": 0.22,
+          "x": [
+            0.52,
+            0.48
+          ],
+          "y": [
+            0.62,
+            0.62
+          ],
+          "aspect": 1.25
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s002.title",
+          "subKey": "s002.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "durationSec": 55,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -35
+        ],
+        "zoom": [
+          1,
+          1.05
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky_sea",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_omaha_sea_far",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/bg_omaha_sea_far.png",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "tank_wreck",
+          "type": "image",
+          "z": 2.2,
+          "assetId": "veh_tank_sherman_wreck",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.45,
+          "x": [
+            0.25,
+            0.25
+          ],
+          "y": [
+            0.68,
+            0.68
+          ],
+          "aspect": 0.4
+        },
+        {
+          "id": "dd_sherman",
+          "type": "image",
+          "z": 3,
+          "assetId": "veh_tank_dd_sherman",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/veh_tank_dd_sherman.png",
+          "width": 0.65,
+          "x": [
+            0.6,
+            0.55
+          ],
+          "y": [
+            0.65,
+            0.67
+          ],
+          "bobPx": 6,
+          "aspect": 0.4
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s003.title",
+          "subKey": "s003.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "durationSec": 60,
+      "template": "MultiplaneScene",
+      "grade": "arena_cold",
+      "letterbox": 2.35,
+      "focusZ": 2.8,
+      "camera": {
+        "x": [
+          0,
+          -20
+        ],
+        "zoom": [
+          1,
+          1.03
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "bunker_interior",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_bunker_wn_interior",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "diagram_fire",
+          "type": "image",
+          "z": 1.5,
+          "assetId": "diagram_grazing_fire",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.85,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "german_gunner",
+          "type": "image",
+          "z": 2.8,
+          "assetId": "char_german_gunner_mg42",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/char_german_gunner_mg42.png",
+          "width": 0.4,
+          "x": [
+            0.65,
+            0.65
+          ],
+          "y": [
+            0.6,
+            0.6
+          ],
+          "aspect": 1.25
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s004.title",
+          "subKey": "s004.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": "s005",
+      "durationSec": 55,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -25
+        ],
+        "zoom": [
+          1,
+          1.04
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "shingle_wall",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_omaha_shingle_wall",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "soldier_shingle",
+          "type": "image",
+          "z": 2.2,
+          "assetId": "us_infantry_omaha_1944_base",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/us_infantry_omaha_1944_base.png",
+          "width": 0.22,
+          "x": [
+            0.35,
+            0.35
+          ],
+          "y": [
+            0.65,
+            0.65
+          ],
+          "aspect": 1.25
+        },
+        {
+          "id": "bradley",
+          "type": "image",
+          "z": 3,
+          "assetId": "char_general_bradley",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/char_general_bradley.png",
+          "width": 0.35,
+          "x": [
+            0.65,
+            0.62
+          ],
+          "y": [
+            0.55,
+            0.55
+          ],
+          "aspect": 1.25
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s005.title",
+          "subKey": "s005.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": "s006",
+      "durationSec": 60,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -30
+        ],
+        "zoom": [
+          1,
+          1.05
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "shingle_wall",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_omaha_shingle_wall",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "ranger",
+          "type": "image",
+          "z": 2.4,
+          "assetId": "char_us_ranger_omaha",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/char_us_ranger_omaha.png",
+          "width": 0.26,
+          "x": [
+            0.4,
+            0.43
+          ],
+          "y": [
+            0.62,
+            0.62
+          ],
+          "aspect": 1.25
+        },
+        {
+          "id": "cota",
+          "type": "image",
+          "z": 3,
+          "assetId": "char_general_cota",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/char_general_cota.png",
+          "width": 0.3,
+          "x": [
+            0.62,
+            0.65
+          ],
+          "y": [
+            0.58,
+            0.58
+          ],
+          "aspect": 1.25
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s006.title",
+          "subKey": "s006.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": "s007",
+      "durationSec": 55,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 2.8,
+      "camera": {
+        "x": [
+          0,
+          -30
+        ],
+        "zoom": [
+          1,
+          1.04
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "shingle_wall",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_omaha_shingle_wall",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "wire_blast",
+          "type": "image",
+          "z": 2.2,
+          "assetId": "prop_wire_concertina_blast",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.5,
+          "x": [
+            0.65,
+            0.65
+          ],
+          "y": [
+            0.6,
+            0.6
+          ],
+          "aspect": 1
+        },
+        {
+          "id": "engineer",
+          "type": "image",
+          "z": 2.8,
+          "assetId": "char_us_engineer_bangalore",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/char_us_engineer_bangalore.png",
+          "width": 0.5,
+          "x": [
+            0.42,
+            0.46
+          ],
+          "y": [
+            0.68,
+            0.68
+          ],
+          "aspect": 0.5
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s007.title",
+          "subKey": "s007.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "durationSec": 60,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -35
+        ],
+        "zoom": [
+          1,
+          1.05
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sky_sea",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_omaha_sea_far",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/bg_omaha_sea_far.png",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "bunker_blast",
+          "type": "image",
+          "z": 2,
+          "assetId": "prop_bunker_blast_direct",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.4,
+          "x": [
+            0.8,
+            0.8
+          ],
+          "y": [
+            0.55,
+            0.55
+          ],
+          "aspect": 1
+        },
+        {
+          "id": "destroyer",
+          "type": "image",
+          "z": 3,
+          "assetId": "vessel_destroyer_mccook",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/vessel_destroyer_mccook.png",
+          "width": 0.8,
+          "x": [
+            0.45,
+            0.48
+          ],
+          "y": [
+            0.62,
+            0.64
+          ],
+          "bobPx": 6,
+          "aspect": 0.4
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s008.title",
+          "subKey": "s008.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": "s009",
+      "durationSec": 60,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 2.5,
+      "camera": {
+        "x": [
+          0,
+          -30
+        ],
+        "zoom": [
+          1,
+          1.04
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "trench_network",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_trench_network_wn",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "german_defense",
+          "type": "image",
+          "z": 2.2,
+          "assetId": "char_german_gunner_mg42",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.35,
+          "x": [
+            0.75,
+            0.75
+          ],
+          "y": [
+            0.6,
+            0.6
+          ],
+          "aspect": 1.25
+        },
+        {
+          "id": "soldier_assault",
+          "type": "image",
+          "z": 2.8,
+          "assetId": "us_infantry_omaha_1944_base",
+          "status": "final",
+          "src": "projects/2026-ww2-dday/assets/us_infantry_omaha_1944_base.png",
+          "width": 0.22,
+          "x": [
+            0.38,
+            0.44
+          ],
+          "y": [
+            0.62,
+            0.62
+          ],
+          "aspect": 1.25
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s009.title",
+          "subKey": "s009.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "durationSec": 60,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          -35
+        ],
+        "zoom": [
+          1,
+          1.05
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "vierville_draw",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_vierville_draw_wall",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "bulldozer",
+          "type": "image",
+          "z": 2.5,
+          "assetId": "veh_armored_bulldozer",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.55,
+          "x": [
+            0.65,
+            0.68
+          ],
+          "y": [
+            0.65,
+            0.65
+          ],
+          "aspect": 0.4
+        },
+        {
+          "id": "gmc_truck",
+          "type": "image",
+          "z": 3,
+          "assetId": "veh_truck_gmc_convoy",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.5,
+          "x": [
+            0.35,
+            0.38
+          ],
+          "y": [
+            0.66,
+            0.66
+          ],
+          "aspect": 0.4
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s010.title",
+          "subKey": "s010.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "durationSec": 60,
+      "template": "MultiplaneScene",
+      "grade": "ochre_dusk",
+      "letterbox": 2.35,
+      "focusZ": 2.8,
+      "camera": {
+        "x": [
+          0,
+          -25
+        ],
+        "zoom": [
+          1,
+          1.03
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "sunset_beach",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_omaha_sunset_beach",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "tank_wreck",
+          "type": "image",
+          "z": 1.8,
+          "assetId": "veh_tank_sherman_wreck",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.4,
+          "x": [
+            0.75,
+            0.75
+          ],
+          "y": [
+            0.66,
+            0.66
+          ],
+          "aspect": 0.4
+        },
+        {
+          "id": "helmet_marker",
+          "type": "image",
+          "z": 2.8,
+          "assetId": "prop_helmet_rifle_marker",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.3,
+          "x": [
+            0.4,
+            0.4
+          ],
+          "y": [
+            0.65,
+            0.65
+          ],
+          "aspect": 1
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s011.title",
+          "subKey": "s011.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "durationSec": 55,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 2.5,
+      "camera": {
+        "x": [
+          0,
+          -25
+        ],
+        "zoom": [
+          1,
+          1.03
+        ],
+        "ease": "inOutSine"
+      },
+      "layers": [
+        {
+          "id": "cemetery",
+          "type": "image",
+          "z": 0.5,
+          "assetId": "bg_normandy_cemetery",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 1.2,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        },
+        {
+          "id": "liberation_map",
+          "type": "image",
+          "z": 1.5,
+          "assetId": "map_europe_liberation",
+          "status": "placeholder",
+          "src": "projects/2026-ww2-dday/assets/placeholder.svg",
+          "width": 0.85,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "y": [
+            0.5,
+            0.5
+          ],
+          "aspect": 0.5625
+        }
+      ],
+      "text": [
+        {
+          "type": "lowerThird",
+          "key": "s012.title",
+          "subKey": "s012.sub",
+          "from": 1,
+          "to": 7
+        }
+      ]
     }
   ]
 }

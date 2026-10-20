@@ -1,0 +1,8 @@
+World War II M4A1 Sherman DD (Duplex Drive) amphibious swimming tank, Normandy landing June 1944. M4 Sherman tank hull surrounded by an erected olive drab waterproof canvas floatation screen skirt rising up to the turret ring, supported by rubber air pillars and steel struts. 75mm main gun barrel pointing forward to the right, twin screw propellers visible beneath the rear hull. Painted in matte olive drab #9 with white five-pointed Allied invasion star painted on the side canvas.
+strict 90-degree side profile view facing RIGHT, horizontal 16:9 composition,
+solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no texture, no noise,
+subject centered with at least 15% empty margin on every side and the bottom-right corner completely empty,
+no ground, no water surface, no shadow, no reflection, no other objects, single vehicle only,
+no part of the vehicle uses the same neutral gray as the background,
+2D animated documentary style, clean dark ink outlines of even thickness, flat cel shading with two tones, muted military palette, hand-drawn animation look, no photorealism, no 3D render, no anime, no text.
+Avoid: photo, 3D, anime, glossy, shadow on ground, extra objects, watermark.

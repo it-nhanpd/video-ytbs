@@ -1,0 +1,9 @@
+World War II U.S. Army Ranger battalion soldier on Omaha Beach, Normandy June 6 1944. Wearing an olive drab M1941 field jacket, wool trousers, leggings, M1 steel helmet with a distinctive orange horizontal diamond ranger insignia painted on the back. Khaki webbing with ammo pouches, canteen, trench knife sheathed on hip. Holding a Thompson M1A1 submachine gun with 30-round stick magazine with both hands at low ready combat position. Fierce determined combat-ready expression, athletic muscular build in early twenties.
+full-body strict 90-degree side profile facing RIGHT, crouching aggressive assault forward pose,
+standard adult male base body proportion, figure fills about 80% of image height,
+solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no texture, no noise,
+at least 10% empty margin on every side and the bottom-right corner completely empty,
+no ground, no shadow, no reflection, no other objects, single subject only,
+no part of the subject uses the same neutral gray as the background,
+2D animated documentary style, clean dark ink outlines of even thickness, flat cel shading with two tones, subtle warm rim light, muted palette, hand-drawn animation look, no photorealism, no 3D render, no anime, no text.
+Avoid: photo, 3D, anime, glossy, shadow on ground, extra objects, watermark.

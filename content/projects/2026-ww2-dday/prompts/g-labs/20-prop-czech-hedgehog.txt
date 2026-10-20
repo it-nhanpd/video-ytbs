@@ -1,0 +1,6 @@
+World War II Czech hedgehog anti-tank obstacle (Rommel's asparagus beach defense). Made of three heavy steel L-angle beams or I-beams welded together in a six-armed cross structure, heavily weathered with rust, barnacles, and peeling dark gray industrial paint.
+isolated object centered on solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no noise,
+at least 15% empty margin on all sides and bottom-right corner empty,
+no ground, no sand, no water, no shadow, single obstacle only,
+clean dark ink outlines, flat cel shading with two tones, muted rusty metallic tones, 2D animated documentary style, no 3D render, no photo, no text.
+Avoid: photo, 3D, anime, shadow on ground, extra objects, watermark.

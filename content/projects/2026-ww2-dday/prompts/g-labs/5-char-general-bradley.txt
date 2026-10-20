@@ -1,0 +1,9 @@
+World War II U.S. Army Lieutenant General Omar Bradley, June 1944 aboard naval flagship. Wearing olive drab officer service uniform shirt with dark olive tie tucked in, officer wool trousers, no helmet, wearing wire-rimmed round spectacles (glasses). Three silver lieutenant general stars on collar points. Dignified thoughtful intellectual expression, greyish hair parted neatly, hands resting thoughtfully behind back or at waist. Male in early fifties, slender composed build.
+three-quarter upper body profile facing RIGHT, dignified commanding thoughtful pose,
+standard adult proportion, filling about 80% of vertical frame height,
+solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no texture, no noise,
+at least 12% empty margin on every side and the bottom-right corner completely empty,
+no ground, no shadow, no reflection, no other objects, single subject only,
+no part of the subject uses the same neutral gray as the background,
+2D animated documentary style, clean dark ink outlines of even thickness, flat cel shading with two tones (light and shadow), subtle warm rim light, muted earthy palette, hand-drawn animation look, no photorealism, no 3D render, no anime, no text.
+Avoid: photo, 3D, anime, glossy, thick outline variation, shadow on ground, extra objects, watermark.

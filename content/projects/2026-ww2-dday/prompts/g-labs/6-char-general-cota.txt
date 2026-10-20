@@ -1,0 +1,9 @@
+World War II U.S. Army Brigadier General Norman Dutch Cota, assistant division commander of the 29th Infantry Division on Omaha Beach, June 6 1944. Wearing an olive drab M1941 windbreaker field jacket over wool shirt, olive drab trousers, leggings over brown combat shoes. M1 steel helmet with a single small white brigadier general star painted clearly on the front center, chinstrap fastened under chin. Holding a wooden walking stick cane in left hand and an M1911A1 .45 caliber semi-automatic pistol in right hand at hip level. Standing tall and defiant, rugged fearless determined leader in his early fifties with strong jawline, battle-hardened expression, shouting commands.
+full-body strict 90-degree side profile facing RIGHT, heroic upright standing posture mid-stride advancing forward,
+standard adult male proportion, head about 1/7.5 of body height, figure fills about 80% of image height,
+solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no texture, no noise,
+at least 10% empty margin on every side and the bottom-right corner completely empty,
+no ground, no shadow, no reflection, no other objects, single subject only,
+no part of the subject uses the same neutral gray as the background,
+2D animated documentary style, clean dark ink outlines of even thickness, flat cel shading with two tones, subtle warm rim light, muted earthy palette, hand-drawn animation look, no photorealism, no 3D render, no anime, no text.
+Avoid: photo, 3D, anime, glossy, thick outline variation, shadow on ground, standing at attention, three-quarter view, extra objects, watermark.

@@ -1,0 +1,10 @@
+World War II German Wehrmacht infantry machine gunner of the 352nd Infantry Division, Normandy June 1944. Wearing early M42 field gray (feldgrau) wool tunic with dark bottle green collar, matching feldgrau trousers, black leather marching jackboots. M42 steel helmet (Stahlhelm) painted matte slate gray with subtle rough textured paint, no eagle decals. Black leather Y-straps suspenders and cartridge belt with P38 pistol holster. Operating an MG42 general-purpose machine gun mounted on a heavy Lafette 42 tripod at waist height, hands gripping the dual spade grips, concentrated stern expression. Male adult soldier in late twenties, square jaw, clean-shaven.
+full-body strict 90-degree side profile facing LEFT, crouching combat gunner pose behind tripod mount,
+standard adult male base body proportion, head about 1/7.5 of body height,
+tall composition with the full figure and gun mount inside frame, figure fills about 80% of image height,
+solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no texture, no noise,
+at least 10% empty margin on every side and the bottom-right corner completely empty,
+no ground, no shadow, no reflection, no other objects, single subject with weapon only,
+no part of the subject uses the same neutral gray as the background,
+2D animated documentary style, clean dark ink outlines of even thickness, flat cel shading with two tones (light and shadow), subtle cool rim light, muted earthy palette, hand-drawn animation look, no photorealism, no 3D render, no anime, no text.
+Avoid: swastika, nazi symbol, photo, 3D, anime, glossy, thick outline variation, shadow on ground, standing at attention, three-quarter view, extra objects, watermark.

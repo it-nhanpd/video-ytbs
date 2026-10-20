@@ -1,0 +1,8 @@
+World War II Caterpillar D7 armored bulldozer, U.S. Army Corps of Engineers, Normandy June 1944. Heavy tracked bulldozer fitted with thick steel armor plating around the driver cab and engine compartment, heavy front hydraulic steel dozer blade with reinforced pushing edges. Olive drab military paint with scuffs, scratches, mud stains, and a small white Allied star. Driver cab with armored vision slits.
+strict 90-degree side profile view facing RIGHT, horizontal 16:9 composition,
+solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no texture, no noise,
+subject centered with at least 15% empty margin on every side and bottom-right corner completely empty,
+no ground, no mud pile, no shadow, no reflection, no other objects, single vehicle only,
+no part of the vehicle uses the same neutral gray as the background,
+2D animated documentary style, clean dark ink outlines of even thickness, flat cel shading with two tones, muted olive drab palette, hand-drawn animation look, no photorealism, no 3D render, no anime, no text.
+Avoid: photo, 3D, anime, glossy, shadow on ground, extra objects, watermark.

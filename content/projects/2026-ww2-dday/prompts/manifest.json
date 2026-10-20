@@ -57,6 +57,360 @@
           "height": 1080
         }
       }
+    },
+    {
+      "assetId": "char_german_gunner_mg42",
+      "inbox": "char_german_gunner_mg42",
+      "target": "projects/2026-ww2-dday/assets/char_german_gunner_mg42.png",
+      "scene": "s004",
+      "layer": "german_gunner",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 800,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "assetId": "char_general_bradley",
+      "inbox": "char_general_bradley",
+      "target": "projects/2026-ww2-dday/assets/char_general_bradley.png",
+      "scene": "s005",
+      "layer": "bradley",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 800,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "assetId": "char_general_cota",
+      "inbox": "char_general_cota",
+      "target": "projects/2026-ww2-dday/assets/char_general_cota.png",
+      "scene": "s006",
+      "layer": "cota",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 800,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "assetId": "char_us_ranger_omaha",
+      "inbox": "char_us_ranger_omaha",
+      "target": "projects/2026-ww2-dday/assets/char_us_ranger_omaha.png",
+      "scene": "s006",
+      "layer": "ranger",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 800,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "assetId": "char_us_engineer_bangalore",
+      "inbox": "char_us_engineer_bangalore",
+      "target": "projects/2026-ww2-dday/assets/char_us_engineer_bangalore.png",
+      "scene": "s007",
+      "layer": "engineer",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 1200,
+          "height": 600
+        }
+      }
+    },
+    {
+      "assetId": "veh_tank_dd_sherman",
+      "inbox": "veh_tank_dd_sherman",
+      "target": "projects/2026-ww2-dday/assets/veh_tank_dd_sherman.png",
+      "scene": "s003",
+      "layer": "dd_sherman",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 2000,
+          "height": 800
+        }
+      }
+    },
+    {
+      "assetId": "vessel_destroyer_mccook",
+      "inbox": "vessel_destroyer_mccook",
+      "target": "projects/2026-ww2-dday/assets/vessel_destroyer_mccook.png",
+      "scene": "s008",
+      "layer": "destroyer",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 2000,
+          "height": 800
+        }
+      }
+    },
+    {
+      "assetId": "veh_armored_bulldozer",
+      "inbox": "veh_armored_bulldozer",
+      "target": "projects/2026-ww2-dday/assets/veh_armored_bulldozer.png",
+      "scene": "s010",
+      "layer": "bulldozer",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 2000,
+          "height": 800
+        }
+      }
+    },
+    {
+      "assetId": "veh_truck_gmc_convoy",
+      "inbox": "veh_truck_gmc_convoy",
+      "target": "projects/2026-ww2-dday/assets/veh_truck_gmc_convoy.png",
+      "scene": "s010",
+      "layer": "gmc_truck",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 2000,
+          "height": 800
+        }
+      }
+    },
+    {
+      "assetId": "bg_omaha_tidal_flat",
+      "inbox": "bg_omaha_tidal_flat",
+      "target": "projects/2026-ww2-dday/assets/bg_omaha_tidal_flat.png",
+      "scene": "s002",
+      "layer": "tidal_flat",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    },
+    {
+      "assetId": "bg_bunker_wn_interior",
+      "inbox": "bg_bunker_wn_interior",
+      "target": "projects/2026-ww2-dday/assets/bg_bunker_wn_interior.png",
+      "scene": "s004",
+      "layer": "bunker_interior",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    },
+    {
+      "assetId": "bg_omaha_shingle_wall",
+      "inbox": "bg_omaha_shingle_wall",
+      "target": "projects/2026-ww2-dday/assets/bg_omaha_shingle_wall.png",
+      "scene": "s005",
+      "layer": "shingle_wall",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    },
+    {
+      "assetId": "bg_trench_network_wn",
+      "inbox": "bg_trench_network_wn",
+      "target": "projects/2026-ww2-dday/assets/bg_trench_network_wn.png",
+      "scene": "s009",
+      "layer": "trench_network",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    },
+    {
+      "assetId": "bg_vierville_draw_wall",
+      "inbox": "bg_vierville_draw_wall",
+      "target": "projects/2026-ww2-dday/assets/bg_vierville_draw_wall.png",
+      "scene": "s010",
+      "layer": "vierville_draw",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    },
+    {
+      "assetId": "bg_omaha_sunset_beach",
+      "inbox": "bg_omaha_sunset_beach",
+      "target": "projects/2026-ww2-dday/assets/bg_omaha_sunset_beach.png",
+      "scene": "s011",
+      "layer": "sunset_beach",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    },
+    {
+      "assetId": "bg_normandy_cemetery",
+      "inbox": "bg_normandy_cemetery",
+      "target": "projects/2026-ww2-dday/assets/bg_normandy_cemetery.png",
+      "scene": "s012",
+      "layer": "cemetery",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    },
+    {
+      "assetId": "prop_czech_hedgehog",
+      "inbox": "prop_czech_hedgehog",
+      "target": "projects/2026-ww2-dday/assets/prop_czech_hedgehog.png",
+      "scene": "s002",
+      "layer": "hedgehog",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 1000,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "assetId": "veh_tank_sherman_wreck",
+      "inbox": "veh_tank_sherman_wreck",
+      "target": "projects/2026-ww2-dday/assets/veh_tank_sherman_wreck.png",
+      "scene": "s003",
+      "layer": "tank_wreck",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 1000,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "assetId": "prop_wire_concertina_blast",
+      "inbox": "prop_wire_concertina_blast",
+      "target": "projects/2026-ww2-dday/assets/prop_wire_concertina_blast.png",
+      "scene": "s007",
+      "layer": "wire_blast",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 1000,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "assetId": "prop_bunker_blast_direct",
+      "inbox": "prop_bunker_blast_direct",
+      "target": "projects/2026-ww2-dday/assets/prop_bunker_blast_direct.png",
+      "scene": "s008",
+      "layer": "bunker_blast",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 1000,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "assetId": "prop_helmet_rifle_marker",
+      "inbox": "prop_helmet_rifle_marker",
+      "target": "projects/2026-ww2-dday/assets/prop_helmet_rifle_marker.png",
+      "scene": "s011",
+      "layer": "helmet_marker",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 38,
+        "trim": true,
+        "fit": {
+          "width": 1000,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "assetId": "diagram_grazing_fire",
+      "inbox": "diagram_grazing_fire",
+      "target": "projects/2026-ww2-dday/assets/diagram_grazing_fire.png",
+      "scene": "s004",
+      "layer": "diagram_fire",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    },
+    {
+      "assetId": "map_omaha_tactical_master",
+      "inbox": "map_omaha_tactical_master",
+      "target": "projects/2026-ww2-dday/assets/map_omaha_tactical_master.png",
+      "scene": "s002",
+      "layer": "tactical_map",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    },
+    {
+      "assetId": "map_europe_liberation",
+      "inbox": "map_europe_liberation",
+      "target": "projects/2026-ww2-dday/assets/map_europe_liberation.png",
+      "scene": "s012",
+      "layer": "liberation_map",
+      "process": {
+        "fit": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
     }
   ]
 }

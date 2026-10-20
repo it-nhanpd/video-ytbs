@@ -1,0 +1,23 @@
+{
+  "skill_name": "script-craft",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Review và sửa cảnh mở đầu 60 giây của video lịch sử; giữ đúng nguồn Fxx và trả đúng một format cố định.",
+      "expected_output": "Có đủ 8 mục của template, hook 0–3 giây, bảng Fxx, kiểm thời lượng và kết luận cổng duyệt.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Review/fix all toàn bộ master script 12 cảnh, đồng bộ scene cards và không để agent tự chế số liệu.",
+      "expected_output": "Audit toàn video theo cảnh, tách nguồn lịch sử khỏi YouTube tham chiếu, chạy kiểm định deterministic và báo thay đổi.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Kịch bản đang nhạt và giống bài giảng; nâng cấp nhịp kể nhưng không đổi sự kiện.",
+      "expected_output": "Tăng sức hút bằng cấu trúc và hình ảnh, không thêm dữ kiện, không dùng câu tuyệt đối thiếu nguồn.",
+      "files": []
+    }
+  ]
+}

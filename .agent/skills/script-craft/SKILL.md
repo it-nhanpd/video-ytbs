@@ -1,11 +1,31 @@
 ---
 name: script-craft
-description: Viết/nâng cấp kịch bản MỘT cảnh như nhà sáng tạo nội dung YouTube 8 năm kinh nghiệm (hook, open loop, nhịp giữ chân, lời dẫn để nói, neo sự kiện, brief hình ảnh, tự phản biện) và xuất thẻ cảnh script/scenes/sNNN.md để người dùng duyệt. Dùng trước khi tạo ảnh/dựng một cảnh, hoặc khi người dùng nói kịch bản nhạt, "giảng bài", thiếu giữ chân người xem.
+description: Viết, review, fact-check và nâng cấp kịch bản video YouTube lịch sử theo một chuẩn đầu ra cố định (hook, open loop, nhịp giữ chân, lời nói tự nhiên, mã nguồn Fxx, brief hình, tự phản biện, kiểm thời lượng). Luôn dùng khi người dùng yêu cầu viết/review/sửa script, narration, shotlist hoặc nói kịch bản nhạt, giảng bài, thiếu nhất quán giữa các agent. Mặc định làm một cảnh mỗi vòng; chỉ xử lý cả video theo lô khi người dùng yêu cầu rõ "review/fix all" hoặc project.md cho phép Script-First.
 ---
 
 # script-craft: bộ não của người làm kênh 8 năm
 
-Làm **một cảnh mỗi lần**, dừng chờ người dùng nhận xét (cổng G1, `workflow-gates.md` mục 7). Không viết lại cả video một mạch. Không bịa sự kiện: nguồn là `research/03-facts.md` (mã `Fxx`) và `script/vi.md` (bản gốc cần nâng cấp).
+Mặc định làm **một cảnh mỗi lần**, dừng chờ người dùng nhận xét (cổng G1, `workflow-gates.md` mục 7). Khi người dùng yêu cầu rõ review/sửa toàn bộ hoặc `project.md` ghi quy trình Script-First, được audit cả master nhưng vẫn phải báo kết quả và thay đổi theo từng cảnh. Không bịa sự kiện: nguồn là `research/03-facts.md` (mã `Fxx`) và `script/vi.md` (bản gốc cần nâng cấp).
+
+## Hợp đồng đầu ra cố định giữa mọi agent
+
+Mọi lần viết hoặc review script phải trả theo đúng thứ tự sau, kể cả agent khác thực hiện:
+
+1. **Phạm vi** — cảnh/file nào, thời lượng mục tiêu, style-family.
+2. **Kết luận** — `ĐẠT`, `CHƯA ĐẠT`, hoặc `ĐẠT CÓ ĐIỀU KIỆN`; không dùng lời khen chung chung.
+3. **Lỗi chặn** — sự kiện sai, nguồn thiếu, chronology, câu tuyệt đối, thời lượng, hoặc nhịp hình.
+4. **Bản đã sửa** — dùng đúng template trong `references/scene-template.md`; không tự đổi tên/mục.
+5. **Kiểm định** — bảng Fxx, số đơn vị đọc, tốc độ, khoảng lặng, nhịp >12s, tỷ lệ chữ thuần.
+6. **Thay đổi so với bản trước** — liệt kê ngắn câu nào sửa và lý do.
+7. **Cổng tiếp theo** — G1/G2/G3 hoặc việc còn chờ người dùng.
+
+Nếu sửa file, giữ `script/vi.md`, `script/scenes/sNNN.md`, `audio/vi-tts.md` đồng bộ. Không tuyên bố "đã đồng bộ" nếu một file chưa tồn tại.
+
+## Tách nguồn sự thật khỏi nguồn học cách kể
+
+- **Sự thật lịch sử:** chỉ lấy từ `research/03-facts.md` và nguồn đạt chuẩn `source-policy.md`.
+- **Video YouTube tham chiếu:** chỉ học hook, cấu trúc, nhịp, cách chuyển bản đồ ↔ nhân vật, và cách đặt câu hỏi. Không dùng video YouTube làm nguồn cho một khẳng định lịch sử.
+- Trước khi viết master, đọc `content/library/styles/youtube-history-script-benchmark.md`. Mỗi dự án chọn ít nhất **3 vai trò tham chiếu khác nhau**: một kênh mạnh về bản đồ/chronology, một kênh mạnh về giải thích ngắn gọn, một kênh mạnh về nhân vật/cảm xúc. Không sao chép câu chữ, shot hoặc nhạc.
 
 **Họ style:** đọc `Style-family` trong `project.md` và nạp `video-style-investigation` hoặc `video-style-history` (không trộn); nhịp, tốc độ đọc và footage theo `content/library/styles/pacing-and-footage.md` (mục 1 thay cho ước lượng âm tiết/giây ở mục 5 khi hai bên lệch).
 
@@ -14,6 +34,7 @@ Làm **một cảnh mỗi lần**, dừng chờ người dùng nhận xét (cổ
 - Đoạn của cảnh trong `script/vi.md` + mục cảnh trong `script/shotlist.md` (lưu ý shotlist cũ có thể lỗi thời: hướng trái, `flipX`, không vũ khí; theo `content/library/styles/uniform-showcase.md`).
 - Các `Fxx` được gắn trong đoạn đó (đọc dòng thật trong `research/03-facts.md`: trạng thái, giới hạn câu chữ), thẻ nhân vật trong `content/library/characters/`, `content/library/INDEX.md`.
 - Cảnh trước và cảnh sau (để nối open loop, không lặp ý).
+- `content/library/styles/youtube-history-script-benchmark.md` và danh sách `REF-xx` trong `research/02-sources.md`.
 
 ## Tư duy theo thứ tự (không bỏ bước)
 1. **Ý định cảnh.** Một câu người xem mang đi + một cảm xúc (tò mò, ngạc nhiên, nể, rùng mình...). Nếu không nói được trong một câu: cảnh đang ôm quá nhiều ý, tách hoặc cắt.
@@ -21,8 +42,12 @@ Làm **một cảnh mỗi lần**, dừng chờ người dùng nhận xét (cổ
 3. **Nhịp giữ chân.** Mỗi 8–12 giây phải đổi một thứ thấy/nghe được (hình, camera, chữ góc, chuyển động nhân vật, nhịp giọng, SFX). Cứ ~45 giây có một **ngắt mẫu**: số liệu bất ngờ, so sánh cạnh nhau, câu hỏi thẳng vào người xem, hoặc đảo ngược kỳ vọng.
 4. **Lời dẫn để NÓI, không để ĐỌC.** Câu ngắn (đa số ≤ 20 âm tiết), một ý một câu, danh từ cụ thể thay cho trừu tượng, đối lập ("trên giấy... ngoài chiến hào..."), con số có đơn vị người xem hình dung được. Cấm: sáo ngữ ("đóng vai trò quan trọng"), câu bị động dài, liệt kê khô, câu mở đầu thừa. Nhịp: xen câu rất ngắn sau câu dài để có chỗ thở.
 5. **Thời lượng khớp.** Đếm âm tiết (số từ tách bằng dấu cách, không tính mã `Fxx`/dấu câu). Ước lượng 3,8–4,2 âm tiết/giây khi TTS Vbee (hiệu chỉnh lại sau khi có audio thật); tổng âm tiết ÷ tốc độ ≈ `durationSec` trừ khoảng lặng ~8–12%. Lệch > 10% thì sửa lời, không phải kéo giãn cảnh.
+   - Dùng tốc độ đã chốt trong `pacing-and-footage.md`; không tự dùng 3,9 nếu dự án đã chốt số khác.
+   - Chạy `node .claude/skills/script-craft/scripts/audit-scene.mjs <scene files...>` trước khi báo ĐẠT. Con số trong thẻ phải khớp kết quả script; audio thật vẫn là chuẩn cuối.
 6. **Neo sự kiện.** Mỗi khẳng định về sự kiện/số liệu gắn `[Fxx]`. Trạng thái "đạt một phần" giữ đúng giới hạn câu chữ ("theo...", "khoảng..."). Chi tiết tạo cảm giác (không khí, hành động nhân vật) không có trong nguồn thì đánh dấu **(gợi hình, không phải sự kiện)** và không viết như đã xảy ra. Điểm tranh cãi nêu rõ là tranh cãi.
    - **Kiểm chéo trước khi chốt mỗi câu:** đọc cả các Fxx cùng chủ đề (không chỉ mã được gắn) và cột "Ghi chú"; tìm mâu thuẫn hoặc điều dễ hiểu lầm (vd. nói "xám dã chiến từ 1915" trong khi F46 ghi 1907; F51 là cải cách thời bình). Cấm câu tuyệt đối kiểu "không có một ngày nào", "luôn luôn", "lần đầu tiên", "chỉ" nếu nguồn không chứng minh được; thay bằng câu đúng với phạm vi nguồn. Khi người dùng ưu tiên đúng lịch sử, bỏ ví dụ có giới hạn mơ hồ thay vì làm mềm câu chữ.
+   - Coi các từ `hoàn toàn`, `duy nhất`, `mọi`, `không bao giờ`, `lần đầu tiên`, `nhất lịch sử`, `toàn bộ` là **cờ đỏ**: mỗi từ phải có nguồn chứng minh đúng phạm vi hoặc phải đổi sang câu có giới hạn.
+   - Trích dẫn nổi tiếng phải kiểm tra **đúng người nói** bằng nguồn chính thức/nguồn gốc; sách phổ thông lặp lại câu nói không đủ để gán người khi sử liệu chính thức mâu thuẫn.
 7. **Brief hình ảnh theo nhịp.** Mỗi nhịp lời có một dòng: nhân vật nào (id trong library), tư thế/hành động, vũ khí/khói lửa nếu cảnh chiến tranh, nền (id), camera, chữ góc dưới trái, SFX. Phải khớp style bible: nhân vật hướng PHẢI, không `flipX`, cùng chiều cao khi so sánh, nhân vật đi tại chỗ, nền trôi trái. Cảnh so sánh cạnh nhau = hai nhân vật `rig` cùng cảnh.
    - **Chọn hình theo vai trò nhịp** (`.claude/rules/reenactment-first.md`):
      - Ghi vai trò mỗi nhịp: chứng cứ / kể / định vị / chữ.
@@ -41,24 +66,7 @@ Làm **một cảnh mỗi lần**, dừng chờ người dùng nhận xét (cổ
 - Các quy tắc này bổ sung, không thay "nhịp 8–12 giây" ở trên: ưu tiên nhịp nhanh hơn khi cảnh có bản đồ/ảnh ghim.
 
 ## Đầu ra: thẻ cảnh `content/projects/<p>/script/scenes/sNNN.md`
-```
-# sNNN — <tên cảnh> (<durationSec>s, chương <n>)
-## 1. Ý định
-- Người xem mang đi: …   - Cảm xúc: …   - Vị trí trong trục xuyên suốt: …
-## 2. Open loop
-- Mở: …   - Đóng: …   - Dẫn sang cảnh sau: …
-## 3. Nhịp (bảng)
-| Thời điểm | Lời dẫn (bản gốc, có [Fxx]) | Hình / camera / chữ / SFX |
-## 4. Lời dẫn bản TTS
-(sinh từ bản gốc: bỏ [Fxx], đổi cách đọc tên riêng theo bảng trong audio/vi-tts.md) + số âm tiết và ước lượng thời lượng
-## 5. Nguồn
-| Fxx | khẳng định | trạng thái | giới hạn câu chữ |
-## 6. Asset cần
-- Có sẵn: …   - Thiếu (số ảnh định tạo, model lite/2): …   - Code (khói/lửa/chữ): …
-## 7. Tự phản biện
-(bảng mục a–h)
-## 8. Câu hỏi cho người dùng
-```
+Dùng nguyên mẫu `references/scene-template.md`. Không thêm mục quảng cáo nguồn riêng vào từng scene card; danh mục mô tả YouTube nằm một lần trong `research/02-sources.md` và cuối master script.
 Sau khi người dùng duyệt: cập nhật đoạn tương ứng trong `script/vi.md` và `audio/vi-tts.md`, rồi mới sang bước tạo ảnh.
 
 ## Cảnh đối đầu (hai phía)

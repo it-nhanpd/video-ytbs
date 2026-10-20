@@ -1,0 +1,8 @@
+World War II U.S. Army GMC CCKW 2.5-ton 6x6 cargo truck ('Deuce and a Half'), Normandy June 1944. Standard military transport truck with open canvas-topped driver cab, large olive drab canvas cargo cover over the rear bed, heavy-duty off-road tires, front winch bumper. Matte olive drab finish with faint white star insignia on the cab door.
+strict 90-degree side profile view facing RIGHT, horizontal 16:9 composition,
+solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no texture, no noise,
+subject centered with at least 15% empty margin on every side and bottom-right corner completely empty,
+no ground, no road, no shadow, no reflection, no other objects, single truck only,
+no part of the vehicle uses the same neutral gray as the background,
+2D animated documentary style, clean dark ink outlines of even thickness, flat cel shading with two tones, muted olive palette, hand-drawn look, no photorealism, no 3D render, no anime, no text.
+Avoid: photo, 3D, anime, glossy, shadow on ground, extra objects, watermark.

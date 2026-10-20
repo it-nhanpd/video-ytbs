@@ -1,0 +1,8 @@
+World War II U.S. Navy destroyer USS McCook (DD-496), Gleaves-class destroyer, June 1944. Long sleek warship hull with two funnels (smokestacks), raised bridge superstructure, four single 5-inch/38 caliber enclosed dual-purpose gun mounts (two forward, two aft), torpedo tube mounts midship, radar antennas on mast. Painted in naval Measure 22 camouflage: dark navy blue hull at the waterline fading into light haze gray superstructure. White hull number '496' painted on bow.
+strict 90-degree side profile view facing RIGHT, horizontal 16:9 composition,
+solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no texture, no noise,
+subject centered with at least 15% empty margin on every side and the bottom-right corner completely empty,
+no water, no sea waves, no shadow, no reflection, no other objects, single warship only,
+no part of the ship uses the same neutral gray as the background,
+2D animated documentary style, clean dark ink outlines of even thickness, flat cel shading with two tones, muted naval palette, hand-drawn animation look, no photorealism, no 3D render, no anime, no text.
+Avoid: photo, 3D, anime, glossy, water spray, smoke, shadow, extra objects, watermark.

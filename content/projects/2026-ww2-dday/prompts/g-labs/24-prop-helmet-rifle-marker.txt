@@ -1,0 +1,6 @@
+Battlefield soldier memorial marker. An American M1 steel helmet with mesh net resting solemnly atop the buttstock of an M1 Garand rifle planted vertically downward into the ground, dog tags hanging gently from the rifle receiver.
+isolated vertical object centered on solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no noise,
+at least 15% empty margin on every side and bottom-right corner completely empty,
+no ground, no sand, no shadow, single memorial marker only,
+2D animated documentary style, clean dark ink outlines, flat cel shading with two tones, muted olive and walnut wood tones, no photorealism, no 3D render, no anime, no text.
+Avoid: photo, 3D, anime, shadow on ground, extra objects, watermark.

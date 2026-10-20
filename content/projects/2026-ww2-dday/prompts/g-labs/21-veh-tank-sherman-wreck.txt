@@ -1,0 +1,7 @@
+Destroyed knocked-out M4 Sherman tank on the beach, battle damage with penetration hole in turret, blackened scorched metal armor plating, track blown off, dense dark oily smoke billowing from the engine deck.
+strict 90-degree side profile facing RIGHT, horizontal 16:9 composition,
+solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no noise,
+subject centered with at least 15% empty margin on every side and bottom-right corner completely empty,
+no ground, no water, no shadow, single burned vehicle only,
+2D animated documentary style, clean dark ink outlines, flat cel shading with two tones, muted charred black and olive palette, no photorealism, no 3D render, no anime, no text.
+Avoid: photo, 3D, anime, shadow on ground, extra objects, watermark.

@@ -5,13 +5,24 @@
 
 ## 1. Video tham chiếu YouTube (Reference Videos)
 
-Kênh học tập phong cách, ngữ pháp hình ảnh và cấu trúc sa bàn/hoạt cảnh: **The Armchair Historian**.
+Các video dưới đây chỉ dùng để học cấu trúc, nhịp và ngữ pháp hình ảnh. Chúng **không phải nguồn chứng minh sự kiện**. Bộ tham chiếu cố ý gồm nhiều thế mạnh khác nhau để tránh mọi agent bắt chước một kênh duy nhất.
 
 | STT | Tên Video | Kênh | URL | Vai trò học tập |
 | :---: | :--- | :---: | :--- | :--- |
 | **REF-01** | *D-Day from the American Perspective \| Bird's Eye View* | The Armchair Historian | `https://www.youtube.com/watch?v=tlq3bZ7DdXg` | Video tham chiếu trực tiếp: góc nhìn chim bay trên bản đồ chiến dịch kết hợp hoạt cảnh lính đổ bộ bãi Omaha & Utah. |
 | **REF-02** | *D-Day From the Bird's Eye Perspective (Full Documentary)* | The Armchair Historian | `https://www.youtube.com/watch?v=3ky-USkybqY` | Phim tài liệu tổng hợp đầy đủ: cách xâu chuỗi các đợt đổ bộ thành một mạch phim tài liệu 45 phút. |
 | **REF-03** | *D-Day From the German Perspective (Remastered)* | The Armchair Historian | `https://www.youtube.com/watch?v=EUTo1urxwPo` | Góc nhìn phòng ngự phía đối lập: cấu trúc boongke Wiederstandsnest (WN) và hỏa lực pháo binh Đức. |
+| **REF-04** | *Omaha Beach, D-Day (June 6, 1944)* | Simple History | `https://www.youtube.com/watch?v=t3P11ENBZyc` | Cách nén một trận đánh phức tạp thành các khối nguyên nhân–hệ quả ngắn; một beat một ý; danh mục sách ở description. |
+| **REF-05** | *Easy Company Assaults the Guns at Brecourt Manor on D-Day — Animated* | The Operations Room | `https://www.youtube.com/watch?v=814qEsxSzmA` | Timeline và không gian cấp tiểu đội rõ; mỗi mũi di chuyển gắn với một quyết định và kết quả. |
+| **REF-06** | *D-Day Hero* | Yarnhub | `https://www.youtube.com/watch?v=0fRLSSXXQKI` | Cách neo lịch sử vào một nhân vật và mục tiêu hữu hình; dùng cho nhịp cảm xúc, không dùng làm căn cứ dữ kiện. |
+
+### Cách phối hợp cho dự án này
+
+- **Xương sống:** REF-01/02 — bản đồ chim bay và chronology Omaha.
+- **Độ cô đọng:** REF-04 — một đoạn chỉ trả lời một câu hỏi.
+- **Tác chiến cấp nhỏ:** REF-05 — hướng di chuyển và quan hệ nhân quả nhìn thấy được.
+- **Cao trào nhân vật:** REF-06 — chỉ dùng ở Cota/Taylor và các nhóm công binh, mọi hành động vẫn phải có Fxx.
+- **Góc nhìn đối phương:** REF-03 — chỉ dùng để hiểu bố trí, không tự thêm suy nghĩ hoặc lời thoại cho lính Đức.
 
 ---
 

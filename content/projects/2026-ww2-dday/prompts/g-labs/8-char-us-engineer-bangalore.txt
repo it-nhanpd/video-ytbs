@@ -1,0 +1,8 @@
+World War II U.S. Army combat engineer on Omaha Beach, June 6 1944. Wearing soaked olive drab uniform, M1 helmet with white engineer 'E' insignia painted faintly on side. Prone crawling position flat on stomach, pushing a long steel metal cylindrical Bangalore torpedo explosive tube forward with both hands. Utility wire cutters and demolition satchel pack strapped to back, muddy water-soaked appearance, gritty intense determined survival expression.
+full-body low horizontal composition, soldier crawling prone facing RIGHT pushing a long metal pipe,
+solid flat uniform neutral gray background (#808080), perfectly even with no gradient, no vignette, no texture, no noise,
+at least 12% empty margin on all sides and bottom-right corner completely empty,
+no ground, no shadow, no reflection, no other objects, single subject with demolition tube only,
+no part of the subject uses the same neutral gray as the background,
+2D animated documentary style, clean dark ink outlines of even thickness, flat cel shading with two tones, muted earthy palette, hand-drawn look, no photorealism, no 3D render, no anime, no text.
+Avoid: photo, 3D, anime, glossy, shadow on ground, extra objects, watermark.

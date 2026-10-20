@@ -22,12 +22,16 @@
   - Balkoski, Joseph. (2004). *Omaha Beach: D-Day, June 6, 1944*. Stackpole Books.
   - Harrison, Gordon A. (1951). *Cross-Channel Attack* (United States Army in World War II: The European Theater of Operations). Office of the Chief of Military History.
 
+- **Quy trình sản xuất:** Người dùng duyệt phương án **Script-First** (2026-10-20): Hoàn thành toàn bộ kịch bản 12 cảnh (`script/vi.md`) và bảng sự kiện `research/03-facts.md` trước, sau đó lập Master Asset Blueprint, tạo ảnh/video hàng loạt và render toàn bộ.
+
 ## Trạng thái các bước
 | Bước | Nội dung | Trạng thái |
 |---|---|---|
 | 0 | Khởi tạo dự án & Kế hoạch 12 tập | xong (`topic-plan-ww2.md` đã chuyển vào repo) |
-| 1 | Xác lập nguồn & Sự kiện căn cứ s001 | xong (`research/03-facts.md`) |
-| 2 | Thẻ cảnh s001 (Pilot) | **đang trình duyệt G1** (`script/scenes/s001.md`) |
-| 3 | Asset & prompt-pack s001 (G2) | chờ duyệt G1 |
-| 4 | Tạo ảnh / Ingest / Multiplane setup | chưa |
-| 5 | Render Still & Clip pilot (G3) | chưa |
+| 1 | Xác lập nguồn & Sự kiện căn cứ s001–s012 | xong (`research/03-facts.md` mã F01–F37) |
+| 2 | Pilot s001 (G1, G2, Tạo ảnh, Ingest, Multiplane, Render Still/Clip) | **pilot đã duyệt** (2026-10-20, người dùng duyệt style ĐẠT) |
+| 3 | Kịch bản Master toàn bộ 12 cảnh s001–s012 (Script-First) | **xong** (`script/vi.md`, `script/scenes/s001.md`–`s012.md`) |
+| 4 | Master Asset Blueprint & Prompt Pack toàn dự án (Cổng G2) | **xong** (24 asset mới, `prompts/blueprint.md`, `prompt-pack-all.md`, `g-labs/*.txt`) |
+| 5 | Tạo ảnh & Ingest hàng loạt | **chuẩn bị tạo ảnh** (chờ xác nhận lệnh gọi G-Labs/agy) |
+| 6 | Dựng multiplane `scenes.json` & Audio TTS toàn bộ | chờ bước 5 |
+| 7 | Render hoàn chỉnh video full (~11.5 phút) | chưa |
