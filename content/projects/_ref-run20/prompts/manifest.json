@@ -1,0 +1,37 @@
+{
+  "assets": [
+    {
+      "assetId": "sweep_ref20_trunk",
+      "inbox": "sweep_ref20_trunk_v1",
+      "target": "projects/_ref-run20/assets/sweep_ref20_trunk.png",
+      "scene": "run20",
+      "layer": "sweepTrunk",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 24,
+        "minHolePx": 99999999,
+        "trim": true,
+        "aspectFromImage": true
+      }
+    },
+    {
+      "assetId": "sweep_ref20_fir",
+      "inbox": "sweep_ref20_fir_v1",
+      "target": "projects/_ref-run20/assets/sweep_ref20_fir.png",
+      "scene": "run20",
+      "layer": "sweepFir",
+      "process": {
+        "keyOut": true,
+        "keyTolerance": 24,
+        "minHolePx": 99999999,
+        "trim": true,
+        "aspectFromImage": true,
+        "keyColor": [
+          128,
+          128,
+          128
+        ]
+      }
+    }
+  ]
+}

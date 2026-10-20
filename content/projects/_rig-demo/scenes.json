@@ -1,0 +1,426 @@
+{
+  "project": "rig-demo",
+  "locale": "vi",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "walk",
+      "durationSec": 6,
+      "template": "MultiplaneScene",
+      "grade": "misty_green",
+      "letterbox": 2.35,
+      "focusZ": 3,
+      "camera": {
+        "x": [
+          0,
+          0
+        ],
+        "zoom": [
+          1,
+          1
+        ],
+        "ease": "linear"
+      },
+      "text": [],
+      "walkSpeed": 0,
+      "layers": [
+        {
+          "id": "sky",
+          "type": "sky",
+          "z": 0,
+          "preset": "misty_green"
+        },
+        {
+          "id": "a",
+          "type": "rig",
+          "assetId": "rigtest",
+          "z": 3,
+          "status": "final",
+          "x": [
+            0.38,
+            0.38
+          ],
+          "groundY": 0.82,
+          "height": 0.6,
+          "ease": "linear",
+          "cycleSec": 1,
+          "phase": 0,
+          "moving": true,
+          "parts": [
+            {
+              "id": "torso",
+              "src": "projects/_rig-demo/assets/rigtest_torso.png",
+              "w": 170,
+              "h": 300,
+              "pivot": [
+                0.5,
+                0.97
+              ],
+              "z": 10,
+              "joint": "torso",
+              "shade": 1
+            },
+            {
+              "id": "head",
+              "src": "projects/_rig-demo/assets/rigtest_head.png",
+              "parent": "torso",
+              "w": 110,
+              "h": 140,
+              "pivot": [
+                0.45,
+                0.93
+              ],
+              "attach": [
+                0.5,
+                0.02
+              ],
+              "z": 11,
+              "joint": "head",
+              "shade": 1
+            },
+            {
+              "id": "upperArmF",
+              "src": "projects/_rig-demo/assets/rigtest_upperArm.png",
+              "parent": "torso",
+              "w": 46,
+              "h": 150,
+              "pivot": [
+                0.5,
+                0.07
+              ],
+              "attach": [
+                0.5,
+                0.12
+              ],
+              "z": 1,
+              "joint": "upperArmF",
+              "shade": 0.78
+            },
+            {
+              "id": "foreArmF",
+              "src": "projects/_rig-demo/assets/rigtest_foreArm.png",
+              "parent": "upperArmF",
+              "w": 42,
+              "h": 140,
+              "pivot": [
+                0.5,
+                0.07
+              ],
+              "attach": [
+                0.5,
+                0.93
+              ],
+              "z": 2,
+              "joint": "foreArmF",
+              "shade": 0.78
+            },
+            {
+              "id": "thighF",
+              "src": "projects/_rig-demo/assets/rigtest_thigh.png",
+              "parent": "torso",
+              "w": 82,
+              "h": 210,
+              "pivot": [
+                0.5,
+                0.06
+              ],
+              "attach": [
+                0.5,
+                0.97
+              ],
+              "z": 3,
+              "joint": "thighF",
+              "shade": 0.78
+            },
+            {
+              "id": "shinF",
+              "src": "projects/_rig-demo/assets/rigtest_shin.png",
+              "parent": "thighF",
+              "w": 70,
+              "h": 200,
+              "pivot": [
+                0.5,
+                0.05
+              ],
+              "attach": [
+                0.5,
+                0.94
+              ],
+              "z": 4,
+              "joint": "shinF",
+              "shade": 0.78
+            },
+            {
+              "id": "footF",
+              "src": "projects/_rig-demo/assets/rigtest_foot.png",
+              "parent": "shinF",
+              "w": 150,
+              "h": 54,
+              "pivot": [
+                0.28,
+                0.12
+              ],
+              "attach": [
+                0.5,
+                0.96
+              ],
+              "z": 5,
+              "joint": "footF",
+              "shade": 0.78
+            },
+            {
+              "id": "upperArmN",
+              "src": "projects/_rig-demo/assets/rigtest_upperArm.png",
+              "parent": "torso",
+              "w": 46,
+              "h": 150,
+              "pivot": [
+                0.5,
+                0.07
+              ],
+              "attach": [
+                0.5,
+                0.12
+              ],
+              "z": 15,
+              "joint": "upperArmN",
+              "shade": 1
+            },
+            {
+              "id": "foreArmN",
+              "src": "projects/_rig-demo/assets/rigtest_foreArm.png",
+              "parent": "upperArmN",
+              "w": 42,
+              "h": 140,
+              "pivot": [
+                0.5,
+                0.07
+              ],
+              "attach": [
+                0.5,
+                0.93
+              ],
+              "z": 16,
+              "joint": "foreArmN",
+              "shade": 1
+            },
+            {
+              "id": "thighN",
+              "src": "projects/_rig-demo/assets/rigtest_thigh.png",
+              "parent": "torso",
+              "w": 82,
+              "h": 210,
+              "pivot": [
+                0.5,
+                0.06
+              ],
+              "attach": [
+                0.5,
+                0.97
+              ],
+              "z": 7,
+              "joint": "thighN",
+              "shade": 1
+            },
+            {
+              "id": "shinN",
+              "src": "projects/_rig-demo/assets/rigtest_shin.png",
+              "parent": "thighN",
+              "w": 70,
+              "h": 200,
+              "pivot": [
+                0.5,
+                0.05
+              ],
+              "attach": [
+                0.5,
+                0.94
+              ],
+              "z": 8,
+              "joint": "shinN",
+              "shade": 1
+            },
+            {
+              "id": "footN",
+              "src": "projects/_rig-demo/assets/rigtest_foot.png",
+              "parent": "shinN",
+              "w": 150,
+              "h": 54,
+              "pivot": [
+                0.28,
+                0.12
+              ],
+              "attach": [
+                0.5,
+                0.96
+              ],
+              "z": 9,
+              "joint": "footN",
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "type": "rig",
+          "assetId": "rig_prussia_1871",
+          "z": 3,
+          "status": "final",
+          "x": [
+            0.62,
+            0.62
+          ],
+          "groundY": 0.82,
+          "height": 0.6,
+          "ease": "linear",
+          "cycleSec": 1,
+          "phase": 0.37,
+          "moving": true,
+          "parts": [
+            {
+              "id": "torso",
+              "src": "projects/_rig-demo/assets/rig_prussia_1871_torso.png",
+              "w": 194,
+              "h": 288,
+              "pivot": [
+                0.56,
+                0.82
+              ],
+              "z": 10,
+              "joint": "torso",
+              "shade": 1
+            },
+            {
+              "id": "head",
+              "src": "projects/_rig-demo/assets/rig_prussia_1871_head.png",
+              "parent": "torso",
+              "w": 103,
+              "h": 162,
+              "pivot": [
+                0.61,
+                0.93
+              ],
+              "attach": [
+                0.65,
+                0.03
+              ],
+              "z": 11,
+              "joint": "head",
+              "shade": 1
+            },
+            {
+              "id": "upperArmF",
+              "src": "projects/_rig-demo/assets/rig_prussia_1871_arm.png",
+              "parent": "torso",
+              "w": 92,
+              "h": 299,
+              "pivot": [
+                0.36,
+                0.08
+              ],
+              "attach": [
+                0.42,
+                0.26
+              ],
+              "z": 1,
+              "joint": "upperArmF",
+              "shade": 0.78
+            },
+            {
+              "id": "thighF",
+              "src": "projects/_rig-demo/assets/rig_prussia_1871_thigh.png",
+              "parent": "torso",
+              "w": 96,
+              "h": 214,
+              "pivot": [
+                0.5,
+                0.05
+              ],
+              "attach": [
+                0.56,
+                0.82
+              ],
+              "z": 3,
+              "joint": "thighF",
+              "shade": 0.78
+            },
+            {
+              "id": "shinF",
+              "src": "projects/_rig-demo/assets/rig_prussia_1871_shin.png",
+              "parent": "thighF",
+              "w": 125,
+              "h": 312,
+              "pivot": [
+                0.36,
+                0.04
+              ],
+              "attach": [
+                0.5,
+                0.93
+              ],
+              "z": 4,
+              "joint": "shinF",
+              "shade": 0.78
+            },
+            {
+              "id": "upperArmN",
+              "src": "projects/_rig-demo/assets/rig_prussia_1871_arm.png",
+              "parent": "torso",
+              "w": 92,
+              "h": 299,
+              "pivot": [
+                0.36,
+                0.08
+              ],
+              "attach": [
+                0.42,
+                0.26
+              ],
+              "z": 15,
+              "joint": "upperArmN",
+              "shade": 1
+            },
+            {
+              "id": "thighN",
+              "src": "projects/_rig-demo/assets/rig_prussia_1871_thigh.png",
+              "parent": "torso",
+              "w": 96,
+              "h": 214,
+              "pivot": [
+                0.5,
+                0.05
+              ],
+              "attach": [
+                0.56,
+                0.82
+              ],
+              "z": 7,
+              "joint": "thighN",
+              "shade": 1
+            },
+            {
+              "id": "shinN",
+              "src": "projects/_rig-demo/assets/rig_prussia_1871_shin.png",
+              "parent": "thighN",
+              "w": 125,
+              "h": 312,
+              "pivot": [
+                0.36,
+                0.04
+              ],
+              "attach": [
+                0.5,
+                0.93
+              ],
+              "z": 8,
+              "joint": "shinN",
+              "shade": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

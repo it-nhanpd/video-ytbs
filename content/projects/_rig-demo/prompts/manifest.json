@@ -1,0 +1,104 @@
+{
+  "assets": [
+    {
+      "assetId": "rigtest",
+      "inbox": "rigtest_parts",
+      "target": "projects/_rig-demo/assets/rigtest.png",
+      "scene": "walk",
+      "layer": "a",
+      "process": {
+        "keyOut": true,
+        "splitParts": {
+          "pieces": [
+            "head",
+            "torso",
+            "upperArm",
+            "foreArm",
+            "thigh",
+            "shin",
+            "foot"
+          ],
+          "minGapPx": 20
+        }
+      }
+    },
+    {
+      "assetId": "rig_prussia_1871",
+      "inbox": "rig_prussia_1871_parts",
+      "target": "projects/_rig-demo/assets/rig_prussia_1871.png",
+      "scene": "walk",
+      "layer": "b",
+      "process": {
+        "keyOut": true,
+        "splitParts": {
+          "pieces": [
+            "head",
+            "torso",
+            "spareArm",
+            "arm",
+            "thigh",
+            "shin",
+            "spareBoot"
+          ],
+          "minGapPx": 15,
+          "erase": [
+            {
+              "left": 1235,
+              "top": 652,
+              "width": 110,
+              "height": 90
+            }
+          ],
+          "overrides": {
+            "torso": {
+              "pivot": [
+                0.56,
+                0.82
+              ]
+            },
+            "head": {
+              "pivot": [
+                0.61,
+                0.93
+              ],
+              "attach": [
+                0.65,
+                0.03
+              ]
+            },
+            "arm": {
+              "pivot": [
+                0.36,
+                0.08
+              ],
+              "attach": [
+                0.42,
+                0.26
+              ]
+            },
+            "thigh": {
+              "pivot": [
+                0.5,
+                0.05
+              ],
+              "attach": [
+                0.56,
+                0.82
+              ]
+            },
+            "shin": {
+              "pivot": [
+                0.36,
+                0.04
+              ],
+              "attach": [
+                0.5,
+                0.93
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}
