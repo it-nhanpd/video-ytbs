@@ -1,8 +1,8 @@
 import React from 'react';
-import {AbsoluteFill, Img, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {noise2D} from '@remotion/noise';
 import type {ImageLayerT} from '../schema';
-import {overScene} from '../utils';
+import {easings, overScene} from '../utils';
 
 type RotorCfg = NonNullable<ImageLayerT['rotors']>;
 
@@ -52,20 +52,57 @@ const Rotors: React.FC<{cfg: RotorCfg; w: number; h: number; frame: number; fps:
   );
 };
 
-type Props = {layer: ImageLayerT; durationInFrames: number};
+type Props = {layer: ImageLayerT; durationInFrames: number; scrollPx?: number};
 
-export const ImageAsset: React.FC<Props> = ({layer, durationInFrames}) => {
+export const ImageAsset: React.FC<Props> = ({layer, durationInFrames, scrollPx = 0}) => {
   const frame = useCurrentFrame();
   const {fps, width, height} = useVideoConfig();
+  // showSec: chỉ hiện trong khoảng [từ, đến] giây (mascot đổi biểu cảm theo nhịp lời dẫn).
+  if (layer.showSec && (frame / fps < layer.showSec[0] || frame / fps > layer.showSec[1])) return null;
 
-  const cx = overScene(frame, durationInFrames, layer.x, layer.ease) * width;
-  const cy = overScene(frame, durationInFrames, layer.y, layer.ease) * height;
+  const move = (r: [number, number]) =>
+    layer.moveSec
+      ? interpolate(frame / fps, layer.moveSec, r, {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easings[layer.ease]})
+      : overScene(frame, durationInFrames, r, layer.ease);
+  // Chỉ số frame của chuỗi lật (dùng chung cho ảnh và độ lệch ngang khóa chân).
+  const fi = layer.frames?.length ? Math.floor((frame / fps) * layer.frameFps) % layer.frames.length : 0;
+  const cx = move(layer.x) * width + (layer.frameDx?.[fi] ?? 0);
+  const cy = move(layer.y) * height;
   const bob = layer.bobPx ? noise2D(`${layer.id}-bob`, frame / fps / 1.6, 0) * layer.bobPx : 0;
 
   const w = layer.width * width;
-  // Tỉ lệ ảnh được đọc từ viewBox của SVG placeholder (5:2) hoặc ảnh thật (mặc định 5:2). Dùng height auto.
-  const aspect = 0.4;
+  // Tỉ lệ ảnh: layer.aspect nếu có (nhân vật người), mặc định 5:2 (phương tiện/placeholder).
+  const aspect = layer.aspect ?? 0.4;
   const h = w * aspect;
+  // Chuỗi frame bước đi: phát vòng lặp theo frameFps (độc lập với tốc độ camera).
+  const src = layer.frames?.length ? layer.frames[fi] : layer.src;
+
+  if (layer.tile) {
+    // mirror: lát xen kẽ gương, chu kỳ 2 ô. wrap: lặp liền mạch không lật, chu kỳ 1 ô. Trôi trái theo scrollPx × scrollMul.
+    const wrap = layer.tileMode === 'wrap';
+    const period = wrap ? w : 2 * w;
+    const tq = layer.scrollSnap ? (Math.floor(frame / layer.scrollSnap) * layer.scrollSnap) / fps : frame / fps;
+    const off = (scrollPx * layer.scrollMul * tq) % period;
+    return (
+      <AbsoluteFill>
+        {[-2, -1, 0, 1, 2, 3, 4].map((k) => (
+          <div
+            key={k}
+            style={{
+              position: 'absolute',
+              left: cx - w / 2 + k * w - off,
+              top: cy - h / 2,
+              width: w + 2, // chồng 2px che khe nối
+              height: h,
+              transform: `scaleX(${(wrap || k % 2 === 0 ? 1 : -1) * (layer.flipX ? -1 : 1)})`,
+            }}
+          >
+            <Img src={staticFile(src)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+          </div>
+        ))}
+      </AbsoluteFill>
+    );
+  }
 
   return (
     <AbsoluteFill>
@@ -80,7 +117,7 @@ export const ImageAsset: React.FC<Props> = ({layer, durationInFrames}) => {
           transformOrigin: '50% 50%',
         }}
       >
-        <Img src={staticFile(layer.src)} style={{width: '100%', height: '100%', objectFit: 'contain'}} />
+        <Img src={staticFile(src)} style={{width: '100%', height: '100%', objectFit: 'contain'}} />
         {layer.rotors ? <Rotors cfg={layer.rotors} w={w} h={h} frame={frame} fps={fps} /> : null}
       </div>
     </AbsoluteFill>
