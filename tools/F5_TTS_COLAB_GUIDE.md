@@ -1,73 +1,58 @@
-# HƯỚNG DẪN 1-CLICK: CLONE GIỌNG YOUTUBE BẰNG F5-TTS VIETNAMESE (0 ĐỒNG)
+# HƯỚNG DẪN 1-CLICK: F5-TTS CLOUD GPU SERVER & TỰ ĐỘNG HÓA TỪ TERMINAL (0 ĐỒNG)
 
-Hướng dẫn này giúp bạn nhân bản (clone) **chính xác 100% màu giọng riêng** của kênh Tra Án (hoặc bất kỳ MC/kênh nào trên YouTube) hoàn toàn miễn phí bằng GPU T4 của Google Colab.
+Hướng dẫn này giúp bạn sử dụng GPU T4 miễn phí của Google Colab như một **Cloud GPU Backend**. Bạn không cần phải kéo thả file qua lại trên Google Drive — chỉ cần gõ **1 lệnh duy nhất tại terminal máy tính**, toàn bộ câu thoại của dự án sẽ được tổng hợp và tự động nạp thẳng vào `assets/audio/` kèm file `timing.json` cho Remotion.
 
 ---
 
-## CÁCH CHẠY TRÊN GOOGLE COLAB (ĐÃ VÁ LỖI PYTHON 3.12/3.13)
+## 1. KHỞI CHẠY CLOUD GPU SERVER TRÊN GOOGLE COLAB
 
-1. Mở trang Google Colab của bạn (hoặc vào [colab.research.google.com](https://colab.research.google.com) -> **New notebook**).
-2. Vào menu **Runtime** -> **Change runtime type** -> chọn **T4 GPU** -> bấm **Save**.
-3. Dán toàn bộ đoạn code đã được vá lỗi bên dưới vào 1 ô code và bấm **Play**:
-
-```python
-# ==============================================================================
-# F5-TTS VIETNAMESE 1-CLICK LAUNCHER (ZERO-SHOT VOICE CLONING 0 ĐỒNG)
-# ==============================================================================
-
-# 1. Clone mã nguồn F5-TTS tối ưu cho tiếng Việt
-!git clone https://github.com/2tocom/F5-TTS-Vietnamese-Google-Colab.git
-%cd F5-TTS-Vietnamese-Google-Colab
-
-# 2. Cài đặt các thư viện cần thiết
-!pip install -q -r requirements.txt
-!pip install -q huggingface_hub
-
-# 3. Vá lỗi Python 3.12/3.13 trên Colab (lỗi ModuleNotFoundError: No module named 'imp' của vinorm)
-import glob, os
-for init_file in glob.glob('/usr/local/lib/python3*/dist-packages/vinorm/__init__.py'):
-    with open(init_file, 'r', encoding='utf-8') as f:
-        content = f.read()
-    content = content.replace("import imp", "").replace("A=imp.find_module('vinorm')[1]", "A=os.path.dirname(__file__)")
-    with open(init_file, 'w', encoding='utf-8') as f:
-        f.write(content)
-print("✅ Đã vá tương thích thư viện vinorm cho Colab!")
-
-# 4. Tải model trọng số tiếng Việt ViVoice (huấn luyện trên 1000h dữ liệu)
-from huggingface_hub import snapshot_download
-print("Đang tải model tiếng Việt ViVoice (khoảng 1.2 GB)...")
-snapshot_download(repo_id="hynt/F5-TTS-Vietnamese-ViVoice", local_dir="F5-TTS-Vietnamese-ViVoice")
-print("✅ Tải model thành công!")
-
-# 5. Khởi chạy Web UI Gradio (Tạo link dùng trực tiếp trên trình duyệt)
-print("🚀 Đang khởi chạy giao diện Web...")
-!python app.py
-```
-
-4. Chờ khoảng 1–2 phút. Khi xuất hiện dòng:
+1. Mở file [tools/F5_TTS_VN_1Click.ipynb](file:///home/oeg/Projects/video-ytbs/tools/F5_TTS_VN_1Click.ipynb) hoặc tải lên [Google Colab](https://colab.research.google.com).
+2. Vào menu **Runtime** -> **Change runtime type** -> Chọn **T4 GPU** -> Bấm **Save**.
+3. Lần lượt bấm chạy:
+   * **Bước 1:** Kết nối Google Drive & Cài đặt môi trường.
+   * **Bước 2:** Nạp Model ViVoice (Tự động lưu vĩnh viễn trên Drive, nạp trong 2 giây).
+   * **Bước 3:** Khởi chạy **Cloud GPU Server**.
+4. Khi chạy xong Bước 3, ở cuối ô code sẽ xuất hiện dòng:
    ```text
    Running on public URL: https://xxxxxxxxxxxx.gradio.live
    ```
-   Hãy bấm vào link đó để mở giao diện web.
+   👉 **Sao chép đường link `https://xxxxxxxxxxxx.gradio.live` này.** (Cứ để tab Colab này mở chạy ngầm).
 
 ---
 
-## CÁCH SỬ DỤNG GIAO DIỆN ĐỂ CLONE GIỌNG TRA ÁN
+## 2. RA LỆNH TỰ ĐỘNG TỪ TERMINAL MÁY TÍNH CỦA BẠN
 
-Trên giao diện web `gradio.live` vừa mở ra:
+Tại terminal máy tính của bạn (trong thư mục dự án `video-ytbs`), chạy lệnh sau:
 
-1. **Mục `🔊 Sample Voice`:**
-   * Tải lên file âm thanh mẫu [reference.wav](file:///d:/videos-system/content/library/voice-clones/tra_an/reference.wav) *(file 15 giây giọng Tra Án đã được trích xuất và lọc sạch tạp âm)*.
-2. **Mục `📝 Reference Text`:**
-   * Nhập nguyên văn câu mà file mẫu đang nói *(giúp AI bắt đúng âm sắc chuẩn gấp 3 lần)*:
-   ```text
-   Khi nhắc đến những vụ án bí ẩn nổi tiếng nhất lịch sử nước Mỹ, chắc chắn có hai cái tên mà chúng ta không thể nào không nhắc tới. Đó chính là vụ án Hoa Thược Dược Đen và vụ án sát nhân Zodiac.
-   ```
-3. **Mục `📝 Text`:**
-   * Nhập kịch bản bất kỳ mà bạn muốn giọng đọc Tra Án này nói!
-   * *Mẹo tạo khoảng lặng rùng rợn của Tra Án:* Bạn có thể chèn cú pháp `<<<sil#800>>>` (nghỉ 800 mili-giây) vào giữa câu:
-   ```text
-   Sau khi gây án, hung thủ không hề lẩn trốn. <<<sil#800>>> Hắn chủ động gửi thư khiêu khích đến cảnh sát.
-   ```
-4. **Bấm nút `🔥 Generate Voice`:**
-   * Chờ khoảng 5–10 giây, AI sẽ tạo ra file âm thanh hoàn chỉnh mang **đúng âm sắc, độ khàn và chất giọng của kênh Tra Án**!
+### Ví dụ 1: Clone giọng MC Văn Tùng cho dự án Mỹ Lai
+```bash
+node tools/vox-tts.mjs 2026-truecrime-my-lai --provider f5 --url https://xxxxxxxxxxxx.gradio.live --voice mc_vantung
+```
+
+### Ví dụ 2: Clone giọng Tra Án cho dự án Mỹ Lai
+```bash
+node tools/vox-tts.mjs 2026-truecrime-my-lai --provider f5 --url https://xxxxxxxxxxxx.gradio.live --voice tra_an
+```
+
+### Ví dụ 3: Chỉ chạy test thử 2 câu đầu tiên (`s001a`, `s001b`)
+```bash
+node tools/vox-tts.mjs 2026-truecrime-my-lai --provider f5 --url https://xxxxxxxxxxxx.gradio.live --voice mc_vantung --only s001a,s001b --force
+```
+
+---
+
+## 3. CƠ CHẾ HOẠT ĐỘNG HOÀN TOÀN TỰ ĐỘNG
+Khi bạn chạy lệnh trên:
+1. Tool sẽ tự động tìm file audio mẫu tại `content/library/voice-clones/<voice>/reference.wav` và tự động đồng bộ lên Colab GPU trong lần đầu tiên.
+2. Từng câu thoại trong kịch bản (`locales/vi.json` + `vox.json`) sẽ được bắn thẳng lên GPU của Colab.
+3. Colab sinh âm thanh trong 2–3 giây rồi truyền trực tiếp file âm thanh về máy tính của bạn.
+4. Tool lưu thẳng vào thư mục `content/projects/<p>/assets/audio/<shotId>.mp3` và tự động cập nhật số giây vào `timing.json`.
+5. Khi script chạy xong, bạn mở Remotion Studio (`npm run studio`) là toàn bộ video đã khớp giọng đọc hoàn chỉnh 100%!
+
+---
+
+## 4. DANH SÁCH GIỌNG CLONE ĐÃ CÓ SẴN TRONG THƯ VIỆN
+* **`mc_vantung`:** Giọng phân tích Esports / bình luận lôi cuốn của BLV/MC Văn Tùng ([content/library/voice-clones/mc_vantung/](file:///home/oeg/Projects/video-ytbs/content/library/voice-clones/mc_vantung/)).
+* **`tra_an`:** Giọng trầm sâu, lạnh lùng, đặc trưng của kênh Tra Án ([content/library/voice-clones/tra_an/](file:///home/oeg/Projects/video-ytbs/content/library/voice-clones/tra_an/)).
+
+*(Nếu muốn thêm giọng mới, bạn chỉ cần tạo thư mục `content/library/voice-clones/<tên_giọng>/` với 2 file `reference.wav` và `reference.txt`)*.

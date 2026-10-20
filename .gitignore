@@ -1,5 +1,7 @@
 # Dependencies
 node_modules/
+.venv/
+venv/
 
 # Output render (video, ảnh still)
 content/projects/*/renders/
@@ -41,3 +43,6 @@ desktop.ini
 content/library/styles/refs/ref-video/
 _refs/run20/
 _archive/
+
+# Xuất tạm thời Voice Cloning F5-TTS
+content/projects/*/f5-workspace/

@@ -31,6 +31,12 @@ Bảng tra nhanh. Dự án mới **tìm ở đây trước**, chỉ tạo asset 
 - [comic-cel-painterly](styles/comic-cel-painterly.md): nhân vật có nét, nền painterly
 - [empire-map](styles/empire-map.md): bản đồ code + ảnh tư liệu ghim + mascot nhỏ (KHÓA, 2026-10-17)
 
+## Voice Clones (Giọng đọc AI)
+| id | phong cách | mô tả | đường dẫn |
+|---|---|---|---|
+| mc_vantung | Esports / Phân tích / Bình luận | Giọng BLV/MC Văn Tùng, năng lượng cao, dứt khoát, phân tích | [mc_vantung](voice-clones/mc_vantung/) |
+| tra_an | True Crime / Điều tra | Giọng kênh Tra Án, trầm sâu, lạnh lùng, dải 120Hz dày | [tra_an](voice-clones/tra_an/) |
+
 ## Quy ước tên
 - Nhân vật: `<faction>-<unit>-<role>-<year>` (vd `vn-pavn-soldier-1968`)
 - Vũ khí/phương tiện: tên ngắn chuẩn (`ak-47`, `uh1-huey`)

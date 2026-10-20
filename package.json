@@ -7,10 +7,12 @@
     "render": "remotion render engine/src/index.ts --concurrency=2",
     "still": "remotion still engine/src/index.ts",
     "validate": "tsx tools/validate.ts",
+    "audit:script": "node .claude/skills/script-craft/scripts/audit-scene.mjs",
     "ingest": "tsx tools/ingest.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@gradio/client": "^2.7.1",
     "@remotion/cli": "^4.0.535",
     "@remotion/google-fonts": "^4.0.535",
     "@remotion/noise": "^4.0.535",

@@ -1,10 +1,12 @@
 // Dùng: node tools/vox-tts.mjs <project> [--vox vox.json] [--locale vi] [--voice vi-VN-NamMinhNeural] [--rate -4%] [--pitch -2Hz] [--preset crime|history|heroic|none] [--only s01,s02] [--force]
 //        [--provider vbee --voice <voiceCode> --speed 1.0]  (xem khối Vbee bên dưới)
+//        [--provider f5 --url <gradio_url> --voice mc_vantung --speed 1.0] (xem khối F5-TTS bên dưới)
 //   - Tên nước ngoài đọc theo bảng phiên âm `tts` trong content/projects/<p>/vox.json (chữ trên màn hình giữ nguyên).
 //   - Ghi assets/audio/<id>.mp3 và assets/audio/timing.json (giây, đo bằng ffprobe).
 import fs from 'node:fs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
+import {Client, handle_file} from '@gradio/client';
 
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')), '..');
 const args = process.argv.slice(2);
@@ -83,6 +85,61 @@ async function vbeeSynth(text, out) {
   }
   fs.writeFileSync(out, buf);
 }
+
+// Khối F5-TTS Cloud GPU Server (Chạy trực tiếp qua public link Gradio/FastAPI của Google Colab)
+//   --provider f5 --url https://xxxx.gradio.live [--voice mc_vantung] [--speed 1.0]
+const f5Url = opt('url', vox.f5Url ?? envVal('F5_COLAB_URL'))?.replace(/\/+$/, '');
+const f5Speed = Number(opt('speed', vox.f5Speed ?? 1.0));
+let gradioApp = null;
+let gradioRefFile = null;
+let gradioRefText = '';
+
+async function f5Synth(text, out) {
+  if (!f5Url) throw new Error('Thiếu --url <link_colab_gradio> (hoặc "f5Url" trong vox.json / F5_COLAB_URL trong .env).');
+  const voiceName = opt('voice', vox.voice ?? 'mc_vantung');
+  const voiceDir = path.join(root, 'content/library/voice-clones', voiceName);
+
+  if (!gradioApp) {
+    process.stdout.write(`Đang kết nối tới Colab GPU (${f5Url})... `);
+    gradioApp = await Client.connect(f5Url);
+    console.log('✅ Đã kết nối!');
+
+    const refWav = path.join(voiceDir, 'reference.wav');
+    const refTxt = path.join(voiceDir, 'reference.txt');
+    if (!fs.existsSync(refWav)) throw new Error(`Không tìm thấy file mẫu: ${refWav}`);
+    
+    const refBytes = fs.readFileSync(refWav);
+    const refBlob = new Blob([refBytes], {type: 'audio/wav'});
+    gradioRefFile = handle_file(refBlob);
+    if (fs.existsSync(refTxt)) gradioRefText = fs.readFileSync(refTxt, 'utf8').trim();
+  }
+
+  const result = await gradioApp.predict('/infer_tts', [
+    gradioRefFile,
+    text,
+    gradioRefText,
+    f5Speed,
+  ]);
+
+  const audioData = result.data[0];
+  const audioFetch = await fetch(audioData.url);
+  const audioBuf = Buffer.from(await audioFetch.arrayBuffer());
+
+  const rawWav = `${out}.raw.wav`;
+  fs.writeFileSync(rawWav, audioBuf);
+
+  const ffmpegCmd = fs.existsSync(path.join(root, '.venv/bin/ffmpeg'))
+    ? path.join(root, '.venv/bin/ffmpeg')
+    : 'ffmpeg';
+
+  try {
+    execFileSync(ffmpegCmd, ['-y', '-i', rawWav, '-vn', '-c:a', 'libmp3lame', '-q:a', '2', out], {stdio: 'ignore'});
+    if (fs.existsSync(rawWav)) fs.unlinkSync(rawWav);
+  } catch {
+    fs.renameSync(rawWav, out);
+  }
+}
+
 const outDir = path.join(dir, 'assets/audio');
 fs.mkdirSync(outDir, {recursive: true});
 
@@ -100,15 +157,20 @@ for (const shot of vox.shots) {
     // Ghi ra file tạm rồi mới thay file thật khi thành công: lỗi giữa chừng không làm mất file cũ.
     // edge-tts đôi khi lỗi mạng: thử lại tối đa 3 lần.
     const tmp = `${out}.tmp.mp3`;
+    let shotDuration = null;
     for (let k = 1; ; k++) {
       try {
         if (provider === 'vbee') await vbeeSynth(spoken(text), tmp);
+        else if (provider === 'f5') shotDuration = await f5Synth(spoken(text), tmp);
         else execFileSync('python', ['-m', 'edge_tts', '--voice', voice, `--rate=${rate}`, `--pitch=${pitch}`, '--text', spoken(text), '--write-media', tmp], {stdio: 'inherit'});
         if (!fs.existsSync(tmp) || fs.statSync(tmp).size === 0) throw new Error('file rỗng');
         if (preset?.filter) {
           const mastered = `${out}.mastered.mp3`;
           try {
-            execFileSync('ffmpeg', ['-y', '-i', tmp, '-af', preset.filter, mastered], {stdio: 'ignore'});
+            const ffmpegCmd = fs.existsSync(path.join(root, '.venv/bin/ffmpeg'))
+              ? path.join(root, '.venv/bin/ffmpeg')
+              : 'ffmpeg';
+            execFileSync(ffmpegCmd, ['-y', '-i', tmp, '-af', preset.filter, mastered], {stdio: 'ignore'});
             if (fs.existsSync(mastered) && fs.statSync(mastered).size > 0) {
               fs.unlinkSync(tmp);
               fs.renameSync(mastered, out);
@@ -129,8 +191,12 @@ for (const shot of vox.shots) {
       }
     }
   }
+  const ffprobeCmd = fs.existsSync(path.join(root, '.venv/bin/ffprobe'))
+    ? path.join(root, '.venv/bin/ffprobe')
+    : 'ffprobe';
+
   const dur = Number(
-    execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', out]).toString().trim(),
+    execFileSync(ffprobeCmd, ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', out]).toString().trim(),
   );
   timing[shot.id] = Math.round(dur * 1000) / 1000;
   console.log(shot.id, timing[shot.id]);
